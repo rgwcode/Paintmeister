@@ -24,6 +24,26 @@ class PaintListAdapter internal constructor(
     inner class PaintViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView),
         LayoutContainer {
         override val containerView: View? get() = itemView
+
+        fun bind(paint: Paint) {
+            paintName.text = paint.name
+            if (paint.color != "") {
+                val curColor = Color.parseColor(paint.color)
+
+                // Calculate a contrasting color for the text color matching the background color
+                val floatArray = FloatArray(3)
+                ColorUtils.colorToHSL(curColor, floatArray)
+
+                val contrastingColor: Int
+                contrastingColor = if (floatArray[2] >= 0.175) Color.BLACK else Color.WHITE
+                paintName.setBackgroundColor(paint.color.toColorInt())
+                paintName.setTextColor(contrastingColor)
+            } else {
+                paintName.setBackgroundColor(Color.WHITE)
+                paintName.setTextColor(Color.BLACK)
+            }
+
+        }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PaintViewHolder {
@@ -32,22 +52,7 @@ class PaintListAdapter internal constructor(
     }
 
     override fun onBindViewHolder(holder: PaintViewHolder, position: Int) {
-        val current = paints[position]
-        if (current.color != "") {
-            val curColor = Color.parseColor(current.color)
-
-            // Calculate a contrasting color for the text color matching the background color
-            val floatArray = FloatArray(3)
-            ColorUtils.colorToHSL(curColor, floatArray)
-
-            val contrastingColor: Int
-            contrastingColor = if (floatArray[2] >= 0.175) Color.BLACK else Color.WHITE
-
-            holder.paintName.setBackgroundColor(current.color.toColorInt())
-            holder.paintName.setTextColor(contrastingColor)
-        }
-
-        holder.paintName.text = current.name
+        holder.bind(paints[position])
     }
 
     internal fun setPaints(paints: List<Paint>) {
