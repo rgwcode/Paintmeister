@@ -1,0 +1,1874 @@
+[
+  {
+    "name": "Red Brick",
+    "price": "$3.69",
+    "sku": "09001",
+    "color": "#4e1224"
+  },
+  {
+    "name": "Deep Red",
+    "price": "$3.69",
+    "sku": "09002",
+    "color": "#9e373e"
+  },
+  {
+    "name": "Blood Red",
+    "price": "$3.69",
+    "sku": "09003",
+    "color": "#ac1732"
+  },
+  {
+    "name": "Fire Red",
+    "price": "$3.69",
+    "sku": "09004",
+    "color": "#bf083b"
+  },
+  {
+    "name": "Phoenix Red",
+    "price": "$3.69",
+    "sku": "09005",
+    "color": "#d23730"
+  },
+  {
+    "name": "Fire Orange",
+    "price": "$3.69",
+    "sku": "09006",
+    "color": "#e9712c"
+  },
+  {
+    "name": "Marigold Yellow",
+    "price": "$3.69",
+    "sku": "09007",
+    "color": "#ed912b"
+  },
+  {
+    "name": "Sun Yellow",
+    "price": "$3.69",
+    "sku": "09008",
+    "color": "#f6c027"
+  },
+  {
+    "name": "Lemon Yellow",
+    "price": "$3.69",
+    "sku": "09009",
+    "color": "#f7ec1f"
+  },
+  {
+    "name": "Pine Green",
+    "price": "$3.69",
+    "sku": "09010",
+    "color": "#005829"
+  },
+  {
+    "name": "Leaf Green",
+    "price": "$3.69",
+    "sku": "09011",
+    "color": "#158743"
+  },
+  {
+    "name": "Pale Green",
+    "price": "$3.69",
+    "sku": "09012",
+    "color": "#34b34a"
+  },
+  {
+    "name": "Forest Green",
+    "price": "$3.69",
+    "sku": "09013",
+    "color": "#004226"
+  },
+  {
+    "name": "Grass Green",
+    "price": "$3.69",
+    "sku": "09014",
+    "color": "#067954"
+  },
+  {
+    "name": "Jade Green",
+    "price": "$3.69",
+    "sku": "09015",
+    "color": "#05ac62"
+  },
+  {
+    "name": "Sapphire Blue",
+    "price": "$3.69",
+    "sku": "09016",
+    "color": "#29448e"
+  },
+  {
+    "name": "True Blue",
+    "price": "$3.69",
+    "sku": "09017",
+    "color": "#007bb9"
+  },
+  {
+    "name": "Sky Blue",
+    "price": "$3.69",
+    "sku": "09018",
+    "color": "#4ba2d4"
+  },
+  {
+    "name": "Midnight Blue",
+    "price": "$3.69",
+    "sku": "09019",
+    "color": "#0a121b"
+  },
+  {
+    "name": "Twilight Blue",
+    "price": "$3.69",
+    "sku": "09020",
+    "color": "#384862"
+  },
+  {
+    "name": "Snow Shadow",
+    "price": "$3.69",
+    "sku": "09021",
+    "color": "#7f93ab"
+  },
+  {
+    "name": "Nightshade Purple",
+    "price": "$3.69",
+    "sku": "09022",
+    "color": "#24182b"
+  },
+  {
+    "name": "Imperial Purple",
+    "price": "$3.69",
+    "sku": "09023",
+    "color": "#62476f"
+  },
+  {
+    "name": "Amethyst Purple",
+    "price": "$3.69",
+    "sku": "09024",
+    "color": "#9d7ca9"
+  },
+  {
+    "name": "Burgundy Wine",
+    "price": "$3.69",
+    "sku": "09025",
+    "color": "#431e33"
+  },
+  {
+    "name": "Violet Red",
+    "price": "$3.69",
+    "sku": "09026",
+    "color": "#5d1c44"
+  },
+  {
+    "name": "Pale Violet Red",
+    "price": "$3.69",
+    "sku": "09027",
+    "color": "#91335a"
+  },
+  {
+    "name": "Muddy Brown",
+    "price": "$3.69",
+    "sku": "09028",
+    "color": "#3f2b19"
+  },
+  {
+    "name": "Earth Brown",
+    "price": "$3.69",
+    "sku": "09029",
+    "color": "#775236"
+  },
+  {
+    "name": "Leather Brown",
+    "price": "$3.69",
+    "sku": "09030",
+    "color": "#a4744c"
+  },
+  {
+    "name": "Tanned Leather",
+    "price": "$3.69",
+    "sku": "09031",
+    "color": "#b7834a"
+  },
+  {
+    "name": "Amber Gold",
+    "price": "$3.69",
+    "sku": "09032",
+    "color": "#cda15d"
+  },
+  {
+    "name": "Golden Blonde",
+    "price": "$3.69",
+    "sku": "09033",
+    "color": "#f2e399"
+  },
+  {
+    "name": "Muddy Olive",
+    "price": "$3.69",
+    "sku": "09034",
+    "color": "#406f36"
+  },
+  {
+    "name": "Olive Green",
+    "price": "$3.69",
+    "sku": "09035",
+    "color": "#719555"
+  },
+  {
+    "name": "Pale Olive",
+    "price": "$3.69",
+    "sku": "09036",
+    "color": "#a5b58e"
+  },
+  {
+    "name": "Pure Black",
+    "price": "$3.69",
+    "sku": "09037",
+    "color": "#000000"
+  },
+  {
+    "name": "Rainy Grey",
+    "price": "$3.69",
+    "sku": "09038",
+    "color": "#959595"
+  },
+  {
+    "name": "Pure White",
+    "price": "$3.69",
+    "sku": "09039",
+    "color": "#fefefe"
+  },
+  {
+    "name": "Dark Shadow",
+    "price": "$3.69",
+    "sku": "09040",
+    "color": "#200c0b"
+  },
+  {
+    "name": "Dark Skin",
+    "price": "$3.69",
+    "sku": "09041",
+    "color": "#3e221c"
+  },
+  {
+    "name": "Dark Highlights",
+    "price": "$3.69",
+    "sku": "09042",
+    "color": "#3c2716"
+  },
+  {
+    "name": "Tanned Shadow",
+    "price": "$3.69",
+    "sku": "09043",
+    "color": "#a0735c"
+  },
+  {
+    "name": "Tanned Skin",
+    "price": "$3.69",
+    "sku": "09044",
+    "color": "#bb8d6f"
+  },
+  {
+    "name": "Tanned Highlight",
+    "price": "$3.69",
+    "sku": "09045",
+    "color": "#d1a581"
+  },
+  {
+    "name": "Fair Shadow",
+    "price": "$3.69",
+    "sku": "09046",
+    "color": "#e6bd92"
+  },
+  {
+    "name": "Fair Skin",
+    "price": "$3.69",
+    "sku": "09047",
+    "color": "#f1d3b5"
+  },
+  {
+    "name": "Fair Highlights",
+    "price": "$3.69",
+    "sku": "09048",
+    "color": "#f4e7ce"
+  },
+  {
+    "name": "Ancient Bronze",
+    "price": "$3.69",
+    "sku": "09049",
+    "color": "#c19b7f"
+  },
+  {
+    "name": "Antique Gold",
+    "price": "$3.69",
+    "sku": "09050",
+    "color": "#cca761"
+  },
+  {
+    "name": "New Gold",
+    "price": "$3.69",
+    "sku": "09051",
+    "color": "#f2e5b9"
+  },
+  {
+    "name": "Shadowed Steel",
+    "price": "$3.69",
+    "sku": "09052",
+    "color": "#a0a0a0"
+  },
+  {
+    "name": "Honed Steel",
+    "price": "$3.69",
+    "sku": "09053",
+    "color": "#a4a4a4"
+  },
+  {
+    "name": "Polished Silver",
+    "price": "$3.69",
+    "sku": "09054",
+    "color": "#e6e6e6"
+  },
+  {
+    "name": "Breonne Blue",
+    "price": "$3.69",
+    "sku": "09055",
+    "color": "#002539"
+  },
+  {
+    "name": "Templar Blue",
+    "price": "$3.69",
+    "sku": "09056",
+    "color": "#314558"
+  },
+  {
+    "name": "Ashen Blue",
+    "price": "$3.69",
+    "sku": "09057",
+    "color": "#557d8f"
+  },
+  {
+    "name": "Bone Shadow",
+    "price": "$3.69",
+    "sku": "09058",
+    "color": "#d7c8b2"
+  },
+  {
+    "name": "Aged Bone",
+    "price": "$3.69",
+    "sku": "09059",
+    "color": "#e1d8be"
+  },
+  {
+    "name": "Polished Bone",
+    "price": "$3.69",
+    "sku": "09060",
+    "color": "#ece2cf"
+  },
+  {
+    "name": "Linen White",
+    "price": "$3.69",
+    "sku": "09061",
+    "color": "#fdfbef"
+  },
+  {
+    "name": "Leather White",
+    "price": "$3.69",
+    "sku": "09062",
+    "color": "#eae2d6"
+  },
+  {
+    "name": "Ghost White",
+    "price": "$3.69",
+    "sku": "09063",
+    "color": "#eaf5fa"
+  },
+  {
+    "name": "Brown Liner",
+    "price": "$3.69",
+    "sku": "09064",
+    "color": "#221510"
+  },
+  {
+    "name": "Grey Liner",
+    "price": "$3.69",
+    "sku": "09065",
+    "color": "#323232"
+  },
+  {
+    "name": "Blue Liner",
+    "price": "$3.69",
+    "sku": "09066",
+    "color": "#011320"
+  },
+  {
+    "name": "Rosy Shadow",
+    "price": "$3.69",
+    "sku": "09067",
+    "color": "#ce9584"
+  },
+  {
+    "name": "Rosy Skin",
+    "price": "$3.69",
+    "sku": "09068",
+    "color": "#ebae9f"
+  },
+  {
+    "name": "Rosy Highlight",
+    "price": "$3.69",
+    "sku": "09069",
+    "color": "#e8bea8"
+  },
+  {
+    "name": "Mahogany Brown",
+    "price": "$3.69",
+    "sku": "09070",
+    "color": "#21100e"
+  },
+  {
+    "name": "Chestnut Brown",
+    "price": "$3.69",
+    "sku": "09071",
+    "color": "#7e433b"
+  },
+  {
+    "name": "Rust Brown",
+    "price": "$3.69",
+    "sku": "09072",
+    "color": "#b14a41"
+  },
+  {
+    "name": "Chestnut Gold",
+    "price": "$3.69",
+    "sku": "09073",
+    "color": "#976939"
+  },
+  {
+    "name": "Palomino Gold",
+    "price": "$3.69",
+    "sku": "09074",
+    "color": "#ba952e"
+  },
+  {
+    "name": "Buckskin Pale",
+    "price": "$3.69",
+    "sku": "09075",
+    "color": "#dbb75a"
+  },
+  {
+    "name": "Deep Ocean",
+    "price": "$3.69",
+    "sku": "09076",
+    "color": "#1a3644"
+  },
+  {
+    "name": "Marine Teal",
+    "price": "$3.69",
+    "sku": "09077",
+    "color": "#015d6c"
+  },
+  {
+    "name": "Surf Aqua",
+    "price": "$3.69",
+    "sku": "09078",
+    "color": "#64b2b9"
+  },
+  {
+    "name": "Jungle Moss",
+    "price": "$3.69",
+    "sku": "09082",
+    "color": "#25352b"
+  },
+  {
+    "name": "Highland Moss",
+    "price": "$3.69",
+    "sku": "09083",
+    "color": "#3d4f49"
+  },
+  {
+    "name": "Pale Lichen",
+    "price": "$3.69",
+    "sku": "09084",
+    "color": "#7d978c"
+  },
+  {
+    "name": "Shadowed Stone",
+    "price": "$3.69",
+    "sku": "09085",
+    "color": "#63605b"
+  },
+  {
+    "name": "Stone Grey",
+    "price": "$3.69",
+    "sku": "09086",
+    "color": "#7b7670"
+  },
+  {
+    "name": "Weathered Stone",
+    "price": "$3.69",
+    "sku": "09087",
+    "color": "#948f8c"
+  },
+  {
+    "name": "Stormy Grey",
+    "price": "$3.69",
+    "sku": "09088",
+    "color": "#454545"
+  },
+  {
+    "name": "Cloudy Grey",
+    "price": "$3.69",
+    "sku": "09089",
+    "color": "#6f6f6f"
+  },
+  {
+    "name": "Misty Grey",
+    "price": "$3.69",
+    "sku": "09090",
+    "color": "#cecece"
+  },
+  {
+    "name": "Golden Shadow",
+    "price": "$3.69",
+    "sku": "09091",
+    "color": "#bc9564"
+  },
+  {
+    "name": "Golden Skin",
+    "price": "$3.69",
+    "sku": "09092",
+    "color": "#d1ad81"
+  },
+  {
+    "name": "Golden Highlight",
+    "price": "$3.69",
+    "sku": "09093",
+    "color": "#f2d1a0"
+  },
+  {
+    "name": "Clear Red",
+    "price": "$3.69",
+    "sku": "09094",
+    "color": "#df0024"
+  },
+  {
+    "name": "Clear Yellow",
+    "price": "$3.69",
+    "sku": "09095",
+    "color": "#f8f303"
+  },
+  {
+    "name": "Clear Green",
+    "price": "$3.69",
+    "sku": "09096",
+    "color": "#049e3a"
+  },
+  {
+    "name": "Clear Blue",
+    "price": "$3.69",
+    "sku": "09097",
+    "color": "#334395"
+  },
+  {
+    "name": "Clear Magenta",
+    "price": "$3.69",
+    "sku": "09098",
+    "color": "#e1017a"
+  },
+  {
+    "name": "Clear Purple",
+    "price": "$3.69",
+    "sku": "09099",
+    "color": "#5e0d7a"
+  },
+  {
+    "name": "Pearl White",
+    "price": "$3.69",
+    "sku": "09100",
+    "color": "#fefefe"
+  },
+  {
+    "name": "Ruby Red",
+    "price": "$3.69",
+    "sku": "09101",
+    "color": "#df9775"
+  },
+  {
+    "name": "Coppery Orange",
+    "price": "$3.69",
+    "sku": "09102",
+    "color": "#cc9d83"
+  },
+  {
+    "name": "Emerald Green",
+    "price": "$3.69",
+    "sku": "09103",
+    "color": "#75bbc6"
+  },
+  {
+    "name": "Sparkling Blue",
+    "price": "$3.69",
+    "sku": "09104",
+    "color": "#8da7be"
+  },
+  {
+    "name": "Sparkling Amethyst",
+    "price": "$3.69",
+    "sku": "09105",
+    "color": "#dcdbe5"
+  },
+  {
+    "name": "Flow Improver",
+    "price": "$3.69",
+    "sku": "09106",
+    "color": "#fefefe"
+  },
+  {
+    "name": "Brush-on Sealer",
+    "price": "$3.69",
+    "sku": "09107",
+    "color": "#fefefe"
+  },
+  {
+    "name": "MSP Core Colors: Brush-on White Primer",
+    "price": "$3.69",
+    "sku": "09108",
+    "color": "#fefefe"
+  },
+  {
+    "name": "Ruddy Leather",
+    "price": "$3.69",
+    "sku": "09109",
+    "color": "#69332a"
+  },
+  {
+    "name": "Oiled Leather",
+    "price": "$3.69",
+    "sku": "09110",
+    "color": "#945235"
+  },
+  {
+    "name": "Burnt Orange",
+    "price": "$3.69",
+    "sku": "09111",
+    "color": "#e08649"
+  },
+  {
+    "name": "Ritterlich Blue",
+    "price": "$3.69",
+    "sku": "09115",
+    "color": "#00345b"
+  },
+  {
+    "name": "Brilliant Blue",
+    "price": "$3.69",
+    "sku": "09116",
+    "color": "#01568c"
+  },
+  {
+    "name": "Cyan Blue",
+    "price": "$3.69",
+    "sku": "09117",
+    "color": "#0387d0"
+  },
+  {
+    "name": "Khaki Shadow",
+    "price": "$3.69",
+    "sku": "09121",
+    "color": "#b39f7b"
+  },
+  {
+    "name": "Terran Khaki",
+    "price": "$3.69",
+    "sku": "09122",
+    "color": "#c6b99a"
+  },
+  {
+    "name": "Khaki Highlight",
+    "price": "$3.69",
+    "sku": "09123",
+    "color": "#ddd7c1"
+  },
+  {
+    "name": "Adamantium Black",
+    "price": "$3.69",
+    "sku": "09124",
+    "color": "#151515"
+  },
+  {
+    "name": "Scorched Metal",
+    "price": "$3.69",
+    "sku": "09125",
+    "color": "#9a664f"
+  },
+  {
+    "name": "Gunmetal Blue",
+    "price": "$3.69",
+    "sku": "09126",
+    "color": "#39576a"
+  },
+  {
+    "name": "Uniform Brown",
+    "price": "$3.69",
+    "sku": "09127",
+    "color": "#694e00"
+  },
+  {
+    "name": "Green Ochre",
+    "price": "$3.69",
+    "sku": "09128",
+    "color": "#9a7319"
+  },
+  {
+    "name": "Faded Khaki",
+    "price": "$3.69",
+    "sku": "09129",
+    "color": "#ba9022"
+  },
+  {
+    "name": "Bloodstain Red",
+    "price": "$3.69",
+    "sku": "09133",
+    "color": "#660001"
+  },
+  {
+    "name": "Clotted Red",
+    "price": "$3.69",
+    "sku": "09134",
+    "color": "#880100"
+  },
+  {
+    "name": "Carnage Red",
+    "price": "$3.69",
+    "sku": "09135",
+    "color": "#af0e1d"
+  },
+  {
+    "name": "Walnut Brown",
+    "price": "$3.69",
+    "sku": "09136",
+    "color": "#420000"
+  },
+  {
+    "name": "Blackened Brown",
+    "price": "$3.69",
+    "sku": "09137",
+    "color": "#580401"
+  },
+  {
+    "name": "Intense Brown",
+    "price": "$3.69",
+    "sku": "09138",
+    "color": "#8c3102"
+  },
+  {
+    "name": "Stained Ivory",
+    "price": "$3.69",
+    "sku": "09142",
+    "color": "#c6a269"
+  },
+  {
+    "name": "Yellowed Ivory",
+    "price": "$3.69",
+    "sku": "09143",
+    "color": "#d2bc84"
+  },
+  {
+    "name": "Creamy Ivory",
+    "price": "$3.69",
+    "sku": "09144",
+    "color": "#e9d9a7"
+  },
+  {
+    "name": "Ghoul Skin",
+    "price": "$3.69",
+    "sku": "09148",
+    "color": "#8f9372"
+  },
+  {
+    "name": "Moldy Skin",
+    "price": "$3.69",
+    "sku": "09149",
+    "color": "#b6b77f"
+  },
+  {
+    "name": "Bloodless Skin",
+    "price": "$3.69",
+    "sku": "09150",
+    "color": "#d1ce99"
+  },
+  {
+    "name": "Olive Shadow",
+    "price": "$3.69",
+    "sku": "09157",
+    "color": "#463601"
+  },
+  {
+    "name": "Olive Drab",
+    "price": "$3.69",
+    "sku": "09158",
+    "color": "#5b5502"
+  },
+  {
+    "name": "Worn Olive",
+    "price": "$3.69",
+    "sku": "09159",
+    "color": "#827317"
+  },
+  {
+    "name": "Woodstain Brown",
+    "price": "$3.69",
+    "sku": "09160",
+    "color": "#563e26"
+  },
+  {
+    "name": "Shield Brown",
+    "price": "$3.69",
+    "sku": "09161",
+    "color": "#7c5229"
+  },
+  {
+    "name": "Driftwood Brown",
+    "price": "$3.69",
+    "sku": "09162",
+    "color": "#a37d4c"
+  },
+  {
+    "name": "Dark Elf Shadow",
+    "price": "$3.69",
+    "sku": "09163",
+    "color": "#43323d"
+  },
+  {
+    "name": "Dark Elf Skin",
+    "price": "$3.69",
+    "sku": "09164",
+    "color": "#62555e"
+  },
+  {
+    "name": "Dark Elf Highlight",
+    "price": "$3.69",
+    "sku": "09165",
+    "color": "#867f87"
+  },
+  {
+    "name": "Swamp Green",
+    "price": "$3.69",
+    "sku": "09175",
+    "color": "#282200"
+  },
+  {
+    "name": "Military Green",
+    "price": "$3.69",
+    "sku": "09176",
+    "color": "#434f20"
+  },
+  {
+    "name": "Camouflage Green",
+    "price": "$3.69",
+    "sku": "09177",
+    "color": "#8b8c27"
+  },
+  {
+    "name": "Ultramarine Shadow",
+    "price": "$3.69",
+    "sku": "09187",
+    "color": "#001f39"
+  },
+  {
+    "name": "Ultramarine Blue",
+    "price": "$3.69",
+    "sku": "09188",
+    "color": "#00436f"
+  },
+  {
+    "name": "Ultramarine Highlight",
+    "price": "$3.69",
+    "sku": "09189",
+    "color": "#0274bc"
+  },
+  {
+    "name": "Aged Pewter",
+    "price": "$3.69",
+    "sku": "09196",
+    "color": "#6a6549"
+  },
+  {
+    "name": "Old Bronze",
+    "price": "$3.69",
+    "sku": "09197",
+    "color": "#3a2e10"
+  },
+  {
+    "name": "Tarnished Brass",
+    "price": "$3.69",
+    "sku": "09198",
+    "color": "#966c03"
+  },
+  {
+    "name": "Russet Brown",
+    "price": "$3.69",
+    "sku": "09199",
+    "color": "#4e0f00"
+  },
+  {
+    "name": "Harvest Brown",
+    "price": "$3.69",
+    "sku": "09200",
+    "color": "#8d3e01"
+  },
+  {
+    "name": "Orange Brown",
+    "price": "$3.69",
+    "sku": "09201",
+    "color": "#c65a16"
+  },
+  {
+    "name": "Blackened Steel",
+    "price": "$3.69",
+    "sku": "09205",
+    "color": "#292524"
+  },
+  {
+    "name": "Tarnished Steel",
+    "price": "$3.69",
+    "sku": "09206",
+    "color": "#9f9e9d"
+  },
+  {
+    "name": "True Silver",
+    "price": "$3.69",
+    "sku": "09207",
+    "color": "#b6b5b3"
+  },
+  {
+    "name": "Black Ink",
+    "price": "$3.69",
+    "sku": "09208",
+    "color": "#00101f"
+  },
+  {
+    "name": "Brown Ink",
+    "price": "$3.69",
+    "sku": "09209",
+    "color": "#5c2a00"
+  },
+  {
+    "name": "Red Ink",
+    "price": "$3.69",
+    "sku": "09210",
+    "color": "#720101"
+  },
+  {
+    "name": "MSP Core Colors: Brush-On Black Primer",
+    "price": "$3.69",
+    "sku": "09214",
+    "color": "#000000"
+  },
+  {
+    "name": "Anti-Shine Additive",
+    "price": "$3.69",
+    "sku": "09215",
+    "color": "#fefefe"
+  },
+  {
+    "name": "Drying Retarder",
+    "price": "$3.69",
+    "sku": "09216",
+    "color": "#fefefe"
+  },
+  {
+    "name": "Magma Red",
+    "price": "$3.69",
+    "sku": "09217",
+    "color": "#da3a28"
+  },
+  {
+    "name": "Lava Orange",
+    "price": "$3.69",
+    "sku": "09218",
+    "color": "#dd5622"
+  },
+  {
+    "name": "Explosion Orange",
+    "price": "$3.69",
+    "sku": "09219",
+    "color": "#dd7b1b"
+  },
+  {
+    "name": "Olive Skin Shadow",
+    "price": "$3.69",
+    "sku": "09220",
+    "color": "#735113"
+  },
+  {
+    "name": "Olive Skin",
+    "price": "$3.69",
+    "sku": "09221",
+    "color": "#a87f1d"
+  },
+  {
+    "name": "Olive Skin Highlight",
+    "price": "$3.69",
+    "sku": "09222",
+    "color": "#bca451"
+  },
+  {
+    "name": "Redstone Shadow",
+    "price": "$3.69",
+    "sku": "09223",
+    "color": "#371d22"
+  },
+  {
+    "name": "Redstone",
+    "price": "$3.69",
+    "sku": "09224",
+    "color": "#7d392a"
+  },
+  {
+    "name": "Redstone Highlight",
+    "price": "$3.69",
+    "sku": "09225",
+    "color": "#a65736"
+  },
+  {
+    "name": "Peacock Green",
+    "price": "$3.69",
+    "sku": "09226",
+    "color": "#1d2c29"
+  },
+  {
+    "name": "Brilliant Green",
+    "price": "$3.69",
+    "sku": "09227",
+    "color": "#01632d"
+  },
+  {
+    "name": "Viper Green",
+    "price": "$3.69",
+    "sku": "09228",
+    "color": "#008e37"
+  },
+  {
+    "name": "Worn Navy",
+    "price": "$3.69",
+    "sku": "09229",
+    "color": "#121315"
+  },
+  {
+    "name": "Soft Blue",
+    "price": "$3.69",
+    "sku": "09230",
+    "color": "#11445e"
+  },
+  {
+    "name": "Heather Blue",
+    "price": "$3.69",
+    "sku": "09231",
+    "color": "#537a94"
+  },
+  {
+    "name": "Bright Skin Shadow",
+    "price": "$3.69",
+    "sku": "09232",
+    "color": "#dd8871"
+  },
+  {
+    "name": "Bright Skin",
+    "price": "$3.69",
+    "sku": "09233",
+    "color": "#ebab59"
+  },
+  {
+    "name": "Bright Skin Highlight",
+    "price": "$3.69",
+    "sku": "09234",
+    "color": "#f0d35f"
+  },
+  {
+    "name": "Red Shadow",
+    "price": "$3.69",
+    "sku": "09235",
+    "color": "#53001c"
+  },
+  {
+    "name": "Black Green",
+    "price": "$3.69",
+    "sku": "09236",
+    "color": "#011d06"
+  },
+  {
+    "name": "Violet Shadow",
+    "price": "$3.69",
+    "sku": "09237",
+    "color": "#410036"
+  },
+  {
+    "name": "Regal Purple",
+    "price": "$3.69",
+    "sku": "09238",
+    "color": "#2c001c"
+  },
+  {
+    "name": "Monarch Purple",
+    "price": "$3.69",
+    "sku": "09239",
+    "color": "#490033"
+  },
+  {
+    "name": "Royal Purple",
+    "price": "$3.69",
+    "sku": "09240",
+    "color": "#830152"
+  },
+  {
+    "name": "Auburn Shadow",
+    "price": "$3.69",
+    "sku": "09241",
+    "color": "#802f1e"
+  },
+  {
+    "name": "Carrottop Red",
+    "price": "$3.69",
+    "sku": "09242",
+    "color": "#bf4816"
+  },
+  {
+    "name": "Highlight Orange",
+    "price": "$3.69",
+    "sku": "09243",
+    "color": "#e17711"
+  },
+  {
+    "name": "Muddy Soil",
+    "price": "$3.69",
+    "sku": "09244",
+    "color": "#191503"
+  },
+  {
+    "name": "Basic Dirt",
+    "price": "$3.69",
+    "sku": "09245",
+    "color": "#57442b"
+  },
+  {
+    "name": "Brown Sand",
+    "price": "$3.69",
+    "sku": "09246",
+    "color": "#88683b"
+  },
+  {
+    "name": "Saffron Sunset",
+    "price": "$3.69",
+    "sku": "09247",
+    "color": "#eda401"
+  },
+  {
+    "name": "Moth Green",
+    "price": "$3.69",
+    "sku": "09248",
+    "color": "#6bbe29"
+  },
+  {
+    "name": "Sandy Brown",
+    "price": "$3.69",
+    "sku": "09249",
+    "color": "#b88432"
+  },
+  {
+    "name": "Dusky Skin Shadow",
+    "price": "$3.69",
+    "sku": "09250",
+    "color": "#433437"
+  },
+  {
+    "name": "Dusky Skin",
+    "price": "$3.69",
+    "sku": "09251",
+    "color": "#75605d"
+  },
+  {
+    "name": "Dusky Skin Highlight",
+    "price": "$3.69",
+    "sku": "09252",
+    "color": "#a79496"
+  },
+  {
+    "name": "Flesh Wash",
+    "price": "$3.69",
+    "sku": "09253",
+    "color": "#9a3f38"
+  },
+  {
+    "name": "Brown Wash",
+    "price": "$3.69",
+    "sku": "09254",
+    "color": "#391e14"
+  },
+  {
+    "name": "Black Wash",
+    "price": "$3.69",
+    "sku": "09255",
+    "color": "#292c2e"
+  },
+  {
+    "name": "Blonde Shadow",
+    "price": "$3.69",
+    "sku": "09256",
+    "color": "#a54001"
+  },
+  {
+    "name": "Blonde Hair",
+    "price": "$3.69",
+    "sku": "09257",
+    "color": "#d68d2f"
+  },
+  {
+    "name": "Blonde Highlight",
+    "price": "$3.69",
+    "sku": "09258",
+    "color": "#f1c260"
+  },
+  {
+    "name": "Bronzed Skin Shadow",
+    "price": "$3.69",
+    "sku": "09259",
+    "color": "#a53201"
+  },
+  {
+    "name": "Bronzed Skin",
+    "price": "$3.69",
+    "sku": "09260",
+    "color": "#ce5d17"
+  },
+  {
+    "name": "Bronzed Skin Highlight",
+    "price": "$3.69",
+    "sku": "09261",
+    "color": "#e4a23b"
+  },
+  {
+    "name": "Blush Pink",
+    "price": "$3.69",
+    "sku": "09262",
+    "color": "#fc42ac"
+  },
+  {
+    "name": "Mint Green",
+    "price": "$3.69",
+    "sku": "09263",
+    "color": "#81fd80"
+  },
+  {
+    "name": "Light Blue",
+    "price": "$3.69",
+    "sku": "09264",
+    "color": "#71d9e4"
+  },
+  {
+    "name": "Deep Twilight",
+    "price": "$3.69",
+    "sku": "09265",
+    "color": "#070b24"
+  },
+  {
+    "name": "Violet Light",
+    "price": "$3.69",
+    "sku": "09266",
+    "color": "#152773"
+  },
+  {
+    "name": "Sunset Purple",
+    "price": "$3.69",
+    "sku": "09267",
+    "color": "#5860b1"
+  },
+  {
+    "name": "Volcano Brown",
+    "price": "$3.69",
+    "sku": "09268",
+    "color": "#462327"
+  },
+  {
+    "name": "Military Blue",
+    "price": "$3.69",
+    "sku": "09269",
+    "color": "#12504b"
+  },
+  {
+    "name": "Shadow Green",
+    "price": "$3.69",
+    "sku": "09270",
+    "color": "#29600a"
+  },
+  {
+    "name": "Dirty Bone",
+    "price": "$3.69",
+    "sku": "09271",
+    "color": "#9ca04d"
+  },
+  {
+    "name": "Graveyard Bone",
+    "price": "$3.69",
+    "sku": "09272",
+    "color": "#c4c383"
+  },
+  {
+    "name": "Splintered Bone",
+    "price": "$3.69",
+    "sku": "09273",
+    "color": "#dcdbae"
+  },
+  {
+    "name": "Vampiric Shadow",
+    "price": "$3.69",
+    "sku": "09274",
+    "color": "#a09f8a"
+  },
+  {
+    "name": "Vampiric Skin",
+    "price": "$3.69",
+    "sku": "09275",
+    "color": "#cfc4ac"
+  },
+  {
+    "name": "Vampiric Highlight",
+    "price": "$3.69",
+    "sku": "09276",
+    "color": "#eae3cc"
+  },
+  {
+    "name": "Spattered Crimson",
+    "price": "$3.69",
+    "sku": "09277",
+    "color": "#5b000f"
+  },
+  {
+    "name": "Gory Red",
+    "price": "$3.69",
+    "sku": "09278",
+    "color": "#770206"
+  },
+  {
+    "name": "Fresh Blood",
+    "price": "$3.69",
+    "sku": "09279",
+    "color": "#bd0000"
+  },
+  {
+    "name": "Nightmare Black",
+    "price": "$3.69",
+    "sku": "09280",
+    "color": "#070d1d"
+  },
+  {
+    "name": "Braaaains Pink",
+    "price": "$3.69",
+    "sku": "09281",
+    "color": "#c781a3"
+  },
+  {
+    "name": "Maggot White",
+    "price": "$3.69",
+    "sku": "09282",
+    "color": "#defedf"
+  },
+  {
+    "name": "Old West Rose",
+    "price": "$3.69",
+    "sku": "09283",
+    "color": "#9b1e3c"
+  },
+  {
+    "name": "Lone Star Leather",
+    "price": "$3.69",
+    "sku": "09284",
+    "color": "#565d00"
+  },
+  {
+    "name": "Denim Blue",
+    "price": "$3.69",
+    "sku": "09285",
+    "color": "#001b57"
+  },
+  {
+    "name": "Punk Rock Pink",
+    "price": "$3.69",
+    "sku": "09286",
+    "color": "#c70e72"
+  },
+  {
+    "name": "Neon Yellow",
+    "price": "$3.69",
+    "sku": "09287",
+    "color": "#cafe17"
+  },
+  {
+    "name": "LED Blue",
+    "price": "$3.69",
+    "sku": "09288",
+    "color": "#76d8a0"
+  },
+  {
+    "name": "Noir Black",
+    "price": "$3.69",
+    "sku": "09289",
+    "color": "#131313"
+  },
+  {
+    "name": "Aircraft Grey",
+    "price": "$3.69",
+    "sku": "09290",
+    "color": "#b2b2b2"
+  },
+  {
+    "name": "IMEF Olive",
+    "price": "$3.69",
+    "sku": "09291",
+    "color": "#3b5b09"
+  },
+  {
+    "name": "Bathalian Chitin",
+    "price": "$3.69",
+    "sku": "09292",
+    "color": "#e6bc59"
+  },
+  {
+    "name": "Alien Flesh",
+    "price": "$3.69",
+    "sku": "09293",
+    "color": "#a0866d"
+  },
+  {
+    "name": "Alien Goo",
+    "price": "$3.69",
+    "sku": "09294",
+    "color": "#b5fe00"
+  },
+  {
+    "name": "MSP Core Colors: Rach Red",
+    "price": "$3.69",
+    "sku": "09295",
+    "color": "#bc0004"
+  },
+  {
+    "name": "MSP Core Colors: Malvernian Purple",
+    "price": "$3.69",
+    "sku": "09296",
+    "color": "#362669"
+  },
+  {
+    "name": "MSP Core Colors: Adonese Green",
+    "price": "$3.69",
+    "sku": "09297",
+    "color": "#1d4810"
+  },
+  {
+    "name": "MSP Core Colors: Gloss Sealer",
+    "price": "$3.69",
+    "sku": "09298",
+    "color": "#fefefe"
+  },
+  {
+    "name": "MSP Core Colors: Brush-On Grey Primer",
+    "price": "$3.69",
+    "sku": "09299",
+    "color": "#bdcdcd"
+  },
+  {
+    "name": "MSP Core Colors: Wash Medium",
+    "price": "$3.69",
+    "sku": "09300",
+    "color": "#fefefe"
+  },
+  {
+    "name": "NMM Gold Shadow",
+    "price": "$3.69",
+    "sku": "09301",
+    "color": "#8b6627"
+  },
+  {
+    "name": "NMM Gold Base",
+    "price": "$3.69",
+    "sku": "09302",
+    "color": "#d49728"
+  },
+  {
+    "name": "NMM Gold Highlight",
+    "price": "$3.69",
+    "sku": "09303",
+    "color": "#fcdb44"
+  },
+  {
+    "name": "Copper Verdigris",
+    "price": "$3.69",
+    "sku": "09304",
+    "color": "#6bc3ae"
+  },
+  {
+    "name": "Tarnished Copper",
+    "price": "$3.69",
+    "sku": "09305",
+    "color": "#95381f"
+  },
+  {
+    "name": "New Copper",
+    "price": "$3.69",
+    "sku": "09306",
+    "color": "#f6956b"
+  },
+  {
+    "name": "Red Liner",
+    "price": "$3.69",
+    "sku": "09307",
+    "color": "#3f110f"
+  },
+  {
+    "name": "Green Liner",
+    "price": "$3.69",
+    "sku": "09308",
+    "color": "#142816"
+  },
+  {
+    "name": "Sepia Liner",
+    "price": "$3.69",
+    "sku": "09309",
+    "color": "#4b2f10"
+  },
+  {
+    "name": "Sepia Wash",
+    "price": "$3.69",
+    "sku": "09310",
+    "color": "#afa093"
+  },
+  {
+    "name": "Stone Wash",
+    "price": "$3.69",
+    "sku": "09311",
+    "color": "#a5a19e"
+  },
+  {
+    "name": "Steel Wash",
+    "price": "$3.69",
+    "sku": "09312",
+    "color": "#242527"
+  },
+  {
+    "name": "Dragon Red",
+    "price": "$3.69",
+    "sku": "09401",
+    "color": "#4f0814"
+  },
+  {
+    "name": "Heraldic Red",
+    "price": "$3.69",
+    "sku": "09402",
+    "color": "#96161a"
+  },
+  {
+    "name": "Monster Maw",
+    "price": "$3.69",
+    "sku": "09403",
+    "color": "#e88286"
+  },
+  {
+    "name": "Cinnamon Red",
+    "price": "$3.69",
+    "sku": "09404",
+    "color": "#9e260d"
+  },
+  {
+    "name": "Volcanic Orange",
+    "price": "$3.69",
+    "sku": "09405",
+    "color": "#e14820"
+  },
+  {
+    "name": "Sunrise Orange",
+    "price": "$3.69",
+    "sku": "09406",
+    "color": "#f27022"
+  },
+  {
+    "name": "Lantern Yellow",
+    "price": "$3.69",
+    "sku": "09407",
+    "color": "#f7a518"
+  },
+  {
+    "name": "Candlelight Yellow",
+    "price": "$3.69",
+    "sku": "09408",
+    "color": "#fecb06"
+  },
+  {
+    "name": "Canary Yellow",
+    "price": "$3.69",
+    "sku": "09409",
+    "color": "#f7e002"
+  },
+  {
+    "name": "Dragon Green",
+    "price": "$3.69",
+    "sku": "09410",
+    "color": "#023819"
+  },
+  {
+    "name": "Wilderness Green",
+    "price": "$3.69",
+    "sku": "09411",
+    "color": "#163407"
+  },
+  {
+    "name": "Ancient Oak",
+    "price": "$3.69",
+    "sku": "09412",
+    "color": "#001f05"
+  },
+  {
+    "name": "Naga Green",
+    "price": "$3.69",
+    "sku": "09413",
+    "color": "#438737"
+  },
+  {
+    "name": "Cats-Eye Green",
+    "price": "$3.69",
+    "sku": "09414",
+    "color": "#599440"
+  },
+  {
+    "name": "Dungeon Slime",
+    "price": "$3.69",
+    "sku": "09415",
+    "color": "#bad774"
+  },
+  {
+    "name": "Spectral Glow",
+    "price": "$3.69",
+    "sku": "09416",
+    "color": "#57b8ad"
+  },
+  {
+    "name": "Void Blue",
+    "price": "$3.69",
+    "sku": "09417",
+    "color": "#011a51"
+  },
+  {
+    "name": "Oceanic Blue",
+    "price": "$3.69",
+    "sku": "09418",
+    "color": "#01538f"
+  },
+  {
+    "name": "Tropical Blue",
+    "price": "$3.69",
+    "sku": "09419",
+    "color": "#0173a0"
+  },
+  {
+    "name": "Glacier Blue",
+    "price": "$3.69",
+    "sku": "09420",
+    "color": "#549bb8"
+  },
+  {
+    "name": "Frost Blue",
+    "price": "$3.69",
+    "sku": "09421",
+    "color": "#8cc1d9"
+  },
+  {
+    "name": "Nightsky Indigo",
+    "price": "$3.69",
+    "sku": "09422",
+    "color": "#3d385f"
+  },
+  {
+    "name": "Styx Purple",
+    "price": "$3.69",
+    "sku": "09423",
+    "color": "#1f0433"
+  },
+  {
+    "name": "Runic Purple",
+    "price": "$3.69",
+    "sku": "09424",
+    "color": "#6e3265"
+  },
+  {
+    "name": "Icy Violet",
+    "price": "$3.69",
+    "sku": "09425",
+    "color": "#7e76a7"
+  },
+  {
+    "name": "Charred Brown",
+    "price": "$3.69",
+    "sku": "09426",
+    "color": "#231408"
+  },
+  {
+    "name": "Nut Brown",
+    "price": "$3.69",
+    "sku": "09427",
+    "color": "#452a1d"
+  },
+  {
+    "name": "Saddle Brown",
+    "price": "$3.69",
+    "sku": "09428",
+    "color": "#533522"
+  },
+  {
+    "name": "Rich Leather",
+    "price": "$3.69",
+    "sku": "09429",
+    "color": "#79582e"
+  },
+  {
+    "name": "Polished Leather",
+    "price": "$3.69",
+    "sku": "09430",
+    "color": "#9a6226"
+  },
+  {
+    "name": "Desert Stone",
+    "price": "$3.69",
+    "sku": "09431",
+    "color": "#997c51"
+  },
+  {
+    "name": "Desert Sand",
+    "price": "$3.69",
+    "sku": "09432",
+    "color": "#c4b39a"
+  },
+  {
+    "name": "Mountain Stone",
+    "price": "$3.69",
+    "sku": "09433",
+    "color": "#4a4237"
+  },
+  {
+    "name": "Wolf Grey",
+    "price": "$3.69",
+    "sku": "09434",
+    "color": "#7b7368"
+  },
+  {
+    "name": "Skeleton Bone",
+    "price": "$3.69",
+    "sku": "09435",
+    "color": "#dad3c2"
+  },
+  {
+    "name": "Bleached Linen",
+    "price": "$3.69",
+    "sku": "09436",
+    "color": "#f1e9da"
+  },
+  {
+    "name": "Dragon Black",
+    "price": "$3.69",
+    "sku": "09437",
+    "color": "#050000"
+  },
+  {
+    "name": "Tempest Grey",
+    "price": "$3.69",
+    "sku": "09438",
+    "color": "#46474c"
+  },
+  {
+    "name": "Dragon White",
+    "price": "$3.69",
+    "sku": "09439",
+    "color": "#fefefe"
+  },
+  {
+    "name": "Ebony Flesh",
+    "price": "$3.69",
+    "sku": "09440",
+    "color": "#110a03"
+  },
+  {
+    "name": "Ruddy Flesh",
+    "price": "$3.69",
+    "sku": "09441",
+    "color": "#794e29"
+  },
+  {
+    "name": "Barbarian Flesh",
+    "price": "$3.69",
+    "sku": "09442",
+    "color": "#a76940"
+  },
+  {
+    "name": "Warrior Flesh",
+    "price": "$3.69",
+    "sku": "09443",
+    "color": "#aa744e"
+  },
+  {
+    "name": "Scholar Flesh",
+    "price": "$3.69",
+    "sku": "09444",
+    "color": "#e3b794"
+  },
+  {
+    "name": "Youthful Flesh",
+    "price": "$3.69",
+    "sku": "09445",
+    "color": "#fbbf8d"
+  },
+  {
+    "name": "Pale Flesh",
+    "price": "$3.69",
+    "sku": "09446",
+    "color": "#fdd3bb"
+  },
+  {
+    "name": "Undead Flesh",
+    "price": "$3.69",
+    "sku": "09447",
+    "color": "#e0ded3"
+  },
+  {
+    "name": "Dragon Copper",
+    "price": "$3.69",
+    "sku": "09448",
+    "color": "#cb9078"
+  },
+  {
+    "name": "Dragon Bronze",
+    "price": "$3.69",
+    "sku": "09449",
+    "color": "#79663c"
+  },
+  {
+    "name": "Dragon Gold",
+    "price": "$3.69",
+    "sku": "09450",
+    "color": "#d5a254"
+  },
+  {
+    "name": "Dwarven Gold",
+    "price": "$3.69",
+    "sku": "09451",
+    "color": "#9a5c1a"
+  },
+  {
+    "name": "Blade Steel",
+    "price": "$3.69",
+    "sku": "09452",
+    "color": "#a49d9a"
+  },
+  {
+    "name": "Filigree Silver",
+    "price": "$3.69",
+    "sku": "09453",
+    "color": "#a7a09e"
+  },
+  {
+    "name": "Shining Mithril",
+    "price": "$3.69",
+    "sku": "09454",
+    "color": "#d8d3d3"
+  }
+]
