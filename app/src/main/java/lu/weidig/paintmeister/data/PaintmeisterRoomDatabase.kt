@@ -12,13 +12,16 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import lu.weidig.paintmeister.data.dao.ManufacturerDao
 import lu.weidig.paintmeister.data.dao.PaintDao
+import lu.weidig.paintmeister.data.dao.PaintLineDao
 import lu.weidig.paintmeister.data.entity.Manufacturer
 import lu.weidig.paintmeister.data.entity.Paint
+import lu.weidig.paintmeister.data.entity.PaintLine
 
-@Database(entities = [Paint::class, Manufacturer::class], version = 1)
+@Database(entities = [Paint::class, Manufacturer::class, PaintLine::class], version = 2)
 abstract class PaintmeisterRoomDatabase : RoomDatabase() {
     abstract fun paintDao(): PaintDao
     abstract fun manufacturerDao(): ManufacturerDao
+    abstract fun paintLineDao(): PaintLineDao
 
     companion object {
         @Volatile
@@ -64,6 +67,7 @@ abstract class PaintmeisterRoomDatabase : RoomDatabase() {
             if (database.manufacturerDao().getAny() == null) {
                 val manufacturerDao = database.manufacturerDao()
                 val paintDao = database.paintDao()
+                val paintLineDao = database.paintLineDao()
 
                 suspend fun insertAllWithManufacturer(
                     withManufacturer: Manufacturer,
