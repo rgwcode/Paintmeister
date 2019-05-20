@@ -17,7 +17,7 @@ import lu.weidig.paintmeister.data.entity.Manufacturer
 import lu.weidig.paintmeister.data.entity.Paint
 import lu.weidig.paintmeister.data.entity.PaintLine
 
-@Database(entities = [Paint::class, Manufacturer::class, PaintLine::class], version = 2)
+@Database(entities = [Paint::class, Manufacturer::class, PaintLine::class], version = 3)
 abstract class PaintmeisterRoomDatabase : RoomDatabase() {
     abstract fun paintDao(): PaintDao
     abstract fun manufacturerDao(): ManufacturerDao

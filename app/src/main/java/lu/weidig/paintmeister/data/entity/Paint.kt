@@ -7,7 +7,7 @@ import androidx.room.PrimaryKey
 @Entity(
     foreignKeys = [
         ForeignKey(
-            entity = Manufacturer::class,
+            entity = PaintLine::class,
             parentColumns = ["id"],
             childColumns = ["paintLineId"],
             onDelete = ForeignKey.NO_ACTION
