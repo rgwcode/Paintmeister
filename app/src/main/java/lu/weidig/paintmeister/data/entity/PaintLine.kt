@@ -2,6 +2,7 @@ package lu.weidig.paintmeister.data.entity
 
 import androidx.room.Entity
 import androidx.room.ForeignKey
+import androidx.room.Ignore
 import androidx.room.PrimaryKey
 
 @Entity(
@@ -9,16 +10,17 @@ import androidx.room.PrimaryKey
         ForeignKey(
             entity = Manufacturer::class,
             parentColumns = ["id"],
-            childColumns = ["paintLineId"],
+            childColumns = ["manufacturerId"],
             onDelete = ForeignKey.NO_ACTION
         )
     ]
 )
-data class Paint(
+data class PaintLine(
     @PrimaryKey(autoGenerate = true)
     val id: Long? = null,
     var name: String = "",
-    var color: String = "#FFFFFF",
-    var sku: String = "",
-    var paintLineId: Long? = null
-)
+    var manufacturerId: Long? = null
+) {
+    @Ignore
+    var paints: List<Paint> = listOf()
+}

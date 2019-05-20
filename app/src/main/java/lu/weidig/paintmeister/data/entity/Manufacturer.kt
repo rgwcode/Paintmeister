@@ -12,5 +12,5 @@ data class Manufacturer(
     var website: String = ""
 ) {
     @Ignore
-    var paints: List<Paint> = listOf()
+    var paintlines: List<PaintLine> = listOf()
 }
