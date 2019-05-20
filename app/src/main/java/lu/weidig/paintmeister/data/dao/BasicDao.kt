@@ -9,9 +9,10 @@ interface BasicDao<T> {
      * Insert an element in the database.
      *
      * @param element the element to be inserted.
+     * @return the id of the inserted element
      */
     @Insert
-    fun insert(element: T)
+    fun insert(element: T): Long
 
     /**
      * Insert a collection of elements in the database.
