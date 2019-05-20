@@ -14,6 +14,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 import kotlinx.android.synthetic.main.content_main.*
 import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
 import lu.weidig.paintmeister.data.PaintmeisterRoomDatabase
 import lu.weidig.paintmeister.data.viewmodel.PaintListViewModel
 
@@ -53,7 +54,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         })
 
         fab.setOnClickListener {
-            PaintmeisterRoomDatabase.getDatabase(this, GlobalScope).clearAllTables()
+            val db = PaintmeisterRoomDatabase.getDatabase(this, GlobalScope)
+            GlobalScope.launch {
+                db.clearAllTables()
+            }
         }
     }
 
