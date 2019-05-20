@@ -74,9 +74,15 @@ abstract class PaintmeisterRoomDatabase : RoomDatabase() {
                     paintsToInsert: List<Paint>?
                 ) {
                     if (paintsToInsert != null) {
-                        val insertId = manufacturerDao.insert(withManufacturer)
+                        val manufacturerId = manufacturerDao.insert(withManufacturer)
+                        val paintLineId = paintLineDao.insert(
+                            PaintLine(
+                                name = "Testline", manufacturerId
+                                = manufacturerId
+                            )
+                        )
                         for (paint in paintsToInsert) {
-                            paint.manufacturerId = insertId
+                            paint.paintLineId = paintLineId
                         }
                         paintDao.insert(paintsToInsert)
                     }
