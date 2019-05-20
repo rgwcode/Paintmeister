@@ -13,9 +13,7 @@ import com.google.android.material.navigation.NavigationView
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 import kotlinx.android.synthetic.main.content_main.*
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
 import lu.weidig.paintmeister.data.PaintmeisterRoomDatabase
 import lu.weidig.paintmeister.data.viewmodel.PaintListViewModel
 
@@ -55,13 +53,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         })
 
         fab.setOnClickListener {
-            val manDao = PaintmeisterRoomDatabase.getDatabase(this, GlobalScope).manufacturerDao()
-            val paintDao = PaintmeisterRoomDatabase.getDatabase(this, GlobalScope).paintDao()
-
-            GlobalScope.launch(Dispatchers.IO) {
-                paintDao.deleteAll()
-                manDao.deleteAll()
-            }
+            PaintmeisterRoomDatabase.getDatabase(this, GlobalScope).clearAllTables()
         }
     }
 

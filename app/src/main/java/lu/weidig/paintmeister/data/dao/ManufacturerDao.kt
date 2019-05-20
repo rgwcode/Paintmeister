@@ -2,15 +2,11 @@ package lu.weidig.paintmeister.data.dao
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
-import androidx.room.Insert
 import androidx.room.Query
 import lu.weidig.paintmeister.data.entity.Manufacturer
 
 @Dao
-interface ManufacturerDao {
-    @Insert
-    suspend fun insert(manufacturer: Manufacturer): Long
-
+interface ManufacturerDao : BasicDao<Manufacturer> {
     @Query("SELECT * FROM Manufacturer ORDER BY name ASC")
     fun getAll(): LiveData<List<Manufacturer>>
 
@@ -19,9 +15,6 @@ interface ManufacturerDao {
 
     @Query("SELECT * FROM Manufacturer WHERE name = :name")
     fun getByName(name: String): Manufacturer?
-
-    @Query("DELETE FROM Manufacturer")
-    fun deleteAll()
 
     // Used to test for empty database
     @Query("SELECT * FROM MANUFACTURER LIMIT 1")
