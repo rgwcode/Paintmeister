@@ -63,13 +63,13 @@ abstract class PaintmeisterRoomDatabase : RoomDatabase() {
             }
         }
 
-        suspend fun populateDatabase(database: PaintmeisterRoomDatabase) {
+        fun populateDatabase(database: PaintmeisterRoomDatabase) {
             if (database.manufacturerDao().getAny() == null) {
                 val manufacturerDao = database.manufacturerDao()
                 val paintDao = database.paintDao()
                 val paintLineDao = database.paintLineDao()
 
-                suspend fun insertAllWithManufacturer(
+                fun insertAllWithManufacturer(
                     withManufacturer: Manufacturer,
                     paintsToInsert: List<Paint>?
                 ) {
