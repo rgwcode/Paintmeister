@@ -17,6 +17,9 @@ interface ManufacturerDao {
     @Query("SELECT * FROM Manufacturer WHERE id = :id")
     fun getById(id: Int): Manufacturer?
 
+    @Query("SELECT * FROM Manufacturer WHERE name = :name")
+    fun getByName(name: String): Manufacturer?
+
     @Query("DELETE FROM Manufacturer")
     fun deleteAll()
 
