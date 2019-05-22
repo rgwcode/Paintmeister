@@ -6,7 +6,6 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
-import com.beust.klaxon.Klaxon
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -16,6 +15,8 @@ import lu.weidig.paintmeister.data.dao.PaintLineDao
 import lu.weidig.paintmeister.data.entity.Manufacturer
 import lu.weidig.paintmeister.data.entity.Paint
 import lu.weidig.paintmeister.data.entity.PaintLine
+import org.json.JSONObject
+import java.nio.charset.Charset
 
 @Database(entities = [Paint::class, Manufacturer::class, PaintLine::class], version = 3)
 abstract class PaintmeisterRoomDatabase : RoomDatabase() {
@@ -68,43 +69,50 @@ abstract class PaintmeisterRoomDatabase : RoomDatabase() {
                 val manufacturerDao = database.manufacturerDao()
                 val paintDao = database.paintDao()
                 val paintLineDao = database.paintLineDao()
+                val manufacturerFiles = assetManager.list("manufacturers/")
 
-                fun insertAllWithManufacturer(
-                    withManufacturer: Manufacturer,
-                    paintsToInsert: List<Paint>?
-                ) {
-                    if (paintsToInsert != null) {
-                        val manufacturerId = manufacturerDao.insert(withManufacturer)
-                        val paintLineId = paintLineDao.insert(
-                            PaintLine(
-                                name = "Testline", manufacturerId
-                                = manufacturerId
-                            )
+
+                if (manufacturerFiles != null) {
+                    for (manufacturerFile in manufacturerFiles) {
+                        val jsonStream = assetManager.open("manufacturers/$manufacturerFile")
+                        val jsonSize = jsonStream.available()
+                        val jsonBuffer = ByteArray(jsonSize)
+
+                        jsonStream.read(jsonBuffer)
+                        jsonStream.close()
+                        val jsonString = String(jsonBuffer, Charset.forName("UTF-8"))
+                        val manufacturerJsonObject = JSONObject(jsonString)
+
+                        // Manufacturer
+                        val manufacturer = Manufacturer(
+                            name = manufacturerJsonObject["name"].toString(),
+                            website = manufacturerJsonObject["website"].toString()
                         )
-                        for (paint in paintsToInsert) {
-                            paint.paintLineId = paintLineId
+                        val manufacturerId = manufacturerDao.insert(manufacturer)
+
+                        // PaintLines
+                        val paintLinesJsonArray = manufacturerJsonObject.getJSONArray("paintlines")
+                        for (i in 0 until paintLinesJsonArray.length()) {
+                            val paintLineJsonObject = paintLinesJsonArray.getJSONObject(i)
+                            val paintLine = PaintLine(
+                                name = paintLineJsonObject["name"].toString
+                                    (), manufacturerId = manufacturerId
+                            )
+                            val paintLineId = paintLineDao.insert(paintLine)
+
+                            val paintsJsonArray = paintLineJsonObject.getJSONArray("paints")
+                            for (j in 0 until paintsJsonArray.length()) {
+                                val paintObject = paintsJsonArray.getJSONObject(j)
+                                val paint = Paint(
+                                    name = paintObject["name"].toString(),
+                                    color = paintObject["color"].toString(),
+                                    paintLineId = paintLineId
+                                )
+                                paintDao.insert(paint)
+                            }
                         }
-                        paintDao.insert(paintsToInsert)
                     }
                 }
-
-                // Reaper
-                var paints = Klaxon().parseArray<Paint>(assetManager.open("Reaper.json"))
-                insertAllWithManufacturer(
-                    Manufacturer(
-                        name = "Reaper",
-                        website = "https://www.reapermini.com/paints"
-                    ), paints
-                )
-
-                // Citadel
-                paints = Klaxon().parseArray<Paint>(assetManager.open("Citadel.json"))
-                insertAllWithManufacturer(
-                    Manufacturer(
-                        name = "Citadel", website =
-                        "https://www.games-workshop.com/en-US/Painting-Modelling"
-                    ), paints
-                )
             }
         }
     }
