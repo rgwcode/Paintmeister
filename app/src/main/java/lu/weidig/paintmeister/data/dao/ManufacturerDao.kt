@@ -8,7 +8,7 @@ import lu.weidig.paintmeister.data.entity.Manufacturer
 @Dao
 interface ManufacturerDao : BasicDao<Manufacturer> {
     @Query("SELECT * FROM Manufacturer ORDER BY name ASC")
-    fun getAll(): LiveData<List<Manufacturer>>
+    fun getAllSortedByName(): LiveData<List<Manufacturer>>
 
     @Query("SELECT * FROM Manufacturer WHERE id = :id")
     fun getById(id: Int): Manufacturer?
