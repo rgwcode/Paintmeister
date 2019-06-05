@@ -12,4 +12,7 @@ interface PaintDao : BasicDao<Paint> {
 
     @Query("SELECT * from Paint ORDER BY color ASC")
     fun getAllSortedByColor(): LiveData<List<Paint>>
+
+    @Query("SELECT * from Paint WHERE paintLineId = :paintLineId")
+    fun getPaintsOfPaintLine(paintLineId: Long): List<Paint>
 }

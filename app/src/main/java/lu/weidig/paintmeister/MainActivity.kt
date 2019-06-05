@@ -10,12 +10,16 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.navigation.NavigationView
+import eu.davidea.flexibleadapter.FlexibleAdapter
+import eu.davidea.flexibleadapter.items.IHeader
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 import kotlinx.android.synthetic.main.content_main.*
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import lu.weidig.paintmeister.data.PaintmeisterRoomDatabase
+import lu.weidig.paintmeister.data.entity.Paint
+import lu.weidig.paintmeister.data.entity.PaintLine
 import lu.weidig.paintmeister.data.viewmodel.PaintListViewModel
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
@@ -38,22 +42,45 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         toggle.syncState()
         nav_view.setNavigationItemSelectedListener(this)
 
-        val adapter = PaintListAdapter(this)
-        paintRecyclerView.adapter = adapter
-        paintRecyclerView.layoutManager = LinearLayoutManager(this)
-
+        //val adapter = PaintListAdapter(this)
         paintListViewModel = ViewModelProviders.of(this).get(PaintListViewModel::class.java)
-        paintListViewModel.allPaints.observe(
-            this,
-            Observer { paints -> paints?.let { adapter.setPaints(it) } })
-        paintListViewModel.allManufacturers.observe(this, Observer { manufacturers ->
-            manufacturers?.let {
-                adapter.setManufacturers(it)
-                (it)
-            }
-        })
+        val paintlinelist = ArrayList<IHeader<PaintLineItem.PaintLineItemViewHolder>>()
+        val paintLineHeaderItem = PaintLineItem(PaintLine(id = 1, name = "Paintline1"))
+        val paintLineHeaderItem2 = PaintLineItem(PaintLine(id = 2, name = "Paintline2"))
 
-        fab.setOnClickListener {
+        for (i in 0..20) {
+            paintLineHeaderItem2.addSubItem(
+                PaintItem(
+                    Paint(name = "Test" + i),
+                    paintLineHeaderItem2
+                )
+            )
+        }
+        paintlinelist.add(paintLineHeaderItem)
+        paintlinelist.add(paintLineHeaderItem2)
+
+        val adapter = FlexibleAdapter(paintlinelist)
+        adapter.setDisplayHeadersAtStartUp(true)
+        adapter.setStickyHeaders(true)
+        adapter.stickyHeaderElevation = 50
+        adapter.isAutoCollapseOnExpand = false
+        paintRecyclerView.adapter = adapter
+
+        paintRecyclerView.layoutManager = LinearLayoutManager(this)
+        paintListViewModel.paints.observe(
+            this,
+            Observer { paints ->
+                paints?.let {
+                    for (paint in paints) {
+                        paintLineHeaderItem.addSubItem(PaintItem(paint, paintLineHeaderItem))
+                    }
+                    adapter.updateDataSet(paintlinelist)
+                }
+            }
+        )
+
+        fab.setOnClickListener()
+        {
             val db = PaintmeisterRoomDatabase.getDatabase(this, GlobalScope)
             GlobalScope.launch {
                 db.clearAllTables()

@@ -1,6 +1,5 @@
 package lu.weidig.paintmeister.data.dao
 
-import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Query
 import lu.weidig.paintmeister.data.entity.Manufacturer
@@ -8,7 +7,7 @@ import lu.weidig.paintmeister.data.entity.Manufacturer
 @Dao
 interface ManufacturerDao : BasicDao<Manufacturer> {
     @Query("SELECT * FROM Manufacturer ORDER BY name ASC")
-    fun getAllSortedByName(): LiveData<List<Manufacturer>>
+    fun getAllSortedByName(): List<Manufacturer>
 
     @Query("SELECT * FROM Manufacturer WHERE id = :id")
     fun getById(id: Int): Manufacturer?

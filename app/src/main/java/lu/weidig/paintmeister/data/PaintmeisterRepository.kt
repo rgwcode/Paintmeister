@@ -1,26 +1,15 @@
 package lu.weidig.paintmeister.data
 
-import androidx.annotation.WorkerThread
+import android.content.Context
 import androidx.lifecycle.LiveData
-import lu.weidig.paintmeister.data.dao.ManufacturerDao
-import lu.weidig.paintmeister.data.dao.PaintDao
-import lu.weidig.paintmeister.data.entity.Manufacturer
+import kotlinx.coroutines.CoroutineScope
 import lu.weidig.paintmeister.data.entity.Paint
 
 class PaintmeisterRepository(
-    private val paintDao: PaintDao,
-    private val manufacturerDao: ManufacturerDao
+    context: Context, scope: CoroutineScope
 ) {
-    val allPaints: LiveData<List<Paint>> = paintDao.getAllSortedByName()
-    val allManufacturers: LiveData<List<Manufacturer>> = manufacturerDao.getAll()
+    private val database = PaintmeisterRoomDatabase.getDatabase(context, scope)
+    private val paintDao = database.paintDao()
 
-    @WorkerThread
-    suspend fun insert(paint: Paint) {
-        paintDao.insert(paint)
-    }
-
-    @WorkerThread
-    suspend fun insert(manufacturer: Manufacturer) {
-        manufacturerDao.insert(manufacturer)
-    }
+    val paints: LiveData<List<Paint>> = paintDao.getAllSortedByName()
 }
