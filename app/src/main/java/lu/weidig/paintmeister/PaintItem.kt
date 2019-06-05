@@ -22,7 +22,7 @@ class PaintItem(private val paint: Paint, header: PaintLineItem?) :
     }
 
     override fun hashCode(): Int {
-        return paint.id!!.toInt()
+        return paint.id!!.hashCode()
     }
 
     override fun getLayoutRes(): Int {
@@ -39,7 +39,7 @@ class PaintItem(private val paint: Paint, header: PaintLineItem?) :
         position: Int,
         payloads: List<Any>
     ) {
-        holder.paintName.text = paint.name
+        holder.paintName.text = paint.name + paint.id
         if (paint.color != "") {
             val curColor = Color.parseColor(paint.color)
 
