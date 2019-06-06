@@ -1,4 +1,4 @@
-package lu.weidig.paintmeister
+package lu.weidig.paintmeister.item
 
 import android.view.View
 import android.widget.TextView
@@ -7,13 +7,18 @@ import eu.davidea.flexibleadapter.items.AbstractExpandableHeaderItem
 import eu.davidea.flexibleadapter.items.IFlexible
 import eu.davidea.flexibleadapter.items.ISectionable
 import eu.davidea.viewholders.ExpandableViewHolder
-import lu.weidig.paintmeister.PaintLineItem.PaintLineItemViewHolder
+import lu.weidig.paintmeister.R
 import lu.weidig.paintmeister.data.entity.PaintLine
+import lu.weidig.paintmeister.item.PaintLineItem.PaintLineItemViewHolder
 
-class PaintLineItem(private val paintLine: PaintLine, private var mHeader: ManufacturerItem) :
+data class PaintLineItem(private val paintLine: PaintLine, private var mHeader: ManufacturerItem) :
     AbstractExpandableHeaderItem<
             PaintLineItemViewHolder, PaintItem>(), ISectionable<PaintLineItemViewHolder,
         ManufacturerItem> {
+    init {
+        isExpanded = false
+    }
+
     override fun getHeader(): ManufacturerItem {
         return mHeader
     }
@@ -24,17 +29,6 @@ class PaintLineItem(private val paintLine: PaintLine, private var mHeader: Manuf
 
     override fun getExpansionLevel(): Int {
         return 1
-    }
-
-    override fun equals(other: Any?): Boolean {
-        if (other is PaintLineItem) {
-            return paintLine.id == other.paintLine.id
-        }
-        return false
-    }
-
-    override fun hashCode(): Int {
-        return paintLine.id!!.hashCode()
     }
 
     override fun getLayoutRes(): Int {

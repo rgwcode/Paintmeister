@@ -2,6 +2,7 @@ package lu.weidig.paintmeister.data.entity
 
 import androidx.room.Entity
 import androidx.room.ForeignKey
+import androidx.room.Index
 import androidx.room.PrimaryKey
 
 @Entity(
@@ -12,6 +13,9 @@ import androidx.room.PrimaryKey
             childColumns = ["manufacturerId"],
             onDelete = ForeignKey.NO_ACTION
         )
+    ],
+    indices = [
+        Index("manufacturerId")
     ]
 )
 data class PaintLine(

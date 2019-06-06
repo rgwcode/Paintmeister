@@ -22,6 +22,9 @@ import lu.weidig.paintmeister.data.entity.Manufacturer
 import lu.weidig.paintmeister.data.entity.Paint
 import lu.weidig.paintmeister.data.entity.PaintLine
 import lu.weidig.paintmeister.data.viewmodel.PaintListViewModel
+import lu.weidig.paintmeister.item.ManufacturerItem
+import lu.weidig.paintmeister.item.PaintItem
+import lu.weidig.paintmeister.item.PaintLineItem
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
     private lateinit var paintListViewModel: PaintListViewModel
@@ -47,20 +50,42 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         paintListViewModel = ViewModelProviders.of(this).get(PaintListViewModel::class.java)
         val manufacturerList = ArrayList<IHeader<ManufacturerItem.ManufacturerItemViewHolder>>()
 
-        val manufacturerItem = ManufacturerItem(Manufacturer(id = 1, name = "Manufacturer1"))
-        val manufacturerItem2 = ManufacturerItem(Manufacturer(id = 2, name = "Manufacturer2"))
+        val manufacturerItem = ManufacturerItem(
+            Manufacturer(
+                id = 1,
+                name = "Manufacturer1"
+            )
+        )
+        val manufacturerItem2 = ManufacturerItem(
+            Manufacturer(
+                id = 2,
+                name = "Manufacturer2"
+            )
+        )
 
         manufacturerList.add(manufacturerItem)
         manufacturerList.add(manufacturerItem2)
 
         val paintLineHeaderItem =
-            PaintLineItem(PaintLine(id = 1, name = "Paintline1"), manufacturerItem)
+            PaintLineItem(
+                PaintLine(id = 1, name = "Paintline1"),
+                manufacturerItem
+            )
         val paintLineHeaderItem2 =
-            PaintLineItem(PaintLine(id = 2, name = "Paintline2"), manufacturerItem)
+            PaintLineItem(
+                PaintLine(id = 2, name = "Paintline2"),
+                manufacturerItem
+            )
         val paintLineHeaderItem3 =
-            PaintLineItem(PaintLine(id = 3, name = "Paintline3"), manufacturerItem2)
+            PaintLineItem(
+                PaintLine(id = 3, name = "Paintline3"),
+                manufacturerItem2
+            )
         val paintLineHeaderItem4 =
-            PaintLineItem(PaintLine(id = 4, name = "Paintline4"), manufacturerItem2)
+            PaintLineItem(
+                PaintLine(id = 4, name = "Paintline4"),
+                manufacturerItem2
+            )
 
         for (i in 0..20) {
             paintLineHeaderItem2.addSubItem(
@@ -104,7 +129,12 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             Observer { paints ->
                 paints?.let {
                     for (paint in paints) {
-                        paintLineHeaderItem.addSubItem(PaintItem(paint, paintLineHeaderItem))
+                        paintLineHeaderItem.addSubItem(
+                            PaintItem(
+                                paint,
+                                paintLineHeaderItem
+                            )
+                        )
                     }
                     adapter.updateDataSet(manufacturerList)
                 }

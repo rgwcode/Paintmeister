@@ -1,4 +1,4 @@
-package lu.weidig.paintmeister
+package lu.weidig.paintmeister.item
 
 import android.graphics.Color
 import android.view.View
@@ -9,22 +9,11 @@ import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractSectionableItem
 import eu.davidea.flexibleadapter.items.IFlexible
 import eu.davidea.viewholders.FlexibleViewHolder
+import lu.weidig.paintmeister.R
 import lu.weidig.paintmeister.data.entity.Paint
 
-class PaintItem(private val paint: Paint, header: PaintLineItem?) :
-    AbstractSectionableItem<PaintItem
-    .PaintItemViewHolder, PaintLineItem>(header) {
-    override fun equals(other: Any?): Boolean {
-        if (other is PaintItem) {
-            return paint.id == other.paint.id
-        }
-        return false
-    }
-
-    override fun hashCode(): Int {
-        return paint.id!!.hashCode()
-    }
-
+data class PaintItem(private val paint: Paint, private var header: PaintLineItem?) :
+    AbstractSectionableItem<PaintItem.PaintItemViewHolder, PaintLineItem>(header) {
     override fun getLayoutRes(): Int {
         return R.layout.recyclerview_paint_item
     }
@@ -39,7 +28,7 @@ class PaintItem(private val paint: Paint, header: PaintLineItem?) :
         position: Int,
         payloads: List<Any>
     ) {
-        holder.paintName.text = paint.name + paint.id
+        holder.paintName.text = paint.name
         if (paint.color != "") {
             val curColor = Color.parseColor(paint.color)
 

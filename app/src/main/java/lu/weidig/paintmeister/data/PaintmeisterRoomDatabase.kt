@@ -18,7 +18,7 @@ import lu.weidig.paintmeister.data.entity.PaintLine
 import org.json.JSONObject
 import java.nio.charset.Charset
 
-@Database(entities = [Paint::class, Manufacturer::class, PaintLine::class], version = 3)
+@Database(entities = [Paint::class, Manufacturer::class, PaintLine::class], version = 4)
 abstract class PaintmeisterRoomDatabase : RoomDatabase() {
     abstract fun paintDao(): PaintDao
     abstract fun manufacturerDao(): ManufacturerDao
