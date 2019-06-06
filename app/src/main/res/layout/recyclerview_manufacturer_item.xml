@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content">
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <TextView
             android:id="@+id/manufacturerName"
             android:layout_width="match_parent"
             android:textSize="30sp"
-            android:layout_height="60dp"
-            android:background="#ddffffff"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             android:gravity="center"/>
-    <View
-            android:id="@+id/divider"
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="?android:attr/listDivider"
+    <ImageView
+            android:id="@+id/dropdown_icon_manufacturer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_dropdown_open"
+            android:contentDescription="@string/dropdown_open"
+            app:layout_constraintTop_toTopOf="@+id/manufacturerName"
+            app:layout_constraintBottom_toBottomOf="@+id/manufacturerName"
+            app:layout_constraintEnd_toEndOf="parent"
     />
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

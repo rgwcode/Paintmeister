@@ -6,7 +6,7 @@
     <TextView
             android:id="@+id/paintName"
             android:layout_width="match_parent"
-            android:textSize="24sp"
-            android:layout_height="60dp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
             android:gravity="center"/>
 </LinearLayout>

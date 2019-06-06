@@ -1,11 +1,11 @@
 package lu.weidig.paintmeister.item
 
 import android.view.View
+import android.widget.ImageView
 import android.widget.TextView
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractExpandableHeaderItem
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.davidea.flexibleadapter.items.ISectionable
 import eu.davidea.viewholders.ExpandableViewHolder
 import lu.weidig.paintmeister.R
 import lu.weidig.paintmeister.data.entity.PaintLine
@@ -13,18 +13,9 @@ import lu.weidig.paintmeister.item.PaintLineItem.PaintLineItemViewHolder
 
 data class PaintLineItem(private val paintLine: PaintLine, private var mHeader: ManufacturerItem) :
     AbstractExpandableHeaderItem<
-            PaintLineItemViewHolder, PaintItem>(), ISectionable<PaintLineItemViewHolder,
-        ManufacturerItem> {
+            PaintLineItemViewHolder, PaintItem>() {
     init {
         isExpanded = false
-    }
-
-    override fun getHeader(): ManufacturerItem {
-        return mHeader
-    }
-
-    override fun setHeader(header: ManufacturerItem) {
-        mHeader = header
     }
 
     override fun getExpansionLevel(): Int {
@@ -50,10 +41,21 @@ data class PaintLineItem(private val paintLine: PaintLine, private var mHeader: 
 
     inner class PaintLineItemViewHolder(view: View, adapter: FlexibleAdapter<*>) :
         ExpandableViewHolder(view, adapter, true) {
-        var paintLineName: TextView = view.findViewById(R.id.paintLineName)
+        val paintLineName: TextView = view.findViewById(R.id.paintLineName)
+        val dropdownicon: ImageView = view.findViewById(R.id.dropdown_icon_paint_line)
+        var expandedd = false
 
         init {
-            view.setOnClickListener { toggleExpansion() }
+            view.setOnClickListener {
+                if (expandedd) {
+                    dropdownicon.setImageResource(R.drawable.ic_dropdown_closed)
+                    expandedd = false
+                } else {
+                    dropdownicon.setImageResource(R.drawable.ic_dropdown_open)
+                    expandedd = true
+                }
+                toggleExpansion()
+            }
         }
     }
 }

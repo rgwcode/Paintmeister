@@ -3,7 +3,7 @@
   "website": "https://www.reapermini.com/paints",
   "paintlines": [
     {
-      "name": "Master Series Paints Core Colors",
+      "name": "MSP Core Colors",
       "paints": [
         {
           "name": "Red Brick",
@@ -1556,7 +1556,7 @@
       ]
     },
     {
-      "name": "Master Series Paints Bones",
+      "name": "MSP Bones",
       "paints": [
         {
           "name": "Dragon Red",

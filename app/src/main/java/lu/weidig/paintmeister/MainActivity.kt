@@ -11,16 +11,13 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.navigation.NavigationView
 import eu.davidea.flexibleadapter.FlexibleAdapter
-import eu.davidea.flexibleadapter.items.IHeader
+import eu.davidea.flexibleadapter.items.IFlexible
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 import kotlinx.android.synthetic.main.content_main.*
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import lu.weidig.paintmeister.data.PaintmeisterRoomDatabase
-import lu.weidig.paintmeister.data.entity.Manufacturer
-import lu.weidig.paintmeister.data.entity.Paint
-import lu.weidig.paintmeister.data.entity.PaintLine
 import lu.weidig.paintmeister.data.viewmodel.PaintListViewModel
 import lu.weidig.paintmeister.item.ManufacturerItem
 import lu.weidig.paintmeister.item.PaintItem
@@ -46,96 +43,40 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         toggle.syncState()
         nav_view.setNavigationItemSelectedListener(this)
 
-        //val adapter = PaintListAdapter(this)
         paintListViewModel = ViewModelProviders.of(this).get(PaintListViewModel::class.java)
-        val manufacturerList = ArrayList<IHeader<ManufacturerItem.ManufacturerItemViewHolder>>()
 
-        val manufacturerItem = ManufacturerItem(
-            Manufacturer(
-                id = 1,
-                name = "Manufacturer1"
-            )
-        )
-        val manufacturerItem2 = ManufacturerItem(
-            Manufacturer(
-                id = 2,
-                name = "Manufacturer2"
-            )
-        )
-
-        manufacturerList.add(manufacturerItem)
-        manufacturerList.add(manufacturerItem2)
-
-        val paintLineHeaderItem =
-            PaintLineItem(
-                PaintLine(id = 1, name = "Paintline1"),
-                manufacturerItem
-            )
-        val paintLineHeaderItem2 =
-            PaintLineItem(
-                PaintLine(id = 2, name = "Paintline2"),
-                manufacturerItem
-            )
-        val paintLineHeaderItem3 =
-            PaintLineItem(
-                PaintLine(id = 3, name = "Paintline3"),
-                manufacturerItem2
-            )
-        val paintLineHeaderItem4 =
-            PaintLineItem(
-                PaintLine(id = 4, name = "Paintline4"),
-                manufacturerItem2
-            )
-
-        for (i in 0..20) {
-            paintLineHeaderItem2.addSubItem(
-                PaintItem(
-                    Paint(id = i.toLong(), name = "Test" + i),
-                    paintLineHeaderItem2
-                )
-            )
-        }
-        for (i in 21..40) {
-            paintLineHeaderItem3.addSubItem(
-                PaintItem(
-                    Paint(id = i.toLong(), name = "Test" + i),
-                    paintLineHeaderItem3
-                )
-            )
-        }
-        for (i in 41..60) {
-            paintLineHeaderItem4.addSubItem(
-                PaintItem(
-                    Paint(id = i.toLong(), name = "Test" + i),
-                    paintLineHeaderItem4
-                )
-            )
-        }
-
-        manufacturerItem.addSubItem(paintLineHeaderItem)
-        manufacturerItem.addSubItem(paintLineHeaderItem2)
-        manufacturerItem2.addSubItem(paintLineHeaderItem3)
-        manufacturerItem2.addSubItem(paintLineHeaderItem4)
+        val manufacturerList = ArrayList<IFlexible<ManufacturerItem.ManufacturerItemViewHolder>>()
 
         val adapter = FlexibleAdapter(manufacturerList)
         adapter.setDisplayHeadersAtStartUp(true)
         adapter.setStickyHeaders(true)
         adapter.isAutoCollapseOnExpand = false
-        paintRecyclerView.adapter = adapter
 
+        paintRecyclerView.adapter = adapter
         paintRecyclerView.layoutManager = LinearLayoutManager(this)
-        paintListViewModel.paints.observe(
+
+        paintListViewModel.fullDepthManufacturers.observe(
             this,
-            Observer { paints ->
-                paints?.let {
-                    for (paint in paints) {
-                        paintLineHeaderItem.addSubItem(
-                            PaintItem(
-                                paint,
-                                paintLineHeaderItem
-                            )
-                        )
+            Observer { fullDepthManufacturers ->
+                fullDepthManufacturers?.let {
+                    for (fullDepthManufacturer in fullDepthManufacturers) {
+                        val manufacturerItem = ManufacturerItem(fullDepthManufacturer.manufacturer)
+                        manufacturerList.add(manufacturerItem)
+                        for (paintLine in fullDepthManufacturer.paintLines) {
+                            val paintLineItem = PaintLineItem(paintLine.paintLine, manufacturerItem)
+                            manufacturerItem.addSubItem(paintLineItem)
+                            for (paint in paintLine.paints) {
+                                paintLineItem.addSubItem(
+                                    PaintItem(
+                                        paint,
+                                        paintLineItem
+                                    )
+                                )
+                            }
+
+                        }
                     }
+                    adapter.updateDataSet(manufacturerList)
                 }
             }
         )
@@ -196,7 +137,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
             }
         }
-
         drawer_layout.closeDrawer(GravityCompat.START)
         return true
     }
