@@ -136,7 +136,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                             )
                         )
                     }
-                    adapter.updateDataSet(manufacturerList)
                 }
             }
         )
