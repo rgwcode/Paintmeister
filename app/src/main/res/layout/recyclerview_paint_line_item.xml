@@ -9,14 +9,14 @@
     <TextView
             android:id="@+id/paintLineName"
             android:layout_width="match_parent"
-            android:textSize="20sp"
-            android:layout_height="wrap_content"
-            android:background="#ffcccccc"
+            android:textSize="24sp"
+            android:padding="10dp"
+            android:background="#ffeeeeee"
             android:gravity="center"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-    />
+            android:layout_height="wrap_content"/>
     <ImageView
             android:id="@+id/dropdown_icon_paint_line"
             android:layout_width="wrap_content"
