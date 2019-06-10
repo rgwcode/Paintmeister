@@ -10,4 +10,9 @@ data class FullDepthManufacturer(
     val manufacturer: Manufacturer,
     @Relation(parentColumn = "id", entityColumn = "manufacturerId", entity = PaintLine::class)
     val paintLines: List<PaintLineWithPaints>
-)
+) {
+    val paintLinesByName: List<PaintLineWithPaints>
+        get() {
+            return paintLines.sortedBy { it.paintLine.name }
+        }
+}

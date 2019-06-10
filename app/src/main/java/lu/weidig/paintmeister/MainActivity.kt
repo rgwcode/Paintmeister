@@ -61,10 +61,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                     for (fullDepthManufacturer in fullDepthManufacturers) {
                         val manufacturerItem = ManufacturerItem(fullDepthManufacturer.manufacturer)
                         manufacturerList.add(manufacturerItem)
-                        for (paintLine in fullDepthManufacturer.paintLines) {
+                        for (paintLine in fullDepthManufacturer.paintLinesByName) {
                             val paintLineItem = PaintLineItem(paintLine.paintLine, manufacturerItem)
                             manufacturerItem.addSubItem(paintLineItem)
-                            for (paint in paintLine.paints) {
+                            for (paint in paintLine.paintsByName) {
                                 paintLineItem.addSubItem(
                                     PaintItem(
                                         paint,

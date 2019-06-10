@@ -10,4 +10,10 @@ data class PaintLineWithPaints(
     val paintLine: PaintLine,
     @Relation(parentColumn = "id", entityColumn = "paintLineId", entity = Paint::class)
     val paints: List<Paint>
-)
+) {
+    val paintsByName: List<Paint>
+        get() {
+            return paints.sortedBy { it.name }
+        }
+}
+
