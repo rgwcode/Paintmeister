@@ -37,17 +37,18 @@ data class ManufacturerItem(private val manufacturer: Manufacturer) : AbstractEx
     inner class ManufacturerItemViewHolder(view: View, adapter: FlexibleAdapter<*>) :
         ExpandableViewHolder(view, adapter, true) {
         var manufacturerItem: TextView = view.findViewById(R.id.manufacturerName)
-        val dropdownicon: ImageView = view.findViewById(R.id.dropdown_icon_manufacturer)
-        var expandedd = true
+        private val dropDownIcon: ImageView = view.findViewById(R.id.dropdown_icon_manufacturer)
+        // Needed because mExpanded only works for first item
+        private var expanded = true
 
         init {
             view.setOnClickListener {
-                if (expandedd) {
-                    dropdownicon.setImageResource(R.drawable.ic_dropdown_closed)
-                    expandedd = false
+                expanded = if (expanded) {
+                    dropDownIcon.setImageResource(R.drawable.ic_dropdown_closed)
+                    false
                 } else {
-                    dropdownicon.setImageResource(R.drawable.ic_dropdown_open)
-                    expandedd = true
+                    dropDownIcon.setImageResource(R.drawable.ic_dropdown_open)
+                    true
                 }
                 toggleExpansion()
             }

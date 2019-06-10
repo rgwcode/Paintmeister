@@ -42,17 +42,18 @@ data class PaintLineItem(private val paintLine: PaintLine, private var mHeader: 
     inner class PaintLineItemViewHolder(view: View, adapter: FlexibleAdapter<*>) :
         ExpandableViewHolder(view, adapter, true) {
         val paintLineName: TextView = view.findViewById(R.id.paintLineName)
-        val dropdownicon: ImageView = view.findViewById(R.id.dropdown_icon_paint_line)
-        var expandedd = false
+        val dropDownIcon: ImageView = view.findViewById(R.id.dropdown_icon_paint_line)
+        // Needed because mExpanded only works for first item
+        var expanded = false
 
         init {
             view.setOnClickListener {
-                if (expandedd) {
-                    dropdownicon.setImageResource(R.drawable.ic_dropdown_closed)
-                    expandedd = false
+                expanded = if (expanded) {
+                    dropDownIcon.setImageResource(R.drawable.ic_dropdown_closed)
+                    false
                 } else {
-                    dropdownicon.setImageResource(R.drawable.ic_dropdown_open)
-                    expandedd = true
+                    dropDownIcon.setImageResource(R.drawable.ic_dropdown_open)
+                    true
                 }
                 toggleExpansion()
             }

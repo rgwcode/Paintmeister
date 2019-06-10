@@ -57,26 +57,18 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         paintListViewModel.fullDepthManufacturers.observe(
             this,
             Observer { fullDepthManufacturers ->
-                fullDepthManufacturers?.let {
-                    for (fullDepthManufacturer in fullDepthManufacturers) {
-                        val manufacturerItem = ManufacturerItem(fullDepthManufacturer.manufacturer)
-                        manufacturerList.add(manufacturerItem)
-                        for (paintLine in fullDepthManufacturer.paintLinesByName) {
-                            val paintLineItem = PaintLineItem(paintLine.paintLine, manufacturerItem)
-                            manufacturerItem.addSubItem(paintLineItem)
-                            for (paint in paintLine.paintsByName) {
-                                paintLineItem.addSubItem(
-                                    PaintItem(
-                                        paint,
-                                        paintLineItem
-                                    )
-                                )
-                            }
-
+                for (fullDepthManufacturer in fullDepthManufacturers) {
+                    val manufacturerItem = ManufacturerItem(fullDepthManufacturer.manufacturer)
+                    manufacturerList.add(manufacturerItem)
+                    for (paintLine in fullDepthManufacturer.paintLinesByName) {
+                        val paintLineItem = PaintLineItem(paintLine.paintLine, manufacturerItem)
+                        manufacturerItem.addSubItem(paintLineItem)
+                        for (paint in paintLine.paintsByName) {
+                            paintLineItem.addSubItem(PaintItem(paint, paintLineItem))
                         }
                     }
-                    adapter.updateDataSet(manufacturerList)
                 }
+                adapter.updateDataSet(manufacturerList)
             }
         )
     }
