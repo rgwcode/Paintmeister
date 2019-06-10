@@ -72,8 +72,7 @@ abstract class PaintmeisterRoomDatabase : RoomDatabase() {
                 val manufacturerDao = database.manufacturerDao()
                 val paintDao = database.paintDao()
                 val paintLineDao = database.paintLineDao()
-                val manufacturerFiles = assetManager.list("manufacturers/")
-
+                val manufacturerFiles = assetManager.list("manufacturers")
 
                 if (manufacturerFiles != null) {
                     for (manufacturerFile in manufacturerFiles) {
@@ -86,7 +85,7 @@ abstract class PaintmeisterRoomDatabase : RoomDatabase() {
                         val jsonString = String(jsonBuffer, Charset.forName("UTF-8"))
                         val manufacturerJsonObject = JSONObject(jsonString)
 
-                        // Manufacturer
+                        // Manufacturers
                         val manufacturer = Manufacturer(
                             name = manufacturerJsonObject["name"].toString(),
                             website = manufacturerJsonObject["website"].toString()
@@ -103,6 +102,7 @@ abstract class PaintmeisterRoomDatabase : RoomDatabase() {
                             )
                             val paintLineId = paintLineDao.insert(paintLine)
 
+                            // Paints
                             val paintsJsonArray = paintLineJsonObject.getJSONArray("paints")
                             for (j in 0 until paintsJsonArray.length()) {
                                 val paintObject = paintsJsonArray.getJSONObject(j)

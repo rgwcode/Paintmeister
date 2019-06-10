@@ -3,6 +3,7 @@ package lu.weidig.paintmeister
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
@@ -30,24 +31,22 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.activity_main)
-        setSupportActionBar(toolbar)
+        setUpNavigationDrawer()
+        setUpRecyclerView()
+    }
 
-        val toggle = ActionBarDrawerToggle(
-            this,
-            drawer_layout,
-            toolbar,
-            R.string.navigation_drawer_open,
-            R.string.navigation_drawer_close
-        )
-        drawer_layout.addDrawerListener(toggle)
-        toggle.syncState()
-        nav_view.setNavigationItemSelectedListener(this)
+    fun dumpDatabase(view: View) {
+        val db = PaintmeisterRoomDatabase.getDatabase(this, GlobalScope)
+        GlobalScope.launch {
+            db.clearAllTables()
+        }
+    }
+
+    fun setUpRecyclerView() {
+        val manufacturerList = ArrayList<IFlexible<ManufacturerItem.ManufacturerItemViewHolder>>()
+        val adapter = FlexibleAdapter(manufacturerList)
 
         paintListViewModel = ViewModelProviders.of(this).get(PaintListViewModel::class.java)
-
-        val manufacturerList = ArrayList<IFlexible<ManufacturerItem.ManufacturerItemViewHolder>>()
-
-        val adapter = FlexibleAdapter(manufacturerList)
         adapter.setDisplayHeadersAtStartUp(true)
         adapter.setStickyHeaders(true)
         adapter.isAutoCollapseOnExpand = false
@@ -80,14 +79,20 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 }
             }
         )
+    }
 
-        fab.setOnClickListener()
-        {
-            val db = PaintmeisterRoomDatabase.getDatabase(this, GlobalScope)
-            GlobalScope.launch {
-                db.clearAllTables()
-            }
-        }
+    fun setUpNavigationDrawer() {
+        setSupportActionBar(toolbar)
+        val toggle = ActionBarDrawerToggle(
+            this,
+            drawer_layout,
+            toolbar,
+            R.string.navigation_drawer_open,
+            R.string.navigation_drawer_close
+        )
+        drawer_layout.addDrawerListener(toggle)
+        toggle.syncState()
+        nav_view.setNavigationItemSelectedListener(this)
     }
 
 
