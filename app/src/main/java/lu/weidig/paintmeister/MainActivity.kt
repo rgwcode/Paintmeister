@@ -3,7 +3,7 @@ package lu.weidig.paintmeister
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
@@ -35,12 +35,12 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         setUpRecyclerView()
     }
 
-    @Suppress("UNUSED_PARAMETER")
-    fun dumpDatabase(view: View) {
+    fun dumpDatabase() {
         val db = PaintmeisterRoomDatabase.getDatabase(this, GlobalScope)
         GlobalScope.launch {
             db.clearAllTables()
         }
+        Toast.makeText(this, "Database dumped", Toast.LENGTH_SHORT).show()
     }
 
     private fun setUpRecyclerView() {
@@ -105,11 +105,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         return when (item.itemId) {
-            R.id.action_settings -> true
+            R.id.action_dump_database -> {
+                dumpDatabase()
+                true
+            }
             else -> super.onOptionsItemSelected(item)
         }
     }
