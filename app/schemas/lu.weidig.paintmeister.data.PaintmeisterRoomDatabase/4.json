@@ -2,17 +2,17 @@
   "formatVersion": 1,
   "database": {
     "version": 4,
-    "identityHash": "f99b5e7e7080ad46eda017e4ebf70925",
+    "identityHash": "e47e6656842c484bd4a36af5b5e9f1ce",
     "entities": [
       {
         "tableName": "Paint",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` TEXT NOT NULL, `color` TEXT NOT NULL, `sku` TEXT NOT NULL, `paintLineId` INTEGER, FOREIGN KEY(`paintLineId`) REFERENCES `PaintLine`(`id`) ON UPDATE NO ACTION ON DELETE NO ACTION )",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `color` TEXT NOT NULL, `sku` TEXT NOT NULL, `paintLineId` INTEGER, FOREIGN KEY(`paintLineId`) REFERENCES `PaintLine`(`id`) ON UPDATE NO ACTION ON DELETE NO ACTION )",
         "fields": [
           {
             "fieldPath": "id",
             "columnName": "id",
             "affinity": "INTEGER",
-            "notNull": false
+            "notNull": true
           },
           {
             "fieldPath": "name",
@@ -71,13 +71,13 @@
       },
       {
         "tableName": "Manufacturer",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` TEXT NOT NULL, `website` TEXT NOT NULL)",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `website` TEXT NOT NULL)",
         "fields": [
           {
             "fieldPath": "id",
             "columnName": "id",
             "affinity": "INTEGER",
-            "notNull": false
+            "notNull": true
           },
           {
             "fieldPath": "name",
@@ -103,13 +103,13 @@
       },
       {
         "tableName": "PaintLine",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` TEXT NOT NULL, `manufacturerId` INTEGER, FOREIGN KEY(`manufacturerId`) REFERENCES `Manufacturer`(`id`) ON UPDATE NO ACTION ON DELETE NO ACTION )",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `manufacturerId` INTEGER, FOREIGN KEY(`manufacturerId`) REFERENCES `Manufacturer`(`id`) ON UPDATE NO ACTION ON DELETE NO ACTION )",
         "fields": [
           {
             "fieldPath": "id",
             "columnName": "id",
             "affinity": "INTEGER",
-            "notNull": false
+            "notNull": true
           },
           {
             "fieldPath": "name",
@@ -158,7 +158,7 @@
     "views": [],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'f99b5e7e7080ad46eda017e4ebf70925')"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'e47e6656842c484bd4a36af5b5e9f1ce')"
     ]
   }
 }

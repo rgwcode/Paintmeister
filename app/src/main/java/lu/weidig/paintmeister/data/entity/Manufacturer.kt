@@ -6,7 +6,7 @@ import androidx.room.PrimaryKey
 @Entity
 data class Manufacturer(
     @PrimaryKey(autoGenerate = true)
-    val id: Long? = null,
+    val id: Long = 0,
     var name: String = "",
     var website: String = ""
 )

@@ -20,7 +20,7 @@ import androidx.room.PrimaryKey
 )
 data class Paint(
     @PrimaryKey(autoGenerate = true)
-    val id: Long? = null,
+    val id: Long = 0,
     var name: String = "",
     var color: String = "#FFFFFF",
     var sku: String = "",

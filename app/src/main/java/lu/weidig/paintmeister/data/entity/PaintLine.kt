@@ -20,7 +20,7 @@ import androidx.room.PrimaryKey
 )
 data class PaintLine(
     @PrimaryKey(autoGenerate = true)
-    val id: Long? = null,
+    val id: Long = 0,
     var name: String = "",
     var manufacturerId: Long? = null
 )
