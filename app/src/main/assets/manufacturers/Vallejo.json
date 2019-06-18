@@ -1,0 +1,5960 @@
+{
+  "name": "Vallejo",
+  "website": "https://acrylicosvallejo.com/",
+  "paintlines": [
+    {
+      "name": "Model Color",
+      "paints": [
+        {
+          "name": "White",
+          "price": "",
+          "sku": "70.951",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Cold White",
+          "price": "",
+          "sku": "70.919",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Gloss White",
+          "price": "",
+          "sku": "70.842",
+          "color": "#f5f3f4"
+        },
+        {
+          "name": "Off-white",
+          "price": "",
+          "sku": "70.820",
+          "color": "#ebebe1"
+        },
+        {
+          "name": "Ivory",
+          "price": "",
+          "sku": "70.918",
+          "color": "#f3efd2"
+        },
+        {
+          "name": "Light Flesh",
+          "price": "",
+          "sku": "70.928",
+          "color": "#f8d9c7"
+        },
+        {
+          "name": "Pale Sand",
+          "price": "",
+          "sku": "70.837",
+          "color": "#f5d8b6"
+        },
+        {
+          "name": "Beige",
+          "price": "",
+          "sku": "70.917",
+          "color": "#daba81"
+        },
+        {
+          "name": "Sand Yellow",
+          "price": "",
+          "sku": "70.916",
+          "color": "#e4b86f"
+        },
+        {
+          "name": "Light Yellow",
+          "price": "",
+          "sku": "70.949",
+          "color": "#fde857"
+        },
+        {
+          "name": "Lemon Yellow",
+          "price": "",
+          "sku": "70.952",
+          "color": "#fbea20"
+        },
+        {
+          "name": "German Yellow",
+          "price": "",
+          "sku": "70.806",
+          "color": "#cbbe78"
+        },
+        {
+          "name": "Ice Yellow",
+          "price": "",
+          "sku": "70.858",
+          "color": "#f7d897"
+        },
+        {
+          "name": "Deep Yellow",
+          "price": "",
+          "sku": "70.915",
+          "color": "#ffe20e"
+        },
+        {
+          "name": "Flat Yellow",
+          "price": "",
+          "sku": "70.953",
+          "color": "#f8b735"
+        },
+        {
+          "name": "Golden Yellow",
+          "price": "",
+          "sku": "70.948",
+          "color": "#f8b655"
+        },
+        {
+          "name": "Basic Skin Tone",
+          "price": "",
+          "sku": "70.815",
+          "color": "#f0ba9e"
+        },
+        {
+          "name": "Flat Flesh",
+          "price": "",
+          "sku": "70.955",
+          "color": "#e1a67a"
+        },
+        {
+          "name": "Dark Flesh",
+          "price": "",
+          "sku": "70.927",
+          "color": "#d69e61"
+        },
+        {
+          "name": "Sunny Skin Tone",
+          "price": "",
+          "sku": "70.845",
+          "color": "#eaaf77"
+        },
+        {
+          "name": "Medium Flesh Tone",
+          "price": "",
+          "sku": "70.860",
+          "color": "#bc854d"
+        },
+        {
+          "name": "Light Orange",
+          "price": "",
+          "sku": "70.911",
+          "color": "#f1873d"
+        },
+        {
+          "name": "German Orange",
+          "price": "",
+          "sku": "70.805",
+          "color": "#d08474"
+        },
+        {
+          "name": "Bright Orange",
+          "price": "",
+          "sku": "70.851",
+          "color": "#e9602c"
+        },
+        {
+          "name": "Clear Orange",
+          "price": "",
+          "sku": "70.956",
+          "color": "#ca4c36"
+        },
+        {
+          "name": "Scarlet",
+          "price": "",
+          "sku": "70.817",
+          "color": "#bc4040"
+        },
+        {
+          "name": "Orange Red",
+          "price": "",
+          "sku": "70.910",
+          "color": "#dc4319"
+        },
+        {
+          "name": "Vermilion",
+          "price": "",
+          "sku": "70.909",
+          "color": "#ce1a23"
+        },
+        {
+          "name": "Dark Vermilion",
+          "price": "",
+          "sku": "70.947",
+          "color": "#b33737"
+        },
+        {
+          "name": "Carmine Red",
+          "price": "",
+          "sku": "70.908",
+          "color": "#b41927"
+        },
+        {
+          "name": "Flat Red",
+          "price": "",
+          "sku": "70.957",
+          "color": "#a73b39"
+        },
+        {
+          "name": "Dark Red",
+          "price": "",
+          "sku": "70.946",
+          "color": "#8d4352"
+        },
+        {
+          "name": "Red",
+          "price": "",
+          "sku": "70.926",
+          "color": "#93262c"
+        },
+        {
+          "name": "Burnt Red",
+          "price": "",
+          "sku": "70.814",
+          "color": "#65423e"
+        },
+        {
+          "name": "Black Red",
+          "price": "",
+          "sku": "70.859",
+          "color": "#513937"
+        },
+        {
+          "name": "Beige Red",
+          "price": "",
+          "sku": "70.804",
+          "color": "#bb886d"
+        },
+        {
+          "name": "Salmon Rose",
+          "price": "",
+          "sku": "70.835",
+          "color": "#f1afa1"
+        },
+        {
+          "name": "Brown Rose",
+          "price": "",
+          "sku": "70.803",
+          "color": "#b38585"
+        },
+        {
+          "name": "Old Rose",
+          "price": "",
+          "sku": "70.944",
+          "color": "#d77e78"
+        },
+        {
+          "name": "Pink",
+          "price": "",
+          "sku": "70.958",
+          "color": "#c57bac"
+        },
+        {
+          "name": "Sunset Red",
+          "price": "",
+          "sku": "70.802",
+          "color": "#be3964"
+        },
+        {
+          "name": "Magenta",
+          "price": "",
+          "sku": "70.945",
+          "color": "#bf1226"
+        },
+        {
+          "name": "Violet Red",
+          "price": "",
+          "sku": "70.812",
+          "color": "#6e263e"
+        },
+        {
+          "name": "Purple",
+          "price": "",
+          "sku": "70.959",
+          "color": "#70547c"
+        },
+        {
+          "name": "Royal Purple",
+          "price": "",
+          "sku": "70.810",
+          "color": "#543f5e"
+        },
+        {
+          "name": "Blue Violet",
+          "price": "",
+          "sku": "70.811",
+          "color": "#7168a7"
+        },
+        {
+          "name": "Violet",
+          "price": "",
+          "sku": "70.960",
+          "color": "#484069"
+        },
+        {
+          "name": "Dark Sea Blue",
+          "price": "",
+          "sku": "70.898",
+          "color": "#41464c"
+        },
+        {
+          "name": "Oxford Blue",
+          "price": "",
+          "sku": "70.807",
+          "color": "#4d4d6f"
+        },
+        {
+          "name": "Dark Prussian Blue",
+          "price": "",
+          "sku": "70.899",
+          "color": "#0f2b39"
+        },
+        {
+          "name": "Prussian Blue",
+          "price": "",
+          "sku": "70.965",
+          "color": "#405b78"
+        },
+        {
+          "name": "Blue",
+          "price": "",
+          "sku": "70.925",
+          "color": "#003362"
+        },
+        {
+          "name": "Dark Blue",
+          "price": "",
+          "sku": "70.930",
+          "color": "#336195"
+        },
+        {
+          "name": "Royal Blue",
+          "price": "",
+          "sku": "70.809",
+          "color": "#255d8e"
+        },
+        {
+          "name": "Ultramarine",
+          "price": "",
+          "sku": "70.839",
+          "color": "#2d559d"
+        },
+        {
+          "name": "Flat Blue",
+          "price": "",
+          "sku": "70.962",
+          "color": "#44689c"
+        },
+        {
+          "name": "Medium Blue",
+          "price": "",
+          "sku": "70.963",
+          "color": "#216083"
+        },
+        {
+          "name": "Field Blue",
+          "price": "",
+          "sku": "70.964",
+          "color": "#57656e"
+        },
+        {
+          "name": "French Mirage Blue",
+          "price": "",
+          "sku": "70.900",
+          "color": "#5f6772"
+        },
+        {
+          "name": "Intermediate Blue",
+          "price": "",
+          "sku": "70.903",
+          "color": "#646d76"
+        },
+        {
+          "name": "Grey Blue",
+          "price": "",
+          "sku": "70.943",
+          "color": "#70849f"
+        },
+        {
+          "name": "Azure",
+          "price": "",
+          "sku": "70.902",
+          "color": "#6b8dbb"
+        },
+        {
+          "name": "Pastel Blue",
+          "price": "",
+          "sku": "70.901",
+          "color": "#6a8795"
+        },
+        {
+          "name": "Pale Blue",
+          "price": "",
+          "sku": "70.906",
+          "color": "#99a9a6"
+        },
+        {
+          "name": "Andrea Blue",
+          "price": "",
+          "sku": "70.841",
+          "color": "#0c97c2"
+        },
+        {
+          "name": "Deep Sky Blue",
+          "price": "",
+          "sku": "70.844",
+          "color": "#42afda"
+        },
+        {
+          "name": "Sky Blue",
+          "price": "",
+          "sku": "70.961",
+          "color": "#7acaeb"
+        },
+        {
+          "name": "Light Turquoise",
+          "price": "",
+          "sku": "70.840",
+          "color": "#0190a0"
+        },
+        {
+          "name": "Turquoise",
+          "price": "",
+          "sku": "70.966",
+          "color": "#2e6c7b"
+        },
+        {
+          "name": "Blue Green",
+          "price": "",
+          "sku": "70.808",
+          "color": "#009b9f"
+        },
+        {
+          "name": "Emerald",
+          "price": "",
+          "sku": "70.838",
+          "color": "#00855a"
+        },
+        {
+          "name": "Deep Green",
+          "price": "",
+          "sku": "70.970",
+          "color": "#32634d"
+        },
+        {
+          "name": "Park Green Flat",
+          "price": "",
+          "sku": "70.969",
+          "color": "#067958"
+        },
+        {
+          "name": "Intermediate Green",
+          "price": "",
+          "sku": "70.891",
+          "color": "#448b3d"
+        },
+        {
+          "name": "Light Green",
+          "price": "",
+          "sku": "70.942",
+          "color": "#007943"
+        },
+        {
+          "name": "Green Sky",
+          "price": "",
+          "sku": "70.974",
+          "color": "#8a9f80"
+        },
+        {
+          "name": "Lime Green",
+          "price": "",
+          "sku": "70.827",
+          "color": "#8c9441"
+        },
+        {
+          "name": "Yellow Green",
+          "price": "",
+          "sku": "70.954",
+          "color": "#cad435"
+        },
+        {
+          "name": "Golden Olive",
+          "price": "",
+          "sku": "70.857",
+          "color": "#808145"
+        },
+        {
+          "name": "German Camouflage Bright Green",
+          "price": "",
+          "sku": "70.833",
+          "color": "#5c704b"
+        },
+        {
+          "name": "Medium Olive",
+          "price": "",
+          "sku": "70.850",
+          "color": "#2b6c28"
+        },
+        {
+          "name": "Olive Green",
+          "price": "",
+          "sku": "70.967",
+          "color": "#5f6e45"
+        },
+        {
+          "name": "Flat Green",
+          "price": "",
+          "sku": "70.968",
+          "color": "#485c41"
+        },
+        {
+          "name": "Uniform Green",
+          "price": "",
+          "sku": "70.922",
+          "color": "#5a6a46"
+        },
+        {
+          "name": "German Uniform",
+          "price": "",
+          "sku": "70.920",
+          "color": "#51625c"
+        },
+        {
+          "name": "Luftwaffe Camouflage Green",
+          "price": "",
+          "sku": "70.823",
+          "color": "#475244"
+        },
+        {
+          "name": "Yellow Olive",
+          "price": "",
+          "sku": "70.892",
+          "color": "#4e5146"
+        },
+        {
+          "name": "Gunship Green",
+          "price": "",
+          "sku": "70.895",
+          "color": "#526257"
+        },
+        {
+          "name": "Military Green",
+          "price": "",
+          "sku": "70.975",
+          "color": "#46493e"
+        },
+        {
+          "name": "Refractive Green",
+          "price": "",
+          "sku": "70.890",
+          "color": "#555742"
+        },
+        {
+          "name": "Brown Green",
+          "price": "",
+          "sku": "70.889",
+          "color": "#514c48"
+        },
+        {
+          "name": "Olive Grey",
+          "price": "",
+          "sku": "70.888",
+          "color": "#545547"
+        },
+        {
+          "name": "US Olive Drab",
+          "price": "",
+          "sku": "70.887",
+          "color": "#5f5a47"
+        },
+        {
+          "name": "Russian Uniform WWII",
+          "price": "",
+          "sku": "70.924",
+          "color": "#67624e"
+        },
+        {
+          "name": "US Dark Green",
+          "price": "",
+          "sku": "70.893",
+          "color": "#57574d"
+        },
+        {
+          "name": "Camouflage Olive Green",
+          "price": "",
+          "sku": "70.894",
+          "color": "#525345"
+        },
+        {
+          "name": "German Camouflage Dark Green",
+          "price": "",
+          "sku": "70.979",
+          "color": "#4b4d4a"
+        },
+        {
+          "name": "Bronze Green",
+          "price": "",
+          "sku": "70.897",
+          "color": "#505251"
+        },
+        {
+          "name": "German Camouflage Extra Dark Green",
+          "price": "",
+          "sku": "70.896",
+          "color": "#494b48"
+        },
+        {
+          "name": "Black Green",
+          "price": "",
+          "sku": "70.980",
+          "color": "#3e4943"
+        },
+        {
+          "name": "Green Grey",
+          "price": "",
+          "sku": "70.886",
+          "color": "#75756b"
+        },
+        {
+          "name": "German Fieldgrey WWII",
+          "price": "",
+          "sku": "70.830",
+          "color": "#5f5f55"
+        },
+        {
+          "name": "German Camouflage Beige WWII",
+          "price": "",
+          "sku": "70.821",
+          "color": "#8e8671"
+        },
+        {
+          "name": "Stone Grey",
+          "price": "",
+          "sku": "70.884",
+          "color": "#a09883"
+        },
+        {
+          "name": "Luftwaffe Uniform WWII",
+          "price": "",
+          "sku": "70.816",
+          "color": "#4f5668"
+        },
+        {
+          "name": "Green Grey",
+          "price": "",
+          "sku": "70.971",
+          "color": "#b4b7ac"
+        },
+        {
+          "name": "Light Green Blue",
+          "price": "",
+          "sku": "70.972",
+          "color": "#779f94"
+        },
+        {
+          "name": "Light Sea Grey",
+          "price": "",
+          "sku": "70.973",
+          "color": "#a1b1b1"
+        },
+        {
+          "name": "Pastel Green",
+          "price": "",
+          "sku": "70.885",
+          "color": "#a4a792"
+        },
+        {
+          "name": "Deck Tan",
+          "price": "",
+          "sku": "70.986",
+          "color": "#b1b1a7"
+        },
+        {
+          "name": "Yellow Green",
+          "price": "",
+          "sku": "70.881",
+          "color": "#766d42"
+        },
+        {
+          "name": "Khaki Grey",
+          "price": "",
+          "sku": "70.880",
+          "color": "#856d49"
+        },
+        {
+          "name": "Green Brown",
+          "price": "",
+          "sku": "70.879",
+          "color": "#846d43"
+        },
+        {
+          "name": "Khaki",
+          "price": "",
+          "sku": "70.988",
+          "color": "#87775d"
+        },
+        {
+          "name": "Dark Yellow",
+          "price": "",
+          "sku": "70.978",
+          "color": "#94854a"
+        },
+        {
+          "name": "Japanese Uniform WWII",
+          "price": "",
+          "sku": "70.923",
+          "color": "#9e7c3c"
+        },
+        {
+          "name": "Middle Stone",
+          "price": "",
+          "sku": "70.882",
+          "color": "#937e4f"
+        },
+        {
+          "name": "Green Ochre",
+          "price": "",
+          "sku": "70.914",
+          "color": "#a88658"
+        },
+        {
+          "name": "Buff",
+          "price": "",
+          "sku": "70.976",
+          "color": "#ceb07e"
+        },
+        {
+          "name": "Yellow Ochre",
+          "price": "",
+          "sku": "70.913",
+          "color": "#c2924a"
+        },
+        {
+          "name": "Tan Yellow",
+          "price": "",
+          "sku": "70.912",
+          "color": "#c19b6e"
+        },
+        {
+          "name": "Dark Sand",
+          "price": "",
+          "sku": "70.847",
+          "color": "#d1b283"
+        },
+        {
+          "name": "Iraqui Sand",
+          "price": "",
+          "sku": "70.819",
+          "color": "#bd9f7b"
+        },
+        {
+          "name": "Desert Yellow",
+          "price": "",
+          "sku": "70.977",
+          "color": "#b58f62"
+        },
+        {
+          "name": "Gold Brown",
+          "price": "",
+          "sku": "70.877",
+          "color": "#b68644"
+        },
+        {
+          "name": "Ochre Brown",
+          "price": "",
+          "sku": "70.856",
+          "color": "#ae7727"
+        },
+        {
+          "name": "German Camouflage Orange Ochre",
+          "price": "",
+          "sku": "70.824",
+          "color": "#a27e4a"
+        },
+        {
+          "name": "Light Brown",
+          "price": "",
+          "sku": "70.929",
+          "color": "#ac724a"
+        },
+        {
+          "name": "Amaranth Red",
+          "price": "",
+          "sku": "70.829",
+          "color": "#bd533b"
+        },
+        {
+          "name": "Brown Sand",
+          "price": "",
+          "sku": "70.876",
+          "color": "#a0785f"
+        },
+        {
+          "name": "Cork Brown",
+          "price": "",
+          "sku": "70.843",
+          "color": "#a7785a"
+        },
+        {
+          "name": "Tan Earth",
+          "price": "",
+          "sku": "70.874",
+          "color": "#92745a"
+        },
+        {
+          "name": "Beige Brown",
+          "price": "",
+          "sku": "70.875",
+          "color": "#937962"
+        },
+        {
+          "name": "Red Leather",
+          "price": "",
+          "sku": "70.818",
+          "color": "#8e5840"
+        },
+        {
+          "name": "Saddle Brown",
+          "price": "",
+          "sku": "70.940",
+          "color": "#75544b"
+        },
+        {
+          "name": "Mahogany Brown",
+          "price": "",
+          "sku": "70.846",
+          "color": "#74534a"
+        },
+        {
+          "name": "Flat Brown",
+          "price": "",
+          "sku": "70.984",
+          "color": "#5e483b"
+        },
+        {
+          "name": "English Uniform",
+          "price": "",
+          "sku": "70.921",
+          "color": "#715e40"
+        },
+        {
+          "name": "US Field Drab",
+          "price": "",
+          "sku": "70.873",
+          "color": "#7b674e"
+        },
+        {
+          "name": "Flat Earth",
+          "price": "",
+          "sku": "70.983",
+          "color": "#765742"
+        },
+        {
+          "name": "German Camouflage Pale Brown",
+          "price": "",
+          "sku": "70.825",
+          "color": "#7d6857"
+        },
+        {
+          "name": "German Camouflage Med. Brown",
+          "price": "",
+          "sku": "70.826",
+          "color": "#625141"
+        },
+        {
+          "name": "Hull Red",
+          "price": "",
+          "sku": "70.985",
+          "color": "#502820"
+        },
+        {
+          "name": "Leather Brown",
+          "price": "",
+          "sku": "70.871",
+          "color": "#5c4f46"
+        },
+        {
+          "name": "Burnt Umber",
+          "price": "",
+          "sku": "70.941",
+          "color": "#5a5046"
+        },
+        {
+          "name": "Chocolate Brown",
+          "price": "",
+          "sku": "70.872",
+          "color": "#564c40"
+        },
+        {
+          "name": "German Camouflage Black Brown",
+          "price": "",
+          "sku": "70.822",
+          "color": "#484242"
+        },
+        {
+          "name": "White Grey",
+          "price": "",
+          "sku": "70.993",
+          "color": "#eef0ef"
+        },
+        {
+          "name": "Silver Grey",
+          "price": "",
+          "sku": "70.883",
+          "color": "#cac6ba"
+        },
+        {
+          "name": "Pale Grey Blue",
+          "price": "",
+          "sku": "70.907",
+          "color": "#a5b4bb"
+        },
+        {
+          "name": "Sky Grey",
+          "price": "",
+          "sku": "70.989",
+          "color": "#a5a6a8"
+        },
+        {
+          "name": "Light Grey",
+          "price": "",
+          "sku": "70.990",
+          "color": "#8f939e"
+        },
+        {
+          "name": "Blue Grey Pale",
+          "price": "",
+          "sku": "70.905",
+          "color": "#818a93"
+        },
+        {
+          "name": "Dark Blue Grey",
+          "price": "",
+          "sku": "70.904",
+          "color": "#6d8589"
+        },
+        {
+          "name": "Medium Sea Grey",
+          "price": "",
+          "sku": "70.870",
+          "color": "#828385"
+        },
+        {
+          "name": "Dark Sea Grey",
+          "price": "",
+          "sku": "70.991",
+          "color": "#7a7b7d"
+        },
+        {
+          "name": "Neutral Grey",
+          "price": "",
+          "sku": "70.992",
+          "color": "#69707a"
+        },
+        {
+          "name": "London Grey",
+          "price": "",
+          "sku": "70.836",
+          "color": "#626973"
+        },
+        {
+          "name": "Basalt Grey",
+          "price": "",
+          "sku": "70.869",
+          "color": "#64696f"
+        },
+        {
+          "name": "Dark Sea Green",
+          "price": "",
+          "sku": "70.868",
+          "color": "#535762"
+        },
+        {
+          "name": "Dark Blue Grey",
+          "price": "",
+          "sku": "70.867",
+          "color": "#48544a"
+        },
+        {
+          "name": "Grey Green",
+          "price": "",
+          "sku": "70.866",
+          "color": "#5a5b5d"
+        },
+        {
+          "name": "Dark Grey",
+          "price": "",
+          "sku": "70.994",
+          "color": "#4d5258"
+        },
+        {
+          "name": "German Grey",
+          "price": "",
+          "sku": "70.995",
+          "color": "#46464e"
+        },
+        {
+          "name": "Black Grey",
+          "price": "",
+          "sku": "70.862",
+          "color": "#48494b"
+        },
+        {
+          "name": "Black",
+          "price": "",
+          "sku": "70.950",
+          "color": "#010101"
+        },
+        {
+          "name": "Glossy Black",
+          "price": "",
+          "sku": "70.861",
+          "color": "#151515"
+        },
+        {
+          "name": "Silver",
+          "price": "",
+          "sku": "70.997",
+          "color": "#cdd6d3"
+        },
+        {
+          "name": "Gold",
+          "price": "",
+          "sku": "70.996",
+          "color": "#ceaf52"
+        },
+        {
+          "name": "Old Gold",
+          "price": "",
+          "sku": "70.878",
+          "color": "#9c8448"
+        },
+        {
+          "name": "Brass",
+          "price": "",
+          "sku": "70.801",
+          "color": "#976f31"
+        },
+        {
+          "name": "Bronze",
+          "price": "",
+          "sku": "70.998",
+          "color": "#766b35"
+        },
+        {
+          "name": "Copper",
+          "price": "",
+          "sku": "70.999",
+          "color": "#9a5b3a"
+        },
+        {
+          "name": "Oily Steel",
+          "price": "",
+          "sku": "70.865",
+          "color": "#737476"
+        },
+        {
+          "name": "Natural Steel",
+          "price": "",
+          "sku": "70.864",
+          "color": "#898a82"
+        },
+        {
+          "name": "Gunmetal Grey",
+          "price": "",
+          "sku": "70.863",
+          "color": "#646760"
+        },
+        {
+          "name": "Gunmetal Blue",
+          "price": "",
+          "sku": "70.800",
+          "color": "#2f4a5d"
+        },
+        {
+          "name": "Smoke",
+          "price": "",
+          "sku": "70.939",
+          "color": "#46413b"
+        },
+        {
+          "name": "Wood Grain",
+          "price": "",
+          "sku": "70.828",
+          "color": "#4b3d34"
+        },
+        {
+          "name": "Natural Wood Grain",
+          "price": "",
+          "sku": "70.834",
+          "color": "#eaa432"
+        },
+        {
+          "name": "Transparent Yellow",
+          "price": "",
+          "sku": "70.937",
+          "color": "#f7a501"
+        },
+        {
+          "name": "Transparent Orange",
+          "price": "",
+          "sku": "70.935",
+          "color": "#ea651a"
+        },
+        {
+          "name": "Transparent Red",
+          "price": "",
+          "sku": "70.934",
+          "color": "#b62336"
+        },
+        {
+          "name": "Transparent Blue",
+          "price": "",
+          "sku": "70.938",
+          "color": "#323d5d"
+        },
+        {
+          "name": "Transparent Green",
+          "price": "",
+          "sku": "70.936",
+          "color": "#007943"
+        },
+        {
+          "name": "White Glaze",
+          "price": "",
+          "sku": "70.853",
+          "color": "#f4f4f6"
+        },
+        {
+          "name": "Verdigris Glaze",
+          "price": "",
+          "sku": "70.832",
+          "color": "#99d0ca"
+        },
+        {
+          "name": "Tan Glaze",
+          "price": "",
+          "sku": "70.831",
+          "color": "#d59335"
+        },
+        {
+          "name": "Brown Glaze",
+          "price": "",
+          "sku": "70.854",
+          "color": "#4e403d"
+        },
+        {
+          "name": "Black Glaze",
+          "price": "",
+          "sku": "70.855",
+          "color": "#383838"
+        },
+        {
+          "name": "Yellow Fluorescent",
+          "price": "",
+          "sku": "70.730",
+          "color": "#efe641"
+        },
+        {
+          "name": "Orange Fluorescent",
+          "price": "",
+          "sku": "70.733",
+          "color": "#e86016"
+        },
+        {
+          "name": "Magenta Fluorescent",
+          "price": "",
+          "sku": "70.735",
+          "color": "#e6418d"
+        },
+        {
+          "name": "Blue Fluorescent",
+          "price": "",
+          "sku": "70.736",
+          "color": "#0370b1"
+        },
+        {
+          "name": "Green Fluorescent",
+          "price": "",
+          "sku": "70.737",
+          "color": "#a8c958"
+        },
+        {
+          "name": "Medium Grey",
+          "price": "",
+          "sku": "70.987",
+          "color": "#989a84"
+        },
+        {
+          "name": "Orange Brown",
+          "price": "",
+          "sku": "70.981",
+          "color": "#ba6c3b"
+        },
+        {
+          "name": "Cavalry Brown",
+          "price": "",
+          "sku": "70.982",
+          "color": "#843530"
+        }
+      ]
+    },
+    {
+      "name": "Model Air",
+      "paints": [
+        {
+          "name": "White",
+          "price": "",
+          "sku": "71.001",
+          "color": "#f9f9f7"
+        },
+        {
+          "name": "Medium Yellow",
+          "price": "",
+          "sku": "71.002",
+          "color": "#f9b202"
+        },
+        {
+          "name": "Red RLM23",
+          "price": "",
+          "sku": "71.003",
+          "color": "#c71f1c"
+        },
+        {
+          "name": "Blue",
+          "price": "",
+          "sku": "71.004",
+          "color": "#2a4163"
+        },
+        {
+          "name": "Grey Blue",
+          "price": "",
+          "sku": "71.005",
+          "color": "#424854"
+        },
+        {
+          "name": "Light Green Chromate",
+          "price": "",
+          "sku": "71.006",
+          "color": "#5f6644"
+        },
+        {
+          "name": "Olive Green",
+          "price": "",
+          "sku": "71.007",
+          "color": "#343a38"
+        },
+        {
+          "name": "Pale Blue",
+          "price": "",
+          "sku": "71.008",
+          "color": "#759496"
+        },
+        {
+          "name": "Eau de Nil \u201cDuck Egg Green\u201d",
+          "price": "",
+          "sku": "71.009",
+          "color": "#c2c89c"
+        },
+        {
+          "name": "Interior Green",
+          "price": "",
+          "sku": "71.010",
+          "color": "#645d40"
+        },
+        {
+          "name": "Dark Green RLM83",
+          "price": "",
+          "sku": "71.011",
+          "color": "#4e4e44"
+        },
+        {
+          "name": "Dark Green",
+          "price": "",
+          "sku": "71.012",
+          "color": "#5d5f54"
+        },
+        {
+          "name": "Yellow Olive",
+          "price": "",
+          "sku": "71.013",
+          "color": "#434542"
+        },
+        {
+          "name": "Gunship Green",
+          "price": "",
+          "sku": "71.014",
+          "color": "#546054"
+        },
+        {
+          "name": "Dark Green RLM71",
+          "price": "",
+          "sku": "71.015",
+          "color": "#534d3f"
+        },
+        {
+          "name": "USAF Olive Drab",
+          "price": "",
+          "sku": "71.016",
+          "color": "#635b46"
+        },
+        {
+          "name": "Russian Green 4BO",
+          "price": "",
+          "sku": "71.017",
+          "color": "#52543f"
+        },
+        {
+          "name": "Black Green",
+          "price": "",
+          "sku": "71.018",
+          "color": "#444d4c"
+        },
+        {
+          "name": "Camouflage Dark Green",
+          "price": "",
+          "sku": "71.019",
+          "color": "#4b4e47"
+        },
+        {
+          "name": "Green Brown",
+          "price": "",
+          "sku": "71.020",
+          "color": "#504b45"
+        },
+        {
+          "name": "Black Green RLM70",
+          "price": "",
+          "sku": "71.021",
+          "color": "#444645"
+        },
+        {
+          "name": "Light Green RLM82",
+          "price": "",
+          "sku": "71.022",
+          "color": "#4b4f3e"
+        },
+        {
+          "name": "Hemp",
+          "price": "",
+          "sku": "71.023",
+          "color": "#817964"
+        },
+        {
+          "name": "Khaki Brown",
+          "price": "",
+          "sku": "71.024",
+          "color": "#917957"
+        },
+        {
+          "name": "Dark Yellow",
+          "price": "",
+          "sku": "71.025",
+          "color": "#957a43"
+        },
+        {
+          "name": "US Flat Brown",
+          "price": "",
+          "sku": "71.026",
+          "color": "#8e6a48"
+        },
+        {
+          "name": "Light Brown",
+          "price": "",
+          "sku": "71.027",
+          "color": "#ae9169"
+        },
+        {
+          "name": "Sand Yellow",
+          "price": "",
+          "sku": "71.028",
+          "color": "#a48d6e"
+        },
+        {
+          "name": "Dark Earth",
+          "price": "",
+          "sku": "71.029",
+          "color": "#5e5544"
+        },
+        {
+          "name": "Brown Green",
+          "price": "",
+          "sku": "71.030",
+          "color": "#906f4c"
+        },
+        {
+          "name": "Middle Stone",
+          "price": "",
+          "sku": "71.031",
+          "color": "#997c50"
+        },
+        {
+          "name": "Golden Brown",
+          "price": "",
+          "sku": "71.032",
+          "color": "#876341"
+        },
+        {
+          "name": "Yellow Ochre",
+          "price": "",
+          "sku": "71.033",
+          "color": "#d8932e"
+        },
+        {
+          "name": "Sand Brown",
+          "price": "",
+          "sku": "71.034",
+          "color": "#946b4f"
+        },
+        {
+          "name": "Camouflage Pale Brown",
+          "price": "",
+          "sku": "71.035",
+          "color": "#796453"
+        },
+        {
+          "name": "Mahogany",
+          "price": "",
+          "sku": "71.036",
+          "color": "#4a3b36"
+        },
+        {
+          "name": "Mud Brown",
+          "price": "",
+          "sku": "71.037",
+          "color": "#8c6548"
+        },
+        {
+          "name": "Camouflage Medium Brown",
+          "price": "",
+          "sku": "71.038",
+          "color": "#5f4e3e"
+        },
+        {
+          "name": "Hull Red",
+          "price": "",
+          "sku": "71.039",
+          "color": "#483d37"
+        },
+        {
+          "name": "Burnt Umber",
+          "price": "",
+          "sku": "71.040",
+          "color": "#483e34"
+        },
+        {
+          "name": "Armour Brown",
+          "price": "",
+          "sku": "71.041",
+          "color": "#4f4140"
+        },
+        {
+          "name": "Dark Brown RLM61",
+          "price": "",
+          "sku": "71.042",
+          "color": "#484745"
+        },
+        {
+          "name": "US Olive Drab",
+          "price": "",
+          "sku": "71.043",
+          "color": "#594f43"
+        },
+        {
+          "name": "Grey RLM02",
+          "price": "",
+          "sku": "71.044",
+          "color": "#7a7c67"
+        },
+        {
+          "name": "Cement Grey",
+          "price": "",
+          "sku": "71.045",
+          "color": "#919489"
+        },
+        {
+          "name": "Pale Blue Grey",
+          "price": "",
+          "sku": "71.046",
+          "color": "#969da3"
+        },
+        {
+          "name": "Grey",
+          "price": "",
+          "sku": "71.047",
+          "color": "#555c66"
+        },
+        {
+          "name": "Engine Gray",
+          "price": "",
+          "sku": "71.048",
+          "color": "#555a60"
+        },
+        {
+          "name": "Sea Grey",
+          "price": "",
+          "sku": "71.049",
+          "color": "#63686c"
+        },
+        {
+          "name": "Light Gray",
+          "price": "",
+          "sku": "71.050",
+          "color": "#8c909b"
+        },
+        {
+          "name": "Neutral Gray",
+          "price": "",
+          "sku": "71.051",
+          "color": "#70777d"
+        },
+        {
+          "name": "Anthracite Grey",
+          "price": "",
+          "sku": "71.052",
+          "color": "#4e4f54"
+        },
+        {
+          "name": "Dark Sea Gray",
+          "price": "",
+          "sku": "71.053",
+          "color": "#4c535d"
+        },
+        {
+          "name": "Dark Grey Blue",
+          "price": "",
+          "sku": "71.054",
+          "color": "#484d51"
+        },
+        {
+          "name": "Black Grey RLM66",
+          "price": "",
+          "sku": "71.055",
+          "color": "#505153"
+        },
+        {
+          "name": "Panzer Dark Gray",
+          "price": "",
+          "sku": "71.056",
+          "color": "#434544"
+        },
+        {
+          "name": "Black",
+          "price": "",
+          "sku": "71.057",
+          "color": "#2d2e30"
+        },
+        {
+          "name": "Aluminum (Metallic)",
+          "price": "",
+          "sku": "71.062",
+          "color": "#acacb4"
+        },
+        {
+          "name": "Silver RLM01 (Metallic)",
+          "price": "",
+          "sku": "71.063",
+          "color": "#adadb9"
+        },
+        {
+          "name": "Chrome (Metallic)",
+          "price": "",
+          "sku": "71.064",
+          "color": "#a8a8b0"
+        },
+        {
+          "name": "Steel (Metallic)",
+          "price": "",
+          "sku": "71.065",
+          "color": "#bbbbc7"
+        },
+        {
+          "name": "Gold (Metallic)",
+          "price": "",
+          "sku": "71.066",
+          "color": "#9e8155"
+        },
+        {
+          "name": "Bright Brass (Metallic)",
+          "price": "",
+          "sku": "71.067",
+          "color": "#9f8f5b"
+        },
+        {
+          "name": "Copper (Metallic)",
+          "price": "",
+          "sku": "71.068",
+          "color": "#8c5c48"
+        },
+        {
+          "name": "Rust (Metallic)",
+          "price": "",
+          "sku": "71.069",
+          "color": "#755443"
+        },
+        {
+          "name": "Signal Red (Metallic)",
+          "price": "",
+          "sku": "71.070",
+          "color": "#cb5970"
+        },
+        {
+          "name": "Arctic Blue (Metallic)",
+          "price": "",
+          "sku": "71.071",
+          "color": "#373c4f"
+        },
+        {
+          "name": "Gunmetal (Metallic)",
+          "price": "",
+          "sku": "71.072",
+          "color": "#7a7b80"
+        },
+        {
+          "name": "Black (Metallic)",
+          "price": "",
+          "sku": "71.073",
+          "color": "#625e6c"
+        },
+        {
+          "name": "Beige",
+          "price": "",
+          "sku": "71.074",
+          "color": "#e3c182"
+        },
+        {
+          "name": "Ivory",
+          "price": "",
+          "sku": "71.075",
+          "color": "#c1af87"
+        },
+        {
+          "name": "Skin Tone",
+          "price": "",
+          "sku": "71.076",
+          "color": "#f8c492"
+        },
+        {
+          "name": "Wood",
+          "price": "",
+          "sku": "71.077",
+          "color": "#ab743b"
+        },
+        {
+          "name": "Yellow RLM04",
+          "price": "",
+          "sku": "71.078",
+          "color": "#e7a221"
+        },
+        {
+          "name": "Tan Earth",
+          "price": "",
+          "sku": "71.079",
+          "color": "#a68167"
+        },
+        {
+          "name": "Rust",
+          "price": "",
+          "sku": "71.080",
+          "color": "#75544b"
+        },
+        {
+          "name": "Ochre",
+          "price": "",
+          "sku": "71.081",
+          "color": "#77693a"
+        },
+        {
+          "name": "Fluorescent Red",
+          "price": "",
+          "sku": "71.082",
+          "color": "#ea624c"
+        },
+        {
+          "name": "Orange",
+          "price": "",
+          "sku": "71.083",
+          "color": "#e14c24"
+        },
+        {
+          "name": "Fire Red",
+          "price": "",
+          "sku": "71.084",
+          "color": "#863e30"
+        },
+        {
+          "name": "Ferrari Red",
+          "price": "",
+          "sku": "71.085",
+          "color": "#af3530"
+        },
+        {
+          "name": "Light Red",
+          "price": "",
+          "sku": "71.086",
+          "color": "#e04622"
+        },
+        {
+          "name": "Steel Blue",
+          "price": "",
+          "sku": "71.087",
+          "color": "#195770"
+        },
+        {
+          "name": "French Blue",
+          "price": "",
+          "sku": "71.088",
+          "color": "#1f4e7a"
+        },
+        {
+          "name": "Light Sea Blue",
+          "price": "",
+          "sku": "71.089",
+          "color": "#02a4d5"
+        },
+        {
+          "name": "Deep Sky",
+          "price": "",
+          "sku": "71.090",
+          "color": "#35415b"
+        },
+        {
+          "name": "Signal Blue",
+          "price": "",
+          "sku": "71.091",
+          "color": "#38373f"
+        },
+        {
+          "name": "Medium Olive",
+          "price": "",
+          "sku": "71.092",
+          "color": "#505443"
+        },
+        {
+          "name": "NATO Green",
+          "price": "",
+          "sku": "71.093",
+          "color": "#525a4d"
+        },
+        {
+          "name": "Green Zinc Chromate",
+          "price": "",
+          "sku": "71.094",
+          "color": "#565d3b"
+        },
+        {
+          "name": "Pale Green",
+          "price": "",
+          "sku": "71.095",
+          "color": "#74855b"
+        },
+        {
+          "name": "Olive Grey",
+          "price": "",
+          "sku": "71.096",
+          "color": "#6b645c"
+        },
+        {
+          "name": "Medium Gunship Gray",
+          "price": "",
+          "sku": "71.097",
+          "color": "#5a616b"
+        },
+        {
+          "name": "Light Blue RLM78",
+          "price": "",
+          "sku": "71.101",
+          "color": "#809590"
+        },
+        {
+          "name": "Red",
+          "price": "",
+          "sku": "71.102",
+          "color": "#b22a34"
+        },
+        {
+          "name": "Green RLM62",
+          "price": "",
+          "sku": "71.104",
+          "color": "#595c47"
+        },
+        {
+          "name": "Brown RLM26",
+          "price": "",
+          "sku": "71.105",
+          "color": "#844138"
+        },
+        {
+          "name": "Ivory RLM05",
+          "price": "",
+          "sku": "71.106",
+          "color": "#c8b269"
+        },
+        {
+          "name": "US Interior Yellow",
+          "price": "",
+          "sku": "71.107",
+          "color": "#cba552"
+        },
+        {
+          "name": "UK Azure Blue",
+          "price": "",
+          "sku": "71.108",
+          "color": "#728cad"
+        },
+        {
+          "name": "Faded P.R.U. Blue",
+          "price": "",
+          "sku": "71.109",
+          "color": "#496570"
+        },
+        {
+          "name": "Dark Grey",
+          "price": "",
+          "sku": "71.110",
+          "color": "#535a64"
+        },
+        {
+          "name": "USAF Light Blue",
+          "price": "",
+          "sku": "71.111",
+          "color": "#526778"
+        },
+        {
+          "name": "Sand",
+          "price": "",
+          "sku": "71.112",
+          "color": "#9e887a"
+        },
+        {
+          "name": "IDF Blue",
+          "price": "",
+          "sku": "71.113",
+          "color": "#59758a"
+        },
+        {
+          "name": "Medium Gray",
+          "price": "",
+          "sku": "71.114",
+          "color": "#687e8b"
+        },
+        {
+          "name": "Blue Grey",
+          "price": "",
+          "sku": "71.115",
+          "color": "#454a50"
+        },
+        {
+          "name": "Camouflage Grey Green",
+          "price": "",
+          "sku": "71.116",
+          "color": "#7a694b"
+        },
+        {
+          "name": "Camouflage Brown",
+          "price": "",
+          "sku": "71.117",
+          "color": "#ae906c"
+        },
+        {
+          "name": "Camouflage Grey",
+          "price": "",
+          "sku": "71.118",
+          "color": "#867966"
+        },
+        {
+          "name": "White Grey",
+          "price": "",
+          "sku": "71.119",
+          "color": "#dad6ca"
+        },
+        {
+          "name": "Dark Ghost Gray",
+          "price": "",
+          "sku": "71.120",
+          "color": "#8a97a0"
+        },
+        {
+          "name": "Light Gull Gray",
+          "price": "",
+          "sku": "71.121",
+          "color": "#a9aaa2"
+        },
+        {
+          "name": "US Desert Armour 686",
+          "price": "",
+          "sku": "71.122",
+          "color": "#ae9b7d"
+        },
+        {
+          "name": "USAF Green",
+          "price": "",
+          "sku": "71.124",
+          "color": "#4c5b58"
+        },
+        {
+          "name": "USAF Brown",
+          "price": "",
+          "sku": "71.125",
+          "color": "#8a715b"
+        },
+        {
+          "name": "IDF/IAF Green",
+          "price": "",
+          "sku": "71.126",
+          "color": "#78866c"
+        },
+        {
+          "name": "Gray Violet",
+          "price": "",
+          "sku": "71.128",
+          "color": "#646663"
+        },
+        {
+          "name": "Light Rust",
+          "price": "",
+          "sku": "71.129",
+          "color": "#915e43"
+        },
+        {
+          "name": "Orange Rust",
+          "price": "",
+          "sku": "71.130",
+          "color": "#c76832"
+        },
+        {
+          "name": "Concrete",
+          "price": "",
+          "sku": "71.131",
+          "color": "#776d61"
+        },
+        {
+          "name": "Aged White",
+          "price": "",
+          "sku": "71.132",
+          "color": "#e3d3af"
+        },
+        {
+          "name": "Dirt",
+          "price": "",
+          "sku": "71.133",
+          "color": "#7a6240"
+        },
+        {
+          "name": "IJA Midouri Green",
+          "price": "",
+          "sku": "71.134",
+          "color": "#3e493b"
+        },
+        {
+          "name": "IJA Chrome Yellow",
+          "price": "",
+          "sku": "71.135",
+          "color": "#f4a900"
+        },
+        {
+          "name": "IJA Earth Brown",
+          "price": "",
+          "sku": "71.136",
+          "color": "#78644b"
+        },
+        {
+          "name": "US Light Green",
+          "price": "",
+          "sku": "71.137",
+          "color": "#66643e"
+        },
+        {
+          "name": "US Sand",
+          "price": "",
+          "sku": "71.138",
+          "color": "#96866d"
+        },
+        {
+          "name": "US Field Drab",
+          "price": "",
+          "sku": "71.139",
+          "color": "#695940"
+        },
+        {
+          "name": "US Desert Sand",
+          "price": "",
+          "sku": "71.140",
+          "color": "#a98e79"
+        },
+        {
+          "name": "IDF Sand Grey 73",
+          "price": "",
+          "sku": "71.141",
+          "color": "#aa9f83"
+        },
+        {
+          "name": "IDF Sinai Grey 82",
+          "price": "",
+          "sku": "71.142",
+          "color": "#7a736b"
+        },
+        {
+          "name": "Sand Beige",
+          "price": "",
+          "sku": "71.244",
+          "color": "#b5a48a"
+        },
+        {
+          "name": "Loam Beige",
+          "price": "",
+          "sku": "71.245",
+          "color": "#988864"
+        },
+        {
+          "name": "Yellow Brown",
+          "price": "",
+          "sku": "71.246",
+          "color": "#978674"
+        },
+        {
+          "name": "Light Olive",
+          "price": "",
+          "sku": "71.247",
+          "color": "#685f4e"
+        },
+        {
+          "name": "Brown Grey",
+          "price": "",
+          "sku": "71.248",
+          "color": "#62615f"
+        },
+        {
+          "name": "NATO Brown",
+          "price": "",
+          "sku": "71.249",
+          "color": "#5c4e45"
+        },
+        {
+          "name": "Bronze Green",
+          "price": "",
+          "sku": "71.250",
+          "color": "#545648"
+        },
+        {
+          "name": "NATO Black",
+          "price": "",
+          "sku": "71.251",
+          "color": "#38383a"
+        },
+        {
+          "name": "Light Blue RLM65",
+          "price": "",
+          "sku": "71.255",
+          "color": "#899d9c"
+        },
+        {
+          "name": "Green RLM73",
+          "price": "",
+          "sku": "71.256",
+          "color": "#444d4c"
+        },
+        {
+          "name": "Light Blue RLM76",
+          "price": "",
+          "sku": "71.257",
+          "color": "#96aba4"
+        },
+        {
+          "name": "Gray Green RLM74",
+          "price": "",
+          "sku": "71.258",
+          "color": "#535554"
+        },
+        {
+          "name": "Grey Violet RLM75",
+          "price": "",
+          "sku": "71.259",
+          "color": "#616362"
+        },
+        {
+          "name": "Light Grey RLM63",
+          "price": "",
+          "sku": "71.260",
+          "color": "#6b6f60"
+        },
+        {
+          "name": "Green RLM72",
+          "price": "",
+          "sku": "71.263",
+          "color": "#474948"
+        },
+        {
+          "name": "Brown Violet RLM81",
+          "price": "",
+          "sku": "71.264",
+          "color": "#635a49"
+        },
+        {
+          "name": "Olive Green RLM80",
+          "price": "",
+          "sku": "71.265",
+          "color": "#4c4f3a"
+        },
+        {
+          "name": "Dark Blue RLM24",
+          "price": "",
+          "sku": "71.266",
+          "color": "#2e4861"
+        },
+        {
+          "name": "Light Green RLM25",
+          "price": "",
+          "sku": "71.267",
+          "color": "#487868"
+        },
+        {
+          "name": "German Grey",
+          "price": "",
+          "sku": "71.268",
+          "color": "#464942"
+        },
+        {
+          "name": "Red",
+          "price": "",
+          "sku": "71.269",
+          "color": "#9f3d34"
+        },
+        {
+          "name": "Off-White",
+          "price": "",
+          "sku": "71.270",
+          "color": "#e8d8be"
+        },
+        {
+          "name": "German Red Brown",
+          "price": "",
+          "sku": "71.271",
+          "color": "#674239"
+        },
+        {
+          "name": "German Yellow Brown",
+          "price": "",
+          "sku": "71.272",
+          "color": "#846e49"
+        },
+        {
+          "name": "Ocean Gray",
+          "price": "",
+          "sku": "71.273",
+          "color": "#6d767f"
+        },
+        {
+          "name": "Aggressor Gray",
+          "price": "",
+          "sku": "71.274",
+          "color": "#7b7c7e"
+        },
+        {
+          "name": "USAF Medium Gray",
+          "price": "",
+          "sku": "71.275",
+          "color": "#828385"
+        },
+        {
+          "name": "USAF Light Gray",
+          "price": "",
+          "sku": "71.276",
+          "color": "#c3c5c2"
+        },
+        {
+          "name": "Dark Gull Gray",
+          "price": "",
+          "sku": "71.277",
+          "color": "#828385"
+        },
+        {
+          "name": "Sand Yellow RLM79",
+          "price": "",
+          "sku": "71.278",
+          "color": "#97744e"
+        },
+        {
+          "name": "Insignia White",
+          "price": "",
+          "sku": "71.279",
+          "color": "#e3e3d9"
+        },
+        {
+          "name": "Camouflage Gray",
+          "price": "",
+          "sku": "71.280",
+          "color": "#6a6c69"
+        },
+        {
+          "name": "3B Russian Green",
+          "price": "",
+          "sku": "71.281",
+          "color": "#474946"
+        },
+        {
+          "name": "6K Russian Brown",
+          "price": "",
+          "sku": "71.282",
+          "color": "#4d4c4a"
+        },
+        {
+          "name": "7K Russian Tan",
+          "price": "",
+          "sku": "71.283",
+          "color": "#787157"
+        },
+        {
+          "name": "UK Light Mud",
+          "price": "",
+          "sku": "71.284",
+          "color": "#86816e"
+        },
+        {
+          "name": "IJA Dark Green",
+          "price": "",
+          "sku": "71.285",
+          "color": "#52543f"
+        },
+        {
+          "name": "IJA Olive Green",
+          "price": "",
+          "sku": "71.286",
+          "color": "#534d3f"
+        },
+        {
+          "name": "IJA Khaki Brown",
+          "price": "",
+          "sku": "71.287",
+          "color": "#695940"
+        },
+        {
+          "name": "Uk BSC 64 Portland Stone",
+          "price": "",
+          "sku": "71.288",
+          "color": "#ccbd94"
+        },
+        {
+          "name": "US Dark Green",
+          "price": "",
+          "sku": "71.289",
+          "color": "#575944"
+        },
+        {
+          "name": "US Earth Brown",
+          "price": "",
+          "sku": "71.290",
+          "color": "#65594d"
+        },
+        {
+          "name": "US Earth Yellow",
+          "price": "",
+          "sku": "71.291",
+          "color": "#ba915d"
+        },
+        {
+          "name": "US Loam",
+          "price": "",
+          "sku": "71.292",
+          "color": "#565751"
+        },
+        {
+          "name": "US Earth Red",
+          "price": "",
+          "sku": "71.293",
+          "color": "#7b604d"
+        },
+        {
+          "name": "US Forest Green",
+          "price": "",
+          "sku": "71.294",
+          "color": "#54544a"
+        },
+        {
+          "name": "USN Sea Blue",
+          "price": "",
+          "sku": "71.295",
+          "color": "#43484c"
+        },
+        {
+          "name": "USAAF Light Gray",
+          "price": "",
+          "sku": "71.296",
+          "color": "#bcbcb2"
+        },
+        {
+          "name": "JGSD Brown 3606",
+          "price": "",
+          "sku": "71.297",
+          "color": "#70665c"
+        },
+        {
+          "name": "M495 Light Gray",
+          "price": "",
+          "sku": "71.298",
+          "color": "#9c998a"
+        },
+        {
+          "name": "Intermediate Blue",
+          "price": "",
+          "sku": "71.299",
+          "color": "#5e707e"
+        },
+        {
+          "name": "Glossy Sea Blue",
+          "price": "",
+          "sku": "71.300",
+          "color": "#232c35"
+        },
+        {
+          "name": "AMT-4 Camouflage Green",
+          "price": "",
+          "sku": "71.301",
+          "color": "#645d40"
+        },
+        {
+          "name": "Sky Type S",
+          "price": "",
+          "sku": "71.302",
+          "color": "#a2a48c"
+        },
+        {
+          "name": "A-24M Camouflage Green",
+          "price": "",
+          "sku": "71.303",
+          "color": "#575944"
+        },
+        {
+          "name": "AMT-11 Blue Grey",
+          "price": "",
+          "sku": "71.304",
+          "color": "#5a616b"
+        },
+        {
+          "name": "Interior Grey Green",
+          "price": "",
+          "sku": "71.305",
+          "color": "#96a28a"
+        },
+        {
+          "name": "Sky Blue",
+          "price": "",
+          "sku": "71.306",
+          "color": "#c2d6d7"
+        },
+        {
+          "name": "BS Medium Sea Grey",
+          "price": "",
+          "sku": "71.307",
+          "color": "#7f898b"
+        },
+        {
+          "name": "AMT-12 Dark Grey",
+          "price": "",
+          "sku": "71.308",
+          "color": "#43484c"
+        },
+        {
+          "name": "Dark Slate Grey",
+          "price": "",
+          "sku": "71.309",
+          "color": "#5d5f54"
+        },
+        {
+          "name": "IJN Deep Dark Green",
+          "price": "",
+          "sku": "71.310",
+          "color": "#34514d"
+        },
+        {
+          "name": "IJN Ash Grey",
+          "price": "",
+          "sku": "71.311",
+          "color": "#89816c"
+        },
+        {
+          "name": "IJN Medium Grey",
+          "price": "",
+          "sku": "71.312",
+          "color": "#b8b1a9"
+        },
+        {
+          "name": "Dark Mediterranean Blue",
+          "price": "",
+          "sku": "71.313",
+          "color": "#1f3751"
+        },
+        {
+          "name": "Seaplane Gray",
+          "price": "",
+          "sku": "71.314",
+          "color": "#555756"
+        },
+        {
+          "name": "Tire Black",
+          "price": "",
+          "sku": "71.315",
+          "color": "#505153"
+        },
+        {
+          "name": "Num. 41 Dark Olive Drab",
+          "price": "",
+          "sku": "71.316",
+          "color": "#534d3f"
+        },
+        {
+          "name": "AII SV. Gol Light Blue",
+          "price": "",
+          "sku": "71.317",
+          "color": "#7cc5d6"
+        },
+        {
+          "name": "AMT-7 Greyish Blue",
+          "price": "",
+          "sku": "71.318",
+          "color": "#618c9f"
+        },
+        {
+          "name": "A-28M Greyish Blue",
+          "price": "",
+          "sku": "71.319",
+          "color": "#719f92"
+        },
+        {
+          "name": "AMT-1 Light Grey Brown",
+          "price": "",
+          "sku": "71.320",
+          "color": "#958b81"
+        },
+        {
+          "name": "IJA Light Grey Green",
+          "price": "",
+          "sku": "71.321",
+          "color": "#a5aa93"
+        },
+        {
+          "name": "IJN Black Green",
+          "price": "",
+          "sku": "71.322",
+          "color": "#3e493b"
+        },
+        {
+          "name": "BS Dark Earth",
+          "price": "",
+          "sku": "71.323",
+          "color": "#6c5b41"
+        },
+        {
+          "name": "BS Dark Green",
+          "price": "",
+          "sku": "71.324",
+          "color": "#444631"
+        },
+        {
+          "name": "IJN Dark Black Green",
+          "price": "",
+          "sku": "71.325",
+          "color": "#434542"
+        },
+        {
+          "name": "IJA Grey Green",
+          "price": "",
+          "sku": "71.326",
+          "color": "#bbb39e"
+        },
+        {
+          "name": "IAF Sand",
+          "price": "",
+          "sku": "71.327",
+          "color": "#c4b29a"
+        },
+        {
+          "name": "Light Blue",
+          "price": "",
+          "sku": "71.328",
+          "color": "#c6c9be"
+        },
+        {
+          "name": "Green",
+          "price": "",
+          "sku": "71.329",
+          "color": "#717469"
+        },
+        {
+          "name": "Khaki Green Num.3",
+          "price": "",
+          "sku": "71.330",
+          "color": "#615e4b"
+        },
+        {
+          "name": "Cockpit Emerald Green \u201cFaded\u201d",
+          "price": "",
+          "sku": "71.331",
+          "color": "#448678"
+        },
+        {
+          "name": "Underside Blue \u201cFaded\u201d",
+          "price": "",
+          "sku": "71.332",
+          "color": "#c4d4d1"
+        },
+        {
+          "name": "Russian AF Blue",
+          "price": "",
+          "sku": "71.333",
+          "color": "#008eb4"
+        },
+        {
+          "name": "Flanker Light Blue",
+          "price": "",
+          "sku": "71.334",
+          "color": "#b1c5c6"
+        },
+        {
+          "name": "Flanker Light Gray",
+          "price": "",
+          "sku": "71.335",
+          "color": "#9ca6a5"
+        },
+        {
+          "name": "A-14 Steel Grey",
+          "price": "",
+          "sku": "71.336",
+          "color": "#687271"
+        },
+        {
+          "name": "Flanker Blue",
+          "price": "",
+          "sku": "71.337",
+          "color": "#91aeb4"
+        },
+        {
+          "name": "Russian AF Grey Blue",
+          "price": "",
+          "sku": "71.338",
+          "color": "#a2acab"
+        },
+        {
+          "name": "Russian AF Grey N.3",
+          "price": "",
+          "sku": "71.339",
+          "color": "#858e8d"
+        },
+        {
+          "name": "Grey Green",
+          "price": "",
+          "sku": "71.340",
+          "color": "#787e7a"
+        },
+        {
+          "name": "Green Grey",
+          "price": "",
+          "sku": "71.341",
+          "color": "#586355"
+        },
+        {
+          "name": "Russian AF Light Blue",
+          "price": "",
+          "sku": "71.342",
+          "color": "#aac9c4"
+        },
+        {
+          "name": "Russian AF Grey N.7",
+          "price": "",
+          "sku": "71.343",
+          "color": "#739cb0"
+        },
+        {
+          "name": "Russian AF Grey Protective Coat",
+          "price": "",
+          "sku": "71.344",
+          "color": "#b1ccd7"
+        },
+        {
+          "name": "Russian AF Grey N.8",
+          "price": "",
+          "sku": "71.345",
+          "color": "#a1b5be"
+        },
+        {
+          "name": "Russian AF Grey N.4",
+          "price": "",
+          "sku": "71.346",
+          "color": "#aaa794"
+        },
+        {
+          "name": "Russian AF Dark Green",
+          "price": "",
+          "sku": "71.347",
+          "color": "#4b4835"
+        },
+        {
+          "name": "USAF Tan",
+          "price": "",
+          "sku": "71.348",
+          "color": "#be9869"
+        },
+        {
+          "name": "Gray Blue RLM84",
+          "price": "",
+          "sku": "71.103",
+          "color": "#a2a499"
+        },
+        {
+          "name": "Dark Gray RLM42",
+          "price": "",
+          "sku": "71.123",
+          "color": "#515352"
+        },
+        {
+          "name": "UK Light Stone",
+          "price": "",
+          "sku": "71.143",
+          "color": "#b49a69"
+        }
+      ]
+    },
+    {
+      "name": "Liquid Gold",
+      "paints": [
+        {
+          "name": "Silver",
+          "price": "",
+          "sku": "70.790",
+          "color": "#f8f8fa"
+        },
+        {
+          "name": "Gold",
+          "price": "",
+          "sku": "70.791",
+          "color": "#f3efec"
+        },
+        {
+          "name": "Old Gold",
+          "price": "",
+          "sku": "70.792",
+          "color": "#fbf9fa"
+        },
+        {
+          "name": "Rich Gold",
+          "price": "",
+          "sku": "70.793",
+          "color": "#f2e9db"
+        },
+        {
+          "name": "Red Gold",
+          "price": "",
+          "sku": "70.794",
+          "color": "#f7ecdc"
+        },
+        {
+          "name": "Green Gold",
+          "price": "",
+          "sku": "70.795",
+          "color": "#ebe5d8"
+        },
+        {
+          "name": "White Gold",
+          "price": "",
+          "sku": "70.796",
+          "color": "#fafafa"
+        },
+        {
+          "name": "Copper",
+          "price": "",
+          "sku": "70.797",
+          "color": "#fcf3f4"
+        }
+      ]
+    },
+    {
+      "name": "Metal Color",
+      "paints": [
+        {
+          "name": "Aluminum",
+          "price": "",
+          "sku": "77.701",
+          "color": "#f1f1f3"
+        },
+        {
+          "name": "Duraluminum",
+          "price": "",
+          "sku": "77.702",
+          "color": "#f9f9f9"
+        },
+        {
+          "name": "Dark Aluminum",
+          "price": "",
+          "sku": "77.703",
+          "color": "#eceaeb"
+        },
+        {
+          "name": "Pale Burnt Metal",
+          "price": "",
+          "sku": "77.704",
+          "color": "#fafafa"
+        },
+        {
+          "name": "White Aluminum",
+          "price": "",
+          "sku": "77.706",
+          "color": "#f5f5f7"
+        },
+        {
+          "name": "Chrome",
+          "price": "",
+          "sku": "77.707",
+          "color": "#fafafa"
+        },
+        {
+          "name": "Copper",
+          "price": "",
+          "sku": "77.710",
+          "color": "#faf8f9"
+        },
+        {
+          "name": "Magnesium",
+          "price": "",
+          "sku": "77.711",
+          "color": "#e8e6e7"
+        },
+        {
+          "name": "Steel",
+          "price": "",
+          "sku": "77.712",
+          "color": "#e7e5e6"
+        },
+        {
+          "name": "Jet Exhaust",
+          "price": "",
+          "sku": "77.713",
+          "color": "#eeeced"
+        },
+        {
+          "name": "Semi Matt Aluminum",
+          "price": "",
+          "sku": "77.716",
+          "color": "#f5f5f7"
+        },
+        {
+          "name": "Dull Aluminum",
+          "price": "",
+          "sku": "77.717",
+          "color": "#fbfbfb"
+        },
+        {
+          "name": "Gunmetal grey",
+          "price": "",
+          "sku": "77.720",
+          "color": "#e1dfe0"
+        },
+        {
+          "name": "Burnt Iron",
+          "price": "",
+          "sku": "77.721",
+          "color": "#eeeced"
+        },
+        {
+          "name": "Exhaust Manifold",
+          "price": "",
+          "sku": "77.723",
+          "color": "#f0eeef"
+        },
+        {
+          "name": "Silver",
+          "price": "",
+          "sku": "77.724",
+          "color": "#f9f9f9"
+        },
+        {
+          "name": "Gold",
+          "price": "",
+          "sku": "77.725",
+          "color": "#faf9f7"
+        },
+        {
+          "name": "Gloss Metal Varnish",
+          "price": "",
+          "sku": "77.657",
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "name": "Panzer Aces",
+      "paints": [
+        {
+          "name": "Light Rust",
+          "price": "",
+          "sku": "70.301",
+          "color": "#87431e"
+        },
+        {
+          "name": "Dark Rust",
+          "price": "",
+          "sku": "70.302",
+          "color": "#4f4442"
+        },
+        {
+          "name": "Yellowish Rust",
+          "price": "",
+          "sku": "70.303",
+          "color": "#be8b5c"
+        },
+        {
+          "name": "Track Primer",
+          "price": "",
+          "sku": "70.304",
+          "color": "#5b5652"
+        },
+        {
+          "name": "Light Rubber",
+          "price": "",
+          "sku": "70.305",
+          "color": "#838381"
+        },
+        {
+          "name": "Dark Rubber",
+          "price": "",
+          "sku": "70.306",
+          "color": "#505153"
+        },
+        {
+          "name": "German Red Tail Light",
+          "price": "",
+          "sku": "70.307",
+          "color": "#4e3227"
+        },
+        {
+          "name": "German Green Tail Light",
+          "price": "",
+          "sku": "70.308",
+          "color": "#395046"
+        },
+        {
+          "name": "Periscopes",
+          "price": "",
+          "sku": "70.309",
+          "color": "#3b4d5b"
+        },
+        {
+          "name": "Old Wood",
+          "price": "",
+          "sku": "70.310",
+          "color": "#ad9c70"
+        },
+        {
+          "name": "New Wood",
+          "price": "",
+          "sku": "70.311",
+          "color": "#896545"
+        },
+        {
+          "name": "Leather Belt",
+          "price": "",
+          "sku": "70.312",
+          "color": "#665249"
+        },
+        {
+          "name": "Stencil",
+          "price": "",
+          "sku": "70.313",
+          "color": "#e0e0d8"
+        },
+        {
+          "name": "Canvas",
+          "price": "",
+          "sku": "70.314",
+          "color": "#6e6554"
+        },
+        {
+          "name": "Light Mud",
+          "price": "",
+          "sku": "70.315",
+          "color": "#aca378"
+        },
+        {
+          "name": "Dark Mud",
+          "price": "",
+          "sku": "70.316",
+          "color": "#685f4e"
+        },
+        {
+          "name": "British Tank Crew",
+          "price": "",
+          "sku": "70.317",
+          "color": "#756e54"
+        },
+        {
+          "name": "US Army Tank Crew",
+          "price": "",
+          "sku": "70.318",
+          "color": "#79684e"
+        },
+        {
+          "name": "USMC Tank Crew",
+          "price": "",
+          "sku": "70.319",
+          "color": "#1d573e"
+        },
+        {
+          "name": "French Tank Crew",
+          "price": "",
+          "sku": "70.320",
+          "color": "#756e54"
+        },
+        {
+          "name": "British Tank Crew Highlights",
+          "price": "",
+          "sku": "70.321",
+          "color": "#eac284"
+        },
+        {
+          "name": "US Tank Crew Highlights",
+          "price": "",
+          "sku": "70.322",
+          "color": "#aa9a81"
+        },
+        {
+          "name": "USMC Tank Crew Highlights",
+          "price": "",
+          "sku": "70.323",
+          "color": "#a3b3a6"
+        },
+        {
+          "name": "French Tank Crew Highlights",
+          "price": "",
+          "sku": "70.324",
+          "color": "#897a75"
+        },
+        {
+          "name": "Russian Tank Crew I",
+          "price": "",
+          "sku": "70.325",
+          "color": "#4b5d6b"
+        },
+        {
+          "name": "Russian Tank Crew II",
+          "price": "",
+          "sku": "70.326",
+          "color": "#68604b"
+        },
+        {
+          "name": "Italian Tank Crew",
+          "price": "",
+          "sku": "70.327",
+          "color": "#4b471a"
+        },
+        {
+          "name": "Japanese Tank Crew",
+          "price": "",
+          "sku": "70.328",
+          "color": "#5c5632"
+        },
+        {
+          "name": "Russian Tank Crew I Highlights",
+          "price": "",
+          "sku": "70.329",
+          "color": "#9baca6"
+        },
+        {
+          "name": "Russian Tank Crew II Highlights",
+          "price": "",
+          "sku": "70.330",
+          "color": "#70793a"
+        },
+        {
+          "name": "Italian Tank Crew Highlights",
+          "price": "",
+          "sku": "70.331",
+          "color": "#9eb28f"
+        },
+        {
+          "name": "Japanese Tank Crew Highlights",
+          "price": "",
+          "sku": "70.332",
+          "color": "#aba38e"
+        },
+        {
+          "name": "German Tank Crew",
+          "price": "",
+          "sku": "70.333",
+          "color": "#404646"
+        },
+        {
+          "name": "German Tank Crew I",
+          "price": "",
+          "sku": "70.334",
+          "color": "#003f2c"
+        },
+        {
+          "name": "German Tank Crew II",
+          "price": "",
+          "sku": "70.335",
+          "color": "#473d24"
+        },
+        {
+          "name": "Afrikakorps Tank Crew",
+          "price": "",
+          "sku": "70.336",
+          "color": "#6e705b"
+        },
+        {
+          "name": "German Tank Crew Highlights",
+          "price": "",
+          "sku": "70.337",
+          "color": "#3f291c"
+        },
+        {
+          "name": "German Tank Crew I Highlights",
+          "price": "",
+          "sku": "70.338",
+          "color": "#59776f"
+        },
+        {
+          "name": "German Tank Crew II Highlights",
+          "price": "",
+          "sku": "70.339",
+          "color": "#96785c"
+        },
+        {
+          "name": "Afrikakorps Tank Crew Highlights",
+          "price": "",
+          "sku": "70.340",
+          "color": "#aa9d73"
+        },
+        {
+          "name": "Flesh Base",
+          "price": "",
+          "sku": "70.341",
+          "color": "#a4531e"
+        },
+        {
+          "name": "Flesh Highlights",
+          "price": "",
+          "sku": "70.342",
+          "color": "#fad3aa"
+        },
+        {
+          "name": "Flesh Shadows",
+          "price": "",
+          "sku": "70.343",
+          "color": "#571715"
+        },
+        {
+          "name": "German White Tank Crew",
+          "price": "",
+          "sku": "70.344",
+          "color": "#e0e0d8"
+        },
+        {
+          "name": "Splinter Camouflage Base",
+          "price": "",
+          "sku": "70.345",
+          "color": "#9d9e98"
+        },
+        {
+          "name": "Splinter Blotches I",
+          "price": "",
+          "sku": "70.346",
+          "color": "#01613b"
+        },
+        {
+          "name": "Splinter Blotches II",
+          "price": "",
+          "sku": "70.347",
+          "color": "#3f2c28"
+        },
+        {
+          "name": "Splinter Strips",
+          "price": "",
+          "sku": "70.348",
+          "color": "#4f684b"
+        }
+      ]
+    },
+    {
+      "name": "Game Color",
+      "paints": [
+        {
+          "name": "Dead White",
+          "price": "",
+          "sku": "72.001",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Arctic White",
+          "price": "",
+          "sku": "72.002",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Pale Flesh",
+          "price": "",
+          "sku": "72.003",
+          "color": "#ecbda9"
+        },
+        {
+          "name": "Elf Skin Tone",
+          "price": "",
+          "sku": "72.004",
+          "color": "#e0a374"
+        },
+        {
+          "name": "Moon Yellow",
+          "price": "",
+          "sku": "72.005",
+          "color": "#fce000"
+        },
+        {
+          "name": "Sun Yellow",
+          "price": "",
+          "sku": "72.006",
+          "color": "#fee300"
+        },
+        {
+          "name": "Gold Yellow",
+          "price": "",
+          "sku": "72.007",
+          "color": "#fdc500"
+        },
+        {
+          "name": "Orange Fire",
+          "price": "",
+          "sku": "72.008",
+          "color": "#e9651a"
+        },
+        {
+          "name": "Hot Orange",
+          "price": "",
+          "sku": "72.009",
+          "color": "#e64c2a"
+        },
+        {
+          "name": "Bloody Red",
+          "price": "",
+          "sku": "72.010",
+          "color": "#bf1134"
+        },
+        {
+          "name": "Gory Red",
+          "price": "",
+          "sku": "72.011",
+          "color": "#850e34"
+        },
+        {
+          "name": "Scarlet Red",
+          "price": "",
+          "sku": "72.012",
+          "color": "#9c122c"
+        },
+        {
+          "name": "Squid Pink",
+          "price": "",
+          "sku": "72.013",
+          "color": "#d18ab6"
+        },
+        {
+          "name": "Warlord Purple",
+          "price": "",
+          "sku": "72.014",
+          "color": "#862246"
+        },
+        {
+          "name": "Hexed Lichen",
+          "price": "",
+          "sku": "72.015",
+          "color": "#512e7e"
+        },
+        {
+          "name": "Royal Purple",
+          "price": "",
+          "sku": "72.016",
+          "color": "#464362"
+        },
+        {
+          "name": "Dark Blue",
+          "price": "",
+          "sku": "72.017",
+          "color": "#464775"
+        },
+        {
+          "name": "Stormy Blue",
+          "price": "",
+          "sku": "72.018",
+          "color": "#413f57"
+        },
+        {
+          "name": "Night Blue",
+          "price": "",
+          "sku": "72.019",
+          "color": "#393945"
+        },
+        {
+          "name": "Imperial Blue",
+          "price": "",
+          "sku": "72.020",
+          "color": "#344863"
+        },
+        {
+          "name": "Magic Blue",
+          "price": "",
+          "sku": "72.021",
+          "color": "#026eb6"
+        },
+        {
+          "name": "Ultramarine Blue",
+          "price": "",
+          "sku": "72.022",
+          "color": "#1d548a"
+        },
+        {
+          "name": "Electric Blue",
+          "price": "",
+          "sku": "72.023",
+          "color": "#3495b6"
+        },
+        {
+          "name": "Turquoise",
+          "price": "",
+          "sku": "72.024",
+          "color": "#007f8e"
+        },
+        {
+          "name": "Foul Green",
+          "price": "",
+          "sku": "72.025",
+          "color": "#3f9e80"
+        },
+        {
+          "name": "Jade Green",
+          "price": "",
+          "sku": "72.026",
+          "color": "#008266"
+        },
+        {
+          "name": "Scurvy Green",
+          "price": "",
+          "sku": "72.027",
+          "color": "#285653"
+        },
+        {
+          "name": "Dark Green",
+          "price": "",
+          "sku": "72.028",
+          "color": "#38433d"
+        },
+        {
+          "name": "Sick Green",
+          "price": "",
+          "sku": "72.029",
+          "color": "#4b6e4e"
+        },
+        {
+          "name": "Goblin Green",
+          "price": "",
+          "sku": "72.030",
+          "color": "#2b6c28"
+        },
+        {
+          "name": "Camouflage Green",
+          "price": "",
+          "sku": "72.031",
+          "color": "#8d7b3d"
+        },
+        {
+          "name": "Scorpy Green",
+          "price": "",
+          "sku": "72.032",
+          "color": "#78a74b"
+        },
+        {
+          "name": "Livery Green",
+          "price": "",
+          "sku": "72.033",
+          "color": "#9dc451"
+        },
+        {
+          "name": "Bone White",
+          "price": "",
+          "sku": "72.034",
+          "color": "#e4c596"
+        },
+        {
+          "name": "Dead Flesh",
+          "price": "",
+          "sku": "72.035",
+          "color": "#d3c682"
+        },
+        {
+          "name": "Bronze Flesh Tone",
+          "price": "",
+          "sku": "72.036",
+          "color": "#f1a75e"
+        },
+        {
+          "name": "Filthy Brown",
+          "price": "",
+          "sku": "72.037",
+          "color": "#e99300"
+        },
+        {
+          "name": "Scrofulous Brown",
+          "price": "",
+          "sku": "72.038",
+          "color": "#bb772e"
+        },
+        {
+          "name": "Plague Brown",
+          "price": "",
+          "sku": "72.039",
+          "color": "#d18f05"
+        },
+        {
+          "name": "Leather Brown",
+          "price": "",
+          "sku": "72.040",
+          "color": "#87643c"
+        },
+        {
+          "name": "Dwarf Skin",
+          "price": "",
+          "sku": "72.041",
+          "color": "#d99169"
+        },
+        {
+          "name": "Parasite Brown",
+          "price": "",
+          "sku": "72.042",
+          "color": "#a15019"
+        },
+        {
+          "name": "Beasty Brown",
+          "price": "",
+          "sku": "72.043",
+          "color": "#76563d"
+        },
+        {
+          "name": "Dark Flesh Tone",
+          "price": "",
+          "sku": "72.044",
+          "color": "#614037"
+        },
+        {
+          "name": "Charred Brown",
+          "price": "",
+          "sku": "72.045",
+          "color": "#4b403c"
+        },
+        {
+          "name": "Ghost Grey",
+          "price": "",
+          "sku": "72.046",
+          "color": "#c2cbd4"
+        },
+        {
+          "name": "Wolf Grey",
+          "price": "",
+          "sku": "72.047",
+          "color": "#afc1cb"
+        },
+        {
+          "name": "Sombre Grey",
+          "price": "",
+          "sku": "72.048",
+          "color": "#606b7f"
+        },
+        {
+          "name": "Stone Wall Grey",
+          "price": "",
+          "sku": "72.049",
+          "color": "#9f9f9f"
+        },
+        {
+          "name": "Cold Grey",
+          "price": "",
+          "sku": "72.050",
+          "color": "#7c7c7c"
+        },
+        {
+          "name": "Black",
+          "price": "",
+          "sku": "72.051",
+          "color": "#010101"
+        },
+        {
+          "name": "Silver",
+          "price": "",
+          "sku": "72.052",
+          "color": "#a7acb0"
+        },
+        {
+          "name": "Chain Mail Silver",
+          "price": "",
+          "sku": "72.053",
+          "color": "#7c7c7c"
+        },
+        {
+          "name": "Gunmetal",
+          "price": "",
+          "sku": "72.054",
+          "color": "#636365"
+        },
+        {
+          "name": "Polished Gold",
+          "price": "",
+          "sku": "72.055",
+          "color": "#d2ae22"
+        },
+        {
+          "name": "Glorious Gold",
+          "price": "",
+          "sku": "72.056",
+          "color": "#9b6d32"
+        },
+        {
+          "name": "Bright Bronze",
+          "price": "",
+          "sku": "72.057",
+          "color": "#a36941"
+        },
+        {
+          "name": "Brassy Brass",
+          "price": "",
+          "sku": "72.058",
+          "color": "#845539"
+        },
+        {
+          "name": "Hammered Copper",
+          "price": "",
+          "sku": "72.059",
+          "color": "#7a4537"
+        },
+        {
+          "name": "Tinny Tin",
+          "price": "",
+          "sku": "72.060",
+          "color": "#502e2f"
+        },
+        {
+          "name": "Khaki",
+          "price": "",
+          "sku": "72.061",
+          "color": "#aa9d73"
+        },
+        {
+          "name": "Earth",
+          "price": "",
+          "sku": "72.062",
+          "color": "#7a6045"
+        },
+        {
+          "name": "Desert Yellow",
+          "price": "",
+          "sku": "72.063",
+          "color": "#998843"
+        },
+        {
+          "name": "Yellow Olive",
+          "price": "",
+          "sku": "72.064",
+          "color": "#1e4f39"
+        },
+        {
+          "name": "Terracotta",
+          "price": "",
+          "sku": "72.065",
+          "color": "#693e38"
+        },
+        {
+          "name": "Tan",
+          "price": "",
+          "sku": "72.066",
+          "color": "#a8594a"
+        },
+        {
+          "name": "Cayman Green",
+          "price": "",
+          "sku": "72.067",
+          "color": "#00593d"
+        },
+        {
+          "name": "Smokey Ink",
+          "price": "",
+          "sku": "72.068",
+          "color": "#493632"
+        },
+        {
+          "name": "Yellow",
+          "price": "",
+          "sku": "72.085",
+          "color": "#fed346"
+        },
+        {
+          "name": "Red",
+          "price": "",
+          "sku": "72.086",
+          "color": "#e53238"
+        },
+        {
+          "name": "Violet",
+          "price": "",
+          "sku": "72.087",
+          "color": "#682e85"
+        },
+        {
+          "name": "Blue",
+          "price": "",
+          "sku": "72.088",
+          "color": "#004c9a"
+        },
+        {
+          "name": "Green",
+          "price": "",
+          "sku": "72.089",
+          "color": "#3eab68"
+        },
+        {
+          "name": "Black Green",
+          "price": "",
+          "sku": "72.090",
+          "color": "#0f654a"
+        },
+        {
+          "name": "Sepia",
+          "price": "",
+          "sku": "72.091",
+          "color": "#9b6f28"
+        },
+        {
+          "name": "Brown",
+          "price": "",
+          "sku": "72.092",
+          "color": "#9a632a"
+        },
+        {
+          "name": "Skin Wash",
+          "price": "",
+          "sku": "72.093",
+          "color": "#c56f18"
+        },
+        {
+          "name": "Black",
+          "price": "",
+          "sku": "72.094",
+          "color": "#282722"
+        },
+        {
+          "name": "Glacier Blue",
+          "price": "",
+          "sku": "72.095",
+          "color": "#b4cee9"
+        },
+        {
+          "name": "Verdigris",
+          "price": "",
+          "sku": "72.096",
+          "color": "#a9d7d4"
+        },
+        {
+          "name": "Pale Yellow",
+          "price": "",
+          "sku": "72.097",
+          "color": "#ebce7e"
+        },
+        {
+          "name": "Elfic Flesh",
+          "price": "",
+          "sku": "72.098",
+          "color": "#ead7b7"
+        },
+        {
+          "name": "Cadmium Skin",
+          "price": "",
+          "sku": "72.099",
+          "color": "#f8b185"
+        },
+        {
+          "name": "Rosy Flesh",
+          "price": "",
+          "sku": "72.100",
+          "color": "#f3b5aa"
+        },
+        {
+          "name": "Off White",
+          "price": "",
+          "sku": "72.101",
+          "color": "#fdf3da"
+        },
+        {
+          "name": "Steel Grey",
+          "price": "",
+          "sku": "72.102",
+          "color": "#728fa1"
+        },
+        {
+          "name": "Fluorescent Yellow",
+          "price": "",
+          "sku": "72.103",
+          "color": "#ffee00"
+        },
+        {
+          "name": "Fluorescent Green",
+          "price": "",
+          "sku": "72.104",
+          "color": "#c1d460"
+        },
+        {
+          "name": "Mutation Green",
+          "price": "",
+          "sku": "72.105",
+          "color": "#4c7650"
+        },
+        {
+          "name": "Scarlet Red",
+          "price": "",
+          "sku": "72.106",
+          "color": "#e40059"
+        },
+        {
+          "name": "Rotten White",
+          "price": "",
+          "sku": "72.130",
+          "color": "#f0eeef"
+        },
+        {
+          "name": "Rust",
+          "price": "",
+          "sku": "72.131",
+          "color": "#e45314"
+        },
+        {
+          "name": "Fresh Blood",
+          "price": "",
+          "sku": "72.132",
+          "color": "#7e2b19"
+        },
+        {
+          "name": "Dried Blood",
+          "price": "",
+          "sku": "72.133",
+          "color": "#622a1d"
+        },
+        {
+          "name": "Vomit",
+          "price": "",
+          "sku": "72.134",
+          "color": "#847c33"
+        },
+        {
+          "name": "Verdigris",
+          "price": "",
+          "sku": "72.135",
+          "color": "#91cbcc"
+        },
+        {
+          "name": "Dry Rust",
+          "price": "",
+          "sku": "72.136",
+          "color": "#5e332d"
+        },
+        {
+          "name": "Heavy Skin Tone",
+          "price": "",
+          "sku": "72.140",
+          "color": "#ad8468"
+        },
+        {
+          "name": "Heavy Red",
+          "price": "",
+          "sku": "72.141",
+          "color": "#8d363c"
+        },
+        {
+          "name": "Heavy Violet",
+          "price": "",
+          "sku": "72.142",
+          "color": "#484069"
+        },
+        {
+          "name": "Heavy Blue",
+          "price": "",
+          "sku": "72.143",
+          "color": "#405b78"
+        },
+        {
+          "name": "Heavy Bluegrey",
+          "price": "",
+          "sku": "72.144",
+          "color": "#cbcac8"
+        },
+        {
+          "name": "Heavy Grey",
+          "price": "",
+          "sku": "72.145",
+          "color": "#707354"
+        },
+        {
+          "name": "Heavy Green",
+          "price": "",
+          "sku": "72.146",
+          "color": "#566637"
+        },
+        {
+          "name": "Heavy Black Green",
+          "price": "",
+          "sku": "72.147",
+          "color": "#3e4943"
+        },
+        {
+          "name": "Heavy Warm Grey",
+          "price": "",
+          "sku": "72.148",
+          "color": "#aa9d73"
+        },
+        {
+          "name": "Heavy Kakhi",
+          "price": "",
+          "sku": "72.149",
+          "color": "#b49f50"
+        },
+        {
+          "name": "Heavy Ochre",
+          "price": "",
+          "sku": "72.150",
+          "color": "#ae7727"
+        },
+        {
+          "name": "Heavy Gold Brown",
+          "price": "",
+          "sku": "72.151",
+          "color": "#b68644"
+        },
+        {
+          "name": "Heavy Orange",
+          "price": "",
+          "sku": "72.152",
+          "color": "#ea5e0f"
+        },
+        {
+          "name": "Heavy Brown",
+          "price": "",
+          "sku": "72.153",
+          "color": "#7b674e"
+        },
+        {
+          "name": "Heavy Siena",
+          "price": "",
+          "sku": "72.154",
+          "color": "#5e483b"
+        },
+        {
+          "name": "Heavy Charcoal",
+          "price": "",
+          "sku": "72.155",
+          "color": "#46464e"
+        }
+      ]
+    },
+    {
+      "name": "Game Air",
+      "paints": [
+        {
+          "name": "Dead White",
+          "price": "",
+          "sku": "72.701",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Pale Flesh",
+          "price": "",
+          "sku": "72.703",
+          "color": "#fadacf"
+        },
+        {
+          "name": "Elf Skin Tone",
+          "price": "",
+          "sku": "72.704",
+          "color": "#e7ae81"
+        },
+        {
+          "name": "Moon Yellow",
+          "price": "",
+          "sku": "72.705",
+          "color": "#fcbc02"
+        },
+        {
+          "name": "Sun Yellow",
+          "price": "",
+          "sku": "72.706",
+          "color": "#f6b422"
+        },
+        {
+          "name": "Gold Yellow",
+          "price": "",
+          "sku": "72.707",
+          "color": "#f29b00"
+        },
+        {
+          "name": "Orange Fire",
+          "price": "",
+          "sku": "72.708",
+          "color": "#ea632b"
+        },
+        {
+          "name": "Hot Orange",
+          "price": "",
+          "sku": "72.709",
+          "color": "#e64c2a"
+        },
+        {
+          "name": "Bloody Red",
+          "price": "",
+          "sku": "72.710",
+          "color": "#cd3230"
+        },
+        {
+          "name": "Gory Red",
+          "price": "",
+          "sku": "72.711",
+          "color": "#693b3d"
+        },
+        {
+          "name": "Scarlet Red",
+          "price": "",
+          "sku": "72.712",
+          "color": "#9c122c"
+        },
+        {
+          "name": "Squid Pink",
+          "price": "",
+          "sku": "72.713",
+          "color": "#da88b8"
+        },
+        {
+          "name": "Warlord Purple",
+          "price": "",
+          "sku": "72.714",
+          "color": "#b0376d"
+        },
+        {
+          "name": "Hexed Lichen",
+          "price": "",
+          "sku": "72.715",
+          "color": "#39373a"
+        },
+        {
+          "name": "Imperial Blue",
+          "price": "",
+          "sku": "72.720",
+          "color": "#04316a"
+        },
+        {
+          "name": "Magic Blue",
+          "price": "",
+          "sku": "72.721",
+          "color": "#026eb6"
+        },
+        {
+          "name": "Ultramarine Blue",
+          "price": "",
+          "sku": "72.722",
+          "color": "#1d548a"
+        },
+        {
+          "name": "Electric Blue",
+          "price": "",
+          "sku": "72.723",
+          "color": "#2e95b4"
+        },
+        {
+          "name": "Dark Green",
+          "price": "",
+          "sku": "72.728",
+          "color": "#274e39"
+        },
+        {
+          "name": "Sick Green",
+          "price": "",
+          "sku": "72.729",
+          "color": "#246b49"
+        },
+        {
+          "name": "Goblin Green",
+          "price": "",
+          "sku": "72.730",
+          "color": "#6b7342"
+        },
+        {
+          "name": "Scorpy Green",
+          "price": "",
+          "sku": "72.732",
+          "color": "#80af49"
+        },
+        {
+          "name": "Light Livery Green",
+          "price": "",
+          "sku": "72.733",
+          "color": "#92bd16"
+        },
+        {
+          "name": "Bone White",
+          "price": "",
+          "sku": "72.734",
+          "color": "#c3b89c"
+        },
+        {
+          "name": "Dead Flesh",
+          "price": "",
+          "sku": "72.735",
+          "color": "#c8bc8a"
+        },
+        {
+          "name": "Bronze Flesh Tone",
+          "price": "",
+          "sku": "72.736",
+          "color": "#ef9849"
+        },
+        {
+          "name": "Cobra Leather",
+          "price": "",
+          "sku": "72.740",
+          "color": "#855c26"
+        },
+        {
+          "name": "Dwarf Skin",
+          "price": "",
+          "sku": "72.741",
+          "color": "#d99169"
+        },
+        {
+          "name": "Beasty Brown",
+          "price": "",
+          "sku": "72.743",
+          "color": "#7a543d"
+        },
+        {
+          "name": "Dark Flesh Tone",
+          "price": "",
+          "sku": "72.744",
+          "color": "#5b4844"
+        },
+        {
+          "name": "Charred Brown",
+          "price": "",
+          "sku": "72.745",
+          "color": "#4d4542"
+        },
+        {
+          "name": "Wolf Grey",
+          "price": "",
+          "sku": "72.747",
+          "color": "#acbdcd"
+        },
+        {
+          "name": "Sombre Grey",
+          "price": "",
+          "sku": "72.748",
+          "color": "#576878"
+        },
+        {
+          "name": "Stone Wall Grey",
+          "price": "",
+          "sku": "72.749",
+          "color": "#a1a2a4"
+        },
+        {
+          "name": "Cold Grey",
+          "price": "",
+          "sku": "72.750",
+          "color": "#828385"
+        },
+        {
+          "name": "Black",
+          "price": "",
+          "sku": "72.751",
+          "color": "#010101"
+        },
+        {
+          "name": "Silver",
+          "price": "",
+          "sku": "72.752",
+          "color": "#a7acb0"
+        },
+        {
+          "name": "Chain Mail Silver",
+          "price": "",
+          "sku": "72.753",
+          "color": "#aeaeae"
+        },
+        {
+          "name": "Gunmetal",
+          "price": "",
+          "sku": "72.754",
+          "color": "#6e6f71"
+        },
+        {
+          "name": "Polished Gold",
+          "price": "",
+          "sku": "72.755",
+          "color": "#ebad00"
+        },
+        {
+          "name": "Glorious Gold",
+          "price": "",
+          "sku": "72.756",
+          "color": "#c4905e"
+        },
+        {
+          "name": "Bright Bronze",
+          "price": "",
+          "sku": "72.757",
+          "color": "#95664c"
+        },
+        {
+          "name": "Brassy Brass",
+          "price": "",
+          "sku": "72.758",
+          "color": "#a15323"
+        },
+        {
+          "name": "Khaki",
+          "price": "",
+          "sku": "72.761",
+          "color": "#aa9d73"
+        },
+        {
+          "name": "Earth",
+          "price": "",
+          "sku": "72.762",
+          "color": "#7b6848"
+        },
+        {
+          "name": "Desert Yellow",
+          "price": "",
+          "sku": "72.763",
+          "color": "#a7844e"
+        },
+        {
+          "name": "Flesh",
+          "price": "",
+          "sku": "72.769",
+          "color": "#f6bd90"
+        },
+        {
+          "name": "Burned Flesh",
+          "price": "",
+          "sku": "72.770",
+          "color": "#a26641"
+        },
+        {
+          "name": "Barbarian Flesh",
+          "price": "",
+          "sku": "72.771",
+          "color": "#a17c62"
+        },
+        {
+          "name": "Red Terracotta",
+          "price": "",
+          "sku": "72.772",
+          "color": "#79423d"
+        },
+        {
+          "name": "Alien Purple",
+          "price": "",
+          "sku": "72.776",
+          "color": "#6d62a6"
+        }
+      ]
+    },
+    {
+      "name": "Mecha Color",
+      "paints": [
+        {
+          "name": "Pure White",
+          "price": "",
+          "sku": "69.001",
+          "color": "#ffffff"
+        },
+        {
+          "name": "White Grey",
+          "price": "",
+          "sku": "69.002",
+          "color": "#f0ece3"
+        },
+        {
+          "name": "Offwhite",
+          "price": "",
+          "sku": "69.003",
+          "color": "#ebebe1"
+        },
+        {
+          "name": "Yellow",
+          "price": "",
+          "sku": "69.004",
+          "color": "#e9a401"
+        },
+        {
+          "name": "Light Flesh",
+          "price": "",
+          "sku": "69.005",
+          "color": "#f8d9c7"
+        },
+        {
+          "name": "Pink",
+          "price": "",
+          "sku": "69.006",
+          "color": "#d08474"
+        },
+        {
+          "name": "Orange",
+          "price": "",
+          "sku": "69.007",
+          "color": "#e9602c"
+        },
+        {
+          "name": "Red",
+          "price": "",
+          "sku": "69.008",
+          "color": "#bc4040"
+        },
+        {
+          "name": "Sz Red",
+          "price": "",
+          "sku": "69.009",
+          "color": "#b33737"
+        },
+        {
+          "name": "Magenta",
+          "price": "",
+          "sku": "69.010",
+          "color": "#bf1226"
+        },
+        {
+          "name": "Dark Red",
+          "price": "",
+          "sku": "69.011",
+          "color": "#93262c"
+        },
+        {
+          "name": "Purple",
+          "price": "",
+          "sku": "69.012",
+          "color": "#ad8dbc"
+        },
+        {
+          "name": "Titan Blue",
+          "price": "",
+          "sku": "69.013",
+          "color": "#4d4d6f"
+        },
+        {
+          "name": "Grey Green",
+          "price": "",
+          "sku": "69.014",
+          "color": "#6d8589"
+        },
+        {
+          "name": "Blue Grey",
+          "price": "",
+          "sku": "69.015",
+          "color": "#6a8795"
+        },
+        {
+          "name": "Light Blue",
+          "price": "",
+          "sku": "69.016",
+          "color": "#6b8dbb"
+        },
+        {
+          "name": "Sky Blue",
+          "price": "",
+          "sku": "69.017",
+          "color": "#7acaeb"
+        },
+        {
+          "name": "Deep Blue",
+          "price": "",
+          "sku": "69.018",
+          "color": "#0c97c2"
+        },
+        {
+          "name": "Blue",
+          "price": "",
+          "sku": "69.019",
+          "color": "#44689c"
+        },
+        {
+          "name": "Electric Blue",
+          "price": "",
+          "sku": "69.020",
+          "color": "#0370b1"
+        },
+        {
+          "name": "Dark Blue",
+          "price": "",
+          "sku": "69.021",
+          "color": "#405b78"
+        },
+        {
+          "name": "Titan Dark Blue",
+          "price": "",
+          "sku": "69.022",
+          "color": "#41464c"
+        },
+        {
+          "name": "Turquoise",
+          "price": "",
+          "sku": "69.023",
+          "color": "#009b9f"
+        },
+        {
+          "name": "Stone Grey",
+          "price": "",
+          "sku": "69.024",
+          "color": "#a1b1b1"
+        },
+        {
+          "name": "Light Green",
+          "price": "",
+          "sku": "69.025",
+          "color": "#c6c9be"
+        },
+        {
+          "name": "Green",
+          "price": "",
+          "sku": "69.026",
+          "color": "#a4a792"
+        },
+        {
+          "name": "Green Blue",
+          "price": "",
+          "sku": "69.027",
+          "color": "#8a9f80"
+        },
+        {
+          "name": "Olive Green",
+          "price": "",
+          "sku": "69.028",
+          "color": "#5f6e45"
+        },
+        {
+          "name": "Deep Green",
+          "price": "",
+          "sku": "69.029",
+          "color": "#70793a"
+        },
+        {
+          "name": "Dark Green",
+          "price": "",
+          "sku": "69.030",
+          "color": "#525345"
+        },
+        {
+          "name": "Grey Sand",
+          "price": "",
+          "sku": "69.031",
+          "color": "#ba9f72"
+        },
+        {
+          "name": "Yellow Ochre",
+          "price": "",
+          "sku": "69.032",
+          "color": "#eaa432"
+        },
+        {
+          "name": "Sand Yellow",
+          "price": "",
+          "sku": "69.033",
+          "color": "#e4b86f"
+        },
+        {
+          "name": "Brown",
+          "price": "",
+          "sku": "69.034",
+          "color": "#7b674e"
+        },
+        {
+          "name": "Chipping Brown",
+          "price": "",
+          "sku": "69.035",
+          "color": "#484242"
+        },
+        {
+          "name": "Light Grey",
+          "price": "",
+          "sku": "69.036",
+          "color": "#969da3"
+        },
+        {
+          "name": "Grey",
+          "price": "",
+          "sku": "69.037",
+          "color": "#8a97a0"
+        },
+        {
+          "name": "Medium Grey",
+          "price": "",
+          "sku": "69.038",
+          "color": "#828385"
+        },
+        {
+          "name": "Grey Z",
+          "price": "",
+          "sku": "69.039",
+          "color": "#7a7b7d"
+        },
+        {
+          "name": "Phantom Grey",
+          "price": "",
+          "sku": "69.040",
+          "color": "#535762"
+        },
+        {
+          "name": "Dark Grey Green",
+          "price": "",
+          "sku": "69.041",
+          "color": "#505251"
+        },
+        {
+          "name": "Pure Black",
+          "price": "",
+          "sku": "69.042",
+          "color": "#010101"
+        },
+        {
+          "name": "Yellow Fluorescent",
+          "price": "",
+          "sku": "69.054",
+          "color": "#efe641"
+        },
+        {
+          "name": "Orange Fluorescent",
+          "price": "",
+          "sku": "69.055",
+          "color": "#e86016"
+        },
+        {
+          "name": "Magenta Fluorescent",
+          "price": "",
+          "sku": "69.056",
+          "color": "#e6418d"
+        },
+        {
+          "name": "Green Fluorescent",
+          "price": "",
+          "sku": "69.057",
+          "color": "#a8c958"
+        },
+        {
+          "name": "Gunmetal",
+          "price": "",
+          "sku": "69.058",
+          "color": "#646760"
+        },
+        {
+          "name": "Gold",
+          "price": "",
+          "sku": "69.059",
+          "color": "#ac8424"
+        },
+        {
+          "name": "Old Gold",
+          "price": "",
+          "sku": "69.060",
+          "color": "#9c8448"
+        },
+        {
+          "name": "Copper",
+          "price": "",
+          "sku": "69.061",
+          "color": "#9a5b3a"
+        },
+        {
+          "name": "Bronze",
+          "price": "",
+          "sku": "69.062",
+          "color": "#766b35"
+        },
+        {
+          "name": "Steel",
+          "price": "",
+          "sku": "69.063",
+          "color": "#898a82"
+        },
+        {
+          "name": "Light Steel",
+          "price": "",
+          "sku": "69.064",
+          "color": "#cdd6d3"
+        },
+        {
+          "name": "Dark Steel",
+          "price": "",
+          "sku": "69.065",
+          "color": "#737476"
+        },
+        {
+          "name": "Metallic Red",
+          "price": "",
+          "sku": "69.066",
+          "color": "#cb5970"
+        },
+        {
+          "name": "Metallic Blue",
+          "price": "",
+          "sku": "69.067",
+          "color": "#373c4f"
+        },
+        {
+          "name": "Metallic Green",
+          "price": "",
+          "sku": "69.068",
+          "color": "#1b927f"
+        },
+        {
+          "name": "Light Rust Wash",
+          "price": "",
+          "sku": "69.505",
+          "color": "#eb7919"
+        },
+        {
+          "name": "Dark Rust Wash",
+          "price": "",
+          "sku": "69.507",
+          "color": "#e05b10"
+        },
+        {
+          "name": "Light Grey Wash",
+          "price": "",
+          "sku": "69.515",
+          "color": "#c9c9c7"
+        },
+        {
+          "name": "Black Wash",
+          "price": "",
+          "sku": "69.518",
+          "color": "#010101"
+        },
+        {
+          "name": "Oiled Earth Wash",
+          "price": "",
+          "sku": "69.521",
+          "color": "#6e5c52"
+        },
+        {
+          "name": "Desert Dust Wash",
+          "price": "",
+          "sku": "69.522",
+          "color": "#d8bb81"
+        },
+        {
+          "name": "Oil Stains (Gloss)",
+          "price": "",
+          "sku": "69.813",
+          "color": "#73531a"
+        },
+        {
+          "name": "Fuel Stains (Gloss)",
+          "price": "",
+          "sku": "69.814",
+          "color": "#a06217"
+        },
+        {
+          "name": "Petrol Spills (Gloss)",
+          "price": "",
+          "sku": "69.817",
+          "color": "#141c1f"
+        },
+        {
+          "name": "Brown Engine Soot (Matt)",
+          "price": "",
+          "sku": "69.818",
+          "color": "#5f351f"
+        },
+        {
+          "name": "Rust Texture (Matt)",
+          "price": "",
+          "sku": "69.821",
+          "color": "#693329"
+        },
+        {
+          "name": "White",
+          "price": "",
+          "sku": "70.640",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Grey",
+          "price": "",
+          "sku": "70.641",
+          "color": "#c5c6c8"
+        },
+        {
+          "name": "Black",
+          "price": "",
+          "sku": "70.642",
+          "color": "#010101"
+        },
+        {
+          "name": "Ivory",
+          "price": "",
+          "sku": "70.643",
+          "color": "#f3efd2"
+        },
+        {
+          "name": "Sand",
+          "price": "",
+          "sku": "70.644",
+          "color": "#dac495"
+        },
+        {
+          "name": "Mecha Gloss Varnish",
+          "price": "",
+          "sku": "69.701",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Mecha Matt Varnish",
+          "price": "",
+          "sku": "69.702",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Mecha Satin Varnish",
+          "price": "",
+          "sku": "69.703",
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "name": "Weathering Effects",
+      "paints": [
+        {
+          "name": "European Splash Mud",
+          "price": "",
+          "sku": "73.801",
+          "color": "#09070f"
+        },
+        {
+          "name": "Russian Splash Mud",
+          "price": "",
+          "sku": "73.802",
+          "color": "#efaa96"
+        },
+        {
+          "name": "Industrial Splash Mud",
+          "price": "",
+          "sku": "73.803",
+          "color": "#1b0001"
+        },
+        {
+          "name": "Light Brown Splash Mud",
+          "price": "",
+          "sku": "73.804",
+          "color": "#433c10"
+        },
+        {
+          "name": "Brown Splash Mud",
+          "price": "",
+          "sku": "73.805",
+          "color": "#d8cfb4"
+        },
+        {
+          "name": "Black Splash Mud",
+          "price": "",
+          "sku": "73.806",
+          "color": "#928c72"
+        },
+        {
+          "name": "European Mud",
+          "price": "",
+          "sku": "73.807",
+          "color": "#000002"
+        },
+        {
+          "name": "Russian Mud",
+          "price": "",
+          "sku": "73.808",
+          "color": "#8b866a"
+        },
+        {
+          "name": "Industrial Mud",
+          "price": "",
+          "sku": "73.809",
+          "color": "#453c3f"
+        },
+        {
+          "name": "Light Brown Mu",
+          "price": "",
+          "sku": "73.810",
+          "color": "#d6c6ad"
+        },
+        {
+          "name": "Brown Mud",
+          "price": "",
+          "sku": "73.811",
+          "color": "#503932"
+        },
+        {
+          "name": "Black Mud",
+          "price": "",
+          "sku": "73.812",
+          "color": "#898371"
+        },
+        {
+          "name": "Oil Stains",
+          "price": "",
+          "sku": "73.813",
+          "color": "#544833"
+        },
+        {
+          "name": "Fuel Stains",
+          "price": "",
+          "sku": "73.814",
+          "color": "#907e66"
+        },
+        {
+          "name": "Engine Grime",
+          "price": "",
+          "sku": "73.815",
+          "color": "#c4bebe"
+        },
+        {
+          "name": "Diesel Stains",
+          "price": "",
+          "sku": "73.816",
+          "color": "#55461d"
+        },
+        {
+          "name": "Petrol Spills",
+          "price": "",
+          "sku": "73.817",
+          "color": "#99957b"
+        },
+        {
+          "name": "Brown Engine Soot",
+          "price": "",
+          "sku": "73.818",
+          "color": "#ffca86"
+        },
+        {
+          "name": "Rain Marks",
+          "price": "",
+          "sku": "73.819",
+          "color": "#5c3c1e"
+        },
+        {
+          "name": "Snow",
+          "price": "",
+          "sku": "73.820",
+          "color": "#242332"
+        },
+        {
+          "name": "Rust Texture",
+          "price": "",
+          "sku": "73.821",
+          "color": "#ddc666"
+        },
+        {
+          "name": "Slimy Grime Dark",
+          "price": "",
+          "sku": "73.822",
+          "color": "#8d7c2a"
+        },
+        {
+          "name": "Slime Grime Light",
+          "price": "",
+          "sku": "73.823",
+          "color": "#ecea99"
+        },
+        {
+          "name": "Streaking Grime",
+          "price": "",
+          "sku": "73.824",
+          "color": "#403212"
+        },
+        {
+          "name": "Crushed Grass",
+          "price": "",
+          "sku": "73.825",
+          "color": "#828677"
+        },
+        {
+          "name": "Mud and Grass",
+          "price": "",
+          "sku": "73.826",
+          "color": "#f7deb4"
+        },
+        {
+          "name": "Moss and Lichen",
+          "price": "",
+          "sku": "73.827",
+          "color": "#5b5710"
+        },
+        {
+          "name": "Wet Effects",
+          "price": "",
+          "sku": "73.828",
+          "color": "#747950"
+        }
+      ]
+    },
+    {
+      "name": "Pigments",
+      "paints": [
+        {
+          "name": "Titanium White",
+          "price": "",
+          "sku": "73.101",
+          "color": "#eae6e9"
+        },
+        {
+          "name": "Light Yellow Ocre",
+          "price": "",
+          "sku": "73.102",
+          "color": "#140001"
+        },
+        {
+          "name": "Dark Yellow Ocre",
+          "price": "",
+          "sku": "73.103",
+          "color": "#edc79a"
+        },
+        {
+          "name": "Light Sienna",
+          "price": "",
+          "sku": "73.104",
+          "color": "#474033"
+        },
+        {
+          "name": "Natural Sienna",
+          "price": "",
+          "sku": "73.105",
+          "color": "#e6c49e"
+        },
+        {
+          "name": "Burnt Sienna",
+          "price": "",
+          "sku": "73.106",
+          "color": "#6c3a0f"
+        },
+        {
+          "name": "Dark Red Ochre",
+          "price": "",
+          "sku": "73.107",
+          "color": "#cf742c"
+        },
+        {
+          "name": "Brown Iron Oxide",
+          "price": "",
+          "sku": "73.108",
+          "color": "#564023"
+        },
+        {
+          "name": "Natural Umber",
+          "price": "",
+          "sku": "73.109",
+          "color": "#060001"
+        },
+        {
+          "name": "Burnt Umber",
+          "price": "",
+          "sku": "73.110",
+          "color": "#58372b"
+        },
+        {
+          "name": "Green Earth",
+          "price": "",
+          "sku": "73.111",
+          "color": "#484929"
+        },
+        {
+          "name": "Chrome Oxide Green",
+          "price": "",
+          "sku": "73.112",
+          "color": "#2d1f21"
+        },
+        {
+          "name": "Light Slate Grey",
+          "price": "",
+          "sku": "73.113",
+          "color": "#82817c"
+        },
+        {
+          "name": "Dark Slate Grey",
+          "price": "",
+          "sku": "73.114",
+          "color": "#1e1e1e"
+        },
+        {
+          "name": "Natural Iron Oxide",
+          "price": "",
+          "sku": "73.115",
+          "color": "#504f4d"
+        },
+        {
+          "name": "Carbon Black (Smoke Black)",
+          "price": "",
+          "sku": "73.116",
+          "color": "#241e1c"
+        },
+        {
+          "name": "Rust",
+          "price": "",
+          "sku": "73.117",
+          "color": "#000100"
+        },
+        {
+          "name": "New Rust",
+          "price": "",
+          "sku": "73.118",
+          "color": "#e2bf99"
+        },
+        {
+          "name": "European Earth",
+          "price": "",
+          "sku": "73.119",
+          "color": "#e4aba0"
+        },
+        {
+          "name": "Old Rust",
+          "price": "",
+          "sku": "73.120",
+          "color": "#a97a5c"
+        },
+        {
+          "name": "Desert Dust",
+          "price": "",
+          "sku": "73.121",
+          "color": "#0c0001"
+        },
+        {
+          "name": "Faded Olive Green",
+          "price": "",
+          "sku": "73.122",
+          "color": "#4b5318"
+        },
+        {
+          "name": "Dark Steel",
+          "price": "",
+          "sku": "73.123",
+          "color": "#3d3f43"
+        }
+      ]
+    },
+    {
+      "name": "Model Wash",
+      "paints": [
+        {
+          "name": "White",
+          "price": "",
+          "sku": "76.501",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Dark Yellow",
+          "price": "",
+          "sku": "76.503",
+          "color": "#e0b600"
+        },
+        {
+          "name": "Light Rust",
+          "price": "",
+          "sku": "76.505",
+          "color": "#ec7718"
+        },
+        {
+          "name": "Rust",
+          "price": "",
+          "sku": "76.506",
+          "color": "#c94908"
+        },
+        {
+          "name": "Dark Rust",
+          "price": "",
+          "sku": "76.507",
+          "color": "#e4580b"
+        },
+        {
+          "name": "Dark Green",
+          "price": "",
+          "sku": "76.512",
+          "color": "#857e26"
+        },
+        {
+          "name": "Brown",
+          "price": "",
+          "sku": "76.513",
+          "color": "#924f22"
+        },
+        {
+          "name": "Dark Brown",
+          "price": "",
+          "sku": "76.514",
+          "color": "#b0876b"
+        },
+        {
+          "name": "Light Grey",
+          "price": "",
+          "sku": "76.515",
+          "color": "#c9c9c7"
+        },
+        {
+          "name": "Grey",
+          "price": "",
+          "sku": "76.516",
+          "color": "#686866"
+        },
+        {
+          "name": "Dark Grey",
+          "price": "",
+          "sku": "76.517",
+          "color": "#323228"
+        },
+        {
+          "name": "Black",
+          "price": "",
+          "sku": "76.518",
+          "color": "#010101"
+        },
+        {
+          "name": "Olive Green",
+          "price": "",
+          "sku": "76.519",
+          "color": "#052e1e"
+        },
+        {
+          "name": "Dark Khaki Green",
+          "price": "",
+          "sku": "76.520",
+          "color": "#83673f"
+        },
+        {
+          "name": "Oiled Earth",
+          "price": "",
+          "sku": "76.521",
+          "color": "#6e5c4e"
+        },
+        {
+          "name": "Desert Dust",
+          "price": "",
+          "sku": "76.522",
+          "color": "#d8be83"
+        },
+        {
+          "name": "European Dust",
+          "price": "",
+          "sku": "76.523",
+          "color": "#7f5b39"
+        },
+        {
+          "name": "Blue Grey",
+          "price": "",
+          "sku": "76.524",
+          "color": "#557792"
+        }
+      ]
+    },
+    {
+      "name": "Surface Primer",
+      "paints": [
+        {
+          "name": "White",
+          "price": "",
+          "sku": "70.600",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Black",
+          "price": "",
+          "sku": "70.602",
+          "color": "#010101"
+        },
+        {
+          "name": "German Panzer Grey",
+          "price": "",
+          "sku": "70.603",
+          "color": "#454547"
+        },
+        {
+          "name": "German Dark Yellow",
+          "price": "",
+          "sku": "70.604",
+          "color": "#957b64"
+        },
+        {
+          "name": "German Green Brown",
+          "price": "",
+          "sku": "70.606",
+          "color": "#886c47"
+        },
+        {
+          "name": "UK Bronze Green",
+          "price": "",
+          "sku": "70.607",
+          "color": "#3e403f"
+        },
+        {
+          "name": "USA Olive Drab",
+          "price": "",
+          "sku": "70.608",
+          "color": "#66614e"
+        },
+        {
+          "name": "Russian Green 4Bo",
+          "price": "",
+          "sku": "70.609",
+          "color": "#4d4f44"
+        },
+        {
+          "name": "Parched Grass (Late)",
+          "price": "",
+          "sku": "70.610",
+          "color": "#79694f"
+        },
+        {
+          "name": "Earth Green (Early)",
+          "price": "",
+          "sku": "70.611",
+          "color": "#6a5b32"
+        },
+        {
+          "name": "NATO Green",
+          "price": "",
+          "sku": "70.612",
+          "color": "#4b5645"
+        },
+        {
+          "name": "Desert Tan",
+          "price": "",
+          "sku": "70.613",
+          "color": "#dac397"
+        },
+        {
+          "name": "IDF Israeli Sand Grey (61-73)",
+          "price": "",
+          "sku": "70.614",
+          "color": "#887c70"
+        },
+        {
+          "name": "USN Light Ghost Grey",
+          "price": "",
+          "sku": "70.615",
+          "color": "#9ba2ac"
+        },
+        {
+          "name": "Pure Red",
+          "price": "",
+          "sku": "70.624",
+          "color": "#c3322d"
+        },
+        {
+          "name": "Ultramarine",
+          "price": "",
+          "sku": "70.625",
+          "color": "#55649f"
+        },
+        {
+          "name": "Leather Brown",
+          "price": "",
+          "sku": "70.626",
+          "color": "#7c6052"
+        },
+        {
+          "name": "Skeleton Bone",
+          "price": "",
+          "sku": "70.627",
+          "color": "#baa789"
+        },
+        {
+          "name": "Plate Mail Metal",
+          "price": "",
+          "sku": "70.628",
+          "color": "#98999e"
+        },
+        {
+          "name": "Grey",
+          "price": "",
+          "sku": "70.601",
+          "color": "#c6c6c8"
+        },
+        {
+          "name": "German Red Brown",
+          "price": "",
+          "sku": "70.605",
+          "color": "#67423a"
+        },
+        {
+          "name": "Gloss Black",
+          "price": "",
+          "sku": "77.660",
+          "color": "#010101"
+        }
+      ]
+    },
+    {
+      "name": "Diorama Effects",
+      "paints": [
+        {
+          "name": "Transparent Water",
+          "price": "",
+          "sku": "26.201",
+          "color": "#363837"
+        },
+        {
+          "name": "Mediterranean Blue",
+          "price": "",
+          "sku": "26.202",
+          "color": "#444645"
+        },
+        {
+          "name": "Pacific Blue",
+          "price": "",
+          "sku": "26.203",
+          "color": "#8d8d8d"
+        },
+        {
+          "name": "Atlantic Blue",
+          "price": "",
+          "sku": "26.204",
+          "color": "#272928"
+        },
+        {
+          "name": "White Stone",
+          "price": "",
+          "sku": "26.211",
+          "color": "#868686"
+        },
+        {
+          "name": "Rough White Pumice",
+          "price": "",
+          "sku": "26.212",
+          "color": "#87888a"
+        },
+        {
+          "name": "Rough Grey Pumice",
+          "price": "",
+          "sku": "26.213",
+          "color": "#8c8d8f"
+        },
+        {
+          "name": "Black Lava-Asphalt",
+          "price": "",
+          "sku": "26.214",
+          "color": "#898989"
+        },
+        {
+          "name": "Grey Sand",
+          "price": "",
+          "sku": "26.215",
+          "color": "#848587"
+        },
+        {
+          "name": "Desert Sand",
+          "price": "",
+          "sku": "26.217",
+          "color": "#868789"
+        },
+        {
+          "name": "Dark Earth",
+          "price": "",
+          "sku": "26.218",
+          "color": "#949494"
+        },
+        {
+          "name": "Brown Earth",
+          "price": "",
+          "sku": "26.219",
+          "color": "#808080"
+        },
+        {
+          "name": "Still Water",
+          "price": "",
+          "sku": "26.230",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Foam",
+          "price": "",
+          "sku": "26.231",
+          "color": "#ffffff"
+        },
+        {
+          "name": "European Mud",
+          "price": "",
+          "sku": "26.807",
+          "color": "#3f4042"
+        },
+        {
+          "name": "Russian Mud",
+          "price": "",
+          "sku": "26.808",
+          "color": "#3f4042"
+        },
+        {
+          "name": "Industrial Mud",
+          "price": "",
+          "sku": "26.809",
+          "color": "#909090"
+        },
+        {
+          "name": "Light Brown Mud",
+          "price": "",
+          "sku": "26.810",
+          "color": "#8c8d8f"
+        },
+        {
+          "name": "Brown Mud",
+          "price": "",
+          "sku": "26.811",
+          "color": "#8d8f8e"
+        },
+        {
+          "name": "Black Mud",
+          "price": "",
+          "sku": "26.812",
+          "color": "#3f3f41"
+        },
+        {
+          "name": "Snow",
+          "price": "",
+          "sku": "26.820",
+          "color": "#838383"
+        }
+      ]
+    },
+    {
+      "name": "Premium Airbrush Color",
+      "paints": [
+        {
+          "name": "White",
+          "price": "",
+          "sku": "62.001",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Flesh Tone",
+          "price": "",
+          "sku": "62.002",
+          "color": "#fbcb9b"
+        },
+        {
+          "name": "Basic Yellow",
+          "price": "",
+          "sku": "62.003",
+          "color": "#fec303"
+        },
+        {
+          "name": "Orange",
+          "price": "",
+          "sku": "62.004",
+          "color": "#ea5b15"
+        },
+        {
+          "name": "Bright Red",
+          "price": "",
+          "sku": "62.005",
+          "color": "#9d2821"
+        },
+        {
+          "name": "Carmine",
+          "price": "",
+          "sku": "62.006",
+          "color": "#ac2e32"
+        },
+        {
+          "name": "Magenta",
+          "price": "",
+          "sku": "62.007",
+          "color": "#a52e64"
+        },
+        {
+          "name": "Violet",
+          "price": "",
+          "sku": "62.008",
+          "color": "#524178"
+        },
+        {
+          "name": "Cobalt Blue",
+          "price": "",
+          "sku": "62.009",
+          "color": "#33588f"
+        },
+        {
+          "name": "Basic Blue",
+          "price": "",
+          "sku": "62.010",
+          "color": "#0198cd"
+        },
+        {
+          "name": "Dark Blue",
+          "price": "",
+          "sku": "62.011",
+          "color": "#39374f"
+        },
+        {
+          "name": "Blue Green",
+          "price": "",
+          "sku": "62.012",
+          "color": "#017574"
+        },
+        {
+          "name": "Basic Green",
+          "price": "",
+          "sku": "62.013",
+          "color": "#006e47"
+        },
+        {
+          "name": "Dark Green",
+          "price": "",
+          "sku": "62.014",
+          "color": "#32433b"
+        },
+        {
+          "name": "Yellow Ochre",
+          "price": "",
+          "sku": "62.015",
+          "color": "#c98836"
+        },
+        {
+          "name": "Dark Ochre",
+          "price": "",
+          "sku": "62.016",
+          "color": "#9c613f"
+        },
+        {
+          "name": "Raw Sienna",
+          "price": "",
+          "sku": "62.017",
+          "color": "#824c42"
+        },
+        {
+          "name": "Sepia",
+          "price": "",
+          "sku": "62.018",
+          "color": "#503428"
+        },
+        {
+          "name": "Grey",
+          "price": "",
+          "sku": "62.019",
+          "color": "#898995"
+        },
+        {
+          "name": "Fluorescent Yellow",
+          "price": "",
+          "sku": "62.031",
+          "color": "#f2e500"
+        },
+        {
+          "name": "Fluorescent Golden Yellow",
+          "price": "",
+          "sku": "62.032",
+          "color": "#fbbb35"
+        },
+        {
+          "name": "Fluorescent Orange",
+          "price": "",
+          "sku": "62.033",
+          "color": "#f07e01"
+        },
+        {
+          "name": "Fluorescent Scarlet",
+          "price": "",
+          "sku": "62.034",
+          "color": "#eb5060"
+        },
+        {
+          "name": "Fluorescent Rose",
+          "price": "",
+          "sku": "62.035",
+          "color": "#e73e8f"
+        },
+        {
+          "name": "Fluorescent Magenta",
+          "price": "",
+          "sku": "62.036",
+          "color": "#d33b90"
+        },
+        {
+          "name": "Fluorescent Violet",
+          "price": "",
+          "sku": "62.037",
+          "color": "#693e76"
+        },
+        {
+          "name": "Fluorescent Blue",
+          "price": "",
+          "sku": "62.038",
+          "color": "#4399d6"
+        },
+        {
+          "name": "Fluorescent Green",
+          "price": "",
+          "sku": "62.039",
+          "color": "#69b642"
+        },
+        {
+          "name": "Phosphorescent",
+          "price": "",
+          "sku": "62.040",
+          "color": "#e9eae2"
+        },
+        {
+          "name": "Metallic Medium",
+          "price": "",
+          "sku": "62.041",
+          "color": "#fdfdfb"
+        },
+        {
+          "name": "Metallic Yellow",
+          "price": "",
+          "sku": "62.042",
+          "color": "#fdfcf9"
+        },
+        {
+          "name": "Metallic Orange",
+          "price": "",
+          "sku": "62.043",
+          "color": "#fdfffe"
+        },
+        {
+          "name": "Metallic Red",
+          "price": "",
+          "sku": "62.044",
+          "color": "#fcfefd"
+        },
+        {
+          "name": "Metallic Violet",
+          "price": "",
+          "sku": "62.045",
+          "color": "#fcfcfc"
+        },
+        {
+          "name": "Metallic Blue",
+          "price": "",
+          "sku": "62.046",
+          "color": "#fcfefd"
+        },
+        {
+          "name": "Metallic Green",
+          "price": "",
+          "sku": "62.047",
+          "color": "#fbf9fa"
+        },
+        {
+          "name": "Silver",
+          "price": "",
+          "sku": "62.048",
+          "color": "#fcfcfc"
+        },
+        {
+          "name": "Gold",
+          "price": "",
+          "sku": "62.049",
+          "color": "#fcfcfe"
+        },
+        {
+          "name": "Copper",
+          "price": "",
+          "sku": "62.050",
+          "color": "#fcfefd"
+        },
+        {
+          "name": "Steel",
+          "price": "",
+          "sku": "62.051",
+          "color": "#f7f7f9"
+        },
+        {
+          "name": "Gunmetal",
+          "price": "",
+          "sku": "62.052",
+          "color": "#ededef"
+        },
+        {
+          "name": "Metallic Black",
+          "price": "",
+          "sku": "62.053",
+          "color": "#e6e4e5"
+        },
+        {
+          "name": "White Primer",
+          "price": "",
+          "sku": "62.061",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Matt Varnish",
+          "price": "",
+          "sku": "62.062",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Satin Varnish",
+          "price": "",
+          "sku": "62.063",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Gloss Varnish",
+          "price": "",
+          "sku": "62.064",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Retarder",
+          "price": "",
+          "sku": "62.065",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Reducer",
+          "price": "",
+          "sku": "62.066",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Cleaner",
+          "price": "",
+          "sku": "62.067",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Clear Base",
+          "price": "",
+          "sku": "62.068",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Candy Yellow",
+          "price": "",
+          "sku": "62.071",
+          "color": "#fef4d0"
+        },
+        {
+          "name": "Candy Dark Yellow",
+          "price": "",
+          "sku": "62.072",
+          "color": "#fde1c8"
+        },
+        {
+          "name": "Candy Orange",
+          "price": "",
+          "sku": "62.073",
+          "color": "#fbdec9"
+        },
+        {
+          "name": "Candy Red",
+          "price": "",
+          "sku": "62.074",
+          "color": "#f6d4c9"
+        },
+        {
+          "name": "Candy Magenta",
+          "price": "",
+          "sku": "62.075",
+          "color": "#f4d1e2"
+        },
+        {
+          "name": "Candy Rancing Blue",
+          "price": "",
+          "sku": "62.076",
+          "color": "#cedbf0"
+        },
+        {
+          "name": "Candy Racing Green",
+          "price": "",
+          "sku": "62.077",
+          "color": "#e0eeef"
+        },
+        {
+          "name": "Candy Brown",
+          "price": "",
+          "sku": "62.078",
+          "color": "#ebe1de"
+        },
+        {
+          "name": "Candy Black",
+          "price": "",
+          "sku": "62.079",
+          "color": "#c1c0be"
+        },
+        {
+          "name": "Black",
+          "price": "",
+          "sku": "62.020",
+          "color": "#010101"
+        }
+      ]
+    },
+    {
+      "name": "Hobby Spray",
+      "paints": [
+        {
+          "name": "Panzer Yellow",
+          "price": "",
+          "sku": "28.001",
+          "color": "#94864f"
+        },
+        {
+          "name": "Panzer Grey",
+          "price": "",
+          "sku": "28.002",
+          "color": "#4c4d4f"
+        },
+        {
+          "name": "Russian Green 4BO",
+          "price": "",
+          "sku": "28.003",
+          "color": "#575748"
+        },
+        {
+          "name": "UK Bronze Green",
+          "price": "",
+          "sku": "28.004",
+          "color": "#565656"
+        },
+        {
+          "name": "US Olive Drab",
+          "price": "",
+          "sku": "28.005",
+          "color": "#655c4b"
+        },
+        {
+          "name": "German Field Grey",
+          "price": "",
+          "sku": "28.006",
+          "color": "#63635b"
+        },
+        {
+          "name": "Russian Uniform",
+          "price": "",
+          "sku": "28.007",
+          "color": "#6e6553"
+        },
+        {
+          "name": "English Uniform",
+          "price": "",
+          "sku": "28.008",
+          "color": "#736042"
+        },
+        {
+          "name": "US Khaki",
+          "price": "",
+          "sku": "28.009",
+          "color": "#897960"
+        },
+        {
+          "name": "White",
+          "price": "",
+          "sku": "28.010",
+          "color": "#ededed"
+        },
+        {
+          "name": "Grey",
+          "price": "",
+          "sku": "28.011",
+          "color": "#b5b5b5"
+        },
+        {
+          "name": "Black",
+          "price": "",
+          "sku": "28.012",
+          "color": "#030303"
+        },
+        {
+          "name": "Bone White",
+          "price": "",
+          "sku": "28.013",
+          "color": "#d5bf98"
+        },
+        {
+          "name": "Leather Brown",
+          "price": "",
+          "sku": "28.014",
+          "color": "#88663f"
+        },
+        {
+          "name": "Desert Yellow",
+          "price": "",
+          "sku": "28.015",
+          "color": "#a07e4e"
+        },
+        {
+          "name": "Scarlet Red",
+          "price": "",
+          "sku": "28.016",
+          "color": "#aa3a36"
+        },
+        {
+          "name": "Ultramarine Blue",
+          "price": "",
+          "sku": "28.017",
+          "color": "#505b91"
+        },
+        {
+          "name": "Sun Yellow",
+          "price": "",
+          "sku": "28.018",
+          "color": "#f59e01"
+        },
+        {
+          "name": "Beasty Brown",
+          "price": "",
+          "sku": "28.019",
+          "color": "#7a5a41"
+        },
+        {
+          "name": "Wolf Grey",
+          "price": "",
+          "sku": "28.020",
+          "color": "#b1c2d2"
+        },
+        {
+          "name": "Silver",
+          "price": "",
+          "sku": "28.021",
+          "color": "#a6acb5"
+        },
+        {
+          "name": "Dead Flesh",
+          "price": "",
+          "sku": "28.022",
+          "color": "#b5a272"
+        },
+        {
+          "name": "Bloody Red",
+          "price": "",
+          "sku": "28.023",
+          "color": "#bf2036"
+        },
+        {
+          "name": "Pale Flesh",
+          "price": "",
+          "sku": "28.024",
+          "color": "#edbeae"
+        },
+        {
+          "name": "Alien Purple",
+          "price": "",
+          "sku": "28.025",
+          "color": "#7063a8"
+        },
+        {
+          "name": "Dark Green",
+          "price": "",
+          "sku": "28.026",
+          "color": "#3d4741"
+        },
+        {
+          "name": "Goblin Green",
+          "price": "",
+          "sku": "28.027",
+          "color": "#6d7447"
+        },
+        {
+          "name": "Sick Green",
+          "price": "",
+          "sku": "28.028",
+          "color": "#517257"
+        },
+        {
+          "name": "Gory Red",
+          "price": "",
+          "sku": "28.029",
+          "color": "#7a3f3f"
+        },
+        {
+          "name": "Magic Blue",
+          "price": "",
+          "sku": "28.030",
+          "color": "#1c6eb7"
+        },
+        {
+          "name": "Gunmetal",
+          "price": "",
+          "sku": "28.031",
+          "color": "#67666c"
+        }
+      ]
+    },
+    {
+      "name": "Auxiliaries",
+      "paints": [
+        {
+          "name": "Gloss Metal Varnish",
+          "price": "",
+          "sku": "26.657",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Acrylic Satin Varnish",
+          "price": "",
+          "sku": "28.532",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Acrylic Matt Varnish",
+          "price": "",
+          "sku": "28.531",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Acrylic Gloss Varnish",
+          "price": "",
+          "sku": "28.530",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Polyurethane Satin Varnish",
+          "price": "",
+          "sku": "26.652",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Polyurethane Matt Varnish",
+          "price": "",
+          "sku": "26.651",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Polyurethane Gloss Varnish",
+          "price": "",
+          "sku": "26.650",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Satin Varnish",
+          "price": "",
+          "sku": "70.522",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Matt Varnish",
+          "price": "",
+          "sku": "70.520",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Gloss Varnish",
+          "price": "",
+          "sku": "70.510",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Chipping Medium",
+          "price": "",
+          "sku": "73.214",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Plastic Putty",
+          "price": "",
+          "sku": "70.401",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Plastic Putty",
+          "price": "",
+          "sku": "70.400",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Decal Softener",
+          "price": "",
+          "sku": "73.212",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Decal Fix",
+          "price": "",
+          "sku": "73.213",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Crackle Medium",
+          "price": "",
+          "sku": "70.598",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Brush Restorer",
+          "price": "",
+          "sku": "28.890",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Brush Cleaner",
+          "price": "",
+          "sku": "28.900",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Pigment Binder",
+          "price": "",
+          "sku": "26.233",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Glaze Medium",
+          "price": "",
+          "sku": "70.596",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Retarder Medium",
+          "price": "",
+          "sku": "70.597",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Metal Medium",
+          "price": "",
+          "sku": "70.521",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Gloss Medium",
+          "price": "",
+          "sku": "70.470",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Matt Medium",
+          "price": "",
+          "sku": "70.540",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Thinner Medium",
+          "price": "",
+          "sku": "70.524",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Airbrush Thinner",
+          "price": "",
+          "sku": "71.261",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Liquid Mask",
+          "price": "",
+          "sku": "70.523",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Airbrush Flow Improver",
+          "price": "",
+          "sku": "71.262",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Airbrush Cleaner",
+          "price": "",
+          "sku": "71.099",
+          "color": "#ffffff"
+        }
+      ]
+    }
+  ]
+}
