@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         setUpRecyclerView()
     }
 
+    @Suppress("UNUSED_PARAMETER")
     fun dumpDatabase(view: View) {
         val db = PaintmeisterRoomDatabase.getDatabase(this, GlobalScope)
         GlobalScope.launch {
@@ -42,8 +43,8 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         }
     }
 
-    fun setUpRecyclerView() {
-        val manufacturerList = ArrayList<IFlexible<ManufacturerItem.ManufacturerItemViewHolder>>()
+    private fun setUpRecyclerView() {
+        var manufacturerList = ArrayList<IFlexible<ManufacturerItem.ManufacturerItemViewHolder>>()
         val adapter = FlexibleAdapter(manufacturerList)
 
         paintListViewModel = ViewModelProviders.of(this).get(PaintListViewModel::class.java)
@@ -57,6 +58,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         paintListViewModel.fullDepthManufacturers.observe(
             this,
             Observer { fullDepthManufacturers ->
+                manufacturerList = ArrayList()
                 for (fullDepthManufacturer in fullDepthManufacturers) {
                     val manufacturerItem = ManufacturerItem(fullDepthManufacturer.manufacturer)
                     manufacturerList.add(manufacturerItem)
@@ -73,7 +75,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         )
     }
 
-    fun setUpNavigationDrawer() {
+    private fun setUpNavigationDrawer() {
         setSupportActionBar(toolbar)
         val toggle = ActionBarDrawerToggle(
             this,
