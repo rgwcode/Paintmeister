@@ -2,11 +2,11 @@
   "formatVersion": 1,
   "database": {
     "version": 5,
-    "identityHash": "e47e6656842c484bd4a36af5b5e9f1ce",
+    "identityHash": "2f2b5030906ecd4fe434faf8deff95cc",
     "entities": [
       {
         "tableName": "Paint",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `color` TEXT NOT NULL, `sku` TEXT NOT NULL, `paintLineId` INTEGER, FOREIGN KEY(`paintLineId`) REFERENCES `PaintLine`(`id`) ON UPDATE NO ACTION ON DELETE NO ACTION )",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `color` TEXT NOT NULL, `sku` TEXT NOT NULL, `nonPaint` INTEGER NOT NULL, `metallic` INTEGER NOT NULL, `paintLineId` INTEGER, FOREIGN KEY(`paintLineId`) REFERENCES `PaintLine`(`id`) ON UPDATE NO ACTION ON DELETE NO ACTION )",
         "fields": [
           {
             "fieldPath": "id",
@@ -30,6 +30,18 @@
             "fieldPath": "sku",
             "columnName": "sku",
             "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "nonPaint",
+            "columnName": "nonPaint",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "metallic",
+            "columnName": "metallic",
+            "affinity": "INTEGER",
             "notNull": true
           },
           {
@@ -158,7 +170,7 @@
     "views": [],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'e47e6656842c484bd4a36af5b5e9f1ce')"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '2f2b5030906ecd4fe434faf8deff95cc')"
     ]
   }
 }

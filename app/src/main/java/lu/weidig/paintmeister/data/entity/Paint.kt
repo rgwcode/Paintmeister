@@ -24,5 +24,8 @@ data class Paint(
     var name: String = "",
     var color: String = "#FFFFFF",
     var sku: String = "",
+    // for special things like thinners, mediums...
+    var nonPaint: Boolean = false,
+    var metallic: Boolean = false,
     var paintLineId: Long? = null
 )

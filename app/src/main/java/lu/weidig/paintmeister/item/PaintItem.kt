@@ -1,6 +1,7 @@
 package lu.weidig.paintmeister.item
 
 import android.graphics.Color
+import android.graphics.drawable.GradientDrawable
 import android.view.View
 import android.widget.TextView
 import androidx.core.graphics.ColorUtils
@@ -29,22 +30,28 @@ data class PaintItem(private val paint: Paint, private var header: PaintLineItem
         payloads: List<Any>
     ) {
         holder.paintName.text = paint.name
-        if (paint.color != "") {
-            val curColor = Color.parseColor(paint.color)
+        val curColor = Color.parseColor(paint.color)
 
-            // Calculate a contrasting color for the text color matching the background color
-            val floatArray = FloatArray(3)
-            ColorUtils.colorToHSL(curColor, floatArray)
+        // Calculate a contrasting color for the text color matching the background color
+        val floatArray = FloatArray(3)
+        ColorUtils.colorToHSL(curColor, floatArray)
 
-            val contrastingColor: Int
-            contrastingColor = if (floatArray[2] >= 0.175) Color.BLACK else Color.WHITE
-            holder.paintName.setBackgroundColor(paint.color.toColorInt())
-            holder.paintName.setTextColor(contrastingColor)
+        val contrastingColor: Int
+        contrastingColor = if (floatArray[2] >= 0.175) Color.BLACK else Color.WHITE
+        holder.paintName.setTextColor(contrastingColor)
+
+        if (paint.metallic) {
+            val gradient = GradientDrawable(
+                GradientDrawable.Orientation.LEFT_RIGHT,
+                intArrayOf(0xff, curColor, 0xff)
+            )
+            // Not really deprecated, alternative won't work for SDK < 15
+            @Suppress("DEPRECATION")
+            holder.paintName.setBackgroundDrawable(gradient)
+
         } else {
-            holder.paintName.setBackgroundColor(Color.WHITE)
-            holder.paintName.setTextColor(Color.BLACK)
+            holder.paintName.setBackgroundColor(paint.color.toColorInt())
         }
-
     }
 
     inner class PaintItemViewHolder(view: View, adapter: FlexibleAdapter<*>) :

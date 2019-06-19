@@ -20,7 +20,7 @@ import org.json.JSONObject
 import java.nio.charset.Charset
 
 @Database(
-    entities = [Paint::class, Manufacturer::class, PaintLine::class], version = 5
+    entities = [Paint::class, Manufacturer::class, PaintLine::class], version = 6
 )
 abstract class PaintmeisterRoomDatabase : RoomDatabase() {
     abstract fun paintDao(): PaintDao
@@ -111,6 +111,9 @@ abstract class PaintmeisterRoomDatabase : RoomDatabase() {
                                     color = paintObject["color"].toString(),
                                     paintLineId = paintLineId
                                 )
+                                if (paintObject.has("metallic")) {
+                                    paint.metallic = true
+                                }
                                 paintDao.insert(paint)
                             }
                         }
