@@ -1005,66 +1005,77 @@
           "name": "Glossy Black",
           "price": "",
           "sku": "70.861",
+          "metallic": true,
           "color": "#151515"
         },
         {
           "name": "Silver",
           "price": "",
           "sku": "70.997",
+          "metallic": true,
           "color": "#cdd6d3"
         },
         {
           "name": "Gold",
           "price": "",
           "sku": "70.996",
+          "metallic": true,
           "color": "#ceaf52"
         },
         {
           "name": "Old Gold",
           "price": "",
           "sku": "70.878",
+          "metallic": true,
           "color": "#9c8448"
         },
         {
           "name": "Brass",
           "price": "",
           "sku": "70.801",
+          "metallic": true,
           "color": "#976f31"
         },
         {
           "name": "Bronze",
           "price": "",
           "sku": "70.998",
+          "metallic": true,
           "color": "#766b35"
         },
         {
           "name": "Copper",
           "price": "",
           "sku": "70.999",
+          "metallic": true,
           "color": "#9a5b3a"
         },
         {
           "name": "Oily Steel",
           "price": "",
           "sku": "70.865",
+          "metallic": true,
           "color": "#737476"
         },
         {
           "name": "Natural Steel",
           "price": "",
           "sku": "70.864",
+          "metallic": true,
           "color": "#898a82"
         },
         {
           "name": "Gunmetal Grey",
           "price": "",
           "sku": "70.863",
+          "metallic": true,
           "color": "#646760"
         },
         {
           "name": "Gunmetal Blue",
           "price": "",
           "sku": "70.800",
+          "metallic": true,
           "color": "#2f4a5d"
         },
         {
@@ -1541,75 +1552,87 @@
           "color": "#2d2e30"
         },
         {
-          "name": "Aluminum (Metallic)",
+          "name": "Aluminum",
           "price": "",
           "sku": "71.062",
+          "metallic": true,
           "color": "#acacb4"
         },
         {
-          "name": "Silver RLM01 (Metallic)",
+          "name": "Silver RLM01",
           "price": "",
           "sku": "71.063",
+          "metallic": true,
           "color": "#adadb9"
         },
         {
-          "name": "Chrome (Metallic)",
+          "name": "Chrome",
           "price": "",
           "sku": "71.064",
+          "metallic": true,
           "color": "#a8a8b0"
         },
         {
-          "name": "Steel (Metallic)",
+          "name": "Steel",
           "price": "",
           "sku": "71.065",
+          "metallic": true,
           "color": "#bbbbc7"
         },
         {
-          "name": "Gold (Metallic)",
+          "name": "Gold",
           "price": "",
           "sku": "71.066",
+          "metallic": true,
           "color": "#9e8155"
         },
         {
-          "name": "Bright Brass (Metallic)",
+          "name": "Bright Brass",
           "price": "",
           "sku": "71.067",
+          "metallic": true,
           "color": "#9f8f5b"
         },
         {
-          "name": "Copper (Metallic)",
+          "name": "Copper",
           "price": "",
           "sku": "71.068",
+          "metallic": true,
           "color": "#8c5c48"
         },
         {
-          "name": "Rust (Metallic)",
+          "name": "Rust",
           "price": "",
           "sku": "71.069",
+          "metallic": true,
           "color": "#755443"
         },
         {
-          "name": "Signal Red (Metallic)",
+          "name": "Signal Red",
           "price": "",
           "sku": "71.070",
+          "metallic": true,
           "color": "#cb5970"
         },
         {
-          "name": "Arctic Blue (Metallic)",
+          "name": "Arctic Blue",
           "price": "",
           "sku": "71.071",
+          "metallic": true,
           "color": "#373c4f"
         },
         {
-          "name": "Gunmetal (Metallic)",
+          "name": "Gunmetal",
           "price": "",
           "sku": "71.072",
+          "metallic": true,
           "color": "#7a7b80"
         },
         {
-          "name": "Black (Metallic)",
+          "name": "Black",
           "price": "",
           "sku": "71.073",
+          "metallic": true,
           "color": "#625e6c"
         },
         {
@@ -2617,48 +2640,56 @@
           "name": "Silver",
           "price": "",
           "sku": "70.790",
+          "metallic": true,
           "color": "#f8f8fa"
         },
         {
           "name": "Gold",
           "price": "",
           "sku": "70.791",
+          "metallic": true,
           "color": "#f3efec"
         },
         {
           "name": "Old Gold",
           "price": "",
           "sku": "70.792",
+          "metallic": true,
           "color": "#fbf9fa"
         },
         {
           "name": "Rich Gold",
           "price": "",
           "sku": "70.793",
+          "metallic": true,
           "color": "#f2e9db"
         },
         {
           "name": "Red Gold",
           "price": "",
           "sku": "70.794",
+          "metallic": true,
           "color": "#f7ecdc"
         },
         {
           "name": "Green Gold",
           "price": "",
           "sku": "70.795",
+          "metallic": true,
           "color": "#ebe5d8"
         },
         {
           "name": "White Gold",
           "price": "",
           "sku": "70.796",
+          "metallic": true,
           "color": "#fafafa"
         },
         {
           "name": "Copper",
           "price": "",
           "sku": "70.797",
+          "metallic": true,
           "color": "#fcf3f4"
         }
       ]
@@ -2670,102 +2701,119 @@
           "name": "Aluminum",
           "price": "",
           "sku": "77.701",
+          "metallic": true,
           "color": "#f1f1f3"
         },
         {
           "name": "Duraluminum",
           "price": "",
           "sku": "77.702",
+          "metallic": true,
           "color": "#f9f9f9"
         },
         {
           "name": "Dark Aluminum",
           "price": "",
           "sku": "77.703",
+          "metallic": true,
           "color": "#eceaeb"
         },
         {
           "name": "Pale Burnt Metal",
           "price": "",
           "sku": "77.704",
+          "metallic": true,
           "color": "#fafafa"
         },
         {
           "name": "White Aluminum",
           "price": "",
           "sku": "77.706",
+          "metallic": true,
           "color": "#f5f5f7"
         },
         {
           "name": "Chrome",
           "price": "",
           "sku": "77.707",
+          "metallic": true,
           "color": "#fafafa"
         },
         {
           "name": "Copper",
           "price": "",
           "sku": "77.710",
+          "metallic": true,
           "color": "#faf8f9"
         },
         {
           "name": "Magnesium",
           "price": "",
           "sku": "77.711",
+          "metallic": true,
           "color": "#e8e6e7"
         },
         {
           "name": "Steel",
           "price": "",
           "sku": "77.712",
+          "metallic": true,
           "color": "#e7e5e6"
         },
         {
           "name": "Jet Exhaust",
           "price": "",
           "sku": "77.713",
+          "metallic": true,
           "color": "#eeeced"
         },
         {
           "name": "Semi Matt Aluminum",
           "price": "",
           "sku": "77.716",
+          "metallic": true,
           "color": "#f5f5f7"
         },
         {
           "name": "Dull Aluminum",
           "price": "",
           "sku": "77.717",
+          "metallic": true,
           "color": "#fbfbfb"
         },
         {
           "name": "Gunmetal grey",
           "price": "",
           "sku": "77.720",
+          "metallic": true,
           "color": "#e1dfe0"
         },
         {
           "name": "Burnt Iron",
           "price": "",
           "sku": "77.721",
+          "metallic": true,
           "color": "#eeeced"
         },
         {
           "name": "Exhaust Manifold",
           "price": "",
           "sku": "77.723",
+          "metallic": true,
           "color": "#f0eeef"
         },
         {
           "name": "Silver",
           "price": "",
           "sku": "77.724",
+          "metallic": true,
           "color": "#f9f9f9"
         },
         {
           "name": "Gold",
           "price": "",
           "sku": "77.725",
+          "metallic": true,
           "color": "#faf9f7"
         },
         {
@@ -3382,54 +3430,63 @@
           "name": "Silver",
           "price": "",
           "sku": "72.052",
+          "metallic": true,
           "color": "#a7acb0"
         },
         {
           "name": "Chain Mail Silver",
           "price": "",
           "sku": "72.053",
+          "metallic": true,
           "color": "#7c7c7c"
         },
         {
           "name": "Gunmetal",
           "price": "",
           "sku": "72.054",
+          "metallic": true,
           "color": "#636365"
         },
         {
           "name": "Polished Gold",
           "price": "",
           "sku": "72.055",
+          "metallic": true,
           "color": "#d2ae22"
         },
         {
           "name": "Glorious Gold",
           "price": "",
           "sku": "72.056",
+          "metallic": true,
           "color": "#9b6d32"
         },
         {
           "name": "Bright Bronze",
           "price": "",
           "sku": "72.057",
+          "metallic": true,
           "color": "#a36941"
         },
         {
           "name": "Brassy Brass",
           "price": "",
           "sku": "72.058",
+          "metallic": true,
           "color": "#845539"
         },
         {
           "name": "Hammered Copper",
           "price": "",
           "sku": "72.059",
+          "metallic": true,
           "color": "#7a4537"
         },
         {
           "name": "Tinny Tin",
           "price": "",
           "sku": "72.060",
+          "metallic": true,
           "color": "#502e2f"
         },
         {
@@ -3975,42 +4032,49 @@
           "name": "Silver",
           "price": "",
           "sku": "72.752",
+          "metallic": true,
           "color": "#a7acb0"
         },
         {
           "name": "Chain Mail Silver",
           "price": "",
           "sku": "72.753",
+          "metallic": true,
           "color": "#aeaeae"
         },
         {
           "name": "Gunmetal",
           "price": "",
           "sku": "72.754",
+          "metallic": true,
           "color": "#6e6f71"
         },
         {
           "name": "Polished Gold",
           "price": "",
           "sku": "72.755",
+          "metallic": true,
           "color": "#ebad00"
         },
         {
           "name": "Glorious Gold",
           "price": "",
           "sku": "72.756",
+          "metallic": true,
           "color": "#c4905e"
         },
         {
           "name": "Bright Bronze",
           "price": "",
           "sku": "72.757",
+          "metallic": true,
           "color": "#95664c"
         },
         {
           "name": "Brassy Brass",
           "price": "",
           "sku": "72.758",
+          "metallic": true,
           "color": "#a15323"
         },
         {
@@ -4346,66 +4410,77 @@
           "name": "Gunmetal",
           "price": "",
           "sku": "69.058",
+          "metallic": true,
           "color": "#646760"
         },
         {
           "name": "Gold",
           "price": "",
           "sku": "69.059",
+          "metallic": true,
           "color": "#ac8424"
         },
         {
           "name": "Old Gold",
           "price": "",
           "sku": "69.060",
+          "metallic": true,
           "color": "#9c8448"
         },
         {
           "name": "Copper",
           "price": "",
           "sku": "69.061",
+          "metallic": true,
           "color": "#9a5b3a"
         },
         {
           "name": "Bronze",
           "price": "",
           "sku": "69.062",
+          "metallic": true,
           "color": "#766b35"
         },
         {
           "name": "Steel",
           "price": "",
           "sku": "69.063",
+          "metallic": true,
           "color": "#898a82"
         },
         {
           "name": "Light Steel",
           "price": "",
           "sku": "69.064",
+          "metallic": true,
           "color": "#cdd6d3"
         },
         {
           "name": "Dark Steel",
           "price": "",
           "sku": "69.065",
+          "metallic": true,
           "color": "#737476"
         },
         {
           "name": "Metallic Red",
           "price": "",
           "sku": "69.066",
+          "metallic": true,
           "color": "#cb5970"
         },
         {
           "name": "Metallic Blue",
           "price": "",
           "sku": "69.067",
+          "metallic": true,
           "color": "#373c4f"
         },
         {
           "name": "Metallic Green",
           "price": "",
           "sku": "69.068",
+          "metallic": true,
           "color": "#1b927f"
         },
         {
@@ -5068,6 +5143,7 @@
           "name": "Plate Mail Metal",
           "price": "",
           "sku": "70.628",
+          "metallic": true,
           "color": "#98999e"
         },
         {
@@ -5086,6 +5162,7 @@
           "name": "Gloss Black",
           "price": "",
           "sku": "77.660",
+          "metallic": true,
           "color": "#010101"
         }
       ]
@@ -5408,72 +5485,84 @@
           "name": "Metallic Yellow",
           "price": "",
           "sku": "62.042",
+          "metallic": true,
           "color": "#fdfcf9"
         },
         {
           "name": "Metallic Orange",
           "price": "",
           "sku": "62.043",
+          "metallic": true,
           "color": "#fdfffe"
         },
         {
           "name": "Metallic Red",
           "price": "",
           "sku": "62.044",
+          "metallic": true,
           "color": "#fcfefd"
         },
         {
           "name": "Metallic Violet",
           "price": "",
           "sku": "62.045",
+          "metallic": true,
           "color": "#fcfcfc"
         },
         {
           "name": "Metallic Blue",
           "price": "",
           "sku": "62.046",
+          "metallic": true,
           "color": "#fcfefd"
         },
         {
           "name": "Metallic Green",
           "price": "",
           "sku": "62.047",
+          "metallic": true,
           "color": "#fbf9fa"
         },
         {
           "name": "Silver",
           "price": "",
           "sku": "62.048",
+          "metallic": true,
           "color": "#fcfcfc"
         },
         {
           "name": "Gold",
           "price": "",
           "sku": "62.049",
+          "metallic": true,
           "color": "#fcfcfe"
         },
         {
           "name": "Copper",
           "price": "",
           "sku": "62.050",
+          "metallic": true,
           "color": "#fcfefd"
         },
         {
           "name": "Steel",
           "price": "",
           "sku": "62.051",
+          "metallic": true,
           "color": "#f7f7f9"
         },
         {
           "name": "Gunmetal",
           "price": "",
           "sku": "62.052",
+          "metallic": true,
           "color": "#ededef"
         },
         {
           "name": "Metallic Black",
           "price": "",
           "sku": "62.053",
+          "metallic": true,
           "color": "#e6e4e5"
         },
         {
@@ -5713,6 +5802,7 @@
           "name": "Silver",
           "price": "",
           "sku": "28.021",
+          "metallic": true,
           "color": "#a6acb5"
         },
         {
@@ -5773,6 +5863,7 @@
           "name": "Gunmetal",
           "price": "",
           "sku": "28.031",
+          "metallic": true,
           "color": "#67666c"
         }
       ]

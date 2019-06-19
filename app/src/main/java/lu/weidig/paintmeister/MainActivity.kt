@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         setUpRecyclerView()
     }
 
-    fun dumpDatabase() {
+    private fun dumpDatabase() {
         val db = PaintmeisterRoomDatabase.getDatabase(this, GlobalScope)
         GlobalScope.launch {
             db.clearAllTables()

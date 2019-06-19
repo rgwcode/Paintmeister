@@ -69,6 +69,7 @@
           "name": "Ironbreaker",
           "price": "$4.55",
           "sku": "99189958047",
+          "metallic": true,
           "color": "#bc912f"
         },
         {
@@ -87,6 +88,7 @@
           "name": "Leadbelcher",
           "price": "$4.55",
           "sku": "99189958016",
+          "metallic": true,
           "color": "#494f51"
         },
         {
@@ -111,6 +113,7 @@
           "name": "Relictor Gold",
           "price": "$4.55",
           "sku": "99189958049",
+          "metallic": true,
           "color": "#bc9d65"
         },
         {
@@ -291,6 +294,7 @@
           "name": "Runefang Steel",
           "price": "$4.55",
           "sku": "99189958048",
+          "metallic": true,
           "color": "#bc912f"
         },
         {

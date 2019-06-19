@@ -297,36 +297,42 @@
           "name": "Ancient Bronze",
           "price": "$3.69",
           "sku": "09049",
+          "metallic": true,
           "color": "#c19b7f"
         },
         {
           "name": "Antique Gold",
           "price": "$3.69",
           "sku": "09050",
+          "metallic": true,
           "color": "#cca761"
         },
         {
           "name": "New Gold",
           "price": "$3.69",
           "sku": "09051",
+          "metallic": true,
           "color": "#f2e5b9"
         },
         {
           "name": "Shadowed Steel",
           "price": "$3.69",
           "sku": "09052",
+          "metallic": true,
           "color": "#a0a0a0"
         },
         {
           "name": "Honed Steel",
           "price": "$3.69",
           "sku": "09053",
+          "metallic": true,
           "color": "#a4a4a4"
         },
         {
           "name": "Polished Silver",
           "price": "$3.69",
           "sku": "09054",
+          "metallic": true,
           "color": "#e6e6e6"
         },
         {
@@ -591,30 +597,35 @@
           "name": "Ruby Red",
           "price": "$3.69",
           "sku": "09101",
+          "metallic": true,
           "color": "#df9775"
         },
         {
           "name": "Coppery Orange",
           "price": "$3.69",
           "sku": "09102",
+          "metallic": true,
           "color": "#cc9d83"
         },
         {
           "name": "Emerald Green",
           "price": "$3.69",
           "sku": "09103",
+          "metallic": true,
           "color": "#75bbc6"
         },
         {
           "name": "Sparkling Blue",
           "price": "$3.69",
           "sku": "09104",
+          "metallic": true,
           "color": "#8da7be"
         },
         {
           "name": "Sparkling Amethyst",
           "price": "$3.69",
           "sku": "09105",
+          "metallic": true,
           "color": "#dcdbe5"
         },
         {
@@ -693,18 +704,21 @@
           "name": "Adamantium Black",
           "price": "$3.69",
           "sku": "09124",
+          "metallic": true,
           "color": "#151515"
         },
         {
           "name": "Scorched Metal",
           "price": "$3.69",
           "sku": "09125",
+          "metallic": true,
           "color": "#9a664f"
         },
         {
           "name": "Gunmetal Blue",
           "price": "$3.69",
           "sku": "09126",
+          "metallic": true,
           "color": "#39576a"
         },
         {
@@ -891,18 +905,21 @@
           "name": "Aged Pewter",
           "price": "$3.69",
           "sku": "09196",
+          "metallic": true,
           "color": "#6a6549"
         },
         {
           "name": "Old Bronze",
           "price": "$3.69",
           "sku": "09197",
+          "metallic": true,
           "color": "#3a2e10"
         },
         {
           "name": "Tarnished Brass",
           "price": "$3.69",
           "sku": "09198",
+          "metallic": true,
           "color": "#966c03"
         },
         {
@@ -927,18 +944,21 @@
           "name": "Blackened Steel",
           "price": "$3.69",
           "sku": "09205",
+          "metallic": true,
           "color": "#292524"
         },
         {
           "name": "Tarnished Steel",
           "price": "$3.69",
           "sku": "09206",
+          "metallic": true,
           "color": "#9f9e9d"
         },
         {
           "name": "True Silver",
           "price": "$3.69",
           "sku": "09207",
+          "metallic": true,
           "color": "#b6b5b3"
         },
         {
@@ -1844,42 +1864,49 @@
           "name": "Dragon Copper",
           "price": "$3.69",
           "sku": "09448",
+          "metallic": true,
           "color": "#cb9078"
         },
         {
           "name": "Dragon Bronze",
           "price": "$3.69",
           "sku": "09449",
+          "metallic": true,
           "color": "#79663c"
         },
         {
           "name": "Dragon Gold",
           "price": "$3.69",
           "sku": "09450",
+          "metallic": true,
           "color": "#d5a254"
         },
         {
           "name": "Dwarven Gold",
           "price": "$3.69",
           "sku": "09451",
+          "metallic": true,
           "color": "#9a5c1a"
         },
         {
           "name": "Blade Steel",
           "price": "$3.69",
           "sku": "09452",
+          "metallic": true,
           "color": "#a49d9a"
         },
         {
           "name": "Filigree Silver",
           "price": "$3.69",
           "sku": "09453",
+          "metallic": true,
           "color": "#a7a09e"
         },
         {
           "name": "Shining Mithril",
           "price": "$3.69",
           "sku": "09454",
+          "metallic": true,
           "color": "#d8d3d3"
         }
       ]
