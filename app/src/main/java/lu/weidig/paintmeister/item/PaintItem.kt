@@ -3,6 +3,7 @@ package lu.weidig.paintmeister.item
 import android.graphics.Color
 import android.graphics.drawable.GradientDrawable
 import android.view.View
+import android.widget.ImageButton
 import android.widget.TextView
 import androidx.core.graphics.ColorUtils
 import androidx.core.graphics.toColorInt
@@ -29,7 +30,7 @@ data class PaintItem(private val paint: Paint, private var header: PaintLineItem
         position: Int,
         payloads: List<Any>
     ) {
-        holder.paintName.text = paint.name
+        holder.paintName.text = paint.name + " " + paint.numOwned
         val curColor = Color.parseColor(paint.color)
 
         // Calculate a contrasting color for the text color matching the background color
@@ -39,6 +40,10 @@ data class PaintItem(private val paint: Paint, private var header: PaintLineItem
         val contrastingColor: Int
         contrastingColor = if (floatArray[2] >= 0.175) Color.BLACK else Color.WHITE
         holder.paintName.setTextColor(contrastingColor)
+        holder.addButton.setColorFilter(contrastingColor)
+        holder.removeButton.setColorFilter(contrastingColor)
+        holder.removeButton.tag = paint.id
+        holder.addButton.tag = paint.id
 
         if (paint.metallic) {
             val gradient = GradientDrawable(
@@ -47,15 +52,17 @@ data class PaintItem(private val paint: Paint, private var header: PaintLineItem
             )
             // Not really deprecated, alternative won't work for SDK < 15
             @Suppress("DEPRECATION")
-            holder.paintName.setBackgroundDrawable(gradient)
+            holder.itemView.setBackgroundDrawable(gradient)
 
         } else {
-            holder.paintName.setBackgroundColor(paint.color.toColorInt())
+            holder.itemView.setBackgroundColor(paint.color.toColorInt())
         }
     }
 
     inner class PaintItemViewHolder(view: View, adapter: FlexibleAdapter<*>) :
         FlexibleViewHolder(view, adapter) {
-        var paintName: TextView = view.findViewById(R.id.paintName)
+        val paintName: TextView = view.findViewById(R.id.paintName)
+        val addButton: ImageButton = view.findViewById(R.id.add_paint_button)
+        val removeButton: ImageButton = view.findViewById(R.id.remove_paint_button)
     }
 }

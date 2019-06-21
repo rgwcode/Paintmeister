@@ -15,4 +15,6 @@
     <string name="dropdown_open">Dropdown, open</string>
     <string name="dropdown_closed">Dropdown, closed</string>
     <string name="action_dump_database">Dump database</string>
+    <string name="increase_owned_by_one">Increase owned by one</string>
+    <string name="decrease_owned_by_one">Decrease owned by one</string>
 </resources>

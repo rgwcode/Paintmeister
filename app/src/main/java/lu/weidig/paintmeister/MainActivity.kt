@@ -3,6 +3,7 @@ package lu.weidig.paintmeister
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
@@ -33,6 +34,14 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         setContentView(R.layout.activity_main)
         setUpNavigationDrawer()
         setUpRecyclerView()
+    }
+
+    fun decreaseOwnedByOne(view: View) {
+        paintListViewModel.decreaseOwned(view.tag.toString().toLong())
+    }
+
+    fun increaseOwnedByOne(view: View) {
+        paintListViewModel.increaseOwned(view.tag.toString().toLong())
     }
 
     private fun dumpDatabase() {

@@ -4,13 +4,34 @@
     android:layout_height="wrap_content"
     android:layout_marginLeft="5dp"
     android:layout_marginRight="5dp"
-    android:orientation="vertical">
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/remove_paint_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/decrease_owned_by_one"
+        android:onClick="decreaseOwnedByOne"
+        android:src="@drawable/ic_remove_black_24dp" />
 
     <TextView
         android:id="@+id/paintName"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:gravity="center"
         android:padding="10dp"
         android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/add_paint_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/increase_owned_by_one"
+        android:onClick="increaseOwnedByOne"
+        android:src="@drawable/ic_add_black_24dp" />
 </LinearLayout>
