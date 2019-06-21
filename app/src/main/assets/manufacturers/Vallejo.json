@@ -2820,6 +2820,7 @@
           "name": "Gloss Metal Varnish",
           "price": "",
           "sku": "77.657",
+          "nonpaint": true,
           "color": "#d1d1d1"
         }
       ]
@@ -4583,18 +4584,21 @@
           "name": "Mecha Gloss Varnish",
           "price": "",
           "sku": "69.701",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Mecha Matt Varnish",
           "price": "",
           "sku": "69.702",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Mecha Satin Varnish",
           "price": "",
           "sku": "69.703",
+          "nonpaint": true,
           "color": "#ffffff"
         }
       ]
@@ -4606,168 +4610,196 @@
           "name": "European Splash Mud",
           "price": "",
           "sku": "73.801",
+          "nonpaint": true,
           "color": "#54422a"
         },
         {
           "name": "Russian Splash Mud",
           "price": "",
           "sku": "73.802",
+          "nonpaint": true,
           "color": "#302728"
         },
         {
           "name": "Industrial Splash Mud",
           "price": "",
           "sku": "73.803",
+          "nonpaint": true,
           "color": "#7a7b73"
         },
         {
           "name": "Light Brown Splash Mud",
           "price": "",
           "sku": "73.804",
+          "nonpaint": true,
           "color": "#c4af9e"
         },
         {
           "name": "Brown Splash Mud",
           "price": "",
           "sku": "73.805",
+          "nonpaint": true,
           "color": "#4c3126"
         },
         {
           "name": "Black Splash Mud",
           "price": "",
           "sku": "73.806",
+          "nonpaint": true,
           "color": "#1e252b"
         },
         {
           "name": "European Mud",
           "price": "",
           "sku": "73.807",
+          "nonpaint": true,
           "color": "#54422a"
         },
         {
           "name": "Russian Mud",
           "price": "",
           "sku": "73.808",
+          "nonpaint": true,
           "color": "#302728"
         },
         {
           "name": "Industrial Mud",
           "price": "",
           "sku": "73.809",
+          "nonpaint": true,
           "color": "#7a7b73"
         },
         {
           "name": "Light Brown Mu",
           "price": "",
           "sku": "73.810",
+          "nonpaint": true,
           "color": "#c4af9e"
         },
         {
           "name": "Brown Mud",
           "price": "",
           "sku": "73.811",
+          "nonpaint": true,
           "color": "#4c3126"
         },
         {
           "name": "Black Mud",
           "price": "",
           "sku": "73.812",
+          "nonpaint": true,
           "color": "#1e252b"
         },
         {
           "name": "Oil Stains",
           "price": "",
           "sku": "73.813",
+          "nonpaint": true,
           "color": "#6e5019"
         },
         {
           "name": "Fuel Stains",
           "price": "",
           "sku": "73.814",
+          "nonpaint": true,
           "color": "#935e0f"
         },
         {
           "name": "Engine Grime",
           "price": "",
           "sku": "73.815",
+          "nonpaint": true,
           "color": "#494a4f"
         },
         {
           "name": "Diesel Stains",
           "price": "",
           "sku": "73.816",
+          "nonpaint": true,
           "color": "#bc5616"
         },
         {
           "name": "Petrol Spills",
           "price": "",
           "sku": "73.817",
+          "nonpaint": true,
           "color": "#1c1d1f"
         },
         {
           "name": "Brown Engine Soot",
           "price": "",
           "sku": "73.818",
+          "nonpaint": true,
           "color": "#5b351e"
         },
         {
           "name": "Rain Marks",
           "price": "",
           "sku": "73.819",
+          "nonpaint": true,
           "color": "#694825"
         },
         {
           "name": "Snow",
           "price": "",
           "sku": "73.820",
+          "nonpaint": true,
           "color": "#e9e9e9"
         },
         {
           "name": "Rust Texture",
           "price": "",
           "sku": "73.821",
+          "nonpaint": true,
           "color": "#63322b"
         },
         {
           "name": "Slimy Grime Dark",
           "price": "",
           "sku": "73.822",
+          "nonpaint": true,
           "color": "#434a28"
         },
         {
           "name": "Slime Grime Light",
           "price": "",
           "sku": "73.823",
+          "nonpaint": true,
           "color": "#767205"
         },
         {
           "name": "Streaking Grime",
           "price": "",
           "sku": "73.824",
+          "nonpaint": true,
           "color": "#4b4428"
         },
         {
           "name": "Crushed Grass",
           "price": "",
           "sku": "73.825",
+          "nonpaint": true,
           "color": "#605221"
         },
         {
           "name": "Mud and Grass",
           "price": "",
           "sku": "73.826",
+          "nonpaint": true,
           "color": "#55432b"
         },
         {
           "name": "Moss and Lichen",
           "price": "",
           "sku": "73.827",
+          "nonpaint": true,
           "color": "#c69d06"
         },
         {
           "name": "Wet Effects",
           "price": "",
           "sku": "73.828",
+          "nonpaint": true,
           "color": "#b5b194"
         }
       ]
@@ -4779,138 +4811,161 @@
           "name": "Titanium White",
           "price": "",
           "sku": "73.101",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Light Yellow Ocre",
           "price": "",
           "sku": "73.102",
+          "nonpaint": true,
           "color": "#d3a687"
         },
         {
           "name": "Dark Yellow Ocre",
           "price": "",
           "sku": "73.103",
+          "nonpaint": true,
           "color": "#cda96d"
         },
         {
           "name": "Light Sienna",
           "price": "",
           "sku": "73.104",
+          "nonpaint": true,
           "color": "#b1b39d"
         },
         {
           "name": "Natural Sienna",
           "price": "",
           "sku": "73.105",
+          "nonpaint": true,
           "color": "#c07d53"
         },
         {
           "name": "Burnt Sienna",
           "price": "",
           "sku": "73.106",
+          "nonpaint": true,
           "color": "#af6349"
         },
         {
           "name": "Dark Red Ochre",
           "price": "",
           "sku": "73.107",
+          "nonpaint": true,
           "color": "#bf5d36"
         },
         {
           "name": "Brown Iron Oxide",
           "price": "",
           "sku": "73.108",
+          "nonpaint": true,
           "color": "#833f3e"
         },
         {
           "name": "Natural Umber",
           "price": "",
           "sku": "73.109",
+          "nonpaint": true,
           "color": "#a48c68"
         },
         {
           "name": "Burnt Umber",
           "price": "",
           "sku": "73.110",
+          "nonpaint": true,
           "color": "#7b5b4e"
         },
         {
           "name": "Green Earth",
           "price": "",
           "sku": "73.111",
+          "nonpaint": true,
           "color": "#b6ad84"
         },
         {
           "name": "Chrome Oxide Green",
           "price": "",
           "sku": "73.112",
+          "nonpaint": true,
           "color": "#77aa89"
         },
         {
           "name": "Light Slate Grey",
           "price": "",
           "sku": "73.113",
+          "nonpaint": true,
           "color": "#d6d5d3"
         },
         {
           "name": "Dark Slate Grey",
           "price": "",
           "sku": "73.114",
+          "nonpaint": true,
           "color": "#5c6262"
         },
         {
           "name": "Natural Iron Oxide",
           "price": "",
           "sku": "73.115",
+          "nonpaint": true,
           "color": "#555658"
         },
         {
           "name": "Carbon Black (Smoke Black)",
           "price": "",
           "sku": "73.116",
+          "nonpaint": true,
           "color": "#4f4f51"
         },
         {
           "name": "Rust",
           "price": "",
           "sku": "73.117",
+          "nonpaint": true,
           "color": "#eb9b6a"
         },
         {
           "name": "New Rust",
           "price": "",
           "sku": "73.118",
+          "nonpaint": true,
           "color": "#fbbd98"
         },
         {
           "name": "European Earth",
           "price": "",
           "sku": "73.119",
+          "nonpaint": true,
           "color": "#c4947e"
         },
         {
           "name": "Old Rust",
           "price": "",
           "sku": "73.120",
+          "nonpaint": true,
           "color": "#c9865b"
         },
         {
           "name": "Desert Dust",
           "price": "",
           "sku": "73.121",
+          "nonpaint": true,
           "color": "#fffce9"
         },
         {
           "name": "Faded Olive Green",
           "price": "",
           "sku": "73.122",
+          "nonpaint": true,
           "color": "#bdb98c"
         },
         {
           "name": "Dark Steel",
           "price": "",
           "sku": "73.123",
+          "nonpaint": true,
           "color": "#4e5d64"
         }
       ]
@@ -5174,126 +5229,147 @@
           "name": "Transparent Water",
           "price": "",
           "sku": "26.201",
+          "nonpaint": true,
           "color": "#cbcbcb"
         },
         {
           "name": "Mediterranean Blue",
           "price": "",
           "sku": "26.202",
+          "nonpaint": true,
           "color": "#1c4257"
         },
         {
           "name": "Pacific Blue",
           "price": "",
           "sku": "26.203",
+          "nonpaint": true,
           "color": "#2b1e6c"
         },
         {
           "name": "Atlantic Blue",
           "price": "",
           "sku": "26.204",
+          "nonpaint": true,
           "color": "#192e60"
         },
         {
           "name": "White Stone",
           "price": "",
           "sku": "26.211",
+          "nonpaint": true,
           "color": "#cbcbcb"
         },
         {
           "name": "Rough White Pumice",
           "price": "",
           "sku": "26.212",
+          "nonpaint": true,
           "color": "#b3b2b0"
         },
         {
           "name": "Rough Grey Pumice",
           "price": "",
           "sku": "26.213",
+          "nonpaint": true,
           "color": "#8e837d"
         },
         {
           "name": "Black Lava-Asphalt",
           "price": "",
           "sku": "26.214",
+          "nonpaint": true,
           "color": "#22211f"
         },
         {
           "name": "Grey Sand",
           "price": "",
           "sku": "26.215",
+          "nonpaint": true,
           "color": "#989380"
         },
         {
           "name": "Desert Sand",
           "price": "",
           "sku": "26.217",
+          "nonpaint": true,
           "color": "#a99464"
         },
         {
           "name": "Dark Earth",
           "price": "",
           "sku": "26.218",
+          "nonpaint": true,
           "color": "#4b4137"
         },
         {
           "name": "Brown Earth",
           "price": "",
           "sku": "26.219",
+          "nonpaint": true,
           "color": "#7d5330"
         },
         {
           "name": "Still Water",
           "price": "",
           "sku": "26.230",
+          "nonpaint": true,
           "color": "#dddddd"
         },
         {
           "name": "Foam",
           "price": "",
           "sku": "26.231",
+          "nonpaint": true,
           "color": "#e6e6e6"
         },
         {
           "name": "European Mud",
           "price": "",
           "sku": "26.807",
+          "nonpaint": true,
           "color": "#473720"
         },
         {
           "name": "Russian Mud",
           "price": "",
           "sku": "26.808",
+          "nonpaint": true,
           "color": "#251f1f"
         },
         {
           "name": "Industrial Mud",
           "price": "",
           "sku": "26.809",
+          "nonpaint": true,
           "color": "#696a63"
         },
         {
           "name": "Light Brown Mud",
           "price": "",
           "sku": "26.810",
+          "nonpaint": true,
           "color": "#aa9788"
         },
         {
           "name": "Brown Mud",
           "price": "",
           "sku": "26.811",
+          "nonpaint": true,
           "color": "#402921"
         },
         {
           "name": "Black Mud",
           "price": "",
           "sku": "26.812",
+          "nonpaint": true,
           "color": "#171c22"
         },
         {
           "name": "Snow",
           "price": "",
           "sku": "26.820",
+          "nonpaint": true,
           "color": "#cbcbcb"
         }
       ]
@@ -5575,42 +5651,49 @@
           "name": "Matt Varnish",
           "price": "",
           "sku": "62.062",
+          "nonpaint": true,
           "color": "#e9e9e9"
         },
         {
           "name": "Satin Varnish",
           "price": "",
           "sku": "62.063",
+          "nonpaint": true,
           "color": "#e9e9e9"
         },
         {
           "name": "Gloss Varnish",
           "price": "",
           "sku": "62.064",
+          "nonpaint": true,
           "color": "#e9e9e9"
         },
         {
           "name": "Retarder",
           "price": "",
           "sku": "62.065",
+          "nonpaint": true,
           "color": "#e9e9e9"
         },
         {
           "name": "Reducer",
           "price": "",
           "sku": "62.066",
+          "nonpaint": true,
           "color": "#e9e9e9"
         },
         {
           "name": "Cleaner",
           "price": "",
           "sku": "62.067",
+          "nonpaint": true,
           "color": "#e9e9e9"
         },
         {
           "name": "Clear Base",
           "price": "",
           "sku": "62.068",
+          "nonpaint": true,
           "color": "#e9e9e9"
         },
         {
@@ -5875,174 +5958,203 @@
           "name": "Gloss Metal Varnish",
           "price": "",
           "sku": "26.657",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Acrylic Satin Varnish",
           "price": "",
           "sku": "28.532",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Acrylic Matt Varnish",
           "price": "",
           "sku": "28.531",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Acrylic Gloss Varnish",
           "price": "",
           "sku": "28.530",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Polyurethane Satin Varnish",
           "price": "",
           "sku": "26.652",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Polyurethane Matt Varnish",
           "price": "",
           "sku": "26.651",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Polyurethane Gloss Varnish",
           "price": "",
           "sku": "26.650",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Satin Varnish",
           "price": "",
           "sku": "70.522",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Matt Varnish",
           "price": "",
           "sku": "70.520",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Gloss Varnish",
           "price": "",
           "sku": "70.510",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Chipping Medium",
           "price": "",
           "sku": "73.214",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Plastic Putty",
           "price": "",
           "sku": "70.401",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Plastic Putty",
           "price": "",
           "sku": "70.400",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Decal Softener",
           "price": "",
           "sku": "73.212",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Decal Fix",
           "price": "",
           "sku": "73.213",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Crackle Medium",
           "price": "",
           "sku": "70.598",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Brush Restorer",
           "price": "",
           "sku": "28.890",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Brush Cleaner",
           "price": "",
           "sku": "28.900",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Pigment Binder",
           "price": "",
           "sku": "26.233",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Glaze Medium",
           "price": "",
           "sku": "70.596",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Retarder Medium",
           "price": "",
           "sku": "70.597",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Metal Medium",
           "price": "",
           "sku": "70.521",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Gloss Medium",
           "price": "",
           "sku": "70.470",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Matt Medium",
           "price": "",
           "sku": "70.540",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Thinner Medium",
           "price": "",
           "sku": "70.524",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Airbrush Thinner",
           "price": "",
           "sku": "71.261",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Liquid Mask",
           "price": "",
           "sku": "70.523",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Airbrush Flow Improver",
           "price": "",
           "sku": "71.262",
+          "nonpaint": true,
           "color": "#ffffff"
         },
         {
           "name": "Airbrush Cleaner",
           "price": "",
           "sku": "71.099",
+          "nonpaint": true,
           "color": "#ffffff"
         }
       ]
