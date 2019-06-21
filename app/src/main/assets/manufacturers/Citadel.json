@@ -6,326 +6,483 @@
       "name": "Air",
       "paints": [
         {
-          "name": "Citadel Air Cleaner",
-          "price": "$16.50",
-          "sku": "99189999405",
-          "color": "#ffffff"
-        },
-        {
-          "name": "Mephiston Red",
-          "price": "$4.55",
-          "sku": "99189958002",
-          "color": "#990c02"
-        },
-        {
-          "name": "Evil Sunz Scarlet",
-          "price": "$4.55",
-          "sku": "99189958022",
-          "color": "#a41314"
-        },
-        {
-          "name": "Balthasar Gold",
-          "price": "$4.55",
-          "sku": "99189958017",
-          "color": "#6c400f"
-        },
-        {
-          "name": "Straken Green",
-          "price": "$4.55",
-          "sku": "99189958030",
-          "color": "#758526"
-        },
-        {
-          "name": "Administratum Grey",
-          "price": "$4.55",
-          "sku": "99189958044",
-          "color": "#5a5140"
-        },
-        {
-          "name": "Macragge Blue",
-          "price": "$4.55",
-          "sku": "99189958005",
-          "color": "#283c77"
-        },
-        {
-          "name": "Khorne Red",
-          "price": "$4.55",
-          "sku": "99189958003",
-          "color": "#5b1204"
-        },
-        {
-          "name": "Fenrisian Grey",
-          "price": "$4.55",
-          "sku": "99189958051",
-          "color": "#839cb8"
-        },
-        {
-          "name": "Lothern Blue",
-          "price": "$4.55",
-          "sku": "99189958025",
-          "color": "#66a0ce"
-        },
-        {
-          "name": "Ironbreaker",
-          "price": "$4.55",
-          "sku": "99189958047",
-          "metallic": true,
-          "color": "#bc912f"
-        },
-        {
-          "name": "Kantor Blue",
-          "price": "$4.55",
-          "sku": "99189958004",
-          "color": "#19284f"
-        },
-        {
-          "name": "Flash Gitz Yellow",
-          "price": "$4.55",
-          "sku": "99189958020",
-          "color": "#ffed00"
-        },
-        {
-          "name": "Leadbelcher",
-          "price": "$4.55",
-          "sku": "99189958016",
-          "metallic": true,
-          "color": "#494f51"
-        },
-        {
-          "name": "Zandri Dust",
-          "price": "$4.55",
-          "sku": "99189958010",
-          "color": "#a2965c"
-        },
-        {
-          "name": "Ulthuan Grey",
-          "price": "$4.55",
-          "sku": "99189958045",
-          "color": "#d6e3de"
-        },
-        {
-          "name": "Tallarn Sand",
-          "price": "$4.55",
-          "sku": "99189958035",
-          "color": "#aa7d00"
-        },
-        {
-          "name": "Relictor Gold",
-          "price": "$4.55",
-          "sku": "99189958049",
-          "metallic": true,
-          "color": "#bc9d65"
-        },
-        {
-          "name": "Castellan Green",
-          "price": "$4.55",
-          "sku": "99189958008",
-          "color": "#414e28"
-        },
-        {
-          "name": "Karak Stone",
-          "price": "$4.55",
-          "sku": "99189958036",
-          "color": "#C1A068"
-        },
-        {
-          "name": "Temple Guard Blue",
-          "price": "$4.55",
-          "sku": "99189958026",
-          "color": "#60988d"
-        },
-        {
-          "name": "Ogryn Camo",
-          "price": "$4.55",
-          "sku": "99189958032",
-          "color": "#a9ad4c"
-        },
-        {
-          "name": "Tau Light Ochre",
-          "price": "$4.55",
-          "sku": "99189958039",
-          "color": "#ae6e1b"
-        },
-        {
-          "name": "Caledor Sky",
-          "price": "$4.55",
-          "sku": "99189958006",
-          "color": "#4b6899"
-        },
-        {
-          "name": "Baneblade Brown",
-          "price": "$4.55",
-          "sku": "99189958042",
-          "color": "#92816c"
-        },
-        {
-          "name": "Dawnstone",
-          "price": "$4.55",
-          "sku": "99189958043",
-          "color": "#7b7d74"
-        },
-        {
-          "name": "Tuskgor Fur",
-          "price": "$4.55",
-          "sku": "99189958041",
-          "color": "#7c3a37"
+          "name": "Ushabti Bone",
+          "price": "$7.80",
+          "sku": "99189958085",
+          "color": "#aba173"
         },
         {
           "name": "Air Caste Thinner",
-          "price": "$4.55",
-          "sku": "99189958034",
-          "color": "#ffffff"
-        },
-        {
-          "name": "Warboss Green",
-          "price": "$4.55",
-          "sku": "99189958029",
-          "color": "#557c57"
-        },
-        {
-          "name": "Deathclaw Brown",
-          "price": "$4.55",
-          "sku": "99189958038",
-          "color": "#a66954"
-        },
-        {
-          "name": "Mournfang Brown",
-          "price": "$4.55",
-          "sku": "99189958011",
-          "color": "#5a180a"
-        },
-        {
-          "name": "Kislev Flesh",
-          "price": "$4.55",
-          "sku": "99189958037",
-          "color": "#ceac77"
-        },
-        {
-          "name": "Ushabti Bone",
-          "price": "$4.55",
-          "sku": "99189958033",
-          "color": "#c3c082"
-        },
-        {
-          "name": "Troll Slayer Orange",
-          "price": "$4.55",
-          "sku": "99189958021",
-          "color": "#cf6427"
-        },
-        {
-          "name": "Steel Legion Drab",
-          "price": "$4.55",
-          "sku": "99189958018",
-          "color": "#685733"
-        },
-        {
-          "name": "Moot Green",
-          "price": "$4.55",
-          "sku": "99189958028",
-          "color": "#76a93c"
-        },
-        {
-          "name": "Averland Sunset",
-          "price": "$4.55",
-          "sku": "99189958001",
-          "color": "#f7b500"
-        },
-        {
-          "name": "Elysian Green",
-          "price": "$4.55",
-          "sku": "99189958031",
-          "color": "#85923a"
-        },
-        {
-          "name": "Balor Brown",
-          "price": "$4.55",
-          "sku": "99189958040",
-          "color": "#845e17"
-        },
-        {
-          "name": "Dryad Bark",
-          "price": "$4.55",
-          "sku": "99189958013",
-          "color": "#3c3732"
-        },
-        {
-          "name": "Genestealer Purple",
-          "price": "$4.55",
-          "sku": "99189958023",
-          "color": "#4a462d"
-        },
-        {
-          "name": "The Fang",
-          "price": "$4.55",
-          "sku": "99189958019",
-          "color": "#567378"
-        },
-        {
-          "name": "Deathworld Forest",
-          "price": "$4.55",
-          "sku": "99189958009",
-          "color": "#686c35"
-        },
-        {
-          "name": "Sybarite Green",
-          "price": "$4.55",
-          "sku": "99189958027",
-          "color": "#649f66"
-        },
-        {
-          "name": "Russ Grey",
-          "price": "$4.55",
-          "sku": "99189958050",
-          "color": "#607588"
+          "price": "$7.80",
+          "sku": "99189958086",
+          "nonpaint": true,
+          "color": "#a2a2a2"
         },
         {
           "name": "Terminatus Stone",
-          "price": "$4.55",
-          "sku": "99189958052",
-          "color": "#ccbc83"
+          "price": "$7.80",
+          "sku": "99189958104",
+          "color": "#c8b79d"
         },
         {
-          "name": "Caliban Green",
-          "price": "$4.55",
-          "sku": "99189958007",
-          "color": "#143d24"
+          "name": "Temple Guard Blue",
+          "price": "$7.80",
+          "sku": "99189958078",
+          "color": "#239489"
         },
         {
-          "name": "Runefang Steel",
-          "price": "$4.55",
-          "sku": "99189958048",
-          "metallic": true,
-          "color": "#bc912f"
+          "name": "Russ Grey",
+          "price": "$7.80",
+          "sku": "99189958102",
+          "color": "#507085"
         },
         {
-          "name": "Calgar Blue",
-          "price": "$4.55",
-          "sku": "99189958024",
-          "color": "#546eb1"
+          "name": "Corvus Black",
+          "price": "$7.80",
+          "sku": "99189958116",
+          "color": "#171314"
+        },
+        {
+          "name": "Angron Red Clear",
+          "price": "$7.80",
+          "sku": "99189958105",
+          "color": "#e21823"
         },
         {
           "name": "White Scar",
-          "price": "$4.55",
-          "sku": "99189958046",
-          "color": "#ffffff"
+          "price": "$7.80",
+          "sku": "99189958098",
+          "color": "#a9a9a9"
         },
         {
-          "name": "XV-88",
-          "price": "$4.55",
-          "sku": "99189958012",
-          "color": "#704e25"
+          "name": "Balor Brown",
+          "price": "$7.80",
+          "sku": "99189958092",
+          "color": "#875408"
         },
         {
-          "name": "Abaddon Black",
-          "price": "$4.55",
-          "sku": "99189958015",
-          "color": "#000000"
+          "name": "Gal Vorbak Red",
+          "price": "$7.80",
+          "sku": "99189958124",
+          "color": "#4b213c"
+        },
+        {
+          "name": "Steel Legion Drab",
+          "price": "$7.80",
+          "sku": "99189958070",
+          "color": "#584e2d"
+        },
+        {
+          "name": "Lupercal Green",
+          "price": "$7.80",
+          "sku": "99189958123",
+          "color": "#002c2b"
+        },
+        {
+          "name": "Kakophoni Purple",
+          "price": "$7.80",
+          "sku": "99189958121",
+          "color": "#8869ae"
+        },
+        {
+          "name": "Straken Green",
+          "price": "$7.80",
+          "sku": "99189958082",
+          "color": "#597f1c"
+        },
+        {
+          "name": "Mournfang Brown",
+          "price": "$7.80",
+          "sku": "99189958063",
+          "color": "#490f06"
+        },
+        {
+          "name": "Word Bearers Red",
+          "price": "$7.80",
+          "sku": "99189958125",
+          "color": "#620104"
+        },
+        {
+          "name": "Baneblade Brown",
+          "price": "$7.80",
+          "sku": "99189958094",
+          "color": "#8f7c68"
+        },
+        {
+          "name": "Kantor Blue",
+          "price": "$7.80",
+          "sku": "99189958056",
+          "color": "#02134e"
+        },
+        {
+          "name": "Tallarn Sand",
+          "price": "$7.80",
+          "sku": "99189958087",
+          "color": "#a07409"
+        },
+        {
+          "name": "Troll Slayer Orange",
+          "price": "$7.80",
+          "sku": "99189958073",
+          "color": "#f16c23"
+        },
+        {
+          "name": "Ulthuan Grey",
+          "price": "$7.80",
+          "sku": "99189958097",
+          "color": "#c4ddd5"
+        },
+        {
+          "name": "Sigismund Yellow Clear",
+          "price": "$7.80",
+          "sku": "99189958112",
+          "color": "#ffe32f"
+        },
+        {
+          "name": "Khorne Red",
+          "price": "$7.80",
+          "sku": "99189958055",
+          "color": "#650001"
+        },
+        {
+          "name": "Deathshroud Clear",
+          "price": "$7.80",
+          "sku": "99189958107",
+          "color": "#1c1c1b"
         },
         {
           "name": "Mechanicus Standard Grey",
-          "price": "$4.55",
-          "sku": "99189958014",
-          "color": "#494f51"
+          "price": "$7.80",
+          "sku": "99189958066",
+          "color": "#39484a"
+        },
+        {
+          "name": "Zandri Dust",
+          "price": "$7.80",
+          "sku": "99189958062",
+          "color": "#988e56"
+        },
+        {
+          "name": "Lothern Blue",
+          "price": "$7.80",
+          "sku": "99189958077",
+          "color": "#2c9bcc"
+        },
+        {
+          "name": "Night Lords Blue",
+          "price": "$7.80",
+          "sku": "99189958113",
+          "color": "#002b5c"
+        },
+        {
+          "name": "Typhon Ash",
+          "price": "$7.80",
+          "sku": "99189958118",
+          "color": "#e4d8c1"
+        },
+        {
+          "name": "Iron Hands Steel",
+          "price": "$7.80",
+          "sku": "99189958128",
+          "color": "#706a65",
+          "metallic": true
+        },
+        {
+          "name": "Calgar Blue",
+          "price": "$7.80",
+          "sku": "99189958076",
+          "color": "#2a497f"
+        },
+        {
+          "name": "Fenrisian Grey",
+          "price": "$7.80",
+          "sku": "99189958103",
+          "color": "#6d94b3"
+        },
+        {
+          "name": "Relictor Gold",
+          "price": "$7.80",
+          "sku": "99189958101",
+          "color": "#b28d4e",
+          "metallic": true
+        },
+        {
+          "name": "Ironbreaker",
+          "price": "$7.80",
+          "sku": "99189958099",
+          "color": "#595d5d",
+          "metallic": true
+        },
+        {
+          "name": "Averland Sunset",
+          "price": "$7.80",
+          "sku": "99189958053",
+          "color": "#fbb81c"
+        },
+        {
+          "name": "Deathworld Forest",
+          "price": "$7.80",
+          "sku": "99189958061",
+          "color": "#556229"
+        },
+        {
+          "name": "Leadbelcher",
+          "price": "$7.80",
+          "sku": "99189958068",
+          "color": "#484d51",
+          "metallic": true
+        },
+        {
+          "name": "Dryad Bark",
+          "price": "$7.80",
+          "sku": "99189958065",
+          "color": "#2b2a24"
+        },
+        {
+          "name": "Deathclaw Brown",
+          "price": "$7.80",
+          "sku": "99189958090",
+          "color": "#af634f"
+        },
+        {
+          "name": "Abaddon Black",
+          "price": "$7.80",
+          "sku": "99189958067",
+          "color": "#000000"
+        },
+        {
+          "name": "Castellan Green",
+          "price": "$7.80",
+          "sku": "99189958060",
+          "color": "#264715"
+        },
+        {
+          "name": "The Fang",
+          "price": "$7.80",
+          "sku": "99189958071",
+          "color": "#405b71"
+        },
+        {
+          "name": "Caliban Green",
+          "price": "$7.80",
+          "sku": "99189958059",
+          "color": "#003d15"
+        },
+        {
+          "name": "Genestealer Purple",
+          "price": "$7.80",
+          "sku": "99189958075",
+          "color": "#7658a5"
+        },
+        {
+          "name": "Kislev Flesh",
+          "price": "$7.80",
+          "sku": "99189958089",
+          "color": "#d1a570"
+        },
+        {
+          "name": "Sybarite Green",
+          "price": "$7.80",
+          "sku": "99189958079",
+          "color": "#17a166"
+        },
+        {
+          "name": "Moot Green",
+          "price": "$7.80",
+          "sku": "99189958080",
+          "color": "#3daf44"
+        },
+        {
+          "name": "Tuskgor Fur",
+          "price": "$7.80",
+          "sku": "99189958093",
+          "color": "#863231"
+        },
+        {
+          "name": "Castellax Bronze",
+          "price": "$7.80",
+          "sku": "99189958126",
+          "color": "#76371b",
+          "metallic": true
+        },
+        {
+          "name": "Sons of Horus Green",
+          "price": "$7.80",
+          "sku": "99189958119",
+          "color": "#00545e"
+        },
+        {
+          "name": "Eidolon Purple Clear",
+          "price": "$7.80",
+          "sku": "99189958108",
+          "color": "#7d4d99"
+        },
+        {
+          "name": "Chemos Purple",
+          "price": "$7.80",
+          "sku": "99189958117",
+          "color": "#4f356c"
+        },
+        {
+          "name": "XV-88",
+          "price": "$7.80",
+          "sku": "99189958064",
+          "color": "#6c4811"
+        },
+        {
+          "name": "Ogryn Camo",
+          "price": "$7.80",
+          "sku": "99189958084",
+          "color": "#96a648"
+        },
+        {
+          "name": "Runefang Steel",
+          "price": "$7.80",
+          "sku": "99189958100",
+          "color": "#969ca0",
+          "metallic": true
+        },
+        {
+          "name": "Pyroclast Orange Clear",
+          "price": "$7.80",
+          "sku": "99189958111",
+          "color": "#ed8022"
+        },
+        {
+          "name": "Dawnstone",
+          "price": "$7.80",
+          "sku": "99189958095",
+          "color": "#697068"
+        },
+        {
+          "name": "Mortarion Green Clear",
+          "price": "$7.80",
+          "sku": "99189958109",
+          "color": "#00832b"
+        },
+        {
+          "name": "Calth Blue Clear",
+          "price": "$7.80",
+          "sku": "99189958106",
+          "color": "#0087d1"
+        },
+        {
+          "name": "Flash Gitz Yellow",
+          "price": "$7.80",
+          "sku": "99189958072",
+          "color": "#fff300"
+        },
+        {
+          "name": "Macragge Blue",
+          "price": "$7.80",
+          "sku": "99189958057",
+          "color": "#0f3d7c"
+        },
+        {
+          "name": "Warboss Green",
+          "price": "$7.80",
+          "sku": "99189958081",
+          "color": "#317e57"
+        },
+        {
+          "name": "Nocturne Green",
+          "price": "$7.80",
+          "sku": "99189958122",
+          "color": "#162a29"
+        },
+        {
+          "name": "Caledor Sky",
+          "price": "$7.80",
+          "sku": "99189958058",
+          "color": "#366699"
+        },
+        {
+          "name": "Karak Stone",
+          "price": "$7.80",
+          "sku": "99189958088",
+          "color": "#b7945c"
+        },
+        {
+          "name": "Phalanx Yellow",
+          "price": "$7.80",
+          "sku": "99189958120",
+          "color": "#ffe200"
+        },
+        {
+          "name": "Balthasar Gold",
+          "price": "$7.80",
+          "sku": "99189958069",
+          "color": "#543625",
+          "metallic": true
+        },
+        {
+          "name": "Grey Knights Steel",
+          "price": "$7.80",
+          "sku": "99189958129",
+          "color": "#70808b",
+          "metallic": true
+        },
+        {
+          "name": "Administratum Grey",
+          "price": "$7.80",
+          "sku": "99189958096",
+          "color": "#8f9690"
+        },
+        {
+          "name": "Vulkan Green",
+          "price": "$7.80",
+          "sku": "99189958115",
+          "color": "#223c2e"
+        },
+        {
+          "name": "Death Korps Drab",
+          "price": "$7.80",
+          "sku": "99189958114",
+          "color": "#3d4539"
+        },
+        {
+          "name": "Mephiston Red",
+          "price": "$7.80",
+          "sku": "99189958054",
+          "color": "#960c09"
+        },
+        {
+          "name": "Phoenician Purple",
+          "price": "$7.80",
+          "sku": "99189958110",
+          "color": "#440052"
+        },
+        {
+          "name": "Elysian Green",
+          "price": "$7.80",
+          "sku": "99189958083",
+          "color": "#6b8c37"
+        },
+        {
+          "name": "Valdor Gold",
+          "price": "$7.80",
+          "sku": "99189958127",
+          "color": "#964f25",
+          "metallic": true
+        },
+        {
+          "name": "Evil Sunz Scarlet",
+          "price": "$7.80",
+          "sku": "99189958074",
+          "color": "#c01411"
+        },
+        {
+          "name": "Thallax Gold",
+          "price": "$7.80",
+          "sku": "99189958130",
+          "color": "#a45120",
+          "metallic": true
+        },
+        {
+          "name": "Tau Light Ochre",
+          "price": "$7.80",
+          "sku": "99189958091",
+          "color": "#bc6b10"
         }
       ]
     },
@@ -336,25 +493,255 @@
           "name": "Retributor Armour",
           "price": "$6.10",
           "sku": "99189950039",
-          "color": "#bc912f"
-        },
-        {
-          "name": "Naggaroth Night",
-          "price": "$4.55",
-          "sku": "99189950005",
-          "color": "#423956"
-        },
-        {
-          "name": "Leadbelcher",
-          "price": "$4.55",
-          "sku": "99189950028",
-          "color": "#494f51"
+          "color": "#b48135",
+          "metallic": true
         },
         {
           "name": "Macragge Blue",
           "price": "$4.55",
           "sku": "99189950008",
-          "color": "#283c77"
+          "color": "#0f3d7c"
+        },
+        {
+          "name": "Corax White",
+          "price": "$4.55",
+          "sku": "99189950172",
+          "color": "#a9a9a9"
+        },
+        {
+          "name": "Morghast Bone",
+          "price": "$4.55",
+          "sku": "99189950171",
+          "color": "#c0a973"
+        },
+        {
+          "name": "Caliban Green",
+          "price": "$4.55",
+          "sku": "99189950012",
+          "color": "#003d15"
+        },
+        {
+          "name": "Warplock Bronze",
+          "price": "$4.55",
+          "sku": "99189950031",
+          "color": "#712f22",
+          "metallic": true
+        },
+        {
+          "name": "Barak-Nar Burgundy",
+          "price": "$4.55",
+          "sku": "99189950169",
+          "color": "#451636"
+        },
+        {
+          "name": "Mechanicus Standard Grey",
+          "price": "$4.55",
+          "sku": "99189950024",
+          "color": "#39484a"
+        },
+        {
+          "name": "Jokaero Orange",
+          "price": "$4.55",
+          "sku": "99189950002",
+          "color": "#ed3814"
+        },
+        {
+          "name": "Lupercal Green",
+          "price": "$4.55",
+          "sku": "99189950127",
+          "color": "#002c2b"
+        },
+        {
+          "name": "The Fang",
+          "price": "$4.55",
+          "sku": "99189950032",
+          "color": "#405b71"
+        },
+        {
+          "name": "Mephiston Red",
+          "price": "$4.55",
+          "sku": "99189950003",
+          "color": "#960c09"
+        },
+        {
+          "name": "Catachan Fleshtone",
+          "price": "$4.55",
+          "sku": "99189950170",
+          "color": "#442b25"
+        },
+        {
+          "name": "XV-88",
+          "price": "$4.55",
+          "sku": "99189950021",
+          "color": "#6c4811"
+        },
+        {
+          "name": "Ratskin Flesh",
+          "price": "$4.55",
+          "sku": "99189950019",
+          "color": "#a86648"
+        },
+        {
+          "name": "Waaagh! Flesh",
+          "price": "$4.55",
+          "sku": "99189950013",
+          "color": "#0b3b36"
+        },
+        {
+          "name": "Naggaroth Night",
+          "price": "$4.55",
+          "sku": "99189950005",
+          "color": "#3b2b50"
+        },
+        {
+          "name": "Castellan Green",
+          "price": "$4.55",
+          "sku": "99189950014",
+          "color": "#264715"
+        },
+        {
+          "name": "Thousand Sons Blue",
+          "price": "$4.55",
+          "sku": "99189950071",
+          "color": "#00506f"
+        },
+        {
+          "name": "Screaming Bell",
+          "price": "$4.55",
+          "sku": "99189950030",
+          "color": "#925135",
+          "metallic": true
+        },
+        {
+          "name": "Iron Hands Steel",
+          "price": "$4.55",
+          "sku": "99189950128",
+          "color": "#706a65",
+          "metallic": true
+        },
+        {
+          "name": "Gal Vorbak Red",
+          "price": "$4.55",
+          "sku": "99189950123",
+          "color": "#4b213c"
+        },
+        {
+          "name": "Khorne Red",
+          "price": "$4.55",
+          "sku": "99189950004",
+          "color": "#650001"
+        },
+        {
+          "name": "Iron Warriors",
+          "price": "$4.55",
+          "sku": "99189950168",
+          "color": "#413f3d",
+          "metallic": true
+        },
+        {
+          "name": "Nocturne Green",
+          "price": "$4.55",
+          "sku": "99189950125",
+          "color": "#162a29"
+        },
+        {
+          "name": "Screamer Pink",
+          "price": "$4.55",
+          "sku": "99189950033",
+          "color": "#7a0e44"
+        },
+        {
+          "name": "Steel Legion Drab",
+          "price": "$4.55",
+          "sku": "99189950017",
+          "color": "#584e2d"
+        },
+        {
+          "name": "Mournfang Brown",
+          "price": "$4.55",
+          "sku": "99189950020",
+          "color": "#490f06"
+        },
+        {
+          "name": "Grey Knights Steel",
+          "price": "$4.55",
+          "sku": "99189950129",
+          "color": "#70808b",
+          "metallic": true
+        },
+        {
+          "name": "Celestra Grey",
+          "price": "$4.55",
+          "sku": "99189950026",
+          "color": "#8ba3a3"
+        },
+        {
+          "name": "Bugman's Glow",
+          "price": "$4.55",
+          "sku": "99189950018",
+          "color": "#804c43"
+        },
+        {
+          "name": "Death Korps Drab",
+          "price": "$4.55",
+          "sku": "99189950122",
+          "color": "#3d4539"
+        },
+        {
+          "name": "Corvus Black",
+          "price": "$4.55",
+          "sku": "99189950126",
+          "color": "#171314"
+        },
+        {
+          "name": "Rhinox Hide",
+          "price": "$4.55",
+          "sku": "99189950022",
+          "color": "#462f30"
+        },
+        {
+          "name": "Leadbelcher",
+          "price": "$4.55",
+          "sku": "99189950028",
+          "color": "#484d51",
+          "metallic": true
+        },
+        {
+          "name": "Deathworld Forest",
+          "price": "$4.55",
+          "sku": "99189950015",
+          "color": "#556229"
+        },
+        {
+          "name": "Night Lords Blue",
+          "price": "$4.55",
+          "sku": "99189950124",
+          "color": "#002b5c"
+        },
+        {
+          "name": "Balthasar Gold",
+          "price": "$4.55",
+          "sku": "99189950130",
+          "color": "#543625",
+          "metallic": true
+        },
+        {
+          "name": "Dryad Bark",
+          "price": "$4.55",
+          "sku": "99189950023",
+          "color": "#2b2a24"
+        },
+        {
+          "name": "Stegadon Scale Green",
+          "price": "$4.55",
+          "sku": "99189950010",
+          "color": "#06455d"
+        },
+        {
+          "name": "Rakarth Flesh",
+          "price": "$4.55",
+          "sku": "99189950027",
+          "color": "#9c998d"
         },
         {
           "name": "Abaddon Black",
@@ -363,202 +750,64 @@
           "color": "#000000"
         },
         {
-          "name": "Stegadon Scale Green",
+          "name": "Phoenician Purple",
           "price": "$4.55",
-          "sku": "99189950010",
-          "color": "#254460"
-        },
-        {
-          "name": "Averland Sunset",
-          "price": "$4.55",
-          "sku": "99189950001",
-          "color": "#f7b500"
-        },
-        {
-          "name": "Celestra Grey",
-          "price": "$4.55",
-          "sku": "99189950026",
-          "color": "#9dacac"
-        },
-        {
-          "name": "Zandri Dust",
-          "price": "$4.55",
-          "sku": "99189950016",
-          "color": "#a2965c"
-        },
-        {
-          "name": "Jokaero Orange",
-          "price": "$4.55",
-          "sku": "99189950002",
-          "color": "#e31e0b"
-        },
-        {
-          "name": "Warplock Bronze",
-          "price": "$4.55",
-          "sku": "99189950031",
-          "color": "#4f3b3c"
-        },
-        {
-          "name": "Screaming Bell",
-          "price": "$4.55",
-          "sku": "99189950030",
-          "color": "#984413"
-        },
-        {
-          "name": "Mournfang Brown",
-          "price": "$4.55",
-          "sku": "99189950020",
-          "color": "#5a180a"
-        },
-        {
-          "name": "Ionrach Skin",
-          "price": "$4.55",
-          "sku": "99189950082",
-          "color": "#DDCCB9"
-        },
-        {
-          "name": "Balthasar Gold",
-          "price": "$4.55",
-          "sku": "99189950130",
-          "color": "#6c400f"
-        },
-        {
-          "name": "Waaagh! Flesh",
-          "price": "$4.55",
-          "sku": "99189950013",
-          "color": "#3c572e"
-        },
-        {
-          "name": "XV-88",
-          "price": "$4.55",
-          "sku": "99189950021",
-          "color": "#704e25"
-        },
-        {
-          "name": "Ceramite White",
-          "price": "$4.55",
-          "sku": "99189950034",
-          "color": "#ffffff"
-        },
-        {
-          "name": "Daemonette Hide",
-          "price": "$4.55",
-          "sku": "99189950006",
-          "color": "#746E8B"
-        },
-        {
-          "name": "Mephiston Red",
-          "price": "$4.55",
-          "sku": "99189950003",
-          "color": "#990c02"
-        },
-        {
-          "name": "Screamer Pink",
-          "price": "$4.55",
-          "sku": "99189950033",
-          "color": "#701d41"
-        },
-        {
-          "name": "Mechanicus Standard Grey",
-          "price": "$4.55",
-          "sku": "99189950024",
-          "color": "#494f51"
-        },
-        {
-          "name": "The Fang",
-          "price": "$4.55",
-          "sku": "99189950032",
-          "color": "#567378"
-        },
-        {
-          "name": "Rakarth Flesh",
-          "price": "$4.55",
-          "sku": "99189950027",
-          "color": "#a8a192"
-        },
-        {
-          "name": "Caledor Sky",
-          "price": "$4.55",
-          "sku": "99189950009",
-          "color": "#4b6899"
-        },
-        {
-          "name": "Death Guard Green",
-          "price": "$4.55",
-          "sku": "99189950079",
-          "color": "#737A51"
-        },
-        {
-          "name": "Steel Legion Drab",
-          "price": "$4.55",
-          "sku": "99189950017",
-          "color": "#685733"
-        },
-        {
-          "name": "Castellan Green",
-          "price": "$4.55",
-          "sku": "99189950014",
-          "color": "#414e28"
-        },
-        {
-          "name": "Bugman's Glow",
-          "price": "$4.55",
-          "sku": "99189950018",
-          "color": "#7e5246"
-        },
-        {
-          "name": "Death World Forest",
-          "price": "$4.55",
-          "sku": "99189950015",
-          "color": "#686D2D"
+          "sku": "99189950121",
+          "color": "#440052"
         },
         {
           "name": "Incubi Darkness",
           "price": "$4.55",
           "sku": "99189950011",
-          "color": "#294547"
+          "color": "#082e32"
         },
         {
-          "name": "Khorne Red",
+          "name": "Daemonette Hide",
           "price": "$4.55",
-          "sku": "99189950004",
-          "color": "#5b1204"
+          "sku": "99189950006",
+          "color": "#655f81"
+        },
+        {
+          "name": "Averland Sunset",
+          "price": "$4.55",
+          "sku": "99189950001",
+          "color": "#fbb81c"
+        },
+        {
+          "name": "Zandri Dust",
+          "price": "$4.55",
+          "sku": "99189950016",
+          "color": "#988e56"
         },
         {
           "name": "Kantor Blue",
           "price": "$4.55",
           "sku": "99189950007",
-          "color": "#19284f"
+          "color": "#02134e"
         },
         {
-          "name": "Ratskin Flesh",
+          "name": "Caledor Sky",
           "price": "$4.55",
-          "sku": "99189950019",
-          "color": "#B36D48"
+          "sku": "99189950009",
+          "color": "#366699"
         },
         {
-          "name": "Rhinox Hide",
+          "name": "Ionrach Skin",
           "price": "$4.55",
-          "sku": "99189950022",
-          "color": "#493736"
+          "sku": "99189950082",
+          "color": "#97a384"
         },
         {
-          "name": "Thousand Sons Blue",
+          "name": "Grey Seer",
           "price": "$4.55",
-          "sku": "99189950071",
-          "color": "#025573"
+          "sku": "99189950174",
+          "color": "#a2a5a7"
         },
         {
-          "name": "Dryad Bark",
+          "name": "Wraithbone",
           "price": "$4.55",
-          "sku": "99189950023",
-          "color": "#3c3732"
-        },
-        {
-          "name": "Caliban Green",
-          "price": "$4.55",
-          "sku": "99189950012",
-          "color": "#143d24"
+          "sku": "99189950173",
+          "color": "#dbd1b2"
         }
       ]
     },
@@ -566,190 +815,402 @@
       "name": "Dry",
       "paints": [
         {
-          "name": "Kindleflame",
+          "name": "Wrack White",
           "price": "$4.55",
-          "sku": "99189952002",
-          "color": "#e0a18a"
-        },
-        {
-          "name": "Golgfag Brown",
-          "price": "$4.55",
-          "sku": "99189952028",
-          "color": "#8a5434"
-        },
-        {
-          "name": "Etherium Blue",
-          "price": "$4.55",
-          "sku": "99189952005",
-          "color": "#B0C2D7"
-        },
-        {
-          "name": "Thunderhawk Blue",
-          "price": "$4.55",
-          "sku": "99189952034",
-          "color": "#467379"
+          "sku": "99189952020",
+          "color": "#d3d0cf"
         },
         {
           "name": "Longbeard Grey",
           "price": "$4.55",
           "sku": "99189952012",
-          "color": "#e5e3cf"
-        },
-        {
-          "name": "Changeling Pink",
-          "price": "$4.55",
-          "sku": "99189952017",
-          "color": "#e4b5d1"
-        },
-        {
-          "name": "Hellion Green",
-          "price": "$4.55",
-          "sku": "99189952007",
-          "color": "#9fc3aa"
-        },
-        {
-          "name": "Verminlord Hide",
-          "price": "$4.55",
-          "sku": "99189952029",
-          "color": "#773a37"
-        },
-        {
-          "name": "Ryza Rust",
-          "price": "$4.55",
-          "sku": "99189952018",
-          "color": "#cf6427"
-        },
-        {
-          "name": "Eldar Flesh",
-          "price": "$4.55",
-          "sku": "99189952009",
-          "color": "#e3c486"
-        },
-        {
-          "name": "Imrik Blue",
-          "price": "$4.55",
-          "sku": "99189952024",
-          "color": "#4f8cbe"
-        },
-        {
-          "name": "Niblet Green",
-          "price": "$4.55",
-          "sku": "99189952026",
-          "color": "#648b33"
-        },
-        {
-          "name": "Hexos Palesun",
-          "price": "$4.55",
-          "sku": "99189952001",
-          "color": "#ffed00"
-        },
-        {
-          "name": "Sigmarite",
-          "price": "$4.55",
-          "sku": "99189952032",
-          "color": "#bc912f"
-        },
-        {
-          "name": "Tyrant Skull",
-          "price": "$4.55",
-          "sku": "99189952010",
-          "color": "#D5CA85"
-        },
-        {
-          "name": "Sylvaneth Bark",
-          "price": "$4.55",
-          "sku": "99189952030",
-          "color": "#5a5140"
-        },
-        {
-          "name": "Underhive Ash",
-          "price": "$4.55",
-          "sku": "99189952008",
-          "color": "#c5c081"
-        },
-        {
-          "name": "Necron Compound",
-          "price": "$4.55",
-          "sku": "99189952013",
-          "color": "#7c8284"
+          "color": "#dbdcc6"
         },
         {
           "name": "Skink Blue",
           "price": "$4.55",
           "sku": "99189952006",
-          "color": "#85becc"
+          "color": "#54bdca"
         },
         {
-          "name": "Chronus Blue",
+          "name": "Hellion Green",
           "price": "$4.55",
-          "sku": "99189952023",
-          "color": "#6e97cf"
+          "sku": "99189952007",
+          "color": "#7fc1a5"
         },
         {
-          "name": "Astorath Red",
+          "name": "Imrik Blue",
           "price": "$4.55",
-          "sku": "99189952021",
-          "color": "#962f27"
+          "sku": "99189952024",
+          "color": "#208abf"
         },
         {
-          "name": "Golden Griffon",
+          "name": "Thunderhawk Blue",
           "price": "$4.55",
-          "sku": "99189952014",
-          "color": "#a38d4d"
-        },
-        {
-          "name": "Nurgling Green",
-          "price": "$4.55",
-          "sku": "99189952027",
-          "color": "#94a063"
-        },
-        {
-          "name": "Dawnstone",
-          "price": "$4.55",
-          "sku": "99189952031",
-          "color": "#7b7d74"
-        },
-        {
-          "name": "Hoeth Blue",
-          "price": "$4.55",
-          "sku": "99189952022",
-          "color": "#607eb2"
-        },
-        {
-          "name": "Slaanesh Grey",
-          "price": "$4.55",
-          "sku": "99189952033",
-          "color": "#958F9A"
-        },
-        {
-          "name": "Wrack White",
-          "price": "$4.55",
-          "sku": "99189952020",
-          "color": "#dddad9"
-        },
-        {
-          "name": "Stormfang",
-          "price": "$4.55",
-          "sku": "99189952025",
-          "color": "#7188ab"
-        },
-        {
-          "name": "Praxeti White",
-          "price": "$4.55",
-          "sku": "99189952004",
-          "color": "#ffffff"
+          "sku": "99189952034",
+          "color": "#c8c483"
         },
         {
           "name": "Terminatus Stone",
           "price": "$4.55",
           "sku": "99189952011",
-          "color": "#ccbc83"
+          "color": "#396a70"
+        },
+        {
+          "name": "Dawnstone",
+          "price": "$4.55",
+          "sku": "99189952031",
+          "color": "#697068"
+        },
+        {
+          "name": "Golden Griffon",
+          "price": "$4.55",
+          "sku": "99189952014",
+          "color": "#ad8644",
+          "metallic": true
+        },
+        {
+          "name": "Nurgling Green",
+          "price": "$4.55",
+          "sku": "99189952027",
+          "color": "#7e975e"
+        },
+        {
+          "name": "Praxeti White",
+          "price": "$4.55",
+          "sku": "99189952004",
+          "color": "#a9a9a9"
+        },
+        {
+          "name": "Kindleflame",
+          "price": "$4.55",
+          "sku": "99189952002",
+          "color": "#f69c82"
+        },
+        {
+          "name": "Sylvaneth Bark",
+          "price": "$4.55",
+          "sku": "99189952030",
+          "color": "#4e483b"
+        },
+        {
+          "name": "Slaanesh Grey",
+          "price": "$4.55",
+          "sku": "99189952033",
+          "color": "#8b8893"
+        },
+        {
+          "name": "Tyrant Skull",
+          "price": "$4.55",
+          "sku": "99189952010",
+          "color": "#bcbb7e"
+        },
+        {
+          "name": "Hoeth Blue",
+          "price": "$4.55",
+          "sku": "99189952022",
+          "color": "#4c78af"
+        },
+        {
+          "name": "Verminlord Hide",
+          "price": "$4.55",
+          "sku": "99189952029",
+          "color": "#7e3331"
+        },
+        {
+          "name": "Ryza Rust",
+          "price": "$4.55",
+          "sku": "99189952018",
+          "color": "#f16c23"
+        },
+        {
+          "name": "Stormfang",
+          "price": "$4.55",
+          "sku": "99189952025",
+          "color": "#5a7fa3"
+        },
+        {
+          "name": "Necron Compound",
+          "price": "$4.55",
+          "sku": "99189952013",
+          "color": "#b6babd",
+          "metallic": true
+        },
+        {
+          "name": "Astorath Red",
+          "price": "$4.55",
+          "sku": "99189952021",
+          "color": "#a9311e"
+        },
+        {
+          "name": "Golgfag Brown",
+          "price": "$4.55",
+          "sku": "99189952028",
+          "color": "#8f502a"
+        },
+        {
+          "name": "Eldar Flesh",
+          "price": "$4.55",
+          "sku": "99189952009",
+          "color": "#e8c07f"
+        },
+        {
+          "name": "Niblet Green",
+          "price": "$4.55",
+          "sku": "99189952026",
+          "color": "#378c35"
+        },
+        {
+          "name": "Chronus Blue",
+          "price": "$4.55",
+          "sku": "99189952023",
+          "color": "#4b90cf"
+        },
+        {
+          "name": "Changeling Pink",
+          "price": "$4.55",
+          "sku": "99189952017",
+          "color": "#f3abca"
+        },
+        {
+          "name": "Hexos Palesun",
+          "price": "$4.55",
+          "sku": "99189952001",
+          "color": "#fff55a"
+        },
+        {
+          "name": "Sigmarite",
+          "price": "$4.55",
+          "sku": "99189952032",
+          "color": "#cb9545",
+          "metallic": true
+        },
+        {
+          "name": "Etherium Blue",
+          "price": "$4.55",
+          "sku": "99189952005",
+          "color": "#9eb5ce"
         },
         {
           "name": "Lucius Lilac",
           "price": "$4.55",
           "sku": "99189952003",
-          "color": "#b9a6ce"
+          "color": "#b598c9"
+        },
+        {
+          "name": "Underhive Ash",
+          "price": "$4.55",
+          "sku": "99189952008",
+          "color": "#7e3331"
+        }
+      ]
+    },
+    {
+      "name": "Contrast",
+      "paints": [
+        {
+          "name": "Space Wolves Grey",
+          "price": "$7.80",
+          "sku": "99189960027",
+          "color": "#446a8a"
+        },
+        {
+          "name": "Gore-Grunta Fur",
+          "price": "$7.80",
+          "sku": "99189960019",
+          "color": "#703c14"
+        },
+        {
+          "name": "Shyish Purple",
+          "price": "$7.80",
+          "sku": "99189960006",
+          "color": "#391e4f"
+        },
+        {
+          "name": "Volupus Pink",
+          "price": "$7.80",
+          "sku": "99189960005",
+          "color": "#6f0029"
+        },
+        {
+          "name": "Cygor Brown",
+          "price": "$7.80",
+          "sku": "99189960020",
+          "color": "#502a27"
+        },
+        {
+          "name": "Leviadon Blue",
+          "price": "$7.80",
+          "sku": "99189960008",
+          "color": "#00152a"
+        },
+        {
+          "name": "Magos Purple",
+          "price": "$7.80",
+          "sku": "99189960007",
+          "color": "#92628a"
+        },
+        {
+          "name": "Basilicanum Grey",
+          "price": "$7.80",
+          "sku": "99189960028",
+          "color": "#494948"
+        },
+        {
+          "name": "Iyanden Yellow",
+          "price": "$7.80",
+          "sku": "99189960001",
+          "color": "#e59714"
+        },
+        {
+          "name": "Militarum Green",
+          "price": "$7.80",
+          "sku": "99189960015",
+          "color": "#7a8325"
+        },
+        {
+          "name": "Ultramarines Blue",
+          "price": "$7.80",
+          "sku": "99189960009",
+          "color": "#132b5d"
+        },
+        {
+          "name": "Terradon Turquoise",
+          "price": "$7.80",
+          "sku": "99189960034",
+          "color": "#006978"
+        },
+        {
+          "name": "Ork Flesh",
+          "price": "$7.80",
+          "sku": "99189960013",
+          "color": "#006722"
+        },
+        {
+          "name": "Darkoath Flesh",
+          "price": "$7.80",
+          "sku": "99189960024",
+          "color": "#ae756a"
+        },
+        {
+          "name": "Apothecary White",
+          "price": "$7.80",
+          "sku": "99189960025",
+          "color": "#c0d2e2"
+        },
+        {
+          "name": "Aethermatic Blue",
+          "price": "$7.80",
+          "sku": "99189960032",
+          "color": "#3e93a4"
+        },
+        {
+          "name": "Blood Angels Red",
+          "price": "$7.80",
+          "sku": "99189960003",
+          "color": "#9a0e11"
+        },
+        {
+          "name": "Akhelian Green",
+          "price": "$7.80",
+          "sku": "99189960010",
+          "color": "#005d76"
+        },
+        {
+          "name": "Nazdreg Yellow",
+          "price": "$7.80",
+          "sku": "99189960012",
+          "color": "#906600"
+        },
+        {
+          "name": "Guilliman Flesh",
+          "price": "$7.80",
+          "sku": "99189960023",
+          "color": "#af6457"
+        },
+        {
+          "name": "Dark Angels Green",
+          "price": "$7.80",
+          "sku": "99189960011",
+          "color": "#002521"
+        },
+        {
+          "name": "Gryph-Charger Grey",
+          "price": "$7.80",
+          "sku": "99189960026",
+          "color": "#538aa5"
+        },
+        {
+          "name": "Fyreslayer Flesh",
+          "price": "$7.80",
+          "sku": "99189960022",
+          "color": "#8b5b4a"
+        },
+        {
+          "name": "Gryph-Hound Orange",
+          "price": "$7.80",
+          "sku": "99189960002",
+          "color": "#b0401a"
+        },
+        {
+          "name": "Aggaros Dunes",
+          "price": "$7.80",
+          "sku": "99189960016",
+          "color": "#908350"
+        },
+        {
+          "name": "Flesh Tearers Red",
+          "price": "$7.80",
+          "sku": "99189960004",
+          "color": "#5f0705"
+        },
+        {
+          "name": "Skeleton Horde",
+          "price": "$7.80",
+          "sku": "99189960017",
+          "color": "#bcaf8b"
+        },
+        {
+          "name": "Black Templar",
+          "price": "$7.80",
+          "sku": "99189960029",
+          "color": "#323232"
+        },
+        {
+          "name": "Creed Camo",
+          "price": "$7.80",
+          "sku": "99189960014",
+          "color": "#2c6e44"
+        },
+        {
+          "name": "Warp Lightning",
+          "price": "$7.80",
+          "sku": "99189960031",
+          "color": "#007033"
+        },
+        {
+          "name": "Talassar Blue",
+          "price": "$7.80",
+          "sku": "99189960030",
+          "color": "#004e8b"
+        },
+        {
+          "name": "Plaguebearer Flesh",
+          "price": "$7.80",
+          "sku": "99189960033",
+          "color": "#8e9a4f"
+        },
+        {
+          "name": "Wyldwood",
+          "price": "$7.80",
+          "sku": "99189960021",
+          "color": "#4f342f"
+        },
+        {
+          "name": "Snakebite Leather",
+          "price": "$7.80",
+          "sku": "99189960018",
+          "color": "#81561f"
         }
       ]
     },
@@ -757,466 +1218,574 @@
       "name": "Layer",
       "paints": [
         {
-          "name": "Stormhost Silver",
+          "name": "Liberator Gold",
           "price": "$6.10",
-          "sku": "99189951083",
-          "color": "#ABB9BE"
+          "sku": "99189951073",
+          "color": "#ad8644",
+          "metallic": true
         },
         {
           "name": "Skullcrusher Brass",
           "price": "$6.10",
           "sku": "99189951081",
-          "color": "#E9A84C"
+          "color": "#d8a252",
+          "metallic": true
         },
         {
-          "name": "Liberator Gold",
+          "name": "Stormhost Silver",
           "price": "$6.10",
-          "sku": "99189951073",
-          "color": "#c0a480"
+          "sku": "99189951083",
+          "color": "#b6babd",
+          "metallic": true
         },
         {
           "name": "Fulgurite Copper",
           "price": "$6.10",
           "sku": "99189951082",
-          "color": "#E0A861"
-        },
-        {
-          "name": "Russ Grey",
-          "price": "$4.55",
-          "sku": "99189951067",
-          "color": "#607588"
-        },
-        {
-          "name": "Screaming Skull",
-          "price": "$4.55",
-          "sku": "99189951033",
-          "color": "#d8d7a7"
-        },
-        {
-          "name": "Skavenblight Dinge",
-          "price": "$4.55",
-          "sku": "99189951054",
-          "color": "#4e4942"
-        },
-        {
-          "name": "Hoeth Blue",
-          "price": "$4.55",
-          "sku": "99189951014",
-          "color": "#607eb2"
-        },
-        {
-          "name": "Ulthuan Grey",
-          "price": "$4.55",
-          "sku": "99189951056",
-          "color": "#d6e3de"
-        },
-        {
-          "name": "Thunderhawk Blue",
-          "price": "$4.55",
-          "sku": "99189951053",
-          "color": "#467379"
-        },
-        {
-          "name": "White Scar",
-          "price": "$4.55",
-          "sku": "99189951057",
-          "color": "#ffffff"
-        },
-        {
-          "name": "Teclis Blue",
-          "price": "$4.55",
-          "sku": "99189951017",
-          "color": "#537abb"
-        },
-        {
-          "name": "Brass Scorpion",
-          "price": "$4.55",
-          "sku": "99189951065",
-          "color": "#804e15"
-        },
-        {
-          "name": "Tau Light Ochre",
-          "price": "$4.55",
-          "sku": "99189951042",
-          "color": "#ae6e1b"
-        },
-        {
-          "name": "Slaanesh Grey",
-          "price": "$4.55",
-          "sku": "99189951012",
-          "color": "#958F9A"
-        },
-        {
-          "name": "Cadian Fleshtone",
-          "price": "$4.55",
-          "sku": "99189951036",
-          "color": "#b77856"
-        },
-        {
-          "name": "Balor Brown",
-          "price": "$4.55",
-          "sku": "99189951043",
-          "color": "#845e17"
-        },
-        {
-          "name": "Troll Slayer Orange",
-          "price": "$4.55",
-          "sku": "99189951003",
-          "color": "#cf6427"
-        },
-        {
-          "name": "Pallid Wych Flesh",
-          "price": "$4.55",
-          "sku": "99189951058",
-          "color": "#d5d4c4"
-        },
-        {
-          "name": "Temple Guard Blue",
-          "price": "$4.55",
-          "sku": "99189951020",
-          "color": "#60988d"
-        },
-        {
-          "name": "Gehenna's Gold",
-          "price": "$4.55",
-          "sku": "99189951061",
-          "color": "#ae6e1b"
-        },
-        {
-          "name": "Warpstone Glow",
-          "price": "$4.55",
-          "sku": "99189951023",
-          "color": "#487230"
-        },
-        {
-          "name": "Karak Stone",
-          "price": "$4.55",
-          "sku": "99189951035",
-          "color": "#C1A068"
-        },
-        {
-          "name": "Flayed One Flesh",
-          "price": "$4.55",
-          "sku": "99189951074",
-          "color": "#e8c98c"
-        },
-        {
-          "name": "Dawnstone",
-          "price": "$4.55",
-          "sku": "99189951049",
-          "color": "#7b7d74"
-        },
-        {
-          "name": "Calgar Blue",
-          "price": "$4.55",
-          "sku": "99189951016",
-          "color": "#546eb1"
-        },
-        {
-          "name": "Squig Orange",
-          "price": "$4.55",
-          "sku": "99189951008",
-          "color": "#9a4e41"
-        },
-        {
-          "name": "Ahriman Blue",
-          "price": "$4.55",
-          "sku": "99189951084",
-          "color": "#007C8F"
-        },
-        {
-          "name": "Fenrisian Grey",
-          "price": "$4.55",
-          "sku": "99189951068",
-          "color": "#839cb8"
-        },
-        {
-          "name": "Evil Sunz Scarlet",
-          "price": "$4.55",
-          "sku": "99189951005",
-          "color": "#a41314"
-        },
-        {
-          "name": "Runefang Steel",
-          "price": "$4.55",
-          "sku": "99189951060",
-          "color": "#bc912f"
-        },
-        {
-          "name": "Ushabti Bone",
-          "price": "$4.55",
-          "sku": "99189951032",
-          "color": "#c3c082"
-        },
-        {
-          "name": "Loren Forest",
-          "price": "$4.55",
-          "sku": "99189951027",
-          "color": "#637330"
-        },
-        {
-          "name": "Straken Green",
-          "price": "$4.55",
-          "sku": "99189951028",
-          "color": "#758526"
-        },
-        {
-          "name": "Tuskgor Fur",
-          "price": "$4.55",
-          "sku": "99189951046",
-          "color": "#7c3a37"
-        },
-        {
-          "name": "Kislev Flesh",
-          "price": "$4.55",
-          "sku": "99189951037",
-          "color": "#ceac77"
-        },
-        {
-          "name": "Warboss Green",
-          "price": "$4.55",
-          "sku": "99189951025",
-          "color": "#557c57"
-        },
-        {
-          "name": "Emperor's Children",
-          "price": "$4.55",
-          "sku": "99189951070",
-          "color": "#a44173"
-        },
-        {
-          "name": "Dark Reaper",
-          "price": "$4.55",
-          "sku": "99189951052",
-          "color": "#425553"
-        },
-        {
-          "name": "Sybarite Green",
-          "price": "$4.55",
-          "sku": "99189951022",
-          "color": "#649f66"
-        },
-        {
-          "name": "Moot Green",
-          "price": "$4.55",
-          "sku": "99189951024",
-          "color": "#76a93c"
-        },
-        {
-          "name": "Alaitoc Blue",
-          "price": "$4.55",
-          "sku": "99189951013",
-          "color": "#3f5786"
-        },
-        {
-          "name": "Lothern Blue",
-          "price": "$4.55",
-          "sku": "99189951018",
-          "color": "#66a0ce"
-        },
-        {
-          "name": "Auric Armour Gold",
-          "price": "$4.55",
-          "sku": "99189951062",
-          "color": "#d0a426"
-        },
-        {
-          "name": "Gorthor Brown",
-          "price": "$4.55",
-          "sku": "99189951047",
-          "color": "#664f48"
-        },
-        {
-          "name": "Genestealer Purple",
-          "price": "$4.55",
-          "sku": "99189951010",
-          "color": "#735ca0"
-        },
-        {
-          "name": "Ungor Flesh",
-          "price": "$4.55",
-          "sku": "99189951039",
-          "color": "#ceab67"
-        },
-        {
-          "name": "Skarsnik Green",
-          "price": "$4.55",
-          "sku": "99189951026",
-          "color": "#6f8f69"
+          "color": "#964f25",
+          "metallic": true
         },
         {
           "name": "Doombull Brown",
           "price": "$4.55",
           "sku": "99189951045",
-          "color": "#510e0c"
+          "color": "#570003"
         },
         {
-          "name": "Xereus Purple",
+          "name": "Ulthuan Grey",
           "price": "$4.55",
-          "sku": "99189951009",
-          "color": "#44255b"
+          "sku": "99189951056",
+          "color": "#c4ddd5"
         },
         {
-          "name": "Eshin Grey",
+          "name": "Bloodreaver Flesh",
           "price": "$4.55",
-          "sku": "99189951051",
-          "color": "#555759"
+          "sku": "99189951194",
+          "color": "#6a4848"
         },
         {
-          "name": "Baneblade Brown",
+          "name": "Brass Scorpion",
           "price": "$4.55",
-          "sku": "99189951048",
-          "color": "#92816c"
-        },
-        {
-          "name": "Flash Gitz Yellow",
-          "price": "$4.55",
-          "sku": "99189951002",
-          "color": "#ffed00"
-        },
-        {
-          "name": "Fire Dragon Bright",
-          "price": "$4.55",
-          "sku": "99189951004",
-          "color": "#d8834f"
-        },
-        {
-          "name": "Sotek Green",
-          "price": "$4.55",
-          "sku": "99189951019",
-          "color": "#3c6975"
-        },
-        {
-          "name": "Wazdakka Red",
-          "price": "$4.55",
-          "sku": "99189951007",
-          "color": "#781504"
-        },
-        {
-          "name": "Elysian Green",
-          "price": "$4.55",
-          "sku": "99189951030",
-          "color": "#85923a"
-        },
-        {
-          "name": "Skrag Brown",
-          "price": "$4.55",
-          "sku": "99189951040",
-          "color": "#844c12"
-        },
-        {
-          "name": "Pink Horror",
-          "price": "$4.55",
-          "sku": "99189951069",
-          "color": "#82355b"
-        },
-        {
-          "name": "Deathclaw Brown",
-          "price": "$4.55",
-          "sku": "99189951041",
-          "color": "#a66954"
-        },
-        {
-          "name": "Deepkin Flesh",
-          "price": "$4.55",
-          "sku": "99189951101",
-          "color": "#DEDED2"
-        },
-        {
-          "name": "Kabalite Green",
-          "price": "$4.55",
-          "sku": "99189951021",
-          "color": "#3e8562"
-        },
-        {
-          "name": "Ironbreaker",
-          "price": "$4.55",
-          "sku": "99189951059",
-          "color": "#bc912f"
-        },
-        {
-          "name": "Zamesi Desert",
-          "price": "$4.55",
-          "sku": "99189951044",
-          "color": "#d0a327"
-        },
-        {
-          "name": "Wild Rider Red",
-          "price": "$4.55",
-          "sku": "99189951006",
-          "color": "#c21c1c"
-        },
-        {
-          "name": "Warpfiend Grey",
-          "price": "$4.55",
-          "sku": "99189951011",
-          "color": "#757179"
-        },
-        {
-          "name": "Nurgling Green",
-          "price": "$4.55",
-          "sku": "99189951029",
-          "color": "#94a063"
-        },
-        {
-          "name": "Sycorax Bronze",
-          "price": "$4.55",
-          "sku": "99189951064",
-          "color": "#9f7e49"
-        },
-        {
-          "name": "Stormvermin Fur",
-          "price": "$4.55",
-          "sku": "99189951055",
-          "color": "#79726a"
-        },
-        {
-          "name": "Ogryn Camo",
-          "price": "$4.55",
-          "sku": "99189951031",
-          "color": "#a9ad4c"
+          "sku": "99189951065",
+          "color": "#66260f",
+          "metallic": true
         },
         {
           "name": "Administratum Grey",
           "price": "$4.55",
           "sku": "99189951050",
-          "color": "#5a5140"
+          "color": "#989c94"
         },
         {
-          "name": "Bestigor Flesh",
+          "name": "Castellax Bronze",
           "price": "$4.55",
-          "sku": "99189951038",
-          "color": "#D68C50"
+          "sku": "99189951113",
+          "color": "#76371b",
+          "metallic": true
+        },
+        {
+          "name": "Ahriman Blue",
+          "price": "$4.55",
+          "sku": "99189951084",
+          "color": "#00708a"
+        },
+        {
+          "name": "Pink Horror",
+          "price": "$4.55",
+          "sku": "99189951069",
+          "color": "#8e2757"
+        },
+        {
+          "name": "Balor Brown",
+          "price": "$4.55",
+          "sku": "99189951043",
+          "color": "#875408"
+        },
+        {
+          "name": "Krieg Khaki",
+          "price": "$4.55",
+          "sku": "99189951107",
+          "color": "#bcbb7e"
+        },
+        {
+          "name": "Evil Sunz Scarlet",
+          "price": "$4.55",
+          "sku": "99189951005",
+          "color": "#c01411"
+        },
+        {
+          "name": "Fire Dragon Bright",
+          "price": "$4.55",
+          "sku": "99189951004",
+          "color": "#f4874e"
+        },
+        {
+          "name": "Teclis Blue",
+          "price": "$4.55",
+          "sku": "99189951017",
+          "color": "#3877bf"
+        },
+        {
+          "name": "Eshin Grey",
+          "price": "$4.55",
+          "sku": "99189951051",
+          "color": "#484b4e"
+        },
+        {
+          "name": "Baneblade Brown",
+          "price": "$4.55",
+          "sku": "99189951048",
+          "color": "#8f7c68"
+        },
+        {
+          "name": "Dechala Lilac",
+          "price": "$4.55",
+          "sku": "99189951106",
+          "color": "#b598c9"
+        },
+        {
+          "name": "Zamesi Desert",
+          "price": "$4.55",
+          "sku": "99189951044",
+          "color": "#d89d1b"
+        },
+        {
+          "name": "Stormvermin Fur",
+          "price": "$4.55",
+          "sku": "99189951055",
+          "color": "#6d655f"
+        },
+        {
+          "name": "Dawnstone",
+          "price": "$4.55",
+          "sku": "99189951049",
+          "color": "#697068"
+        },
+        {
+          "name": "Ogryn Camo",
+          "price": "$4.55",
+          "sku": "99189951031",
+          "color": "#96a648"
+        },
+        {
+          "name": "White Scar",
+          "price": "$4.55",
+          "sku": "99189951057",
+          "color": "#a9a9a9"
+        },
+        {
+          "name": "Kabalite Green",
+          "price": "$4.55",
+          "sku": "99189951021",
+          "color": "#008962"
+        },
+        {
+          "name": "Sybarite Green",
+          "price": "$4.55",
+          "sku": "99189951022",
+          "color": "#17a166"
+        },
+        {
+          "name": "Russ Grey",
+          "price": "$4.55",
+          "sku": "99189951067",
+          "color": "#507085"
+        },
+        {
+          "name": "Loren Forest",
+          "price": "$4.55",
+          "sku": "99189951027",
+          "color": "#486c25"
+        },
+        {
+          "name": "Gehenna's Gold",
+          "price": "$4.55",
+          "sku": "99189951061",
+          "color": "#94400e",
+          "metallic": true
+        },
+        {
+          "name": "Deepkin Flesh",
+          "price": "$4.55",
+          "sku": "99189951101",
+          "color": "#a9b79f"
+        },
+        {
+          "name": "Lugganath Orange",
+          "price": "$4.55",
+          "sku": "99189951109",
+          "color": "#f69b82"
+        },
+        {
+          "name": "Wild Rider Red",
+          "price": "$4.55",
+          "sku": "99189951006",
+          "color": "#e82e1b"
+        },
+        {
+          "name": "Xereus Purple",
+          "price": "$4.55",
+          "sku": "99189951009",
+          "color": "#47125a"
+        },
+        {
+          "name": "Warpfiend Grey",
+          "price": "$4.55",
+          "sku": "99189951011",
+          "color": "#66656e"
+        },
+        {
+          "name": "Pallid Wych Flesh",
+          "price": "$4.55",
+          "sku": "99189951058",
+          "color": "#caccbb"
+        },
+        {
+          "name": "Temple Guard Blue",
+          "price": "$4.55",
+          "sku": "99189951020",
+          "color": "#239489"
+        },
+        {
+          "name": "Deathclaw Brown",
+          "price": "$4.55",
+          "sku": "99189951041",
+          "color": "#af634f"
+        },
+        {
+          "name": "Lothern Blue",
+          "price": "$4.55",
+          "sku": "99189951018",
+          "color": "#2c9bcc"
         },
         {
           "name": "Altdorf Guard Blue",
           "price": "$4.55",
           "sku": "99189951015",
-          "color": "#374c97"
+          "color": "#2d4696"
         },
         {
-          "name": "Yriel Yellow",
+          "name": "Baharroth Blue",
           "price": "$4.55",
-          "sku": "99189951001",
-          "color": "#f7d900"
+          "sku": "99189951103",
+          "color": "#54bdca"
+        },
+        {
+          "name": "Karak Stone",
+          "price": "$4.55",
+          "sku": "99189951035",
+          "color": "#b7945c"
+        },
+        {
+          "name": "Runelord Brass",
+          "price": "$4.55",
+          "sku": "99189951117",
+          "color": "#413325",
+          "metallic": true
+        },
+        {
+          "name": "Genestealer Purple",
+          "price": "$4.55",
+          "sku": "99189951010",
+          "color": "#7658a5"
+        },
+        {
+          "name": "Warboss Green",
+          "price": "$4.55",
+          "sku": "99189951025",
+          "color": "#317e57"
+        },
+        {
+          "name": "Warpstone Glow",
+          "price": "$4.55",
+          "sku": "99189951023",
+          "color": "#0f702a"
+        },
+        {
+          "name": "Word Bearers Red",
+          "price": "$4.55",
+          "sku": "99189951115",
+          "color": "#620104"
+        },
+        {
+          "name": "Runefang Steel",
+          "price": "$4.55",
+          "sku": "99189951060",
+          "color": "#969ca0",
+          "metallic": true
+        },
+        {
+          "name": "Wazdakka Red",
+          "price": "$4.55",
+          "sku": "99189951007",
+          "color": "#880804"
+        },
+        {
+          "name": "Kakophoni Purple",
+          "price": "$4.55",
+          "sku": "99189951110",
+          "color": "#8869ae"
+        },
+        {
+          "name": "Gauss Blaster Green",
+          "price": "$4.55",
+          "sku": "99189951102",
+          "color": "#7fc1a5"
+        },
+        {
+          "name": "Fulgrim Pink",
+          "price": "$4.55",
+          "sku": "99189951105",
+          "color": "#f3abca"
+        },
+        {
+          "name": "Dark Reaper",
+          "price": "$4.55",
+          "sku": "99189951052",
+          "color": "#354d4c"
+        },
+        {
+          "name": "Auric Armour Gold",
+          "price": "$4.55",
+          "sku": "99189951062",
+          "color": "#d28631",
+          "metallic": true
+        },
+        {
+          "name": "Kislev Flesh",
+          "price": "$4.55",
+          "sku": "99189951037",
+          "color": "#d1a570"
+        },
+        {
+          "name": "Skrag Brown",
+          "price": "$4.55",
+          "sku": "99189951040",
+          "color": "#8b4806"
+        },
+        {
+          "name": "Vulkan Green",
+          "price": "$4.55",
+          "sku": "99189951114",
+          "color": "#223c2e"
+        },
+        {
+          "name": "Troll Slayer Orange",
+          "price": "$4.55",
+          "sku": "99189951003",
+          "color": "#f16c23"
+        },
+        {
+          "name": "Ironbreaker",
+          "price": "$4.55",
+          "sku": "99189951059",
+          "color": "#595d5d",
+          "metallic": true
+        },
+        {
+          "name": "Alaitoc Blue",
+          "price": "$4.55",
+          "sku": "99189951013",
+          "color": "#2f4f85"
+        },
+        {
+          "name": "Skavenblight Dinge",
+          "price": "$4.55",
+          "sku": "99189951054",
+          "color": "#45413b"
+        },
+        {
+          "name": "Bestigor Flesh",
+          "price": "$4.55",
+          "sku": "99189951038",
+          "color": "#d08951"
+        },
+        {
+          "name": "Straken Green",
+          "price": "$4.55",
+          "sku": "99189951028",
+          "color": "#597f1c"
+        },
+        {
+          "name": "Fenrisian Grey",
+          "price": "$4.55",
+          "sku": "99189951068",
+          "color": "#6d94b3"
+        },
+        {
+          "name": "Ushabti Bone",
+          "price": "$4.55",
+          "sku": "99189951032",
+          "color": "#aba173"
+        },
+        {
+          "name": "Tau Light Ochre",
+          "price": "$4.55",
+          "sku": "99189951042",
+          "color": "#bc6b10"
+        },
+        {
+          "name": "Blue Horror",
+          "price": "$4.55",
+          "sku": "99189951108",
+          "color": "#9eb5ce"
+        },
+        {
+          "name": "Elysian Green",
+          "price": "$4.55",
+          "sku": "99189951030",
+          "color": "#6b8c37"
+        },
+        {
+          "name": "Sotek Green",
+          "price": "$4.55",
+          "sku": "99189951019",
+          "color": "#0b6371"
+        },
+        {
+          "name": "Slaanesh Grey",
+          "price": "$4.55",
+          "sku": "99189951012",
+          "color": "#8b8893"
+        },
+        {
+          "name": "Squig Orange",
+          "price": "$4.55",
+          "sku": "99189951008",
+          "color": "#a74d42"
+        },
+        {
+          "name": "Ungor Flesh",
+          "price": "$4.55",
+          "sku": "99189951039",
+          "color": "#d1a560"
+        },
+        {
+          "name": "Emperor's Children",
+          "price": "$4.55",
+          "sku": "99189951070",
+          "color": "#b74073"
+        },
+        {
+          "name": "Sons of Horus Green",
+          "price": "$4.55",
+          "sku": "99189951111",
+          "color": "#00545e"
+        },
+        {
+          "name": "Nurgling Green",
+          "price": "$4.55",
+          "sku": "99189951029",
+          "color": "#7e975e"
+        },
+        {
+          "name": "Phalanx Yellow",
+          "price": "$4.55",
+          "sku": "99189951112",
+          "color": "#ffe200"
+        },
+        {
+          "name": "Flash Gitz Yellow",
+          "price": "$4.55",
+          "sku": "99189951002",
+          "color": "#fff300"
+        },
+        {
+          "name": "Cadian Fleshtone",
+          "price": "$4.55",
+          "sku": "99189951036",
+          "color": "#c47652"
+        },
+        {
+          "name": "Screaming Skull",
+          "price": "$4.55",
+          "sku": "99189951033",
+          "color": "#b9c099"
+        },
+        {
+          "name": "Calgar Blue",
+          "price": "$4.55",
+          "sku": "99189951016",
+          "color": "#2a497f"
+        },
+        {
+          "name": "Dorn Yellow",
+          "price": "$4.55",
+          "sku": "99189951104",
+          "color": "#fff55a"
+        },
+        {
+          "name": "Hoeth Blue",
+          "price": "$4.55",
+          "sku": "99189951014",
+          "color": "#4c78af"
+        },
+        {
+          "name": "Flayed One Flesh",
+          "price": "$4.55",
+          "sku": "99189951074",
+          "color": "#eec483"
+        },
+        {
+          "name": "Knight-Questor Flesh",
+          "price": "$4.55",
+          "sku": "99189951195",
+          "color": "#996563"
+        },
+        {
+          "name": "Skarsnik Green",
+          "price": "$4.55",
+          "sku": "99189951026",
+          "color": "#588f6b"
+        },
+        {
+          "name": "Gorthor Brown",
+          "price": "$4.55",
+          "sku": "99189951047",
+          "color": "#5f463f"
+        },
+        {
+          "name": "Tuskgor Fur",
+          "price": "$4.55",
+          "sku": "99189951046",
+          "color": "#863231"
+        },
+        {
+          "name": "Thunderhawk Blue",
+          "price": "$4.55",
+          "sku": "99189951053",
+          "color": "#396a70"
+        },
+        {
+          "name": "Moot Green",
+          "price": "$4.55",
+          "sku": "99189951024",
+          "color": "#3daf44"
         },
         {
           "name": "Tallarn Sand",
           "price": "$4.55",
           "sku": "99189951034",
-          "color": "#AA7D00"
+          "color": "#a07409"
         },
         {
-          "name": "Runelord Brass",
-          "price": "$4.25",
-          "sku": "99189951066",
-          "color": "#92816c"
+          "name": "Yriel Yellow",
+          "price": "$4.55",
+          "sku": "99189951001",
+          "color": "#ffd900"
+        },
+        {
+          "name": "Sycorax Bronze",
+          "price": "$4.55",
+          "sku": "99189951064",
+          "color": "#805c4c",
+          "metallic": true
         },
         {
           "name": "Hashut Copper",
           "price": "$4.25",
           "sku": "99189951063",
-          "color": "#915219"
+          "color": "#774a2c"
         }
       ]
     },
@@ -1227,91 +1796,91 @@
           "name": "Nuln Oil",
           "price": "$7.80",
           "sku": "99189953017",
-          "color": "#000000"
+          "color": "#777472"
         },
         {
           "name": "Agrax Earthshade",
           "price": "$7.80",
           "sku": "99189953018",
-          "color": "#4a462d"
+          "color": "#877969"
         },
         {
-          "name": "Fuegan Orange",
-          "price": "$7.80",
-          "sku": "99189953023",
-          "color": "#a45f26"
-        },
-        {
-          "name": "Athonian Camoshade",
-          "price": "$7.80",
-          "sku": "99189953024",
-          "color": "#667b22"
-        },
-        {
-          "name": "Coelia Greenshade",
-          "price": "$7.80",
-          "sku": "99189953025",
-          "color": "#256f66"
-        },
-        {
-          "name": "Druchii Violet",
-          "price": "$7.80",
-          "sku": "99189953019",
-          "color": "#612574"
-        },
-        {
-          "name": "Carroburg Crimson",
-          "price": "$7.80",
-          "sku": "99189953016",
-          "color": "#8c075f"
-        },
-        {
-          "name": "Nuln Oil Gloss",
-          "price": "$7.80",
-          "sku": "99189953033",
-          "color": "#000000"
-        },
-        {
-          "name": "Casandora Yellow",
+          "name": "Cassandora Yellow",
           "price": "$7.80",
           "sku": "99189953021",
-          "color": "#eec12c"
-        },
-        {
-          "name": "Seraphim Sepia",
-          "price": "$7.80",
-          "sku": "99189953026",
-          "color": "#b76829"
-        },
-        {
-          "name": "Agrax Earthshade Gloss",
-          "price": "$7.80",
-          "sku": "99189953034",
-          "color": "#4a462d"
+          "color": "#f1b97a"
         },
         {
           "name": "Drakenhof Nightshade",
           "price": "$7.80",
           "sku": "99189953020",
-          "color": "#19478b"
+          "color": "#797f88"
         },
         {
-          "name": "Reikland Fleshshade Gloss",
+          "name": "Athonian Camoshade",
           "price": "$7.80",
-          "sku": "99189953035",
-          "color": "#98290e"
-        },
-        {
-          "name": "Reikland Fleshshade",
-          "price": "$7.80",
-          "sku": "99189953027",
-          "color": "#98290e"
+          "sku": "99189953024",
+          "color": "#8c8c67"
         },
         {
           "name": "Biel-Tan Green",
           "price": "$7.80",
           "sku": "99189953022",
-          "color": "#268649"
+          "color": "#608461"
+        },
+        {
+          "name": "Fuegan Orange",
+          "price": "$7.80",
+          "sku": "99189953023",
+          "color": "#a55d35"
+        },
+        {
+          "name": "Carroburg Crimson",
+          "price": "$7.80",
+          "sku": "99189953016",
+          "color": "#975f79"
+        },
+        {
+          "name": "Agrax Earthshade Gloss",
+          "price": "$7.80",
+          "sku": "99189953034",
+          "color": "#9e9387"
+        },
+        {
+          "name": "Coelia Greenshade",
+          "price": "$7.80",
+          "sku": "99189953025",
+          "color": "#18756e"
+        },
+        {
+          "name": "Seraphim Sepia",
+          "price": "$7.80",
+          "sku": "99189953026",
+          "color": "#8b6642"
+        },
+        {
+          "name": "Reikland Fleshshade",
+          "price": "$7.80",
+          "sku": "99189953027",
+          "color": "#97765f"
+        },
+        {
+          "name": "Druchii Violet",
+          "price": "$7.80",
+          "sku": "99189953019",
+          "color": "#714c74"
+        },
+        {
+          "name": "Nuln Oil Gloss",
+          "price": "$7.80",
+          "sku": "99189953033",
+          "color": "#928f8e"
+        },
+        {
+          "name": "Reikland Fleshshade Gloss",
+          "price": "$7.80",
+          "sku": "99189953035",
+          "color": "#ac917e"
         }
       ]
     },
@@ -1328,85 +1897,70 @@
           "name": "Retributor Armour",
           "price": "$28.00",
           "sku": "99209999044",
-          "color": "#bc912f"
-        },
-        {
-          "name": "Leadbelcher",
-          "price": "$19.50",
-          "sku": "99209999051",
-          "color": "#494f51"
-        },
-        {
-          "name": "Averland Sunset",
-          "price": "$19.50",
-          "sku": "99209999052",
-          "color": "#f7b500"
-        },
-        {
-          "name": "Mechanicus Standard Grey",
-          "price": "$19.50",
-          "sku": "99209999050",
-          "color": "#494f51"
+          "color": "#b07e33",
+          "metallic": true
         },
         {
           "name": "Macragge Blue",
           "price": "$19.50",
           "sku": "99209999046",
-          "color": "#283c77"
+          "color": "#0f3d7c"
         },
         {
           "name": "Death Guard Green",
           "price": "$19.50",
           "sku": "99209999057",
-          "color": "#737A51"
-        },
-        {
-          "name": "Munitorum Varnish",
-          "price": "$19.50",
-          "sku": "99209999058",
-          "color": "#ffffff"
-        },
-        {
-          "name": "The Fang",
-          "price": "$19.50",
-          "sku": "99209999056",
-          "color": "#567378"
-        },
-        {
-          "name": "Mephiston Red",
-          "price": "$19.50",
-          "sku": "99209999045",
-          "color": "#990c02"
+          "color": "#556229"
         },
         {
           "name": "Zandri Dust",
           "price": "$19.50",
           "sku": "99209999048",
-          "color": "#a2965c"
+          "color": "#988e56"
+        },
+        {
+          "name": "Grey Seer",
+          "price": "$19.50",
+          "sku": "99209999060",
+          "color": "#a2a5a7"
+        },
+        {
+          "name": "Wraithbone",
+          "price": "$19.50",
+          "sku": "99209999059",
+          "color": "#dbd1b2"
+        },
+        {
+          "name": "Mephiston Red",
+          "price": "$19.50",
+          "sku": "99209999045",
+          "color": "#960c09"
+        },
+        {
+          "name": "Munitorum Varnish",
+          "price": "$19.50",
+          "sku": "99209999058",
+          "nonpaint": true,
+          "color": "#ededed"
+        },
+        {
+          "name": "Mechanicus Standard Grey",
+          "price": "$19.50",
+          "sku": "99209999050",
+          "color": "#39484a"
+        },
+        {
+          "name": "Leadbelcher",
+          "price": "$19.50",
+          "sku": "99209999051",
+          "color": "#44494d",
+          "metallic": true
         },
         {
           "name": "Corax White",
           "price": "$17.00",
           "sku": "99209999041",
           "color": "#ffffff"
-        },
-        {
-          "name": "Caliban Green",
-          "price": "$19.50",
-          "sku": "99209999047",
-          "color": "#143d24"
-        },
-        {
-          "name": "Rhinox Hide",
-          "price": "$19.50",
-          "sku": "99209999038",
-          "color": "#493736"
-        },
-        {
-          "name": "Incubi Darkness",
-          "price": "$19.50",
-          "sku": "99209999037",
-          "color": "#294547"
         }
       ]
     },
@@ -1414,217 +1968,158 @@
       "name": "Technical",
       "paints": [
         {
-          "name": "Hexwraith Flame",
+          "name": "Stirland Mud",
           "price": "$7.80",
-          "sku": "99189956026",
-          "color": "#3D8840"
+          "sku": "99189956042",
+          "color": "#664109",
+          "nonpaint": true
         },
         {
-          "name": "Nighthaunt Gloom",
+          "name": "Lahmian Medium",
           "price": "$7.80",
-          "sku": "99189956025",
-          "color": "#466A78"
+          "sku": "99189956049",
+          "color": "#a2a2a2",
+          "nonpaint": true
+        },
+        {
+          "name": "Contrast Medium",
+          "price": "$7.80",
+          "sku": "99189956051",
+          "color": "#a2a2a2",
+          "nonpaint": true
+        },
+        {
+          "name": "Valhallan Blizzard",
+          "price": "$7.80",
+          "sku": "99189956048",
+          "color": "#e4e4e4",
+          "nonpaint": true
+        },
+        {
+          "name": "Martian Ironcrust",
+          "price": "$7.80",
+          "sku": "99189956041",
+          "color": "#c16855",
+          "nonpaint": true
+        },
+        {
+          "name": "Mordant Earth",
+          "price": "$7.80",
+          "sku": "99189956037",
+          "color": "#1e1a1b",
+          "nonpaint": true
+        },
+        {
+          "name": "Agrellan Badland",
+          "price": "$7.80",
+          "sku": "99189956039",
+          "color": "#948165",
+          "nonpaint": true
         },
         {
           "name": "'Ardcoat",
-          "price": "$4.55",
-          "sku": "99189956003",
-          "color": "#ffffff"
+          "price": "$7.80",
+          "sku": "99189956050",
+          "color": "#a2a2a2",
+          "nonpaint": true
         },
         {
-          "name": "Nurgles Rot",
-          "price": "$4.55",
-          "sku": "99189956009",
-          "color": "#9d8c30"
+          "name": "Armageddon Dunes",
+          "price": "$7.80",
+          "sku": "99189956045",
+          "color": "#dabb2a",
+          "nonpaint": true
         },
         {
-          "name": "Waystone Green",
-          "price": "$4.55",
-          "sku": "99189956017",
-          "color": "#00BF00"
+          "name": "Stormshield",
+          "price": "$7.80",
+          "sku": "99189956052",
+          "color": "#a2a2a2",
+          "nonpaint": true
+        },
+        {
+          "name": "Agrellan Earth",
+          "price": "$7.80",
+          "sku": "99189956038",
+          "color": "#ad997b",
+          "nonpaint": true
+        },
+        {
+          "name": "Astrogranite",
+          "price": "$7.80",
+          "sku": "99189956046",
+          "color": "#939393",
+          "nonpaint": true
+        },
+        {
+          "name": "Astrogranite Debris",
+          "price": "$7.80",
+          "sku": "99189956047",
+          "color": "#787877",
+          "nonpaint": true
+        },
+        {
+          "name": "Stirland Battlemire",
+          "price": "$7.80",
+          "sku": "99189956043",
+          "color": "#4b2d01",
+          "nonpaint": true
+        },
+        {
+          "name": "Martian Ironearth",
+          "price": "$7.80",
+          "sku": "99189956040",
+          "color": "#bf6654",
+          "nonpaint": true
+        },
+        {
+          "name": "Armageddon Dust",
+          "price": "$7.80",
+          "sku": "99189956044",
+          "color": "#e2c953",
+          "nonpaint": true
         },
         {
           "name": "Typhus Corrosion",
           "price": "$4.55",
           "sku": "99189956010",
-          "color": "#443f30"
+          "color": "#373a22",
+          "nonpaint": true
         },
         {
           "name": "Spiritstone Red",
           "price": "$4.55",
           "sku": "99189956015",
-          "color": "#FF512D"
+          "color": "#7c1100",
+          "nonpaint": true
         },
         {
-          "name": "Blood For The Blood God",
+          "name": "Nurgles Rot",
           "price": "$4.55",
-          "sku": "99189956005",
-          "color": "#581011"
-        },
-        {
-          "name": "Soulstone Blue",
-          "price": "$4.55",
-          "sku": "99189956016",
-          "color": "#004BF9"
+          "sku": "99189956009",
+          "color": "#9d8b16",
+          "nonpaint": true
         },
         {
           "name": "Nihilakh Oxide",
           "price": "$4.55",
           "sku": "99189956006",
-          "color": "#86b59e"
+          "color": "#66b39a",
+          "nonpaint": true
         },
         {
-          "name": "Lahmian Medium",
+          "name": "Soulstone Blue",
           "price": "$4.55",
-          "sku": "99189956002",
-          "color": "#a1a4a5"
-        }
-      ]
-    },
-    {
-      "name": "Edge",
-      "paints": [
+          "sku": "99189956016",
+          "color": "#01154b",
+          "nonpaint": true
+        },
         {
-          "name": "Dechala Lilac",
+          "name": "Waystone Green",
           "price": "$4.55",
-          "sku": "99189957006",
-          "color": "#C0A8D0"
-        },
-        {
-          "name": "Krieg Khaki",
-          "price": "$4.55",
-          "sku": "99189957007",
-          "color": "#C9C17E"
-        },
-        {
-          "name": "Dorn Yellow",
-          "price": "$4.55",
-          "sku": "99189957003",
-          "color": "#FFF054"
-        },
-        {
-          "name": "Blue Horror",
-          "price": "$4.55",
-          "sku": "99189957008",
-          "color": "#B0C2D8"
-        },
-        {
-          "name": "Baharroth Blue",
-          "price": "$4.55",
-          "sku": "99189957002",
-          "color": "#64BFCE"
-        },
-        {
-          "name": "Fulgrim Pink",
-          "price": "$4.55",
-          "sku": "99189957004",
-          "color": "#F4B7D3"
-        },
-        {
-          "name": "Gauss Blaster Green",
-          "price": "$4.55",
-          "sku": "99189957001",
-          "color": "#90C4AA"
-        }
-      ]
-    },
-    {
-      "name": "Glaze",
-      "paints": [
-        {
-          "name": "Guilliman Blue",
-          "price": "$4.55",
-          "sku": "99189954003",
-          "color": "#0479bf"
-        },
-        {
-          "name": "Bloodletter",
-          "price": "$4.55",
-          "sku": "99189954002",
-          "color": "#c20416"
-        },
-        {
-          "name": "Lamenters Yellow",
-          "price": "$4.55",
-          "sku": "99189954001",
-          "color": "#FFED00"
-        },
-        {
-          "name": "Waywatcher Green",
-          "price": "$4.55",
-          "sku": "99189954004",
-          "color": "#6eaa42"
-        }
-      ]
-    },
-    {
-      "name": "Texture",
-      "paints": [
-        {
-          "name": "Astrogranite",
-          "price": "$7.80",
-          "sku": "99189955014",
-          "color": "#787877"
-        },
-        {
-          "name": "Agrellan Badland",
-          "price": "$7.80",
-          "sku": "99189955019",
-          "color": "#917D6B"
-        },
-        {
-          "name": "Armageddon Dunes",
-          "price": "$7.80",
-          "sku": "99189955011",
-          "color": "#D2A808"
-        },
-        {
-          "name": "Astrogranite Debris",
-          "price": "$7.80",
-          "sku": "99189955013",
-          "color": "#757679"
-        },
-        {
-          "name": "Martian Ironearth",
-          "price": "$7.80",
-          "sku": "99189955017",
-          "color": "#945442"
-        },
-        {
-          "name": "Stirland Battlemire",
-          "price": "$7.80",
-          "sku": "99189955009",
-          "color": "#482A00"
-        },
-        {
-          "name": "Martian Ironcrust",
-          "price": "$7.80",
-          "sku": "99189955015",
-          "color": "#9F5241"
-        },
-        {
-          "name": "Armageddon Dust",
-          "price": "$7.80",
-          "sku": "99189955012",
-          "color": "#cbad0d"
-        },
-        {
-          "name": "Valhallan Blizzard",
-          "price": "$7.80",
-          "sku": "99189955016",
-          "color": "#ffffff"
-        },
-        {
-          "name": "Agrellan Earth",
-          "price": "$7.80",
-          "sku": "99189955018",
-          "color": "#92816c"
-        },
-        {
-          "name": "Stirland Mud",
-          "price": "$7.80",
-          "sku": "99189955010",
-          "color": "#463300"
+          "sku": "99189956017",
+          "color": "#00381f",
+          "nonpaint": true
         }
       ]
     }
