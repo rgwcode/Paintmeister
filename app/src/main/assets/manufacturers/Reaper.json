@@ -632,12 +632,14 @@
           "name": "Flow Improver",
           "price": "$3.69",
           "sku": "09106",
+          "nonpaint": true,
           "color": "#fefefe"
         },
         {
           "name": "Brush-on Sealer",
           "price": "$3.69",
           "sku": "09107",
+          "nonpaint": true,
           "color": "#fefefe"
         },
         {
@@ -989,12 +991,14 @@
           "name": "Anti-Shine Additive",
           "price": "$3.69",
           "sku": "09215",
+          "nonpaint": true,
           "color": "#fefefe"
         },
         {
           "name": "Drying Retarder",
           "price": "$3.69",
           "sku": "09216",
+          "nonpaint": true,
           "color": "#fefefe"
         },
         {
@@ -1487,6 +1491,7 @@
           "name": "Gloss Sealer",
           "price": "$3.69",
           "sku": "09298",
+          "nonpaint": true,
           "color": "#fefefe"
         },
         {
@@ -1499,6 +1504,7 @@
           "name": "Wash Medium",
           "price": "$3.69",
           "sku": "09300",
+          "nonpaint": true,
           "color": "#fefefe"
         },
         {

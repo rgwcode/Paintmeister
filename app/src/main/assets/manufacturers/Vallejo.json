@@ -2641,56 +2641,56 @@
           "price": "",
           "sku": "70.790",
           "metallic": true,
-          "color": "#f8f8fa"
+          "color": "#e7e8eb"
         },
         {
           "name": "Gold",
           "price": "",
           "sku": "70.791",
           "metallic": true,
-          "color": "#f3efec"
+          "color": "#b4a189"
         },
         {
           "name": "Old Gold",
           "price": "",
           "sku": "70.792",
           "metallic": true,
-          "color": "#fbf9fa"
+          "color": "#c7b422"
         },
         {
           "name": "Rich Gold",
           "price": "",
           "sku": "70.793",
           "metallic": true,
-          "color": "#f2e9db"
+          "color": "#ac852c"
         },
         {
           "name": "Red Gold",
           "price": "",
           "sku": "70.794",
           "metallic": true,
-          "color": "#f7ecdc"
+          "color": "#cd9219"
         },
         {
           "name": "Green Gold",
           "price": "",
           "sku": "70.795",
           "metallic": true,
-          "color": "#ebe5d8"
+          "color": "#90782b"
         },
         {
           "name": "White Gold",
           "price": "",
           "sku": "70.796",
           "metallic": true,
-          "color": "#fafafa"
+          "color": "#e0e1e3"
         },
         {
           "name": "Copper",
           "price": "",
           "sku": "70.797",
           "metallic": true,
-          "color": "#fcf3f4"
+          "color": "#9e4825"
         }
       ]
     },
@@ -2702,125 +2702,125 @@
           "price": "",
           "sku": "77.701",
           "metallic": true,
-          "color": "#f1f1f3"
+          "color": "#7b7c7e"
         },
         {
           "name": "Duraluminum",
           "price": "",
           "sku": "77.702",
           "metallic": true,
-          "color": "#f9f9f9"
+          "color": "#6d6d6f"
         },
         {
           "name": "Dark Aluminum",
           "price": "",
           "sku": "77.703",
           "metallic": true,
-          "color": "#eceaeb"
+          "color": "#595959"
         },
         {
           "name": "Pale Burnt Metal",
           "price": "",
           "sku": "77.704",
           "metallic": true,
-          "color": "#fafafa"
+          "color": "#777976"
         },
         {
           "name": "White Aluminum",
           "price": "",
           "sku": "77.706",
           "metallic": true,
-          "color": "#f5f5f7"
+          "color": "#888d93"
         },
         {
           "name": "Chrome",
           "price": "",
           "sku": "77.707",
           "metallic": true,
-          "color": "#fafafa"
+          "color": "#838489"
         },
         {
           "name": "Copper",
           "price": "",
           "sku": "77.710",
           "metallic": true,
-          "color": "#faf8f9"
+          "color": "#6d4c3b"
         },
         {
           "name": "Magnesium",
           "price": "",
           "sku": "77.711",
           "metallic": true,
-          "color": "#e8e6e7"
+          "color": "#4a4a4a"
         },
         {
           "name": "Steel",
           "price": "",
           "sku": "77.712",
           "metallic": true,
-          "color": "#e7e5e6"
+          "color": "#343633"
         },
         {
           "name": "Jet Exhaust",
           "price": "",
           "sku": "77.713",
           "metallic": true,
-          "color": "#eeeced"
+          "color": "#443f3b"
         },
         {
           "name": "Semi Matt Aluminum",
           "price": "",
           "sku": "77.716",
           "metallic": true,
-          "color": "#f5f5f7"
+          "color": "#929398"
         },
         {
           "name": "Dull Aluminum",
           "price": "",
           "sku": "77.717",
           "metallic": true,
-          "color": "#fbfbfb"
+          "color": "#8d8e90"
         },
         {
           "name": "Gunmetal grey",
           "price": "",
           "sku": "77.720",
           "metallic": true,
-          "color": "#e1dfe0"
+          "color": "#303231"
         },
         {
           "name": "Burnt Iron",
           "price": "",
           "sku": "77.721",
           "metallic": true,
-          "color": "#eeeced"
+          "color": "#474141"
         },
         {
           "name": "Exhaust Manifold",
           "price": "",
           "sku": "77.723",
           "metallic": true,
-          "color": "#f0eeef"
+          "color": "#46413b"
         },
         {
           "name": "Silver",
           "price": "",
           "sku": "77.724",
           "metallic": true,
-          "color": "#f9f9f9"
+          "color": "#696a6c"
         },
         {
           "name": "Gold",
           "price": "",
           "sku": "77.725",
           "metallic": true,
-          "color": "#faf9f7"
+          "color": "#856b3a"
         },
         {
           "name": "Gloss Metal Varnish",
           "price": "",
           "sku": "77.657",
-          "color": "#ffffff"
+          "color": "#d1d1d1"
         }
       ]
     },
@@ -4606,169 +4606,169 @@
           "name": "European Splash Mud",
           "price": "",
           "sku": "73.801",
-          "color": "#09070f"
+          "color": "#54422a"
         },
         {
           "name": "Russian Splash Mud",
           "price": "",
           "sku": "73.802",
-          "color": "#efaa96"
+          "color": "#302728"
         },
         {
           "name": "Industrial Splash Mud",
           "price": "",
           "sku": "73.803",
-          "color": "#1b0001"
+          "color": "#7a7b73"
         },
         {
           "name": "Light Brown Splash Mud",
           "price": "",
           "sku": "73.804",
-          "color": "#433c10"
+          "color": "#c4af9e"
         },
         {
           "name": "Brown Splash Mud",
           "price": "",
           "sku": "73.805",
-          "color": "#d8cfb4"
+          "color": "#4c3126"
         },
         {
           "name": "Black Splash Mud",
           "price": "",
           "sku": "73.806",
-          "color": "#928c72"
+          "color": "#1e252b"
         },
         {
           "name": "European Mud",
           "price": "",
           "sku": "73.807",
-          "color": "#000002"
+          "color": "#54422a"
         },
         {
           "name": "Russian Mud",
           "price": "",
           "sku": "73.808",
-          "color": "#8b866a"
+          "color": "#302728"
         },
         {
           "name": "Industrial Mud",
           "price": "",
           "sku": "73.809",
-          "color": "#453c3f"
+          "color": "#7a7b73"
         },
         {
           "name": "Light Brown Mu",
           "price": "",
           "sku": "73.810",
-          "color": "#d6c6ad"
+          "color": "#c4af9e"
         },
         {
           "name": "Brown Mud",
           "price": "",
           "sku": "73.811",
-          "color": "#503932"
+          "color": "#4c3126"
         },
         {
           "name": "Black Mud",
           "price": "",
           "sku": "73.812",
-          "color": "#898371"
+          "color": "#1e252b"
         },
         {
           "name": "Oil Stains",
           "price": "",
           "sku": "73.813",
-          "color": "#544833"
+          "color": "#6e5019"
         },
         {
           "name": "Fuel Stains",
           "price": "",
           "sku": "73.814",
-          "color": "#907e66"
+          "color": "#935e0f"
         },
         {
           "name": "Engine Grime",
           "price": "",
           "sku": "73.815",
-          "color": "#c4bebe"
+          "color": "#494a4f"
         },
         {
           "name": "Diesel Stains",
           "price": "",
           "sku": "73.816",
-          "color": "#55461d"
+          "color": "#bc5616"
         },
         {
           "name": "Petrol Spills",
           "price": "",
           "sku": "73.817",
-          "color": "#99957b"
+          "color": "#1c1d1f"
         },
         {
           "name": "Brown Engine Soot",
           "price": "",
           "sku": "73.818",
-          "color": "#ffca86"
+          "color": "#5b351e"
         },
         {
           "name": "Rain Marks",
           "price": "",
           "sku": "73.819",
-          "color": "#5c3c1e"
+          "color": "#694825"
         },
         {
           "name": "Snow",
           "price": "",
           "sku": "73.820",
-          "color": "#242332"
+          "color": "#e9e9e9"
         },
         {
           "name": "Rust Texture",
           "price": "",
           "sku": "73.821",
-          "color": "#ddc666"
+          "color": "#63322b"
         },
         {
           "name": "Slimy Grime Dark",
           "price": "",
           "sku": "73.822",
-          "color": "#8d7c2a"
+          "color": "#434a28"
         },
         {
           "name": "Slime Grime Light",
           "price": "",
           "sku": "73.823",
-          "color": "#ecea99"
+          "color": "#767205"
         },
         {
           "name": "Streaking Grime",
           "price": "",
           "sku": "73.824",
-          "color": "#403212"
+          "color": "#4b4428"
         },
         {
           "name": "Crushed Grass",
           "price": "",
           "sku": "73.825",
-          "color": "#828677"
+          "color": "#605221"
         },
         {
           "name": "Mud and Grass",
           "price": "",
           "sku": "73.826",
-          "color": "#f7deb4"
+          "color": "#55432b"
         },
         {
           "name": "Moss and Lichen",
           "price": "",
           "sku": "73.827",
-          "color": "#5b5710"
+          "color": "#c69d06"
         },
         {
           "name": "Wet Effects",
           "price": "",
           "sku": "73.828",
-          "color": "#747950"
+          "color": "#b5b194"
         }
       ]
     },
@@ -4779,139 +4779,139 @@
           "name": "Titanium White",
           "price": "",
           "sku": "73.101",
-          "color": "#eae6e9"
+          "color": "#ffffff"
         },
         {
           "name": "Light Yellow Ocre",
           "price": "",
           "sku": "73.102",
-          "color": "#140001"
+          "color": "#d3a687"
         },
         {
           "name": "Dark Yellow Ocre",
           "price": "",
           "sku": "73.103",
-          "color": "#edc79a"
+          "color": "#cda96d"
         },
         {
           "name": "Light Sienna",
           "price": "",
           "sku": "73.104",
-          "color": "#474033"
+          "color": "#b1b39d"
         },
         {
           "name": "Natural Sienna",
           "price": "",
           "sku": "73.105",
-          "color": "#e6c49e"
+          "color": "#c07d53"
         },
         {
           "name": "Burnt Sienna",
           "price": "",
           "sku": "73.106",
-          "color": "#6c3a0f"
+          "color": "#af6349"
         },
         {
           "name": "Dark Red Ochre",
           "price": "",
           "sku": "73.107",
-          "color": "#cf742c"
+          "color": "#bf5d36"
         },
         {
           "name": "Brown Iron Oxide",
           "price": "",
           "sku": "73.108",
-          "color": "#564023"
+          "color": "#833f3e"
         },
         {
           "name": "Natural Umber",
           "price": "",
           "sku": "73.109",
-          "color": "#060001"
+          "color": "#a48c68"
         },
         {
           "name": "Burnt Umber",
           "price": "",
           "sku": "73.110",
-          "color": "#58372b"
+          "color": "#7b5b4e"
         },
         {
           "name": "Green Earth",
           "price": "",
           "sku": "73.111",
-          "color": "#484929"
+          "color": "#b6ad84"
         },
         {
           "name": "Chrome Oxide Green",
           "price": "",
           "sku": "73.112",
-          "color": "#2d1f21"
+          "color": "#77aa89"
         },
         {
           "name": "Light Slate Grey",
           "price": "",
           "sku": "73.113",
-          "color": "#82817c"
+          "color": "#d6d5d3"
         },
         {
           "name": "Dark Slate Grey",
           "price": "",
           "sku": "73.114",
-          "color": "#1e1e1e"
+          "color": "#5c6262"
         },
         {
           "name": "Natural Iron Oxide",
           "price": "",
           "sku": "73.115",
-          "color": "#504f4d"
+          "color": "#555658"
         },
         {
           "name": "Carbon Black (Smoke Black)",
           "price": "",
           "sku": "73.116",
-          "color": "#241e1c"
+          "color": "#4f4f51"
         },
         {
           "name": "Rust",
           "price": "",
           "sku": "73.117",
-          "color": "#000100"
+          "color": "#eb9b6a"
         },
         {
           "name": "New Rust",
           "price": "",
           "sku": "73.118",
-          "color": "#e2bf99"
+          "color": "#fbbd98"
         },
         {
           "name": "European Earth",
           "price": "",
           "sku": "73.119",
-          "color": "#e4aba0"
+          "color": "#c4947e"
         },
         {
           "name": "Old Rust",
           "price": "",
           "sku": "73.120",
-          "color": "#a97a5c"
+          "color": "#c9865b"
         },
         {
           "name": "Desert Dust",
           "price": "",
           "sku": "73.121",
-          "color": "#0c0001"
+          "color": "#fffce9"
         },
         {
           "name": "Faded Olive Green",
           "price": "",
           "sku": "73.122",
-          "color": "#4b5318"
+          "color": "#bdb98c"
         },
         {
           "name": "Dark Steel",
           "price": "",
           "sku": "73.123",
-          "color": "#3d3f43"
+          "color": "#4e5d64"
         }
       ]
     },
@@ -5174,127 +5174,127 @@
           "name": "Transparent Water",
           "price": "",
           "sku": "26.201",
-          "color": "#363837"
+          "color": "#cbcbcb"
         },
         {
           "name": "Mediterranean Blue",
           "price": "",
           "sku": "26.202",
-          "color": "#444645"
+          "color": "#1c4257"
         },
         {
           "name": "Pacific Blue",
           "price": "",
           "sku": "26.203",
-          "color": "#8d8d8d"
+          "color": "#2b1e6c"
         },
         {
           "name": "Atlantic Blue",
           "price": "",
           "sku": "26.204",
-          "color": "#272928"
+          "color": "#192e60"
         },
         {
           "name": "White Stone",
           "price": "",
           "sku": "26.211",
-          "color": "#868686"
+          "color": "#cbcbcb"
         },
         {
           "name": "Rough White Pumice",
           "price": "",
           "sku": "26.212",
-          "color": "#87888a"
+          "color": "#b3b2b0"
         },
         {
           "name": "Rough Grey Pumice",
           "price": "",
           "sku": "26.213",
-          "color": "#8c8d8f"
+          "color": "#8e837d"
         },
         {
           "name": "Black Lava-Asphalt",
           "price": "",
           "sku": "26.214",
-          "color": "#898989"
+          "color": "#22211f"
         },
         {
           "name": "Grey Sand",
           "price": "",
           "sku": "26.215",
-          "color": "#848587"
+          "color": "#989380"
         },
         {
           "name": "Desert Sand",
           "price": "",
           "sku": "26.217",
-          "color": "#868789"
+          "color": "#a99464"
         },
         {
           "name": "Dark Earth",
           "price": "",
           "sku": "26.218",
-          "color": "#949494"
+          "color": "#4b4137"
         },
         {
           "name": "Brown Earth",
           "price": "",
           "sku": "26.219",
-          "color": "#808080"
+          "color": "#7d5330"
         },
         {
           "name": "Still Water",
           "price": "",
           "sku": "26.230",
-          "color": "#ffffff"
+          "color": "#dddddd"
         },
         {
           "name": "Foam",
           "price": "",
           "sku": "26.231",
-          "color": "#ffffff"
+          "color": "#e6e6e6"
         },
         {
           "name": "European Mud",
           "price": "",
           "sku": "26.807",
-          "color": "#3f4042"
+          "color": "#473720"
         },
         {
           "name": "Russian Mud",
           "price": "",
           "sku": "26.808",
-          "color": "#3f4042"
+          "color": "#251f1f"
         },
         {
           "name": "Industrial Mud",
           "price": "",
           "sku": "26.809",
-          "color": "#909090"
+          "color": "#696a63"
         },
         {
           "name": "Light Brown Mud",
           "price": "",
           "sku": "26.810",
-          "color": "#8c8d8f"
+          "color": "#aa9788"
         },
         {
           "name": "Brown Mud",
           "price": "",
           "sku": "26.811",
-          "color": "#8d8f8e"
+          "color": "#402921"
         },
         {
           "name": "Black Mud",
           "price": "",
           "sku": "26.812",
-          "color": "#3f3f41"
+          "color": "#171c22"
         },
         {
           "name": "Snow",
           "price": "",
           "sku": "26.820",
-          "color": "#838383"
+          "color": "#cbcbcb"
         }
       ]
     },
@@ -5305,373 +5305,373 @@
           "name": "White",
           "price": "",
           "sku": "62.001",
-          "color": "#ffffff"
+          "color": "#fbfdfc"
         },
         {
           "name": "Flesh Tone",
           "price": "",
           "sku": "62.002",
-          "color": "#fbcb9b"
+          "color": "#fed9b1"
         },
         {
           "name": "Basic Yellow",
           "price": "",
           "sku": "62.003",
-          "color": "#fec303"
+          "color": "#fed500"
         },
         {
           "name": "Orange",
           "price": "",
           "sku": "62.004",
-          "color": "#ea5b15"
+          "color": "#fd7c08"
         },
         {
           "name": "Bright Red",
           "price": "",
           "sku": "62.005",
-          "color": "#9d2821"
+          "color": "#ca3f41"
         },
         {
           "name": "Carmine",
           "price": "",
           "sku": "62.006",
-          "color": "#ac2e32"
+          "color": "#d4454f"
         },
         {
           "name": "Magenta",
           "price": "",
           "sku": "62.007",
-          "color": "#a52e64"
+          "color": "#ce4783"
         },
         {
           "name": "Violet",
           "price": "",
           "sku": "62.008",
-          "color": "#524178"
+          "color": "#736095"
         },
         {
           "name": "Cobalt Blue",
           "price": "",
           "sku": "62.009",
-          "color": "#33588f"
+          "color": "#0078aa"
         },
         {
           "name": "Basic Blue",
           "price": "",
           "sku": "62.010",
-          "color": "#0198cd"
+          "color": "#00b0d9"
         },
         {
           "name": "Dark Blue",
           "price": "",
           "sku": "62.011",
-          "color": "#39374f"
+          "color": "#4c526d"
         },
         {
           "name": "Blue Green",
           "price": "",
           "sku": "62.012",
-          "color": "#017574"
+          "color": "#00948f"
         },
         {
           "name": "Basic Green",
           "price": "",
           "sku": "62.013",
-          "color": "#006e47"
+          "color": "#008c5c"
         },
         {
           "name": "Dark Green",
           "price": "",
           "sku": "62.014",
-          "color": "#32433b"
+          "color": "#335e52"
         },
         {
           "name": "Yellow Ochre",
           "price": "",
           "sku": "62.015",
-          "color": "#c98836"
+          "color": "#e5a447"
         },
         {
           "name": "Dark Ochre",
           "price": "",
           "sku": "62.016",
-          "color": "#9c613f"
+          "color": "#bf8259"
         },
         {
           "name": "Raw Sienna",
           "price": "",
           "sku": "62.017",
-          "color": "#824c42"
+          "color": "#a96a5b"
         },
         {
           "name": "Sepia",
           "price": "",
           "sku": "62.018",
-          "color": "#503428"
+          "color": "#6d2c23"
         },
         {
           "name": "Grey",
           "price": "",
           "sku": "62.019",
-          "color": "#898995"
+          "color": "#9ea5ab"
         },
         {
           "name": "Fluorescent Yellow",
           "price": "",
           "sku": "62.031",
-          "color": "#f2e500"
+          "color": "#fef101"
         },
         {
           "name": "Fluorescent Golden Yellow",
           "price": "",
           "sku": "62.032",
-          "color": "#fbbb35"
+          "color": "#ffcb01"
         },
         {
           "name": "Fluorescent Orange",
           "price": "",
           "sku": "62.033",
-          "color": "#f07e01"
+          "color": "#fe9b2a"
         },
         {
           "name": "Fluorescent Scarlet",
           "price": "",
           "sku": "62.034",
-          "color": "#eb5060"
+          "color": "#fe5258"
         },
         {
           "name": "Fluorescent Rose",
           "price": "",
           "sku": "62.035",
-          "color": "#e73e8f"
+          "color": "#fe0199"
         },
         {
           "name": "Fluorescent Magenta",
           "price": "",
           "sku": "62.036",
-          "color": "#d33b90"
+          "color": "#fe049b"
         },
         {
           "name": "Fluorescent Violet",
           "price": "",
           "sku": "62.037",
-          "color": "#693e76"
+          "color": "#905d93"
         },
         {
           "name": "Fluorescent Blue",
           "price": "",
           "sku": "62.038",
-          "color": "#4399d6"
+          "color": "#00b7f6"
         },
         {
           "name": "Fluorescent Green",
           "price": "",
           "sku": "62.039",
-          "color": "#69b642"
+          "color": "#96cf5b"
         },
         {
           "name": "Phosphorescent",
           "price": "",
           "sku": "62.040",
-          "color": "#e9eae2"
+          "color": "#f2f3eb"
         },
         {
           "name": "Metallic Medium",
           "price": "",
           "sku": "62.041",
-          "color": "#fdfdfb"
+          "color": "#fcf5d8"
         },
         {
           "name": "Metallic Yellow",
           "price": "",
           "sku": "62.042",
           "metallic": true,
-          "color": "#fdfcf9"
+          "color": "#fecb68"
         },
         {
           "name": "Metallic Orange",
           "price": "",
           "sku": "62.043",
           "metallic": true,
-          "color": "#fdfffe"
+          "color": "#f89c91"
         },
         {
           "name": "Metallic Red",
           "price": "",
           "sku": "62.044",
           "metallic": true,
-          "color": "#fcfefd"
+          "color": "#ee7181"
         },
         {
           "name": "Metallic Violet",
           "price": "",
           "sku": "62.045",
           "metallic": true,
-          "color": "#fcfcfc"
+          "color": "#9e8dc2"
         },
         {
           "name": "Metallic Blue",
           "price": "",
           "sku": "62.046",
           "metallic": true,
-          "color": "#fcfefd"
+          "color": "#0098bc"
         },
         {
           "name": "Metallic Green",
           "price": "",
           "sku": "62.047",
           "metallic": true,
-          "color": "#fbf9fa"
+          "color": "#24c2a0"
         },
         {
           "name": "Silver",
           "price": "",
           "sku": "62.048",
           "metallic": true,
-          "color": "#fcfcfc"
+          "color": "#cacacc"
         },
         {
           "name": "Gold",
           "price": "",
           "sku": "62.049",
           "metallic": true,
-          "color": "#fcfcfe"
+          "color": "#e3b46e"
         },
         {
           "name": "Copper",
           "price": "",
           "sku": "62.050",
           "metallic": true,
-          "color": "#fcfefd"
+          "color": "#d2937a"
         },
         {
           "name": "Steel",
           "price": "",
           "sku": "62.051",
           "metallic": true,
-          "color": "#f7f7f9"
+          "color": "#a3a8ae"
         },
         {
           "name": "Gunmetal",
           "price": "",
           "sku": "62.052",
           "metallic": true,
-          "color": "#ededef"
+          "color": "#807f85"
         },
         {
           "name": "Metallic Black",
           "price": "",
           "sku": "62.053",
           "metallic": true,
-          "color": "#e6e4e5"
+          "color": "#302a30"
         },
         {
           "name": "White Primer",
           "price": "",
           "sku": "62.061",
-          "color": "#ffffff"
+          "color": "#e9e9e9"
         },
         {
           "name": "Matt Varnish",
           "price": "",
           "sku": "62.062",
-          "color": "#ffffff"
+          "color": "#e9e9e9"
         },
         {
           "name": "Satin Varnish",
           "price": "",
           "sku": "62.063",
-          "color": "#ffffff"
+          "color": "#e9e9e9"
         },
         {
           "name": "Gloss Varnish",
           "price": "",
           "sku": "62.064",
-          "color": "#ffffff"
+          "color": "#e9e9e9"
         },
         {
           "name": "Retarder",
           "price": "",
           "sku": "62.065",
-          "color": "#ffffff"
+          "color": "#e9e9e9"
         },
         {
           "name": "Reducer",
           "price": "",
           "sku": "62.066",
-          "color": "#ffffff"
+          "color": "#e9e9e9"
         },
         {
           "name": "Cleaner",
           "price": "",
           "sku": "62.067",
-          "color": "#ffffff"
+          "color": "#e9e9e9"
         },
         {
           "name": "Clear Base",
           "price": "",
           "sku": "62.068",
-          "color": "#ffffff"
+          "color": "#e9e9e9"
         },
         {
           "name": "Candy Yellow",
           "price": "",
           "sku": "62.071",
-          "color": "#fef4d0"
+          "color": "#fee100"
         },
         {
           "name": "Candy Dark Yellow",
           "price": "",
           "sku": "62.072",
-          "color": "#fde1c8"
+          "color": "#fe9c00"
         },
         {
           "name": "Candy Orange",
           "price": "",
           "sku": "62.073",
-          "color": "#fbdec9"
+          "color": "#fe9233"
         },
         {
           "name": "Candy Red",
           "price": "",
           "sku": "62.074",
-          "color": "#f6d4c9"
+          "color": "#fe5356"
         },
         {
           "name": "Candy Magenta",
           "price": "",
           "sku": "62.075",
-          "color": "#f4d1e2"
+          "color": "#fe049b"
         },
         {
           "name": "Candy Rancing Blue",
           "price": "",
           "sku": "62.076",
-          "color": "#cedbf0"
+          "color": "#019ed1"
         },
         {
           "name": "Candy Racing Green",
           "price": "",
           "sku": "62.077",
-          "color": "#e0eeef"
+          "color": "#01d5c7"
         },
         {
           "name": "Candy Brown",
           "price": "",
           "sku": "62.078",
-          "color": "#ebe1de"
+          "color": "#d2a897"
         },
         {
           "name": "Candy Black",
           "price": "",
           "sku": "62.079",
-          "color": "#c1c0be"
+          "color": "#302a30"
         },
         {
           "name": "Black",
           "price": "",
           "sku": "62.020",
-          "color": "#010101"
+          "color": "#515254"
         }
       ]
     },
