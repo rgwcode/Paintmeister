@@ -14,7 +14,7 @@ import eu.davidea.viewholders.FlexibleViewHolder
 import lu.weidig.paintmeister.R
 import lu.weidig.paintmeister.data.entity.Paint
 
-data class PaintItem(private val paint: Paint, private var header: PaintLineItem?) :
+data class PaintItem(private val paint: Paint, private var header: PaintLineItem) :
     AbstractSectionableItem<PaintItem.PaintItemViewHolder, PaintLineItem>(header) {
     override fun getLayoutRes(): Int {
         return R.layout.recyclerview_paint_item

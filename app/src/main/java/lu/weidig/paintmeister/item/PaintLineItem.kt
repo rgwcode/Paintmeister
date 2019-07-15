@@ -15,6 +15,7 @@ data class PaintLineItem(private val paintLine: PaintLine, private var mHeader: 
     AbstractExpandableHeaderItem<
             PaintLineItemViewHolder, PaintItem>() {
     init {
+        // Keep collapsed at start up
         isExpanded = false
     }
 
@@ -37,26 +38,31 @@ data class PaintLineItem(private val paintLine: PaintLine, private var mHeader: 
         payloads: List<Any>
     ) {
         holder.paintLineName.text = paintLine.name
+        if (adapter.isExpanded(position))
+            holder.dropDownIcon.setImageResource(R.drawable.ic_dropdown_open)
+        else
+            holder.dropDownIcon.setImageResource(R.drawable.ic_dropdown_closed)
     }
 
     inner class PaintLineItemViewHolder(view: View, adapter: FlexibleAdapter<*>) :
         ExpandableViewHolder(view, adapter, true) {
         val paintLineName: TextView = view.findViewById(R.id.paintLineName)
         val dropDownIcon: ImageView = view.findViewById(R.id.dropdown_icon_paint_line)
-        // Needed because mExpanded only works for first item
-        var expanded = false
 
         init {
             view.setOnClickListener {
-                expanded = if (expanded) {
-                    dropDownIcon.setImageResource(R.drawable.ic_dropdown_closed)
-                    false
-                } else {
-                    dropDownIcon.setImageResource(R.drawable.ic_dropdown_open)
-                    true
-                }
                 toggleExpansion()
             }
+        }
+
+        override fun expandView(position: Int) {
+            super.expandView(position)
+            dropDownIcon.setImageResource(R.drawable.ic_dropdown_open)
+        }
+
+        override fun collapseView(position: Int) {
+            super.collapseView(position)
+            dropDownIcon.setImageResource(R.drawable.ic_dropdown_closed)
         }
     }
 }

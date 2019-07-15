@@ -9,12 +9,12 @@ import eu.davidea.flexibleadapter.items.IFlexible
 import eu.davidea.viewholders.ExpandableViewHolder
 import lu.weidig.paintmeister.R
 import lu.weidig.paintmeister.data.entity.Manufacturer
-import lu.weidig.paintmeister.item.ManufacturerItem.ManufacturerItemViewHolder
 
 data class ManufacturerItem(private val manufacturer: Manufacturer) : AbstractExpandableItem<
-        ManufacturerItemViewHolder, PaintLineItem>() {
+        ManufacturerItem.ManufacturerItemViewHolder, PaintLineItem>() {
     init {
-        isExpanded = true
+        // Expand at start up
+        mExpanded = true
     }
 
     override fun getLayoutRes(): Int {
@@ -32,26 +32,31 @@ data class ManufacturerItem(private val manufacturer: Manufacturer) : AbstractEx
         payloads: List<Any>
     ) {
         holder.manufacturerItem.text = manufacturer.name
+        if (adapter.isExpanded(position))
+            holder.dropDownIcon.setImageResource(R.drawable.ic_dropdown_open)
+        else
+            holder.dropDownIcon.setImageResource(R.drawable.ic_dropdown_closed)
     }
 
-    inner class ManufacturerItemViewHolder(view: View, adapter: FlexibleAdapter<*>) :
+    class ManufacturerItemViewHolder(view: View, adapter: FlexibleAdapter<*>) :
         ExpandableViewHolder(view, adapter, true) {
         var manufacturerItem: TextView = view.findViewById(R.id.manufacturerName)
-        private val dropDownIcon: ImageView = view.findViewById(R.id.dropdown_icon_manufacturer)
-        // Needed because mExpanded only works for first item
-        private var expanded = true
+        val dropDownIcon: ImageView = view.findViewById(R.id.dropdown_icon_manufacturer)
 
         init {
             view.setOnClickListener {
-                expanded = if (expanded) {
-                    dropDownIcon.setImageResource(R.drawable.ic_dropdown_closed)
-                    false
-                } else {
-                    dropDownIcon.setImageResource(R.drawable.ic_dropdown_open)
-                    true
-                }
                 toggleExpansion()
             }
+        }
+
+        override fun expandView(position: Int) {
+            super.expandView(position)
+            dropDownIcon.setImageResource(R.drawable.ic_dropdown_open)
+        }
+
+        override fun collapseView(position: Int) {
+            super.collapseView(position)
+            dropDownIcon.setImageResource(R.drawable.ic_dropdown_closed)
         }
     }
 }
