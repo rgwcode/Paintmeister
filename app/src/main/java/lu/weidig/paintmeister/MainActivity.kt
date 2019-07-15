@@ -22,8 +22,6 @@ import kotlinx.coroutines.launch
 import lu.weidig.paintmeister.data.PaintmeisterRoomDatabase
 import lu.weidig.paintmeister.data.viewmodel.PaintListViewModel
 import lu.weidig.paintmeister.item.ManufacturerItem
-import lu.weidig.paintmeister.item.PaintItem
-import lu.weidig.paintmeister.item.PaintLineItem
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
     private lateinit var paintListViewModel: PaintListViewModel
@@ -53,7 +51,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     }
 
     private fun setUpRecyclerView() {
-        var manufacturerList = ArrayList<IFlexible<ManufacturerItem.ManufacturerItemViewHolder>>()
+        val manufacturerList = ArrayList<IFlexible<ManufacturerItem.ManufacturerItemViewHolder>>()
         val adapter = FlexibleAdapter(manufacturerList)
 
         paintListViewModel = ViewModelProviders.of(this).get(PaintListViewModel::class.java)
@@ -68,28 +66,15 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             this,
             Observer { fullDepthManufacturers ->
                 if (paintListViewModel.isDataInitialized()) {
-                    manufacturerList = ArrayList()
-                    for (fullDepthManufacturer in fullDepthManufacturers) {
-                        val manufacturerItem = ManufacturerItem(fullDepthManufacturer.manufacturer)
-                        manufacturerList.add(manufacturerItem)
-                        for (paintLine in fullDepthManufacturer.paintLinesByName) {
-                            val paintLineItem = PaintLineItem(paintLine.paintLine, manufacturerItem)
-                            manufacturerItem.addSubItem(paintLineItem)
-                            for (paint in paintLine.paintsByName) {
-                                paintLineItem.addSubItem(PaintItem(paint, paintLineItem))
-                            }
-                        }
-                    }
-
                     // Save expansion state before updating data set
                     val expandedPositions = adapter.expandedPositions
-                    adapter.updateDataSet(manufacturerList)
+                    adapter.updateDataSet(fullDepthManufacturers)
 
                     // Only restore expansion state if anything was expanded
                     if (expandedPositions.isNotEmpty()) {
                         adapter.collapseAll()
                         for (expandedPosition in expandedPositions)
-                            adapter.expand(expandedPosition, true)
+                            adapter.expand(expandedPosition)
                     }
 
                     if (paintRecyclerView.visibility == View.INVISIBLE) {
@@ -97,7 +82,8 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                         paintRecyclerView.visibility = View.VISIBLE
                     }
                 }
-            })
+            }
+        )
     }
 
     private fun setUpNavigationDrawer() {
