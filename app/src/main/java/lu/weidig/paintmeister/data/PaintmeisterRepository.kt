@@ -28,4 +28,8 @@ class PaintmeisterRepository(
         paint.numOwned++
         paintDao.updatePaint(paint)
     }
+
+    fun isDataInitialized(): Boolean {
+        return database.initialized
+    }
 }

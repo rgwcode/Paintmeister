@@ -26,4 +26,8 @@ class PaintListViewModel(application: Application) : AndroidViewModel(applicatio
     fun increaseOwned(paintId: Long) = viewModelScope.launch(Dispatchers.IO) {
         repository.increaseOwned(paintId)
     }
+
+    fun isDataInitialized(): Boolean {
+        return repository.isDataInitialized()
+    }
 }

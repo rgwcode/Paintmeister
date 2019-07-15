@@ -67,21 +67,37 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         paintListViewModel.fullDepthManufacturers.observe(
             this,
             Observer { fullDepthManufacturers ->
-                manufacturerList = ArrayList()
-                for (fullDepthManufacturer in fullDepthManufacturers) {
-                    val manufacturerItem = ManufacturerItem(fullDepthManufacturer.manufacturer)
-                    manufacturerList.add(manufacturerItem)
-                    for (paintLine in fullDepthManufacturer.paintLinesByName) {
-                        val paintLineItem = PaintLineItem(paintLine.paintLine, manufacturerItem)
-                        manufacturerItem.addSubItem(paintLineItem)
-                        for (paint in paintLine.paintsByName) {
-                            paintLineItem.addSubItem(PaintItem(paint, paintLineItem))
+                if (paintListViewModel.isDataInitialized()) {
+                    manufacturerList = ArrayList()
+                    for (fullDepthManufacturer in fullDepthManufacturers) {
+                        val manufacturerItem = ManufacturerItem(fullDepthManufacturer.manufacturer)
+                        manufacturerList.add(manufacturerItem)
+                        for (paintLine in fullDepthManufacturer.paintLinesByName) {
+                            val paintLineItem = PaintLineItem(paintLine.paintLine, manufacturerItem)
+                            manufacturerItem.addSubItem(paintLineItem)
+                            for (paint in paintLine.paintsByName) {
+                                paintLineItem.addSubItem(PaintItem(paint, paintLineItem))
+                            }
                         }
                     }
+
+                    // Save expansion state before updating data set
+                    val expandedPositions = adapter.expandedPositions
+                    adapter.updateDataSet(manufacturerList)
+
+                    // Only restore expansion state if anything was expanded
+                    if (expandedPositions.isNotEmpty()) {
+                        adapter.collapseAll()
+                        for (expandedPosition in expandedPositions)
+                            adapter.expand(expandedPosition, true)
+                    }
+
+                    if (paintRecyclerView.visibility == View.INVISIBLE) {
+                        dataInitializedDisplay.visibility = View.GONE
+                        paintRecyclerView.visibility = View.VISIBLE
+                    }
                 }
-                adapter.updateDataSet(manufacturerList)
-            }
-        )
+            })
     }
 
     private fun setUpNavigationDrawer() {

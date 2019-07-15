@@ -12,5 +12,26 @@
         android:id="@+id/paintRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/recyclerview_paint_line_item" />
+        android:visibility="invisible"
+        tools:listitem="@layout/recyclerview_manufacturer_item" />
+
+    <LinearLayout
+        android:id="@+id/dataInitializedDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/initializing_database" />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8sp"
+            android:textColor="@color/colorAccent" />
+    </LinearLayout>
 </FrameLayout>

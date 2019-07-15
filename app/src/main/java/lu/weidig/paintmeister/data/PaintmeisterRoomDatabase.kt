@@ -27,6 +27,7 @@ abstract class PaintmeisterRoomDatabase : RoomDatabase() {
     abstract fun paintLineDao(): PaintLineDao
     abstract fun manufacturerDao(): ManufacturerDao
     abstract fun fullDepthManufacturerDao(): FullDepthManufacturerDao
+    var initialized = false
 
     companion object {
         @Volatile
@@ -125,6 +126,7 @@ abstract class PaintmeisterRoomDatabase : RoomDatabase() {
                     }
                 }
             }
+            database.initialized = true
         }
     }
 }
