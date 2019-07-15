@@ -2,6 +2,8 @@
   <dictionary name="R">
     <words>
       <w>coroutines</w>
+      <w>nonpaint</w>
+      <w>paintlines</w>
       <w>paintmeister</w>
     </words>
   </dictionary>

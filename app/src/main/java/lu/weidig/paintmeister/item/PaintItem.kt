@@ -42,6 +42,8 @@ data class PaintItem(private val paint: Paint, private var header: PaintLineItem
         holder.paintName.setTextColor(contrastingColor)
         holder.addButton.setColorFilter(contrastingColor)
         holder.removeButton.setColorFilter(contrastingColor)
+
+        // Add the id to the paint collection buttons
         holder.removeButton.tag = paint.id
         holder.addButton.tag = paint.id
 
@@ -53,7 +55,6 @@ data class PaintItem(private val paint: Paint, private var header: PaintLineItem
             // Not really deprecated, alternative won't work for SDK < 15
             @Suppress("DEPRECATION")
             holder.itemView.setBackgroundDrawable(gradient)
-
         } else {
             holder.itemView.setBackgroundColor(paint.color.toColorInt())
         }
