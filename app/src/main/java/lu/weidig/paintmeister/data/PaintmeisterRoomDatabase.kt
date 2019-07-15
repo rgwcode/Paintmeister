@@ -54,8 +54,7 @@ abstract class PaintmeisterRoomDatabase : RoomDatabase() {
     }
 
     private class PaintmeisterDatabaseCallback(
-        private val scope: CoroutineScope, private val
-        assetManager: AssetManager
+        private val scope: CoroutineScope, private val assetManager: AssetManager
     ) :
         RoomDatabase.Callback() {
         override fun onOpen(db: SupportSQLiteDatabase) {
@@ -85,7 +84,7 @@ abstract class PaintmeisterRoomDatabase : RoomDatabase() {
                         val jsonString = String(jsonBuffer, Charset.forName("UTF-8"))
                         val manufacturerJsonObject = JSONObject(jsonString)
 
-                        // Manufacturers
+                        // Manufacturer
                         val manufacturer = Manufacturer(
                             name = manufacturerJsonObject["name"].toString(),
                             website = manufacturerJsonObject["website"].toString()
@@ -111,9 +110,15 @@ abstract class PaintmeisterRoomDatabase : RoomDatabase() {
                                     color = paintObject["color"].toString(),
                                     paintLineId = paintLineId
                                 )
+
                                 if (paintObject.has("metallic")) {
                                     paint.metallic = true
                                 }
+
+                                if (paintObject.has("nonpaint")) {
+                                    paint.nonPaint = true
+                                }
+
                                 paintDao.insert(paint)
                             }
                         }
