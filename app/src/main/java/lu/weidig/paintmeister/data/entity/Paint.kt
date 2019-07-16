@@ -28,5 +28,6 @@ data class Paint(
     // for special things like thinners, mediums...
     var nonPaint: Boolean = false,
     var metallic: Boolean = false,
+    var wishListed: Boolean = false,
     var paintLineId: Long? = null
 )

@@ -20,7 +20,7 @@ import org.json.JSONObject
 import java.nio.charset.Charset
 
 @Database(
-    entities = [Paint::class, Manufacturer::class, PaintLine::class], version = 7
+    entities = [Paint::class, Manufacturer::class, PaintLine::class], version = 8
 )
 abstract class PaintmeisterRoomDatabase : RoomDatabase() {
     abstract fun paintDao(): PaintDao
