@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/relativeLayout"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
-
-    <TextView
-        android:id="@+id/paintLineName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#ffeeeeee"
-        android:gravity="center"
-        android:padding="10dp"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/dropdown_icon_paint_line"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/dropdown_closed"
-        android:src="@drawable/ic_dropdown_closed"
-        app:layout_constraintBottom_toBottomOf="@+id/paintLineName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/paintLineName" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/paintLineName"
+    style="@style/ExpandableRecyclerViewItem"
+    android:background="#ffeeeeee"
+    android:textAlignment="center"
+    android:textSize="24sp" />

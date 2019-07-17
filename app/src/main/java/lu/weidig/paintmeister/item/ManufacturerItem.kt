@@ -1,8 +1,7 @@
 package lu.weidig.paintmeister.item
 
 import android.view.View
-import android.widget.ImageView
-import android.widget.TextView
+import android.widget.CheckedTextView
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractExpandableItem
 import eu.davidea.flexibleadapter.items.IFlexible
@@ -31,17 +30,13 @@ data class ManufacturerItem(private val manufacturer: Manufacturer) : AbstractEx
         position: Int,
         payloads: List<Any>
     ) {
-        holder.manufacturerItem.text = manufacturer.name
-        if (adapter.isExpanded(position))
-            holder.dropDownIcon.setImageResource(R.drawable.ic_dropdown_open)
-        else
-            holder.dropDownIcon.setImageResource(R.drawable.ic_dropdown_closed)
+        holder.name.text = manufacturer.name
+        holder.name.isChecked = adapter.isExpanded(position)
     }
 
     class ManufacturerItemViewHolder(view: View, adapter: FlexibleAdapter<*>) :
         ExpandableViewHolder(view, adapter, true) {
-        var manufacturerItem: TextView = view.findViewById(R.id.manufacturerName)
-        val dropDownIcon: ImageView = view.findViewById(R.id.dropdown_icon_manufacturer)
+        var name: CheckedTextView = view.findViewById(R.id.manufacturerName)
 
         init {
             view.setOnClickListener {
@@ -51,12 +46,12 @@ data class ManufacturerItem(private val manufacturer: Manufacturer) : AbstractEx
 
         override fun expandView(position: Int) {
             super.expandView(position)
-            dropDownIcon.setImageResource(R.drawable.ic_dropdown_open)
+            name.isChecked = true
         }
 
         override fun collapseView(position: Int) {
             super.collapseView(position)
-            dropDownIcon.setImageResource(R.drawable.ic_dropdown_closed)
+            name.isChecked = false
         }
     }
 }

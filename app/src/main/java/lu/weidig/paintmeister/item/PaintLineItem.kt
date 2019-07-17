@@ -1,8 +1,7 @@
 package lu.weidig.paintmeister.item
 
 import android.view.View
-import android.widget.ImageView
-import android.widget.TextView
+import android.widget.CheckedTextView
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractExpandableHeaderItem
 import eu.davidea.flexibleadapter.items.IFlexible
@@ -16,7 +15,7 @@ data class PaintLineItem(private val paintLine: PaintLine, private var mHeader: 
             PaintLineItemViewHolder, PaintItem>() {
     init {
         // Keep collapsed at start up
-        isExpanded = false
+        mExpanded = false
     }
 
     override fun getExpansionLevel(): Int {
@@ -37,17 +36,13 @@ data class PaintLineItem(private val paintLine: PaintLine, private var mHeader: 
         position: Int,
         payloads: List<Any>
     ) {
-        holder.paintLineName.text = paintLine.name
-        if (adapter.isExpanded(position))
-            holder.dropDownIcon.setImageResource(R.drawable.ic_dropdown_open)
-        else
-            holder.dropDownIcon.setImageResource(R.drawable.ic_dropdown_closed)
+        holder.name.text = paintLine.name
+        holder.name.isChecked = adapter.isExpanded(position)
     }
 
     inner class PaintLineItemViewHolder(view: View, adapter: FlexibleAdapter<*>) :
         ExpandableViewHolder(view, adapter, true) {
-        val paintLineName: TextView = view.findViewById(R.id.paintLineName)
-        val dropDownIcon: ImageView = view.findViewById(R.id.dropdown_icon_paint_line)
+        val name: CheckedTextView = view.findViewById(R.id.paintLineName)
 
         init {
             view.setOnClickListener {
@@ -57,12 +52,12 @@ data class PaintLineItem(private val paintLine: PaintLine, private var mHeader: 
 
         override fun expandView(position: Int) {
             super.expandView(position)
-            dropDownIcon.setImageResource(R.drawable.ic_dropdown_open)
+            name.isChecked = true
         }
 
         override fun collapseView(position: Int) {
             super.collapseView(position)
-            dropDownIcon.setImageResource(R.drawable.ic_dropdown_closed)
+            name.isChecked = false
         }
     }
 }
