@@ -16,7 +16,7 @@
           "price": "$7.80",
           "sku": "99189958086",
           "nonpaint": true,
-          "color": "#a2a2a2"
+          "color": "#ffffff"
         },
         {
           "name": "Terminatus Stone",
@@ -52,7 +52,7 @@
           "name": "White Scar",
           "price": "$7.80",
           "sku": "99189958098",
-          "color": "#a9a9a9"
+          "color": "#ffffff"
         },
         {
           "name": "Balor Brown",
@@ -506,7 +506,7 @@
           "name": "Corax White",
           "price": "$4.55",
           "sku": "99189950172",
-          "color": "#a9a9a9"
+          "color": "#ffffff"
         },
         {
           "name": "Morghast Bone",
@@ -848,13 +848,13 @@
           "name": "Thunderhawk Blue",
           "price": "$4.55",
           "sku": "99189952034",
-          "color": "#c8c483"
+          "color": "#396a70"
         },
         {
           "name": "Terminatus Stone",
           "price": "$4.55",
           "sku": "99189952011",
-          "color": "#396a70"
+          "color": "#c8b79d"
         },
         {
           "name": "Dawnstone",
@@ -879,7 +879,7 @@
           "name": "Praxeti White",
           "price": "$4.55",
           "sku": "99189952004",
-          "color": "#a9a9a9"
+          "color": "#ffffff"
         },
         {
           "name": "Kindleflame",
@@ -903,7 +903,7 @@
           "name": "Tyrant Skull",
           "price": "$4.55",
           "sku": "99189952010",
-          "color": "#bcbb7e"
+          "color": "#c8c483"
         },
         {
           "name": "Hoeth Blue",
@@ -1001,7 +1001,7 @@
           "name": "Underhive Ash",
           "price": "$4.55",
           "sku": "99189952008",
-          "color": "#7e3331"
+          "color": "#bcbb7e"
         }
       ]
     },
@@ -1371,7 +1371,7 @@
           "name": "White Scar",
           "price": "$4.55",
           "sku": "99189951057",
-          "color": "#a9a9a9"
+          "color": "#fffff"
         },
         {
           "name": "Kabalite Green",
@@ -1785,7 +1785,8 @@
           "name": "Hashut Copper",
           "price": "$4.25",
           "sku": "99189951063",
-          "color": "#774a2c"
+          "color": "#774a2c",
+          "metallic": true
         }
       ]
     },
@@ -1978,14 +1979,14 @@
           "name": "Lahmian Medium",
           "price": "$7.80",
           "sku": "99189956049",
-          "color": "#a2a2a2",
+          "color": "#ffffff",
           "nonpaint": true
         },
         {
           "name": "Contrast Medium",
           "price": "$7.80",
           "sku": "99189956051",
-          "color": "#a2a2a2",
+          "color": "#ffffff",
           "nonpaint": true
         },
         {
@@ -2034,7 +2035,7 @@
           "name": "Stormshield",
           "price": "$7.80",
           "sku": "99189956052",
-          "color": "#a2a2a2",
+          "color": "#ffffff",
           "nonpaint": true
         },
         {
