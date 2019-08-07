@@ -17,5 +17,5 @@
     <string name="action_dump_database">Dump database</string>
     <string name="increase_owned_by_one">Increase owned by one</string>
     <string name="decrease_owned_by_one">Decrease owned by one</string>
-    <string name="initializing_database">Initializing database...</string>
+    <string name="initializing_database">Initializing database…</string>
 </resources>
