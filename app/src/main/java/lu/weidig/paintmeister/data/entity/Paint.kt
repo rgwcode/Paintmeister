@@ -29,5 +29,6 @@ data class Paint(
     var nonPaint: Boolean = false,
     var metallic: Boolean = false,
     var wishListed: Boolean = false,
+    var notes: String = "",
     var paintLineId: Long? = null
 )

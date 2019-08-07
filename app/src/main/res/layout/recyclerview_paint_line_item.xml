@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/paintLineName"
-    style="@style/ExpandableRecyclerViewItem"
-    android:background="#ffeeeeee"
-    android:textAlignment="center"
-    android:textSize="24sp" />
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/ExpandableCardView"
+    app:cardElevation="@dimen/paint_line_card_height">
+
+    <CheckedTextView
+        android:id="@+id/paintLineName"
+        style="@style/ExpandableRecyclerViewItem"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:fontFamily="sans-serif" />
+</androidx.cardview.widget.CardView>

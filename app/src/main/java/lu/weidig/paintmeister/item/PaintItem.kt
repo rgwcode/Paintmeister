@@ -5,7 +5,7 @@ import android.graphics.drawable.GradientDrawable
 import android.view.View
 import android.widget.ImageButton
 import android.widget.TextView
-import androidx.core.graphics.ColorUtils
+import androidx.core.graphics.luminance
 import androidx.core.graphics.toColorInt
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractSectionableItem
@@ -30,18 +30,13 @@ data class PaintItem(private val paint: Paint, private var header: PaintLineItem
         position: Int,
         payloads: List<Any>
     ) {
-        holder.paintName.text = paint.name + " " + paint.numOwned
+        holder.paintName.text = paint.name
+        holder.paintAmount.text = paint.numOwned.toString()
+
         val curColor = Color.parseColor(paint.color)
+        val contrastingColor = if (curColor.luminance > 0.179) Color.BLACK else Color.WHITE
 
-        // Calculate a contrasting color for the text color matching the background color
-        val floatArray = FloatArray(3)
-        ColorUtils.colorToHSL(curColor, floatArray)
-
-        val contrastingColor: Int
-        contrastingColor = if (floatArray[2] >= 0.175) Color.BLACK else Color.WHITE
         holder.paintName.setTextColor(contrastingColor)
-        holder.addButton.setColorFilter(contrastingColor)
-        holder.removeButton.setColorFilter(contrastingColor)
 
         // Add the id to the paint collection buttons
         holder.removeButton.tag = paint.id
@@ -50,7 +45,7 @@ data class PaintItem(private val paint: Paint, private var header: PaintLineItem
         if (paint.metallic) {
             val gradient = GradientDrawable(
                 GradientDrawable.Orientation.LEFT_RIGHT,
-                intArrayOf(0xff, curColor, 0xff)
+                intArrayOf(curColor, 0xff, curColor)
             )
             // Not really deprecated, alternative won't work for SDK < 15
             @Suppress("DEPRECATION")
@@ -63,6 +58,7 @@ data class PaintItem(private val paint: Paint, private var header: PaintLineItem
     inner class PaintItemViewHolder(view: View, adapter: FlexibleAdapter<*>) :
         FlexibleViewHolder(view, adapter) {
         val paintName: TextView = view.findViewById(R.id.paintName)
+        val paintAmount: TextView = view.findViewById(R.id.paintAmount)
         val addButton: ImageButton = view.findViewById(R.id.add_paint_button)
         val removeButton: ImageButton = view.findViewById(R.id.remove_paint_button)
     }
