@@ -1,0 +1,576 @@
+{
+  "name": "P3",
+  "website": "https://store.privateerpress.com",
+  "paintlines": [
+    {
+      "name": "P3 Formula",
+      "paints": [
+        {
+          "sku": "93211",
+          "price": "$4.00",
+          "name": "Amethyst Rose",
+          "color": "#3b0900"
+        },
+        {
+          "sku": "93049",
+          "price": "$4.00",
+          "name": "Arcane Blue",
+          "color": "#7dcad3"
+        },
+        {
+          "sku": "93012",
+          "price": "$4.00",
+          "name": "Armor Wash",
+          "color": "#58675c"
+        },
+        {
+          "sku": "93130",
+          "price": "$4.00",
+          "name": "Asheth Grey",
+          "color": "#201b1b"
+        },
+        {
+          "sku": "93142",
+          "price": "$4.00",
+          "name": "Bad Bruise",
+          "color": "#34283b"
+        },
+        {
+          "sku": "93068",
+          "price": "$4.00",
+          "name": "Bastion Grey",
+          "color": "#767864"
+        },
+        {
+          "sku": "93060",
+          "price": "$4.00",
+          "name": "Battledress Green",
+          "color": "#757131"
+        },
+        {
+          "sku": "93027",
+          "price": "$4.00",
+          "name": "Battlefield Brown",
+          "color": "#32251c"
+        },
+        {
+          "sku": "93056",
+          "price": "$4.00",
+          "name": "Beast Hide",
+          "color": "#af9369"
+        },
+        {
+          "sku": "93051",
+          "price": "$4.00",
+          "name": "Beaten Purple",
+          "color": "#552972"
+        },
+        {
+          "sku": "93159",
+          "price": "$4.00",
+          "name": "Blazing Ink",
+          "color": "#f69537"
+        },
+        {
+          "sku": "93081",
+          "price": "$4.00",
+          "name": "Blighted Gold",
+          "color": "#beb371",
+          "metallic": true
+        },
+        {
+          "sku": "93029",
+          "price": "$4.00",
+          "name": "Bloodstone",
+          "color": "#9d4823"
+        },
+        {
+          "sku": "93030",
+          "price": "$4.00",
+          "name": "Bloodtracker Brown",
+          "color": "#a56a28"
+        },
+        {
+          "sku": "93016",
+          "price": "$4.00",
+          "name": "Blue Ink",
+          "color": "#3f5c99"
+        },
+        {
+          "sku": "93141",
+          "price": "$4.00",
+          "name": "Bog Moss",
+          "color": "#826e32"
+        },
+        {
+          "sku": "93139",
+          "price": "$4.00",
+          "name": "Bogrin Brown",
+          "color": "#9a6233"
+        },
+        {
+          "sku": "93172",
+          "price": "$4.00",
+          "name": "Boiler Black",
+          "color": "#5c5852",
+          "metallic": true
+        },
+        {
+          "sku": "93031",
+          "price": "$4.00",
+          "name": "Bootstrap Leather",
+          "color": "#946739"
+        },
+        {
+          "sku": "93082",
+          "price": "$4.00",
+          "name": "Brass Balls",
+          "color": "#f8f7d8",
+          "metallic": true
+        },
+        {
+          "sku": "93017",
+          "price": "$4.00",
+          "name": "Brown Ink",
+          "color": "#744439"
+        },
+        {
+          "sku": "93054",
+          "price": "$4.00",
+          "name": "Carnal Pink",
+          "color": "#f7e0e9"
+        },
+        {
+          "sku": "93162",
+          "price": "$4.00",
+          "name": "Caspian Flesh Wash",
+          "color": "#6d5129"
+        },
+        {
+          "sku": "93046",
+          "price": "$4.00",
+          "name": "Coal Black",
+          "color": "#005a61"
+        },
+        {
+          "sku": "93075",
+          "price": "$4.00",
+          "name": "Cold Steel",
+          "color": "#cddee5",
+          "metallic": true
+        },
+        {
+          "sku": "93067",
+          "price": "$4.00",
+          "name": "Cryx Bane Base",
+          "color": "#303924"
+        },
+        {
+          "sku": "93069",
+          "price": "$4.00",
+          "name": "Cryx Bane Highlight",
+          "color": "#918e7c"
+        },
+        {
+          "sku": "93041",
+          "price": "$4.00",
+          "name": "Cygnar Blue Base",
+          "color": "#1c4e92"
+        },
+        {
+          "sku": "93042",
+          "price": "$4.00",
+          "name": "Cygnar Blue Highlight",
+          "color": "#3271af"
+        },
+        {
+          "sku": "93025",
+          "price": "$4.00",
+          "name": "Cygnus Yellow",
+          "color": "#f6e42e"
+        },
+        {
+          "sku": "93169",
+          "price": "$4.00",
+          "name": "Deathless Metal",
+          "color": "#2f1c14",
+          "metallic": true
+        },
+        {
+          "sku": "93149",
+          "price": "$4.00",
+          "name": "Eldritch ",
+          "color": "#007a5c"
+        },
+        {
+          "sku": "93023",
+          "price": "$4.00",
+          "name": "Ember Orange",
+          "color": "#ed2c24"
+        },
+        {
+          "sku": "93040",
+          "price": "$4.00",
+          "name": "Exile Blue",
+          "color": "#203366"
+        },
+        {
+          "sku": "93011",
+          "price": "$4.00",
+          "name": "Flesh Wash",
+          "color": "#e9ded6"
+        },
+        {
+          "sku": "93045",
+          "price": "$4.00",
+          "name": "Frostbite",
+          "color": "#e5eef3"
+        },
+        {
+          "sku": "93176",
+          "price": "$4.00",
+          "name": "Galvanized Steel",
+          "color": "#aeb8ad",
+          "metallic": true
+        },
+        {
+          "sku": "93034",
+          "price": "$4.00",
+          "name": "Gnarls Green",
+          "color": "#0b6132"
+        },
+        {
+          "sku": "93129",
+          "price": "$4.00",
+          "name": "Gravedigger Denim",
+          "color": "#485355"
+        },
+        {
+          "sku": "93043",
+          "price": "$4.00",
+          "name": "Greatcoat Grey",
+          "color": "#505961"
+        },
+        {
+          "sku": "93015",
+          "price": "$4.00",
+          "name": "Green Ink",
+          "color": "#129859"
+        },
+        {
+          "sku": "93061",
+          "price": "$4.00",
+          "name": "Gun Corps Brown",
+          "color": "#917c47"
+        },
+        {
+          "sku": "93032",
+          "price": "$4.00",
+          "name": "Hammerfall Khaki",
+          "color": "#c7bf97"
+        },
+        {
+          "sku": "93024",
+          "price": "$4.00",
+          "name": "Heartfire",
+          "color": "#f3ae46"
+        },
+        {
+          "sku": "93055",
+          "price": "$4.00",
+          "name": "Idrian Flesh",
+          "color": "#9a5e36"
+        },
+        {
+          "sku": "93147",
+          "price": "$4.00",
+          "name": "Inferno Orange",
+          "color": "#f16430"
+        },
+        {
+          "sku": "93035",
+          "price": "$4.00",
+          "name": "Iosan Green",
+          "color": "#24a652"
+        },
+        {
+          "sku": "93044",
+          "price": "$4.00",
+          "name": "Ironhull Grey",
+          "color": "#8f959a"
+        },
+        {
+          "sku": "93064",
+          "price": "$4.00",
+          "name": "Jack Bone",
+          "color": "#d9d7b2"
+        },
+        {
+          "sku": "93021",
+          "price": "$4.00",
+          "name": "Khador Red Base",
+          "color": "#ed2c24"
+        },
+        {
+          "sku": "93022",
+          "price": "$4.00",
+          "name": "Khador Red Highlight",
+          "color": "#ef8f42"
+        },
+        {
+          "sku": "93057",
+          "price": "$4.00",
+          "name": "Khardic Flesh",
+          "color": "#c87a5a"
+        },
+        {
+          "sku": "93161",
+          "price": "$4.00",
+          "name": "Kossite Flesh Wash",
+          "color": "#886541"
+        },
+        {
+          "sku": "93126",
+          "price": "$4.00",
+          "name": "Mage Hunter Green",
+          "color": "#566351"
+        },
+        {
+          "sku": "93138",
+          "price": "$4.00",
+          "name": "Meaty Ochre",
+          "color": "#ba7e30"
+        },
+        {
+          "sku": "93065",
+          "price": "$4.00",
+          "name": "Menoth White Base",
+          "color": "#efecbf"
+        },
+        {
+          "sku": "93066",
+          "price": "$4.00",
+          "name": "Menoth White Highlight",
+          "color": "#f1f1de"
+        },
+        {
+          "sku": "93048",
+          "price": "$4.00",
+          "name": "Meredius Blue",
+          "color": "#00aeb7"
+        },
+        {
+          "sku": "93058",
+          "price": "$4.00",
+          "name": "Midlund Flesh",
+          "color": "#eda783"
+        },
+        {
+          "sku": "93063",
+          "price": "$4.00",
+          "name": "Moldy Ochre",
+          "color": "#dbb43c"
+        },
+        {
+          "sku": "93078",
+          "price": "$4.00",
+          "name": "Molten Bronze",
+          "color": "#9b4925",
+          "metallic": true
+        },
+        {
+          "sku": "93073",
+          "price": "$4.00",
+          "name": "Morrow White",
+          "color": "#fdfafb"
+        },
+        {
+          "sku": "93163",
+          "price": "$4.00",
+          "name": "Muddy Wash",
+          "color": "#a99b8c"
+        },
+        {
+          "sku": "93052",
+          "price": "$4.00",
+          "name": "Murderous Magenta",
+          "color": "#a71f5d"
+        },
+        {
+          "sku": "93039",
+          "price": "$4.00",
+          "name": "Necrotite Green",
+          "color": "#7fc247"
+        },
+        {
+          "sku": "93036",
+          "price": "$4.00",
+          "name": "Ordic Olive",
+          "color": "#6e7d36"
+        },
+        {
+          "sku": "93171",
+          "price": "$4.00",
+          "name": "Orgoth Bronze",
+          "color": "#695d3e",
+          "metallic": true
+        },
+        {
+          "sku": "93074",
+          "price": "$4.00",
+          "name": "Pig Iron",
+          "color": "#606060",
+          "metallic": true
+        },
+        {
+          "sku": "93209",
+          "price": "$4.00",
+          "name": "Piggy Purple Ink",
+          "color": "#715c80"
+        },
+        {
+          "sku": "93076",
+          "price": "$4.00",
+          "name": "Quick Silver",
+          "color": "#d9dfe6",
+          "metallic": true
+        },
+        {
+          "sku": "93077",
+          "price": "$4.00",
+          "name": "Radiant Platinum",
+          "color": "#f1eadc",
+          "metallic": true
+        },
+        {
+          "sku": "93013",
+          "price": "$4.00",
+          "name": "Red Ink",
+          "color": "#e8543a"
+        },
+        {
+          "sku": "93079",
+          "price": "$4.00",
+          "name": "Rhulic Gold",
+          "color": "#f7e7b4",
+          "metallic": true
+        },
+        {
+          "sku": "93062",
+          "price": "$4.00",
+          "name": "Rucksack Tan",
+          "color": "#b1943d"
+        },
+        {
+          "sku": "93059",
+          "price": "$4.00",
+          "name": "Ryn Flesh",
+          "color": "#f7e3d3"
+        },
+        {
+          "sku": "93019",
+          "price": "$4.00",
+          "name": "Sanguine Base",
+          "color": "#6b160f"
+        },
+        {
+          "sku": "93053",
+          "price": "$4.00",
+          "name": "Sanguine Highlight",
+          "color": "#c54958"
+        },
+        {
+          "sku": "93132",
+          "price": "$4.00",
+          "name": "Sickly Skin",
+          "color": "#e8e6b9"
+        },
+        {
+          "sku": "93020",
+          "price": "$4.00",
+          "name": "Skorne Red",
+          "color": "#b01f24"
+        },
+        {
+          "sku": "93080",
+          "price": "$4.00",
+          "name": "Solid Gold",
+          "color": "#f7f4c2",
+          "metallic": true
+        },
+        {
+          "sku": "93026",
+          "price": "$4.00",
+          "name": "Sulfuric Yellow",
+          "color": "#efd032"
+        },
+        {
+          "sku": "93072",
+          "price": "$4.00",
+          "name": "Thamar Black",
+          "color": "#000000"
+        },
+        {
+          "sku": "93033",
+          "price": "$4.00",
+          "name": "Thornwood Green",
+          "color": "#64644b"
+        },
+        {
+          "sku": "93071",
+          "price": "$4.00",
+          "name": "Thrall Flesh",
+          "color": "#d2d9b1"
+        },
+        {
+          "sku": "93037",
+          "price": "$4.00",
+          "name": "Traitor Green",
+          "color": "#808e65"
+        },
+        {
+          "sku": "93047",
+          "price": "$4.00",
+          "name": "Trollblood Base",
+          "color": "#208191"
+        },
+        {
+          "sku": "93070",
+          "price": "$4.00",
+          "name": "Trollblood Highlight",
+          "color": "#bab3a2"
+        },
+        {
+          "sku": "93018",
+          "price": "$4.00",
+          "name": "Turquoise Ink",
+          "color": "#006669"
+        },
+        {
+          "sku": "93028",
+          "price": "$4.00",
+          "name": "Umbral Umber",
+          "color": "#240700"
+        },
+        {
+          "sku": "93050",
+          "price": "$4.00",
+          "name": "Underbelly Blue",
+          "color": "#c0d3d8"
+        },
+        {
+          "sku": "93038",
+          "price": "$4.00",
+          "name": "Wurm Green",
+          "color": "#8ebd3f"
+        },
+        {
+          "sku": "93014",
+          "price": "$4.00",
+          "name": "Yellow Ink",
+          "color": "#fae634"
+        }
+      ]
+    }
+  ]
+}
